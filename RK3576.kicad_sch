@@ -1,0 +1,847 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0965efbd-fb68-4ee8-90d5-f836e7fce8ad")
+	(paper "A3")
+	(lib_symbols)
+	(rectangle
+		(start 147.32 33.02)
+		(end 246.38 261.62)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type cross_hatch)
+			(color 155 89 182 1)
+		)
+		(uuid "ca405386-668e-435f-9a88-6862b05a3317")
+	)
+	(text "https://github.com/as-jackson/RK3576-Development-Board/blob/main/RK3576-Schematics/rk3576-compute-module-ArmSoM-CM5-1V1_sch.pdf"
+		(exclude_from_sim no)
+		(at 102.108 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5174eea-3eb4-4fc2-a305-ed113a3faf6d")
+	)
+	(sheet
+		(at 147.32 236.22)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "1a77fa89-d539-445c-bb5c-b5ba8302bb81")
+		(property "Sheetname" "LPDDR PHY"
+			(at 147.32 235.3426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lpddr_phy.kicad_sch"
+			(at 147.32 254.8554 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 180.34)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "3a63a63f-0660-4de2-bd2e-c637401ccb58")
+		(property "Sheetname" "GPIO4"
+			(at 147.32 179.4626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio4.kicad_sch"
+			(at 147.32 198.9754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 208.915)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "3d5cf1fd-cf1d-40b3-8281-0faeaedb4d97")
+		(property "Sheetname" "MIPI PHY"
+			(at 205.74 208.0376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mipi_phy.kicad_sch"
+			(at 205.74 227.5504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.105 124.46)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "508e51b0-6de7-4e96-b14d-74d979d6204b")
+		(property "Sheetname" "RK3576 eMMC"
+			(at 205.105 123.5826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rk3576_emmc.kicad_sch"
+			(at 205.105 143.0954 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 96.52)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "51173a63-65bb-4420-9c6d-af77ebfb98d4")
+		(property "Sheetname" "RK3576 UFS"
+			(at 204.47 95.6426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rk3576_ufs.kicad_sch"
+			(at 204.47 115.1554 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 152.4)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "5c5b5f2c-d981-472c-a803-168d99f2d260")
+		(property "Sheetname" "GPIO3"
+			(at 147.32 151.5226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio3.kicad_sch"
+			(at 147.32 171.0354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 68.58)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "639beb15-5321-4e65-8c52-deaab36f7482")
+		(property "Sheetname" "GPIO0"
+			(at 147.32 67.7026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio0.kicad_sch"
+			(at 147.32 87.2154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 96.52)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "758a90de-94a4-4b45-a7ba-61e4621900fd")
+		(property "Sheetname" "GPIO1"
+			(at 147.32 95.6426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio1.kicad_sch"
+			(at 147.32 115.1554 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 124.46)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "90f1d3d6-11a1-4fbf-aa1e-f6ffe7a54522")
+		(property "Sheetname" "GPIO2"
+			(at 147.32 123.5826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio2.kicad_sch"
+			(at 147.32 143.0954 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.105 40.64)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "9bcc6d7f-da29-4287-9b29-e4401b85eb03")
+		(property "Sheetname" "RK3576 USB2"
+			(at 205.105 39.7626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rk3576_usb2.kicad_sch"
+			(at 205.105 59.2754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 180.975)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "a13aaadd-6699-4337-b396-0a7f06d85e16")
+		(property "Sheetname" "HDMI PHY"
+			(at 205.74 180.0976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi_phy.kicad_sch"
+			(at 205.74 199.6104 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 68.58)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "b3f56451-88f5-457c-b7d5-78c62f5ba49e")
+		(property "Sheetname" "RK3576 USB3 DP1.4"
+			(at 205.74 67.7026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rk3576_usb3_dp1.4.kicad_sch"
+			(at 205.74 87.2154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 40.64)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "b9c235bb-901b-4321-97db-b0a0f617f372")
+		(property "Sheetname" "RK3576 Power"
+			(at 147.32 39.7626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rk3576_power.kicad_sch"
+			(at 147.32 59.2754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.105 236.22)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "d8d32105-9063-4f17-92f2-de6a5ce61e13")
+		(property "Sheetname" "RK3576 PCIe"
+			(at 205.105 235.3426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rk3576_pcie.kicad_sch"
+			(at 205.105 254.8554 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 208.28)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "dccca234-f8f9-4327-a950-2a989d974907")
+		(property "Sheetname" "SARADC"
+			(at 147.32 207.4026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "saradc.kicad_sch"
+			(at 147.32 226.9154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.105 153.035)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "e3169b31-7633-42aa-8b59-c93f8fc73ecf")
+		(property "Sheetname" "RK3576 uSD Card"
+			(at 205.105 152.1576 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rk3576_usd_card.kicad_sch"
+			(at 205.105 171.6704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "16")
+				)
+			)
+		)
+	)
+)
