@@ -2607,6 +2607,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Large cpacitor"
+		(exclude_from_sim no)
+		(at 38.354 64.77 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8a5f8a35-884c-41b3-99b6-e4630565b813")
+	)
 	(text_box "4x USB Hub"
 		(exclude_from_sim no)
 		(at 12.065 12.065 0)
@@ -2631,34 +2643,28 @@
 		(uuid "cbd28427-506d-46ec-b0f5-ec0f0109a140")
 	)
 	(junction
-		(at 114.3 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0213497c-d93f-4b35-81d3-17f5ea216bca")
-	)
-	(junction
 		(at 171.45 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "022d2eb9-33aa-422b-a6a6-e9319d496d33")
 	)
 	(junction
-		(at 59.69 62.23)
+		(at 53.34 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0806e34b-acdb-448e-b204-4424c5592766")
 	)
 	(junction
-		(at 50.8 62.23)
+		(at 107.95 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d81c4a7-d2c4-4fa8-8937-ee684e66cca3")
+	)
+	(junction
+		(at 44.45 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ef1f10a-1d99-446b-81f1-ec1004489ccf")
-	)
-	(junction
-		(at 104.14 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11ba7048-b539-4fcb-a5c9-724f5dbfa51c")
 	)
 	(junction
 		(at 148.59 156.21)
@@ -2667,10 +2673,28 @@
 		(uuid "133bbbfb-3c5b-4a99-958f-5db2383d8fce")
 	)
 	(junction
-		(at 68.58 62.23)
+		(at 62.23 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1821918f-db67-47a8-9c8a-11fb7b57e571")
+	)
+	(junction
+		(at 97.79 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "200ece94-f21d-44d3-98fc-23cd88243e0f")
+	)
+	(junction
+		(at 124.46 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "206c3758-dab1-43b0-9496-f610848e3a2d")
+	)
+	(junction
+		(at 97.79 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20f953da-5ceb-4cfe-a34d-30a171c4ac20")
 	)
 	(junction
 		(at 109.22 125.73)
@@ -2679,13 +2703,13 @@
 		(uuid "362f4524-8d78-4340-99bc-a01e3fb9e80c")
 	)
 	(junction
-		(at 95.25 67.31)
+		(at 88.9 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a904191-bf63-4a64-8c87-7fc4cb294209")
 	)
 	(junction
-		(at 86.36 67.31)
+		(at 80.01 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ec55a3d-8c3c-45d7-a7ee-67a5c3d533fd")
@@ -2703,55 +2727,49 @@
 		(uuid "436e6be0-5896-4345-9393-87b0286d4934")
 	)
 	(junction
-		(at 83.82 49.53)
+		(at 77.47 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a4c47a4-af42-4501-b40f-0a2a0d214266")
 	)
 	(junction
-		(at 104.14 38.1)
+		(at 97.79 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ad112b9-72c6-441e-aa16-c98c99f5210e")
 	)
 	(junction
-		(at 93.98 38.1)
+		(at 87.63 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "575d81bd-ae1d-4d6c-8800-34ee7ff7a578")
 	)
 	(junction
-		(at 83.82 38.1)
+		(at 77.47 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c755427-7c80-42b0-9b6c-823eb9e5051e")
 	)
 	(junction
-		(at 86.36 62.23)
+		(at 80.01 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d940cb0-b307-4a11-ba41-203d9afd1dbe")
 	)
 	(junction
-		(at 104.14 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6525fb7c-3f88-4d26-82c1-b98bf544005d")
-	)
-	(junction
-		(at 93.98 49.53)
+		(at 87.63 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6af8511b-de3e-4422-a177-4d662f80a6be")
 	)
 	(junction
-		(at 41.91 62.23)
+		(at 35.56 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6db484a8-9066-479a-94e2-0a49c54ba536")
 	)
 	(junction
-		(at 33.02 67.31)
+		(at 26.67 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7512ff8e-f0bc-4d46-a036-190b606a423e")
@@ -2763,25 +2781,25 @@
 		(uuid "76b8292c-2488-469d-a371-cea58f54c0f0")
 	)
 	(junction
-		(at 93.98 33.02)
+		(at 87.63 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78fb0efe-8867-4c28-9c60-2569e1e68046")
 	)
 	(junction
-		(at 83.82 80.01)
+		(at 77.47 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e2d5992-d1ed-45d8-8cbe-60b924a1e405")
 	)
 	(junction
-		(at 83.82 33.02)
+		(at 77.47 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dc6c96b-35f5-4f20-9b6a-e76bdb614609")
 	)
 	(junction
-		(at 77.47 62.23)
+		(at 71.12 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93c93782-578b-46c0-83d1-2aedb504be85")
@@ -2793,37 +2811,37 @@
 		(uuid "988bc78f-31f5-43c8-8ea3-862a2fd9b829")
 	)
 	(junction
-		(at 83.82 74.93)
+		(at 77.47 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e12e073-542f-407a-9e7e-929d1b0c02e3")
 	)
 	(junction
-		(at 104.14 74.93)
+		(at 97.79 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0e5664e-efed-479c-9a34-924ad886f503")
 	)
 	(junction
-		(at 68.58 67.31)
+		(at 62.23 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aacdc7c0-fb11-4dc9-a908-41d8325de663")
 	)
 	(junction
-		(at 41.91 67.31)
+		(at 35.56 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abdd4477-a15e-44d6-9a7a-9074bfe6c18a")
 	)
 	(junction
-		(at 95.25 62.23)
+		(at 88.9 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aef1964a-1514-473c-8882-59d3b1a1841d")
 	)
 	(junction
-		(at 59.69 67.31)
+		(at 53.34 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3fe7734-2696-45eb-b42a-7484bded678a")
@@ -2835,37 +2853,37 @@
 		(uuid "b5ea4755-d6e7-47ad-9a3b-35f72374bdd1")
 	)
 	(junction
-		(at 104.14 33.02)
+		(at 97.79 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b87ad44b-7c9c-4fce-ba32-33e52febcd01")
 	)
 	(junction
-		(at 93.98 80.01)
+		(at 87.63 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2c8e0ad-15f0-4741-9b5b-299ebc9dce81")
 	)
 	(junction
-		(at 93.98 54.61)
+		(at 87.63 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cffb7e49-62c7-4052-a785-99bdd9848702")
 	)
 	(junction
-		(at 93.98 74.93)
+		(at 87.63 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0a6f5d7-1ecc-4d14-9b83-8410129a51fb")
 	)
 	(junction
-		(at 50.8 67.31)
+		(at 44.45 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d30ea4eb-ac4a-41ca-b0d3-273a8ca02269")
 	)
 	(junction
-		(at 33.02 62.23)
+		(at 26.67 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d526a934-f3b1-474e-aa4c-b5374eaf8473")
@@ -2877,13 +2895,7 @@
 		(uuid "de0529d4-f174-42dc-a79e-52c918043c2d")
 	)
 	(junction
-		(at 124.46 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eec76bf1-fce8-4afc-854c-e742657d284f")
-	)
-	(junction
-		(at 83.82 54.61)
+		(at 77.47 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f07d8ec6-3512-4d7c-aa22-cae15f9ca9cb")
@@ -2895,7 +2907,7 @@
 		(uuid "fb0ffda9-734e-4c8f-81e9-c515191b4f47")
 	)
 	(junction
-		(at 77.47 67.31)
+		(at 71.12 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fff1b9d9-d371-4bb1-9120-facd58f49b9c")
@@ -3358,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 62.23) (xy 68.58 62.23)
+			(xy 53.34 62.23) (xy 62.23 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3388,7 +3400,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 33.02) (xy 93.98 33.02)
+			(xy 77.47 33.02) (xy 87.63 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 62.23) (xy 104.14 62.23)
+			(xy 116.84 62.23) (xy 97.79 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3408,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 86.36 62.23)
+			(xy 71.12 62.23) (xy 80.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 33.02) (xy 104.14 33.02)
+			(xy 87.63 33.02) (xy 97.79 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3438,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 67.31) (xy 104.14 67.31)
+			(xy 88.9 67.31) (xy 97.79 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3518,7 +3530,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 38.1) (xy 93.98 38.1)
+			(xy 77.47 38.1) (xy 87.63 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3528,7 +3540,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 54.61) (xy 104.14 54.61)
+			(xy 87.63 54.61) (xy 97.79 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3578,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 67.31) (xy 95.25 67.31)
+			(xy 80.01 67.31) (xy 88.9 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3648,7 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 62.23) (xy 104.14 62.23)
+			(xy 88.9 62.23) (xy 97.79 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3658,7 +3670,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 67.31) (xy 127 67.31)
+			(xy 119.38 67.31) (xy 127 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3668,7 +3680,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 80.01) (xy 93.98 80.01)
+			(xy 77.47 80.01) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3678,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 49.53) (xy 121.92 67.31)
+			(xy 119.38 49.53) (xy 119.38 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3688,7 +3700,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 33.02) (xy 124.46 63.5)
+			(xy 121.92 33.02) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3718,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 104.14 80.01)
+			(xy 87.63 80.01) (xy 97.79 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3748,7 +3760,7 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 128.27) (xy 193.04 128.27)
+			(xy 191.77 129.54) (xy 193.04 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3838,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 114.3 38.1)
+			(xy 97.79 38.1) (xy 107.95 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3878,7 +3890,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 67.31) (xy 50.8 67.31)
+			(xy 35.56 67.31) (xy 44.45 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3888,7 +3900,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 74.93) (xy 93.98 74.93)
+			(xy 77.47 74.93) (xy 87.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3898,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 59.69 67.31)
+			(xy 44.45 67.31) (xy 53.34 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3918,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 71.12) (xy 119.38 71.12)
+			(xy 127 71.12) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3928,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 49.53) (xy 104.14 49.53)
+			(xy 87.63 49.53) (xy 97.79 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4048,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 74.93) (xy 104.14 74.93)
+			(xy 87.63 74.93) (xy 97.79 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4058,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 67.31) (xy 41.91 67.31)
+			(xy 26.67 67.31) (xy 35.56 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4098,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 49.53) (xy 93.98 49.53)
+			(xy 77.47 49.53) (xy 87.63 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4148,7 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 62.23) (xy 59.69 62.23)
+			(xy 44.45 62.23) (xy 53.34 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4208,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 77.47 62.23)
+			(xy 62.23 62.23) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4248,7 +4260,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 67.31) (xy 77.47 67.31)
+			(xy 62.23 67.31) (xy 71.12 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4308,7 +4320,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 41.91 62.23)
+			(xy 26.67 62.23) (xy 35.56 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4318,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 33.02) (xy 124.46 33.02)
+			(xy 107.95 33.02) (xy 121.92 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4328,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 67.31) (xy 68.58 67.31)
+			(xy 53.34 67.31) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4338,7 +4350,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 86.36 67.31)
+			(xy 71.12 67.31) (xy 80.01 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4348,7 +4360,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 93.98 54.61)
+			(xy 77.47 54.61) (xy 87.63 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4388,7 +4400,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 127 63.5)
+			(xy 121.92 63.5) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4418,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 121.92 49.53)
+			(xy 97.79 49.53) (xy 119.38 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4438,23 +4450,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 114.3 33.02)
+			(xy 97.79 33.02) (xy 107.95 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e2bc9b8e-e9f5-4d81-8615-24746b086d1f")
-	)
-	(bus
-		(pts
-			(xy 191.77 128.27) (xy 191.77 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33686c5-6d05-4df9-b346-d7f1fe66533d")
 	)
 	(wire
 		(pts
@@ -4468,7 +4470,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 74.93) (xy 124.46 74.93)
+			(xy 97.79 74.93) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4508,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 62.23) (xy 50.8 62.23)
+			(xy 35.56 62.23) (xy 44.45 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4518,7 +4520,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 38.1) (xy 104.14 38.1)
+			(xy 87.63 38.1) (xy 97.79 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4578,7 +4580,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 62.23) (xy 95.25 62.23)
+			(xy 80.01 62.23) (xy 88.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4588,7 +4590,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 71.12) (xy 119.38 62.23)
+			(xy 116.84 71.12) (xy 116.84 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4906,53 +4908,85 @@
 		)
 		(uuid "f5bbd770-e744-42d8-a860-488211f8a2ab")
 	)
-	(hierarchical_label "USB_{HOST1}_Data"
-		(shape bidirectional)
-		(at 193.04 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a155934-2b5c-4515-972f-5bf9f6c4ee5c")
-	)
-	(hierarchical_label "USB_{HOST3}_Data"
+	(hierarchical_label "USB3_HOST3"
 		(shape bidirectional)
 		(at 193.04 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "30b079a3-b959-42fb-b08f-33bb00bec882")
+		(uuid "0840b779-a802-4edd-a3e9-dffcd5eebfa9")
+		(property "Netclass" "USB3_HOST3"
+			(at 193.04 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "USB_{HOST4}_Data"
+	(hierarchical_label "USB3_HOST4"
 		(shape bidirectional)
-		(at 193.04 128.27 0)
+		(at 193.04 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "61611e31-07b7-4e68-819b-c1f1fdad4ff6")
+		(uuid "5ba2cb6b-32ba-49ed-a378-83d513e1e91a")
+		(property "Netclass" "USB3_HOST4"
+			(at 193.04 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "USB_{HOST2}_Data"
+	(hierarchical_label "USB3_HOST2"
 		(shape bidirectional)
 		(at 193.04 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6cf925e4-d025-4b4f-8918-e916a6ee7ef8")
+		(uuid "b0b56ed6-ea34-4453-b02d-b6b75d5edb1e")
+		(property "Netclass" "USB3_HOST2"
+			(at 193.04 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "USB_{HUB}_Data"
+	(hierarchical_label "USB3_OTG1_USB_HUB"
 		(shape bidirectional)
 		(at 104.14 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4960,10 +4994,48 @@
 			(justify right)
 		)
 		(uuid "cc8e53d6-2a07-4c20-b209-f87ea183e965")
+		(property "Netclass" "USB3_OTG1_USB_HUB"
+			(at 104.14 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "USB3_HOST1"
+		(shape bidirectional)
+		(at 193.04 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f70b8d8d-50c2-4853-b120-cb7203a1c462")
+		(property "Netclass" "USB3_HOST1"
+			(at 193.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 54.61 0)
+		(at 77.47 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4972,8 +5044,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "008a434b-4315-4ae4-855b-79ab565ad150")
-		(property "Reference" "#PWR0204"
-			(at 83.82 60.96 0)
+		(property "Reference" "#PWR0302"
+			(at 77.47 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4984,7 +5056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 58.42 0)
+			(at 77.47 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4994,7 +5066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 54.61 0)
+			(at 77.47 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +5077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 54.61 0)
+			(at 77.47 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +5088,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 54.61 0)
+			(at 77.47 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5032,7 +5104,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0204")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -5040,7 +5112,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 104.14 52.07 0)
+		(at 97.79 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5049,8 +5121,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01ed8488-7243-4a90-b537-d44fd3f88ae4")
-		(property "Reference" "C155"
-			(at 106.68 50.8062 0)
+		(property "Reference" "C213"
+			(at 100.33 50.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5060,8 +5132,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 106.68 53.3462 0)
+		(property "Value" "1u"
+			(at 100.33 53.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5072,7 +5144,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 104.14 52.07 0)
+			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5083,7 +5155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 52.07 0)
+			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5094,7 +5166,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 52.07 0)
+			(at 97.79 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 97.79 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 97.79 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.79 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 97.79 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5240,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C155")
+					(reference "C213")
 					(unit 1)
 				)
 			)
@@ -5121,7 +5248,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 104.14 64.77 0)
+		(at 97.79 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5130,8 +5257,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02c0943d-3ef1-4d03-9571-3ae4e740a1a3")
-		(property "Reference" "C164"
-			(at 106.68 63.5062 0)
+		(property "Reference" "C222"
+			(at 100.33 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5141,8 +5268,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 106.68 66.0462 0)
+		(property "Value" "1u"
+			(at 100.33 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5153,7 +5280,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 104.14 64.77 0)
+			(at 97.79 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5164,7 +5291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 64.77 0)
+			(at 97.79 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5175,7 +5302,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 64.77 0)
+			(at 97.79 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 97.79 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 97.79 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.79 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 97.79 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 97.79 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +5376,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C164")
+					(reference "C222")
 					(unit 1)
 				)
 			)
@@ -5202,7 +5384,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 104.14 77.47 0)
+		(at 97.79 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5211,8 +5393,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b045ca1-601d-4e36-85b9-18228ebad1aa")
-		(property "Reference" "C167"
-			(at 106.68 76.2062 0)
+		(property "Reference" "C225"
+			(at 100.33 76.2062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5222,8 +5404,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 106.68 78.7462 0)
+		(property "Value" "1u"
+			(at 100.33 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5234,7 +5416,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 104.14 77.47 0)
+			(at 97.79 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5245,7 +5427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 77.47 0)
+			(at 97.79 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5256,7 +5438,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 77.47 0)
+			(at 97.79 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 97.79 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 97.79 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.79 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 97.79 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 97.79 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5275,7 +5512,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C167")
+					(reference "C225")
 					(unit 1)
 				)
 			)
@@ -5293,7 +5530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "127ed928-abb1-465d-9a27-1bf9b1535309")
-		(property "Reference" "C152"
+		(property "Reference" "C210"
 			(at 168.91 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5348,6 +5585,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 171.45 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 171.45 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 171.45 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 171.45 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 171.45 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "550f9d7a-18ae-49cd-8629-74f0660ce9f2")
 		)
@@ -5357,7 +5649,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C152")
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -5365,7 +5657,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 68.58 64.77 0)
+		(at 62.23 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5374,8 +5666,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12a978fa-4e8a-4237-b7e3-eae7ead0ab50")
-		(property "Reference" "C160"
-			(at 71.12 63.5062 0)
+		(property "Reference" "C218"
+			(at 64.77 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5385,8 +5677,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 71.12 66.0462 0)
+		(property "Value" "1u"
+			(at 64.77 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5397,7 +5689,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 68.58 64.77 0)
+			(at 62.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 64.77 0)
+			(at 62.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5711,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 68.58 64.77 0)
+			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 62.23 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 62.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5785,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C160")
+					(reference "C218")
 					(unit 1)
 				)
 			)
@@ -5455,7 +5802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1553b4cc-f79d-429c-9508-2208e5433d96")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0297"
 			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5515,7 +5862,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0199")
+					(reference "#PWR0297")
 					(unit 1)
 				)
 			)
@@ -5523,7 +5870,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 67.31 0)
+		(at 26.67 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5532,8 +5879,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1db4cef7-5b50-4280-8df3-9b711287c7c2")
-		(property "Reference" "#PWR0206"
-			(at 33.02 73.66 0)
+		(property "Reference" "#PWR0304"
+			(at 26.67 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5544,7 +5891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 71.12 0)
+			(at 26.67 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5554,7 +5901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 67.31 0)
+			(at 26.67 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5565,7 +5912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 67.31 0)
+			(at 26.67 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +5923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 67.31 0)
+			(at 26.67 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5592,7 +5939,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0206")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -5600,7 +5947,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 114.3 35.56 0)
+		(at 107.95 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5609,8 +5956,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20a25e82-28c4-4ae2-b01b-56cd4a00fdbf")
-		(property "Reference" "C149"
-			(at 116.84 34.2962 0)
+		(property "Reference" "C207"
+			(at 110.49 34.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5620,8 +5967,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 116.84 36.8362 0)
+		(property "Value" "1u"
+			(at 110.49 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5632,7 +5979,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 114.3 35.56 0)
+			(at 107.95 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 35.56 0)
+			(at 107.95 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +6001,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 114.3 35.56 0)
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 107.95 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,7 +6075,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C149")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -5681,7 +6083,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 93.98 52.07 0)
+		(at 87.63 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5690,8 +6092,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "245fae62-8465-4d5a-99bf-1df64619c275")
-		(property "Reference" "C154"
-			(at 96.52 50.8062 0)
+		(property "Reference" "C212"
+			(at 90.17 50.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5701,8 +6103,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 96.52 53.3462 0)
+		(property "Value" "1u"
+			(at 90.17 53.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5713,7 +6115,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 93.98 52.07 0)
+			(at 87.63 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +6126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 52.07 0)
+			(at 87.63 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,7 +6137,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 52.07 0)
+			(at 87.63 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 87.63 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 87.63 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 87.63 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 87.63 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 87.63 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5754,7 +6211,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C154")
+					(reference "C212")
 					(unit 1)
 				)
 			)
@@ -5762,7 +6219,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 33.02 64.77 0)
+		(at 26.67 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5771,8 +6228,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26aca101-09fe-44dc-891c-f018267032cf")
-		(property "Reference" "C156"
-			(at 35.56 63.5062 0)
+		(property "Reference" "C214"
+			(at 29.21 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5782,8 +6239,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 35.56 66.0462 0)
+		(property "Value" "1u"
+			(at 29.21 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5794,7 +6251,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 33.02 64.77 0)
+			(at 26.67 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5805,7 +6262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 64.77 0)
+			(at 26.67 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5816,7 +6273,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 64.77 0)
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 26.67 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 26.67 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5835,7 +6347,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C156")
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -5852,7 +6364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33190640-d25d-4b4d-9829-670b192dea7e")
-		(property "Reference" "R88"
+		(property "Reference" "R73"
 			(at 77.724 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5907,6 +6419,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 76.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 76.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 76.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 76.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 76.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "845dd82d-3b77-478a-b100-7505d7eefbdb")
 		)
@@ -5916,7 +6483,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "R88")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -5924,7 +6491,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 38.1 0)
+		(at 77.47 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5933,8 +6500,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41142d54-3c73-48da-a317-dcbebfb03b1c")
-		(property "Reference" "#PWR0198"
-			(at 83.82 44.45 0)
+		(property "Reference" "#PWR0296"
+			(at 77.47 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5945,7 +6512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 41.91 0)
+			(at 77.47 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5955,7 +6522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 38.1 0)
+			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5966,7 +6533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 38.1 0)
+			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5977,7 +6544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 38.1 0)
+			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5993,7 +6560,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0198")
+					(reference "#PWR0296")
 					(unit 1)
 				)
 			)
@@ -6010,7 +6577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "431f32d6-71e5-43fd-9f73-2ed769edd6b6")
-		(property "Reference" "R90"
+		(property "Reference" "R75"
 			(at 110.744 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,6 +6632,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab5862b8-69e4-4418-a3db-80bbe49bc47c")
 		)
@@ -6074,7 +6696,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "R90")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -6092,7 +6714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf7665d-0f3c-40fd-8a6a-fedd12537200")
-		(property "Reference" "U25"
+		(property "Reference" "U16"
 			(at 152.0033 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,6 +6759,61 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 148.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 148.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 148.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 148.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6381,7 +7058,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "U25")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -6389,7 +7066,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 83.82 52.07 0)
+		(at 77.47 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6398,8 +7075,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "563a5017-62ac-42b5-b4f8-243a5191ce74")
-		(property "Reference" "C153"
-			(at 86.36 50.8062 0)
+		(property "Reference" "C211"
+			(at 80.01 50.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6409,8 +7086,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 86.36 53.3462 0)
+		(property "Value" "1u"
+			(at 80.01 53.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6421,7 +7098,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 83.82 52.07 0)
+			(at 77.47 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6432,7 +7109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 52.07 0)
+			(at 77.47 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6443,7 +7120,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 52.07 0)
+			(at 77.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 77.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 77.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 77.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 77.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 77.47 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,7 +7194,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C153")
+					(reference "C211")
 					(unit 1)
 				)
 			)
@@ -6470,7 +7202,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 83.82 35.56 0)
+		(at 77.47 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6479,8 +7211,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cb8ad2c-d63c-4ce4-96c3-fbc9fe5916b6")
-		(property "Reference" "C146"
-			(at 86.36 34.2962 0)
+		(property "Reference" "C204"
+			(at 80.01 34.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6490,8 +7222,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 86.36 36.8362 0)
+		(property "Value" "1u"
+			(at 80.01 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6502,7 +7234,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 83.82 35.56 0)
+			(at 77.47 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +7245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 35.56 0)
+			(at 77.47 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6524,7 +7256,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 35.56 0)
+			(at 77.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 77.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 77.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 77.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 77.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 77.47 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6543,7 +7330,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C146")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -6551,7 +7338,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 83.82 77.47 0)
+		(at 77.47 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6560,8 +7347,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e2e20b3-6270-4d03-97bc-0aee1ae9bda6")
-		(property "Reference" "C165"
-			(at 86.36 76.2062 0)
+		(property "Reference" "C223"
+			(at 80.01 76.2062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6572,7 +7359,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 86.36 78.7462 0)
+			(at 80.01 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6583,7 +7370,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 83.82 77.47 0)
+			(at 77.47 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6594,7 +7381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 77.47 0)
+			(at 77.47 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6605,7 +7392,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 77.47 0)
+			(at 77.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 77.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 77.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 77.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 77.47 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 77.47 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +7466,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C165")
+					(reference "C223")
 					(unit 1)
 				)
 			)
@@ -6641,7 +7483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ed2f250-9b0c-4386-b891-46ff82079e8f")
-		(property "Reference" "C150"
+		(property "Reference" "C208"
 			(at 138.43 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6696,6 +7538,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 135.89 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 135.89 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 135.89 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 135.89 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 135.89 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "293aeb6e-0827-404b-b25e-0524b2a6c16f")
 		)
@@ -6705,7 +7602,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C150")
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -6722,7 +7619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f8d1849-a15e-41ac-bb70-42db0780d58c")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0313"
 			(at 119.38 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6782,7 +7679,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0215")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -6790,7 +7687,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 95.25 64.77 0)
+		(at 88.9 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6799,8 +7696,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "602778c9-6f93-4314-8951-7f1ed2006d0d")
-		(property "Reference" "C163"
-			(at 97.79 63.5062 0)
+		(property "Reference" "C221"
+			(at 91.44 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6810,8 +7707,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 97.79 66.0462 0)
+		(property "Value" "1u"
+			(at 91.44 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6822,7 +7719,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 95.25 64.77 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,7 +7730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 64.77 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6844,7 +7741,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 95.25 64.77 0)
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,7 +7815,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C163")
+					(reference "C221")
 					(unit 1)
 				)
 			)
@@ -6871,7 +7823,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 83.82 49.53 0)
+		(at 77.47 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6880,8 +7832,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65b9773a-fbe3-41a8-bf54-ea2abcbe38e5")
-		(property "Reference" "#PWR0201"
-			(at 83.82 53.34 0)
+		(property "Reference" "#PWR0299"
+			(at 77.47 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6892,7 +7844,7 @@
 			)
 		)
 		(property "Value" "+1.2V_{HUB}"
-			(at 83.82 45.466 0)
+			(at 77.47 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6902,7 +7854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 49.53 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,7 +7865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 49.53 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +7876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 49.53 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +7892,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0201")
+					(reference "#PWR0299")
 					(unit 1)
 				)
 			)
@@ -6957,7 +7909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d1a9c21-9f57-45ef-a558-5b56c737854e")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0310"
 			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7017,7 +7969,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0211")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -7025,7 +7977,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 83.82 33.02 0)
+		(at 77.47 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7034,8 +7986,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70d2a6f8-72c2-46ef-93a7-403c4136dd7f")
-		(property "Reference" "#PWR0197"
-			(at 83.82 36.83 0)
+		(property "Reference" "#PWR0295"
+			(at 77.47 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +7998,7 @@
 			)
 		)
 		(property "Value" "+1.2V_{HUB}"
-			(at 83.82 28.956 0)
+			(at 77.47 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7056,7 +8008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 33.02 0)
+			(at 77.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7067,7 +8019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 33.02 0)
+			(at 77.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7078,7 +8030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 33.02 0)
+			(at 77.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7094,7 +8046,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0197")
+					(reference "#PWR0295")
 					(unit 1)
 				)
 			)
@@ -7102,7 +8054,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 93.98 77.47 0)
+		(at 87.63 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7111,8 +8063,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d264683-8939-4e9e-a8d0-bacf600cf42b")
-		(property "Reference" "C166"
-			(at 96.52 76.2062 0)
+		(property "Reference" "C224"
+			(at 90.17 76.2062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7123,7 +8075,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 96.52 78.7462 0)
+			(at 90.17 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7134,7 +8086,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 93.98 77.47 0)
+			(at 87.63 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7145,7 +8097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 77.47 0)
+			(at 87.63 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7156,7 +8108,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 77.47 0)
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 87.63 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,7 +8182,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C166")
+					(reference "C224")
 					(unit 1)
 				)
 			)
@@ -7183,7 +8190,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 93.98 35.56 0)
+		(at 87.63 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7192,8 +8199,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8683dc35-fda6-4896-a512-2cca505f065e")
-		(property "Reference" "C147"
-			(at 96.52 34.2962 0)
+		(property "Reference" "C205"
+			(at 90.17 34.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7203,8 +8210,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 96.52 36.8362 0)
+		(property "Value" "1u"
+			(at 90.17 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7215,7 +8222,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 93.98 35.56 0)
+			(at 87.63 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7226,7 +8233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 35.56 0)
+			(at 87.63 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7237,7 +8244,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 35.56 0)
+			(at 87.63 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 87.63 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 87.63 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 87.63 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 87.63 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 87.63 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7256,7 +8318,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C147")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -7264,7 +8326,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 77.47 64.77 0)
+		(at 71.12 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7273,8 +8335,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8835b441-621e-4a38-ac00-7e5e71caeee6")
-		(property "Reference" "C161"
-			(at 80.01 63.5062 0)
+		(property "Reference" "C219"
+			(at 73.66 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7284,8 +8346,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 80.01 66.0462 0)
+		(property "Value" "1u"
+			(at 73.66 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7296,7 +8358,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 77.47 64.77 0)
+			(at 71.12 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +8369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 64.77 0)
+			(at 71.12 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7318,7 +8380,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 77.47 64.77 0)
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 71.12 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7337,7 +8454,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C161")
+					(reference "C219")
 					(unit 1)
 				)
 			)
@@ -7345,7 +8462,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 33.02 62.23 0)
+		(at 26.67 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7354,8 +8471,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8931ebfb-2bc4-4259-b7d8-2cc3543240ef")
-		(property "Reference" "#PWR0205"
-			(at 33.02 66.04 0)
+		(property "Reference" "#PWR0303"
+			(at 26.67 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7366,7 +8483,7 @@
 			)
 		)
 		(property "Value" "+3.3V_{HUB}"
-			(at 33.02 58.166 0)
+			(at 26.67 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7376,7 +8493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 62.23 0)
+			(at 26.67 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +8504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 62.23 0)
+			(at 26.67 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7398,7 +8515,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 33.02 62.23 0)
+			(at 26.67 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7414,7 +8531,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0205")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -7431,7 +8548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b416879-5838-4e51-a6e6-0724032e7a82")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0307"
 			(at 76.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7491,7 +8608,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0209")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -7508,7 +8625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b7c7374-23f2-4223-a203-5f3994cfd352")
-		(property "Reference" "R89"
+		(property "Reference" "R74"
 			(at 77.724 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,6 +8680,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d302296e-4980-4d2a-86a6-9917bf853cd6")
 		)
@@ -7572,7 +8744,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "R89")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -7589,7 +8761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "907402ec-0274-4be9-917f-4488d50bfcf7")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0309"
 			(at 76.2 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7649,7 +8821,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0212")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -7666,7 +8838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93f8b060-5578-4a35-84ad-332ed6aacdb1")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0312"
 			(at 109.22 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7726,7 +8898,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0214")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -7734,7 +8906,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 41.91 64.77 0)
+		(at 35.56 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7743,8 +8915,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a228883b-e59a-4310-9ea9-c624872dc605")
-		(property "Reference" "C157"
-			(at 44.45 63.5062 0)
+		(property "Reference" "C215"
+			(at 38.1 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7754,8 +8926,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 44.45 66.0462 0)
+		(property "Value" "1u"
+			(at 38.1 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7766,7 +8938,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 41.91 64.77 0)
+			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,7 +8949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 64.77 0)
+			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7788,7 +8960,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 41.91 64.77 0)
+			(at 35.56 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 35.56 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 35.56 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +9034,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C157")
+					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -7824,7 +9051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a81081d9-a75f-4a9b-ad91-5e95d788fd7f")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0314"
 			(at 148.59 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7884,7 +9111,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0216")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -7902,7 +9129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8d4ebc4-a8d9-4f41-9026-c4a5868300a5")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0301"
 			(at 171.45 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7962,7 +9189,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0203")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -7980,7 +9207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe7cbaa-a709-4eb2-a53a-29e16998e8ba")
-		(property "Reference" "C170"
+		(property "Reference" "C228"
 			(at 111.76 128.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7991,7 +9218,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "20pF"
 			(at 111.76 130.8162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8035,6 +9262,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 109.22 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 109.22 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 109.22 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 109.22 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 109.22 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2969e225-e2ec-4bad-bf2e-5435e512b414")
 		)
@@ -8044,7 +9326,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C170")
+					(reference "C228")
 					(unit 1)
 				)
 			)
@@ -8062,7 +9344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff2a402-d19c-47b5-8d3b-a71caa6562b3")
-		(property "Reference" "C169"
+		(property "Reference" "C227"
 			(at 88.9 128.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8073,7 +9355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "???"
+		(property "Value" "20pF"
 			(at 88.9 130.8162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8117,6 +9399,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 86.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 86.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 86.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 86.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 86.36 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b65f974-ef14-4970-8821-83c57268ae30")
 		)
@@ -8126,7 +9463,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C169")
+					(reference "C227")
 					(unit 1)
 				)
 			)
@@ -8134,7 +9471,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 50.8 64.77 0)
+		(at 44.45 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8143,8 +9480,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b24b36c8-f8f8-40da-acaf-8d156ea2a66e")
-		(property "Reference" "C158"
-			(at 53.34 63.5062 0)
+		(property "Reference" "C216"
+			(at 46.99 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8154,8 +9491,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 53.34 66.0462 0)
+		(property "Value" "1u"
+			(at 46.99 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8166,7 +9503,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 50.8 64.77 0)
+			(at 44.45 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8177,7 +9514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 64.77 0)
+			(at 44.45 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8188,7 +9525,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 64.77 0)
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 44.45 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,7 +9599,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C158")
+					(reference "C216")
 					(unit 1)
 				)
 			)
@@ -8215,7 +9607,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 80.01 0)
+		(at 77.47 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8224,8 +9616,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8faf3a4-a4bd-4448-816f-852104cf09ec")
-		(property "Reference" "#PWR0208"
-			(at 83.82 86.36 0)
+		(property "Reference" "#PWR0306"
+			(at 77.47 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,7 +9628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 83.82 0)
+			(at 77.47 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8246,7 +9638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 80.01 0)
+			(at 77.47 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,7 +9649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 80.01 0)
+			(at 77.47 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,7 +9660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 80.01 0)
+			(at 77.47 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8284,7 +9676,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0208")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -8302,7 +9694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc33b077-b5c6-4ad7-84d7-f92fdbe4a975")
-		(property "Reference" "L4"
+		(property "Reference" "L11"
 			(at 146.05 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,6 +9749,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 147.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 147.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 147.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 147.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 147.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f676bf6c-d8d4-479b-ba91-86ab63e84c6b")
 		)
@@ -8366,7 +9813,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "L4")
+					(reference "L11")
 					(unit 1)
 				)
 			)
@@ -8383,7 +9830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcf1b2b5-4849-4157-b213-06d10a5a0f00")
-		(property "Reference" "R91"
+		(property "Reference" "R76"
 			(at 120.904 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,6 +9885,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 119.38 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 119.38 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 119.38 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 119.38 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 119.38 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c93e045c-0180-47dd-96d1-a23651494964")
 		)
@@ -8447,7 +9949,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "R91")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -8465,7 +9967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd4d5720-b0bd-4fc2-a1d6-f3ed1435c90b")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0298"
 			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8525,7 +10027,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0200")
+					(reference "#PWR0298")
 					(unit 1)
 				)
 			)
@@ -8542,7 +10044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c25710b3-4fd0-4565-adb1-8933039b19ff")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0308"
 			(at 93.98 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8602,7 +10104,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0210")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -8619,7 +10121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d669cb33-09a9-43b6-b032-2c9538cc225d")
-		(property "Reference" "C168"
+		(property "Reference" "C226"
 			(at 96.52 104.1462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8630,7 +10132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 96.52 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8674,6 +10176,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 93.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "718d5830-57bf-4efd-a073-4ea3662991b7")
 		)
@@ -8683,7 +10240,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C168")
+					(reference "C226")
 					(unit 1)
 				)
 			)
@@ -8691,7 +10248,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 86.36 64.77 0)
+		(at 80.01 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8700,8 +10257,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8e40ec7-604d-4f78-8ae2-d6cbca6bf13c")
-		(property "Reference" "C162"
-			(at 88.9 63.5062 0)
+		(property "Reference" "C220"
+			(at 82.55 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8711,8 +10268,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 88.9 66.0462 0)
+		(property "Value" "1u"
+			(at 82.55 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8723,7 +10280,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 86.36 64.77 0)
+			(at 80.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8734,7 +10291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 64.77 0)
+			(at 80.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8745,7 +10302,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 86.36 64.77 0)
+			(at 80.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 80.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 80.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 80.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 80.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 80.01 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,7 +10376,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C162")
+					(reference "C220")
 					(unit 1)
 				)
 			)
@@ -8772,7 +10384,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 104.14 35.56 0)
+		(at 97.79 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8781,8 +10393,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ded78299-6581-454e-a3e3-27f56ea628cd")
-		(property "Reference" "C148"
-			(at 106.68 34.2962 0)
+		(property "Reference" "C206"
+			(at 100.33 34.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8792,8 +10404,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 106.68 36.8362 0)
+		(property "Value" "1u"
+			(at 100.33 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8804,7 +10416,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 104.14 35.56 0)
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +10427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 35.56 0)
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8826,7 +10438,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 35.56 0)
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 97.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 97.79 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8845,7 +10512,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C148")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -8862,7 +10529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e02f7a78-3ec7-49b7-9275-1ce741196321")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0300"
 			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8922,7 +10589,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0202")
+					(reference "#PWR0300")
 					(unit 1)
 				)
 			)
@@ -9014,6 +10681,39 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 97.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 97.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 97.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "babadcd0-188e-4575-81d4-c74b9fd05a64")
 		)
@@ -9046,7 +10746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e31451eb-11fb-4ebd-abe6-4002d2adfd54")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0311"
 			(at 97.79 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9106,7 +10806,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0213")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -9114,7 +10814,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 59.69 64.77 0)
+		(at 53.34 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9123,8 +10823,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed4a1f94-2b85-455e-9e3a-ec2b5a557439")
-		(property "Reference" "C159"
-			(at 62.23 63.5062 0)
+		(property "Reference" "C217"
+			(at 55.88 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9134,8 +10834,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 62.23 66.0462 0)
+		(property "Value" "1u"
+			(at 55.88 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9146,7 +10846,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 59.69 64.77 0)
+			(at 53.34 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9157,7 +10857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 64.77 0)
+			(at 53.34 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9168,7 +10868,62 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 64.77 0)
+			(at 53.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 53.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 53.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 53.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 53.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 53.34 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9187,7 +10942,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C159")
+					(reference "C217")
 					(unit 1)
 				)
 			)
@@ -9205,7 +10960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef7b5e66-47c0-4d52-ab2a-587a64290aac")
-		(property "Reference" "C151"
+		(property "Reference" "C209"
 			(at 158.75 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9216,7 +10971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 158.75 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,6 +11015,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 161.29 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 161.29 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 161.29 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 161.29 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 161.29 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3946a7a-1cb3-499a-993f-af6a63f8e5e1")
 		)
@@ -9269,7 +11079,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "C151")
+					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -9277,7 +11087,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 83.82 74.93 0)
+		(at 77.47 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9286,8 +11096,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8758381-f75f-4105-8077-2cf014487970")
-		(property "Reference" "#PWR0207"
-			(at 83.82 78.74 0)
+		(property "Reference" "#PWR0305"
+			(at 77.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9298,7 +11108,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 70.866 0)
+			(at 77.47 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9308,7 +11118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 74.93 0)
+			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9319,7 +11129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 74.93 0)
+			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9330,7 +11140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 74.93 0)
+			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9346,7 +11156,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/38b721b4-99b4-4971-875a-564075a4dbae"
-					(reference "#PWR0207")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)

@@ -16351,7 +16351,7 @@
 		)
 		(uuid "12365ee7-2ad9-4cea-bfec-6d68e92ac93a")
 	)
-	(label "PCIe_RESET"
+	(label "PCIE0_RESETn"
 		(at 147.32 53.34 180)
 		(effects
 			(font
@@ -16511,6 +16511,16 @@
 		)
 		(uuid "9d2ca9c0-fbd7-42ef-9955-2d82d1095858")
 	)
+	(label "TYPEC_PWR-IN_SEL1"
+		(at 160.02 63.5 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d9e85cb-eebf-4fd2-be08-12deefbf76e9")
+	)
 	(label "PCIe_WAKE"
 		(at 162.56 38.1 0)
 		(effects
@@ -16601,7 +16611,7 @@
 		)
 		(uuid "e5cce12d-a165-49b9-829e-f1e466600a46")
 	)
-	(label "PCIe_CLKREQ"
+	(label "PCIE0_CLKREQn_M0"
 		(at 147.32 55.88 180)
 		(effects
 			(font
@@ -16610,6 +16620,16 @@
 			(justify right bottom)
 		)
 		(uuid "e93e90c7-3c77-4eb9-b7d4-1ec247426e6b")
+	)
+	(label "TYPEC_PWR-IN_SEL2"
+		(at 160.02 66.04 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9eb5c14-a15c-4c2a-8232-5ac8cc14eeac")
 	)
 	(label "PCIe_PWR_EN"
 		(at 162.56 35.56 0)
@@ -16641,9 +16661,10 @@
 		)
 		(uuid "fd095026-e09a-43ed-9c84-2d0b441f6040")
 	)
-	(hierarchical_label "PCIe_CTRL"
+	(hierarchical_label "PCIE0_CTRL"
 		(shape bidirectional)
 		(at 184.15 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16651,6 +16672,19 @@
 			(justify left)
 		)
 		(uuid "d5969ce5-84ed-4ce0-b51c-be3fb51dccd0")
+		(property "Netclass" "PCIE0_CTRL"
+			(at 184.15 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "MDIO"
 		(shape bidirectional)
@@ -16663,6 +16697,26 @@
 		)
 		(uuid "fc49efcc-1e7b-4c04-9e78-8e4f3b449dfa")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 129.54 67.31) (xy 130.81 66.04) (xy 147.32 66.04) (xy 148.59 67.31) (xy 148.59 82.55) (xy 147.32 83.82)
+				(xy 130.81 83.82) (xy 129.54 82.55)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "fcd21c4e-ebc2-4674-b0ea-88d6b680d2a5")
+		)
+	)
 	(symbol
 		(lib_id "RK3576:RK3576")
 		(at 101.6 68.58 0)
@@ -16674,8 +16728,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "422ae1cd-24ec-4952-8e48-5a37614ad4dd")
-		(property "Reference" "U27"
-			(at 101.092 27.94 0)
+		(property "Reference" "U2"
+			(at 101.092 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16685,7 +16739,7 @@
 			)
 		)
 		(property "Value" "RK3576"
-			(at 101.092 30.48 0)
+			(at 101.092 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16732,6 +16786,7 @@
 		)
 		(property "Manf" "Rockchip"
 			(at 101.092 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16742,6 +16797,7 @@
 		)
 		(property "MPN" "RK3576"
 			(at 101.092 35.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16752,6 +16808,62 @@
 		)
 		(property "Package" "FCCSP698L"
 			(at 101.092 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 101.6 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18860,7 +18972,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/90f1d3d6-11a1-4fbf-aa1e-f6ffe7a54522"
-					(reference "U27")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -18878,7 +18990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95257a13-34f7-4607-81e7-6cb5802f0164")
-		(property "Reference" "#PWR0425"
+		(property "Reference" "#PWR0136"
 			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -18938,7 +19050,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/90f1d3d6-11a1-4fbf-aa1e-f6ffe7a54522"
-					(reference "#PWR0425")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -18956,7 +19068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d3f38be-da5d-45a4-b2bc-be1db00efb7b")
-		(property "Reference" "C329"
+		(property "Reference" "C99"
 			(at 63.5 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19011,6 +19123,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 60.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 60.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 60.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 60.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 60.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ad9818a-5d9d-43d2-b4fb-193aaa029fcd")
 		)
@@ -19020,7 +19187,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/90f1d3d6-11a1-4fbf-aa1e-f6ffe7a54522"
-					(reference "C329")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -19037,7 +19204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcfacec6-ba0f-423e-996a-4f1db09b9dd3")
-		(property "Reference" "#PWR0426"
+		(property "Reference" "#PWR0137"
 			(at 60.96 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -19097,7 +19264,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/90f1d3d6-11a1-4fbf-aa1e-f6ffe7a54522"
-					(reference "#PWR0426")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)

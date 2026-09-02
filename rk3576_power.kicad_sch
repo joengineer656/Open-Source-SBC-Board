@@ -229,11 +229,12 @@
 			(property "Manf" "Rockchip"
 				(at -67.31 -63.5 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -241,11 +242,12 @@
 			(property "MPN" "RK3576"
 				(at -67.31 -66.04 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -253,11 +255,12 @@
 			(property "Package" "FCCSP698L"
 				(at -67.31 -68.58 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -288,7 +291,7 @@
 				)
 				(rectangle
 					(start -29.21 48.2599)
-					(end 29.21 -40.6399)
+					(end 29.21 -50.7999)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -407,7 +410,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -35.56) (xy 0 -35.56) (xy 0 -40.64) (xy 29.21 -40.64)
+						(xy -7.62 -35.56) (xy 0 -35.56) (xy 0 -41.91) (xy 0 -51.435)
 					)
 					(stroke
 						(width 0)
@@ -419,7 +422,7 @@
 				)
 				(polyline
 					(pts
-						(xy 29.21 12.7) (xy 0 12.7) (xy 0 6.35) (xy -7.62 6.35)
+						(xy 29.21 6.35) (xy 0 6.35) (xy 0 6.35) (xy -7.62 6.35)
 					)
 					(stroke
 						(width 0)
@@ -440,18 +443,26 @@
 					)
 				)
 				(text "Operation Voltage = 1.8V"
-					(at -18.542 26.924 0)
+					(at -20.066 26.924 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.8382 0.8382)
 						)
 					)
 				)
 				(text "Operation Voltage = 0.75V"
+					(at -19.558 -40.132 0)
+					(effects
+						(font
+							(size 0.8382 0.8382)
+						)
+					)
+				)
+				(text "Operation Voltage = 1.8V/3.3V"
 					(at -18.288 -34.29 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.8382 0.8382)
 						)
 					)
 				)
@@ -496,7 +507,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 -15.24 180)
+					(at 38.1 -22.86 180)
 					(length 8.89)
 					(name "SAI0_SDO0_M1"
 						(effects
@@ -518,7 +529,7 @@
 					(alternate "UART10_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -33.02 180)
+					(at 38.1 -40.64 180)
 					(length 8.89)
 					(name "SAI0_SDI3_M1"
 						(effects
@@ -741,7 +752,7 @@
 					(alternate "I2C6_SCL_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -35.56 180)
+					(at 38.1 -43.18 180)
 					(length 8.89)
 					(name "UART0_TX_M0"
 						(effects
@@ -761,7 +772,7 @@
 					(alternate "JTAG_TCK_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -7.62 180)
+					(at 38.1 -15.24 180)
 					(length 8.89)
 					(name "I2C0_SDA_M1"
 						(effects
@@ -782,7 +793,7 @@
 					(alternate "UART8_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -10.16 180)
+					(at 38.1 -17.78 180)
 					(length 8.89)
 					(name "PDM0_CLK1_M0"
 						(effects
@@ -804,7 +815,7 @@
 					(alternate "SPI0_CSN1_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -12.7 180)
+					(at 38.1 -20.32 180)
 					(length 8.89)
 					(name "SAI0_MCLK_M1"
 						(effects
@@ -826,7 +837,7 @@
 					(alternate "UART10_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -25.4 180)
+					(at 38.1 -33.02 180)
 					(length 8.89)
 					(name "SAI0_SDI0_M1"
 						(effects
@@ -847,7 +858,7 @@
 					(alternate "SPI0_MOSI_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 2.54 180)
+					(at 38.1 -5.08 180)
 					(length 8.89)
 					(name "I2C2_SCL_M0"
 						(effects
@@ -869,7 +880,7 @@
 					(alternate "UART1_TX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -17.78 180)
+					(at 38.1 -25.4 180)
 					(length 8.89)
 					(name "SAI0_SCLK_M1"
 						(effects
@@ -890,7 +901,7 @@
 					(alternate "SPI0_CSN0_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -30.48 180)
+					(at 38.1 -38.1 180)
 					(length 8.89)
 					(name "SAI0_SDI2_M1"
 						(effects
@@ -915,7 +926,7 @@
 					(alternate "UART1_CTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -20.32 180)
+					(at 38.1 -27.94 180)
 					(length 8.89)
 					(name "SAI0_LRCK_M1"
 						(effects
@@ -936,7 +947,7 @@
 					(alternate "SPI0_CLK_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 5.08 180)
+					(at 38.1 -2.54 180)
 					(length 8.89)
 					(name "SDMMC0_PWREN"
 						(effects
@@ -1104,7 +1115,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 -38.1 180)
+					(at 38.1 -45.72 180)
 					(length 8.89)
 					(name "UART0_RX_M0"
 						(effects
@@ -1124,7 +1135,7 @@
 					(alternate "JTAG_TMS_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -5.08 180)
+					(at 38.1 -12.7 180)
 					(length 8.89)
 					(name "I2C0_SCL_M1"
 						(effects
@@ -1145,7 +1156,7 @@
 					(alternate "UART8_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -2.54 180)
+					(at 38.1 -10.16 180)
 					(length 8.89)
 					(name "I2C2_SDA_M0"
 						(effects
@@ -1167,7 +1178,7 @@
 					(alternate "UART1_RX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -27.94 180)
+					(at 38.1 -35.56 180)
 					(length 8.89)
 					(name "SAI0_SDI1_M1"
 						(effects
@@ -1189,7 +1200,7 @@
 					(alternate "SPI0_MISO_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 10.16 180)
+					(at 38.1 2.54 180)
 					(length 8.89)
 					(name "REF_CLK1_OUT"
 						(effects
@@ -1211,7 +1222,7 @@
 					(alternate "UART4_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 7.62 180)
+					(at 38.1 0 180)
 					(length 8.89)
 					(name "REF_CLK2_OUT"
 						(effects
@@ -15338,20 +15349,9 @@
 			)
 			(symbol "RK3576_16_1"
 				(unit_name "SD Card")
-				(rectangle
-					(start -12.7 12.7)
-					(end 12.7 -12.7)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
-						(xy -12.7 10.16) (xy -5.08 10.16) (xy -5.08 -7.62) (xy -12.7 -7.62)
+						(xy -17.78 15.875) (xy -10.16 15.875) (xy -10.16 4.445) (xy -17.78 4.445)
 					)
 					(stroke
 						(width 0)
@@ -15361,8 +15361,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -17.7799 24.765)
+					(end 17.7799 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(text "SD Card"
-					(at -8.89 1.524 900)
+					(at -13.97 10.16 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15372,7 +15383,7 @@
 					)
 				)
 				(text "Operation Voltage = 1.8V/3.3V"
-					(at 0 -10.922 0)
+					(at -1.016 2.032 0)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -15380,7 +15391,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 0 180)
+					(at 26.67 10.16 180)
 					(length 8.89)
 					(name "SDMMC0_CMD"
 						(effects
@@ -15405,7 +15416,7 @@
 					(alternate "UART5_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -2.54 180)
+					(at 26.67 7.62 180)
 					(length 8.89)
 					(name "SDMMC0_CLK"
 						(effects
@@ -15431,7 +15442,7 @@
 					(alternate "UART5_TX_M2" bidirectional line)
 				)
 				(pin power_in line
-					(at 21.59 -7.62 180)
+					(at -26.67 20.32 0)
 					(length 8.89)
 					(name "VCCIO1_VCC"
 						(effects
@@ -15449,7 +15460,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 5.08 180)
+					(at 26.67 15.24 180)
 					(length 8.89)
 					(name "SDMMC0_D2"
 						(effects
@@ -15476,7 +15487,7 @@
 					(alternate "UART5_RTSN_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 2.54 180)
+					(at 26.67 12.7 180)
 					(length 8.89)
 					(name "SDMMC0_D3"
 						(effects
@@ -15502,7 +15513,7 @@
 					(alternate "UART5_CTSN_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 10.16 180)
+					(at 26.67 20.32 180)
 					(length 8.89)
 					(name "SDMMC0_D0"
 						(effects
@@ -15529,7 +15540,7 @@
 					(alternate "UART7_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 7.62 180)
+					(at 26.67 17.78 180)
 					(length 8.89)
 					(name "SDMMC0_D1"
 						(effects
@@ -16355,7 +16366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f0764c-c587-4e76-b137-9883c0210ace")
-		(property "Reference" "C423"
+		(property "Reference" "C83"
 			(at 50.8 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16366,7 +16377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 50.8 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16410,6 +16421,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 48.26 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 48.26 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 48.26 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 48.26 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 48.26 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6d709a9-7e2b-46bb-b905-519a71b4417f")
 		)
@@ -16419,7 +16485,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C423")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -16437,7 +16503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a141f9-ce0d-4809-a19f-62cc436b5f0d")
-		(property "Reference" "#PWR0484"
+		(property "Reference" "#PWR075"
 			(at 30.48 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16497,7 +16563,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0484")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -16514,7 +16580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08d1377d-de9f-4edc-8b85-71d218d6ddb8")
-		(property "Reference" "#PWR0480"
+		(property "Reference" "#PWR085"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16574,7 +16640,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0480")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -16592,7 +16658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ae480e3-945e-4a35-844c-3cf5666e0bad")
-		(property "Reference" "C414"
+		(property "Reference" "C81"
 			(at 33.02 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16647,6 +16713,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 30.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 30.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 30.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f9a68c6-28a0-426a-9f99-c463cb5cd2a6")
 		)
@@ -16656,7 +16777,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C414")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -16672,10 +16793,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c35f096-5d26-477b-9096-e25ac16856ee")
-		(property "Reference" "U27"
-			(at 92.71 22.86 0)
+		(property "Reference" "U2"
+			(at 92.71 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16685,7 +16805,7 @@
 			)
 		)
 		(property "Value" "RK3576"
-			(at 92.71 25.4 0)
+			(at 92.71 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16732,6 +16852,7 @@
 		)
 		(property "Manf" "Rockchip"
 			(at 92.71 27.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16742,6 +16863,7 @@
 		)
 		(property "MPN" "RK3576"
 			(at 92.71 30.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16752,6 +16874,62 @@
 		)
 		(property "Package" "FCCSP698L"
 			(at 92.71 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 92.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 92.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 92.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 92.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 92.71 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18857,7 +19035,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "U27")
+					(reference "U2")
 					(unit 10)
 				)
 			)
@@ -18875,7 +19053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cfecb6f-4ac0-4bb7-b82f-05f4566de9f2")
-		(property "Reference" "C421"
+		(property "Reference" "C87"
 			(at 143.51 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18930,6 +19108,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 140.97 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 140.97 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 140.97 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 140.97 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 140.97 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8fe75e8-cd46-4930-9527-ce4f41626165")
 		)
@@ -18939,7 +19172,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C421")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -18956,7 +19189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11ea816b-bfc2-495d-9e11-ecedfeedb542")
-		(property "Reference" "#PWR0489"
+		(property "Reference" "#PWR079"
 			(at 48.26 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -19016,7 +19249,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0489")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -19033,7 +19266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15744e73-c035-433e-a1e5-cf00a2c17c64")
-		(property "Reference" "#PWR0483"
+		(property "Reference" "#PWR088"
 			(at 185.42 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -19093,7 +19326,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0483")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -19110,7 +19343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a69e0f0-6fa6-486a-a77d-8a06533b930f")
-		(property "Reference" "#PWR0510"
+		(property "Reference" "#PWR095"
 			(at 132.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19170,7 +19403,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0510")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -19188,7 +19421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dc11fb4-f4af-4317-a426-db552476f5dd")
-		(property "Reference" "C268"
+		(property "Reference" "C67"
 			(at 152.4 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19243,6 +19476,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 149.86 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 149.86 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 149.86 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 149.86 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 149.86 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e1910e3-4b29-405d-b101-babc9257937b")
 		)
@@ -19252,7 +19540,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C268")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -19270,7 +19558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f1f011c-7b4e-4c11-9364-428327d86c24")
-		(property "Reference" "C410"
+		(property "Reference" "C77"
 			(at 143.51 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19325,6 +19613,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8e33f32-ba76-43dc-a6e7-b6baee93f64e")
 		)
@@ -19334,7 +19677,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C410")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -19351,7 +19694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f83ba97-d749-4cd4-b724-c576210158e8")
-		(property "Reference" "#PWR0524"
+		(property "Reference" "#PWR0101"
 			(at 21.59 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19411,7 +19754,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0524")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -19429,7 +19772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200f3af6-2eb6-410e-9194-cb3f2a8cafd9")
-		(property "Reference" "C271"
+		(property "Reference" "C69"
 			(at 170.18 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19484,6 +19827,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 167.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 167.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 167.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 167.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 167.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6bb171e3-aada-4f41-886b-80209d3131d9")
 		)
@@ -19493,7 +19891,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C271")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -19510,7 +19908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21451499-894b-4c88-9b3d-62c7a856c477")
-		(property "Reference" "#PWR0509"
+		(property "Reference" "#PWR094"
 			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19570,7 +19968,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0509")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -19587,7 +19985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25fdf4c3-33b7-42ce-8d3e-04996671ffbf")
-		(property "Reference" "#PWR0512"
+		(property "Reference" "#PWR097"
 			(at 149.86 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19647,7 +20045,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0512")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -19664,7 +20062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3965bafd-c62c-4f64-8818-48672bf81861")
-		(property "Reference" "#PWR0519"
+		(property "Reference" "#PWR0108"
 			(at 140.97 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19724,7 +20122,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0519")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -19741,7 +20139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3adc669c-255d-4e4c-88d1-ed58bd44e9fe")
-		(property "Reference" "#PWR0517"
+		(property "Reference" "#PWR093"
 			(at 57.15 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19801,7 +20199,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0517")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -19818,7 +20216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "417d6429-c4e1-4dce-be89-6c403550512c")
-		(property "Reference" "#PWR0516"
+		(property "Reference" "#PWR092"
 			(at 48.26 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19878,7 +20276,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0516")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -19896,7 +20294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5155807a-b40f-4d3b-9587-259a1d52733f")
-		(property "Reference" "C267"
+		(property "Reference" "C66"
 			(at 143.51 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19951,6 +20349,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25bf3af4-000f-441a-844b-be98b8a94db4")
 		)
@@ -19960,7 +20413,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C267")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -19978,7 +20431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b78da6d-77fc-4658-a411-f7f4c478c437")
-		(property "Reference" "C259"
+		(property "Reference" "C64"
 			(at 125.73 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19989,7 +20442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 125.73 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20033,6 +20486,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95381c83-cb86-4d84-962c-796e9c3357f1")
 		)
@@ -20042,7 +20550,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C259")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -20059,7 +20567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d31c438-dcdb-460b-bf3e-e6d61cb7e418")
-		(property "Reference" "#PWR0490"
+		(property "Reference" "#PWR078"
 			(at 39.37 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20119,7 +20627,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0490")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -20137,7 +20645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d79955e-bc93-452f-837f-192c42db5434")
-		(property "Reference" "C402"
+		(property "Reference" "C61"
 			(at 41.91 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20192,6 +20700,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5dda3d07-3ac6-44fb-a0dc-3fbe0554ee63")
 		)
@@ -20201,7 +20764,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C402")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -20218,7 +20781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5da9f20d-c122-40fb-b27b-522c28f5d56f")
-		(property "Reference" "#PWR0527"
+		(property "Reference" "#PWR0104"
 			(at 48.26 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -20278,7 +20841,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0527")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -20295,7 +20858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ff06a58-6f7e-4bd6-9f17-27080c1e4328")
-		(property "Reference" "#PWR0360"
+		(property "Reference" "#PWR0110"
 			(at 119.38 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -20355,7 +20918,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0360")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -20372,7 +20935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ff6637f-1e76-43de-843c-1af416b49874")
-		(property "Reference" "#PWR0511"
+		(property "Reference" "#PWR096"
 			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -20432,7 +20995,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0511")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -20449,7 +21012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68611cda-df0c-4137-8c57-c62f2f7b15e7")
-		(property "Reference" "#PWR0482"
+		(property "Reference" "#PWR087"
 			(at 176.53 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20509,7 +21072,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0482")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -20527,7 +21090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a62800a-57ef-477e-bad5-cd2cd8843a0a")
-		(property "Reference" "#PWR0522"
+		(property "Reference" "#PWR0100"
 			(at 149.86 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -20587,7 +21150,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0522")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -20604,7 +21167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6af3eabd-d03b-4e8c-a380-881ad3587dfd")
-		(property "Reference" "#PWR0478"
+		(property "Reference" "#PWR083"
 			(at 140.97 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20664,7 +21227,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0478")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -20682,7 +21245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3b948a-d7db-486c-8489-345bacd87379")
-		(property "Reference" "C407"
+		(property "Reference" "C60"
 			(at 33.02 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20737,6 +21300,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 30.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 30.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 30.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 30.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3fd73e6c-5f79-43d5-a9cd-e25dc7443fca")
 		)
@@ -20746,7 +21364,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C407")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -20764,7 +21382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4e5acf-b04b-48f9-8547-70c29dd1fd92")
-		(property "Reference" "C416"
+		(property "Reference" "C72"
 			(at 41.91 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20819,6 +21437,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 39.37 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 39.37 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 39.37 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 39.37 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 39.37 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "abf1b830-58d6-4042-b0ad-fa50de0ccea3")
 		)
@@ -20828,7 +21501,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C416")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -20846,7 +21519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ed69a29-bd63-4bdf-a4d9-b7ba6f0930cf")
-		(property "Reference" "C408"
+		(property "Reference" "C75"
 			(at 125.73 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20857,7 +21530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 125.73 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20901,6 +21574,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 123.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 123.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 123.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 123.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 123.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe27acf8-a6d3-4431-b1a5-be2918e671b0")
 		)
@@ -20910,7 +21638,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C408")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -20928,7 +21656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7285feea-01bf-489c-b0d3-5979d1db2f71")
-		(property "Reference" "C417"
+		(property "Reference" "C85"
 			(at 125.73 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20939,7 +21667,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 125.73 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20983,6 +21711,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "06a770aa-756a-4831-b3a6-849770d0e2bc")
 		)
@@ -20992,7 +21775,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C417")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -21010,7 +21793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7585f74d-9096-43a5-ab10-a9665ed4c075")
-		(property "Reference" "C266"
+		(property "Reference" "C65"
 			(at 134.62 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21021,7 +21804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 134.62 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21065,6 +21848,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 132.08 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e6912077-5ddb-4925-8dca-49581de36526")
 		)
@@ -21074,7 +21912,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C266")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -21091,7 +21929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a66ed6d-c47c-44a8-9575-7caadb113059")
-		(property "Reference" "#PWR0520"
+		(property "Reference" "#PWR0107"
 			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -21151,7 +21989,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0520")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -21168,7 +22006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cccf0a7-a759-4210-8f1c-b48ab7b6d326")
-		(property "Reference" "#PWR0477"
+		(property "Reference" "#PWR082"
 			(at 132.08 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -21228,7 +22066,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0477")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -21246,7 +22084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fc1aed5-4b29-4140-8336-fe21d6e097b1")
-		(property "Reference" "C272"
+		(property "Reference" "C70"
 			(at 179.07 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21301,6 +22139,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ce7c9ed-1eaf-44f2-877d-be97d403456e")
 		)
@@ -21310,7 +22203,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C272")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -21328,7 +22221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "811d15bd-8338-488f-8e7c-2e8868badb54")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR090"
 			(at 158.75 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -21388,7 +22281,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0508")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -21405,7 +22298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86048766-7048-4906-83f7-9e6bb7381a57")
-		(property "Reference" "#PWR0488"
+		(property "Reference" "#PWR080"
 			(at 57.15 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -21465,7 +22358,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0488")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -21483,7 +22376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bb8bdc6-d9e6-4f12-9a41-327e46389935")
-		(property "Reference" "C424"
+		(property "Reference" "C84"
 			(at 59.69 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21494,7 +22387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 59.69 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21538,6 +22431,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 57.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4eca33c-8fae-4eb5-b4f5-399d5251e316")
 		)
@@ -21547,7 +22495,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C424")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -21565,7 +22513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90ee026c-9e46-49b9-8ad1-cd52b4bd01e1")
-		(property "Reference" "C409"
+		(property "Reference" "C76"
 			(at 134.62 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21576,7 +22524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 134.62 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21620,6 +22568,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48f1a9e7-4c5a-47d7-be88-6f8bf934f174")
 		)
@@ -21629,7 +22632,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C409")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -21646,7 +22649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9471b8f2-80cd-4cd8-92fe-e79817908152")
-		(property "Reference" "#PWR0481"
+		(property "Reference" "#PWR086"
 			(at 167.64 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -21706,7 +22709,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0481")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -21723,7 +22726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "977240e3-812f-48c2-af76-b29c88567e4e")
-		(property "Reference" "#PWR0514"
+		(property "Reference" "#PWR091"
 			(at 39.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -21783,7 +22786,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0514")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -21801,7 +22804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a852c43-a0dc-455c-b3aa-7c36882363be")
-		(property "Reference" "C422"
+		(property "Reference" "C88"
 			(at 152.4 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21856,6 +22859,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 149.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 149.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 149.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 149.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 149.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4265cd44-4c76-497a-b78e-a070eb454e5d")
 		)
@@ -21865,7 +22923,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C422")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -21883,7 +22941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2daef9a-9ab3-4f79-8d8a-759b2cd299e2")
-		(property "Reference" "C413"
+		(property "Reference" "C80"
 			(at 24.13 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21938,6 +22996,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 21.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 21.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 21.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 21.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 21.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77c74917-6d49-4700-b88f-aa8c2487e656")
 		)
@@ -21947,7 +23060,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C413")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -21965,7 +23078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a440546a-a116-45b4-b985-1436a6856fe1")
-		(property "Reference" "C398"
+		(property "Reference" "C63"
 			(at 59.69 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21976,7 +23089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 59.69 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22020,6 +23133,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 57.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 57.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 57.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 57.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 57.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ffa886a3-8d24-4db1-b299-e98fb6d4ae89")
 		)
@@ -22029,7 +23197,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C398")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -22046,7 +23214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5ec01e9-1d4c-426d-a639-6b391941fb06")
-		(property "Reference" "#PWR0513"
+		(property "Reference" "#PWR098"
 			(at 158.75 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -22106,7 +23274,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0513")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -22123,7 +23291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6ad7cea-8e36-47fe-9772-abda850bccc0")
-		(property "Reference" "#PWR0424"
+		(property "Reference" "#PWR081"
 			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -22183,7 +23351,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0424")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -22200,7 +23368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1ed66ba-3f1f-4d0f-a4ca-379ccd44d4b6")
-		(property "Reference" "#PWR0479"
+		(property "Reference" "#PWR084"
 			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -22260,7 +23428,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0479")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -22278,7 +23446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4fe0e60-be5b-4e89-b7fe-af25dacc807c")
-		(property "Reference" "#PWR0515"
+		(property "Reference" "#PWR089"
 			(at 39.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -22338,7 +23506,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0515")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -22356,7 +23524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9e31d0a-0385-408a-89f9-9b92982f0121")
-		(property "Reference" "C412"
+		(property "Reference" "C79"
 			(at 161.29 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22411,6 +23579,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 158.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 158.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 158.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 158.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 158.75 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9af45b3-4bc4-43de-be41-a57ec59eb335")
 		)
@@ -22420,7 +23643,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C412")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -22437,7 +23660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be04265c-9f7d-464a-970a-47f6e6d6dae5")
-		(property "Reference" "#PWR0528"
+		(property "Reference" "#PWR0105"
 			(at 57.15 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22497,7 +23720,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0528")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -22515,7 +23738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c163997c-81d5-4c0b-8cfe-bc88da68b388")
-		(property "Reference" "C419"
+		(property "Reference" "C74"
 			(at 59.69 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22526,7 +23749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 59.69 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22570,6 +23793,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4339570-8ba0-42c2-9b11-cb0b366b6d27")
 		)
@@ -22579,7 +23857,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C419")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -22597,7 +23875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c23ddfae-3850-4df7-9a3e-64ab3f7a86ef")
-		(property "Reference" "C273"
+		(property "Reference" "C71"
 			(at 187.96 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22652,6 +23930,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 185.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 185.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 185.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 185.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 185.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be310eff-cf36-4c59-a6f3-d883821948c3")
 		)
@@ -22661,7 +23994,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C273")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -22679,7 +24012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c765768d-2242-4961-ae40-75f627704edb")
-		(property "Reference" "C418"
+		(property "Reference" "C73"
 			(at 50.8 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22734,6 +24067,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40491b7b-1407-40ee-bd36-24a4cf8b09ef")
 		)
@@ -22743,7 +24131,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C418")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -22761,7 +24149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7f6efcc-98cc-4bd3-8dd9-38f645ea8618")
-		(property "Reference" "#PWR0355"
+		(property "Reference" "#PWR099"
 			(at 21.59 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -22821,7 +24209,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0355")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -22838,7 +24226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c86f5f91-b26d-401e-a600-db3df8bb5ece")
-		(property "Reference" "#PWR0518"
+		(property "Reference" "#PWR0109"
 			(at 149.86 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22898,7 +24286,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0518")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -22916,7 +24304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca0ebc43-e317-4444-9744-bb4301ef9a90")
-		(property "Reference" "C415"
+		(property "Reference" "C82"
 			(at 41.91 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22971,6 +24359,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6e7d3aa-c878-4cf7-a40e-a927d6765b2d")
 		)
@@ -22980,7 +24423,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C415")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -22998,7 +24441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4708e13-616b-40b7-83ac-5b79d7883b95")
-		(property "Reference" "C411"
+		(property "Reference" "C78"
 			(at 152.4 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23053,6 +24496,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 149.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 149.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 149.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 149.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 149.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a7f91fa-e5fc-4e5e-8574-de48617efe3d")
 		)
@@ -23062,7 +24560,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C411")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -23079,7 +24577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d642e6ee-9bf0-4aad-9101-afe6188f55f8")
-		(property "Reference" "#PWR0525"
+		(property "Reference" "#PWR0102"
 			(at 30.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -23139,7 +24637,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0525")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -23157,7 +24655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db8afe79-6c5e-457e-b792-c80a1ad0204b")
-		(property "Reference" "#PWR0353"
+		(property "Reference" "#PWR076"
 			(at 185.42 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -23217,7 +24715,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0353")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -23234,7 +24732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed0e5444-db9c-49c0-8fb7-c90a71ccd4d3")
-		(property "Reference" "#PWR0521"
+		(property "Reference" "#PWR0106"
 			(at 123.19 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -23294,7 +24792,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0521")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -23311,7 +24809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f259c170-5b6e-4edc-9660-94687f055f9a")
-		(property "Reference" "#PWR0526"
+		(property "Reference" "#PWR0103"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -23371,7 +24869,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0526")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -23389,7 +24887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2fc4254-1f6c-49ad-9044-41c023e2e967")
-		(property "Reference" "C270"
+		(property "Reference" "C68"
 			(at 161.29 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23444,6 +24942,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 158.75 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 158.75 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 158.75 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 158.75 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 158.75 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ee452d9-240c-4503-97fb-e9563cebb355")
 		)
@@ -23453,7 +25006,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C270")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -23471,7 +25024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2feaa63-13c8-40be-8a4f-90a016aa52fe")
-		(property "Reference" "C420"
+		(property "Reference" "C86"
 			(at 134.62 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23526,6 +25079,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 132.08 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 132.08 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 132.08 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 132.08 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 132.08 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a951597-8bb1-4f35-8907-770851acc801")
 		)
@@ -23535,7 +25143,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C420")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -23553,7 +25161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ca7568-568f-46a6-ad3a-472b6af2d88a")
-		(property "Reference" "C399"
+		(property "Reference" "C62"
 			(at 50.8 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23608,6 +25216,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8465ae3c-46ed-44a6-8632-ce4121b0849f")
 		)
@@ -23617,7 +25280,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "C399")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -23634,7 +25297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9301ea5-ee96-4632-b810-4e4a1f74e2c3")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR077"
 			(at 30.48 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -23694,7 +25357,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b9c235bb-901b-4321-97db-b0a0f617f372"
-					(reference "#PWR0507")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)

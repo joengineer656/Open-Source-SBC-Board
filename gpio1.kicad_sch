@@ -229,11 +229,12 @@
 			(property "Manf" "Rockchip"
 				(at -67.31 -63.5 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -241,11 +242,12 @@
 			(property "MPN" "RK3576"
 				(at -67.31 -66.04 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -253,11 +255,12 @@
 			(property "Package" "FCCSP698L"
 				(at -67.31 -68.58 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -288,7 +291,7 @@
 				)
 				(rectangle
 					(start -29.21 48.2599)
-					(end 29.21 -40.6399)
+					(end 29.21 -50.7999)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -407,7 +410,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -35.56) (xy 0 -35.56) (xy 0 -40.64) (xy 29.21 -40.64)
+						(xy -7.62 -35.56) (xy 0 -35.56) (xy 0 -41.91) (xy 0 -51.435)
 					)
 					(stroke
 						(width 0)
@@ -419,7 +422,7 @@
 				)
 				(polyline
 					(pts
-						(xy 29.21 12.7) (xy 0 12.7) (xy 0 6.35) (xy -7.62 6.35)
+						(xy 29.21 6.35) (xy 0 6.35) (xy 0 6.35) (xy -7.62 6.35)
 					)
 					(stroke
 						(width 0)
@@ -440,18 +443,26 @@
 					)
 				)
 				(text "Operation Voltage = 1.8V"
-					(at -18.542 26.924 0)
+					(at -20.066 26.924 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.8382 0.8382)
 						)
 					)
 				)
 				(text "Operation Voltage = 0.75V"
+					(at -19.558 -40.132 0)
+					(effects
+						(font
+							(size 0.8382 0.8382)
+						)
+					)
+				)
+				(text "Operation Voltage = 1.8V/3.3V"
 					(at -18.288 -34.29 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.8382 0.8382)
 						)
 					)
 				)
@@ -496,7 +507,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 -15.24 180)
+					(at 38.1 -22.86 180)
 					(length 8.89)
 					(name "SAI0_SDO0_M1"
 						(effects
@@ -518,7 +529,7 @@
 					(alternate "UART10_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -33.02 180)
+					(at 38.1 -40.64 180)
 					(length 8.89)
 					(name "SAI0_SDI3_M1"
 						(effects
@@ -741,7 +752,7 @@
 					(alternate "I2C6_SCL_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -35.56 180)
+					(at 38.1 -43.18 180)
 					(length 8.89)
 					(name "UART0_TX_M0"
 						(effects
@@ -761,7 +772,7 @@
 					(alternate "JTAG_TCK_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -7.62 180)
+					(at 38.1 -15.24 180)
 					(length 8.89)
 					(name "I2C0_SDA_M1"
 						(effects
@@ -782,7 +793,7 @@
 					(alternate "UART8_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -10.16 180)
+					(at 38.1 -17.78 180)
 					(length 8.89)
 					(name "PDM0_CLK1_M0"
 						(effects
@@ -804,7 +815,7 @@
 					(alternate "SPI0_CSN1_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -12.7 180)
+					(at 38.1 -20.32 180)
 					(length 8.89)
 					(name "SAI0_MCLK_M1"
 						(effects
@@ -826,7 +837,7 @@
 					(alternate "UART10_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -25.4 180)
+					(at 38.1 -33.02 180)
 					(length 8.89)
 					(name "SAI0_SDI0_M1"
 						(effects
@@ -847,7 +858,7 @@
 					(alternate "SPI0_MOSI_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 2.54 180)
+					(at 38.1 -5.08 180)
 					(length 8.89)
 					(name "I2C2_SCL_M0"
 						(effects
@@ -869,7 +880,7 @@
 					(alternate "UART1_TX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -17.78 180)
+					(at 38.1 -25.4 180)
 					(length 8.89)
 					(name "SAI0_SCLK_M1"
 						(effects
@@ -890,7 +901,7 @@
 					(alternate "SPI0_CSN0_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -30.48 180)
+					(at 38.1 -38.1 180)
 					(length 8.89)
 					(name "SAI0_SDI2_M1"
 						(effects
@@ -915,7 +926,7 @@
 					(alternate "UART1_CTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -20.32 180)
+					(at 38.1 -27.94 180)
 					(length 8.89)
 					(name "SAI0_LRCK_M1"
 						(effects
@@ -936,7 +947,7 @@
 					(alternate "SPI0_CLK_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 5.08 180)
+					(at 38.1 -2.54 180)
 					(length 8.89)
 					(name "SDMMC0_PWREN"
 						(effects
@@ -1104,7 +1115,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 -38.1 180)
+					(at 38.1 -45.72 180)
 					(length 8.89)
 					(name "UART0_RX_M0"
 						(effects
@@ -1124,7 +1135,7 @@
 					(alternate "JTAG_TMS_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -5.08 180)
+					(at 38.1 -12.7 180)
 					(length 8.89)
 					(name "I2C0_SCL_M1"
 						(effects
@@ -1145,7 +1156,7 @@
 					(alternate "UART8_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -2.54 180)
+					(at 38.1 -10.16 180)
 					(length 8.89)
 					(name "I2C2_SDA_M0"
 						(effects
@@ -1167,7 +1178,7 @@
 					(alternate "UART1_RX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -27.94 180)
+					(at 38.1 -35.56 180)
 					(length 8.89)
 					(name "SAI0_SDI1_M1"
 						(effects
@@ -1189,7 +1200,7 @@
 					(alternate "SPI0_MISO_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 10.16 180)
+					(at 38.1 2.54 180)
 					(length 8.89)
 					(name "REF_CLK1_OUT"
 						(effects
@@ -1211,7 +1222,7 @@
 					(alternate "UART4_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 7.62 180)
+					(at 38.1 0 180)
 					(length 8.89)
 					(name "REF_CLK2_OUT"
 						(effects
@@ -15338,20 +15349,9 @@
 			)
 			(symbol "RK3576_16_1"
 				(unit_name "SD Card")
-				(rectangle
-					(start -12.7 12.7)
-					(end 12.7 -12.7)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
-						(xy -12.7 10.16) (xy -5.08 10.16) (xy -5.08 -7.62) (xy -12.7 -7.62)
+						(xy -17.78 15.875) (xy -10.16 15.875) (xy -10.16 4.445) (xy -17.78 4.445)
 					)
 					(stroke
 						(width 0)
@@ -15361,8 +15361,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -17.7799 24.765)
+					(end 17.7799 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(text "SD Card"
-					(at -8.89 1.524 900)
+					(at -13.97 10.16 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15372,7 +15383,7 @@
 					)
 				)
 				(text "Operation Voltage = 1.8V/3.3V"
-					(at 0 -10.922 0)
+					(at -1.016 2.032 0)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -15380,7 +15391,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 0 180)
+					(at 26.67 10.16 180)
 					(length 8.89)
 					(name "SDMMC0_CMD"
 						(effects
@@ -15405,7 +15416,7 @@
 					(alternate "UART5_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -2.54 180)
+					(at 26.67 7.62 180)
 					(length 8.89)
 					(name "SDMMC0_CLK"
 						(effects
@@ -15431,7 +15442,7 @@
 					(alternate "UART5_TX_M2" bidirectional line)
 				)
 				(pin power_in line
-					(at 21.59 -7.62 180)
+					(at -26.67 20.32 0)
 					(length 8.89)
 					(name "VCCIO1_VCC"
 						(effects
@@ -15449,7 +15460,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 5.08 180)
+					(at 26.67 15.24 180)
 					(length 8.89)
 					(name "SDMMC0_D2"
 						(effects
@@ -15476,7 +15487,7 @@
 					(alternate "UART5_RTSN_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 2.54 180)
+					(at 26.67 12.7 180)
 					(length 8.89)
 					(name "SDMMC0_D3"
 						(effects
@@ -15502,7 +15513,7 @@
 					(alternate "UART5_CTSN_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 10.16 180)
+					(at 26.67 20.32 180)
 					(length 8.89)
 					(name "SDMMC0_D0"
 						(effects
@@ -15529,7 +15540,7 @@
 					(alternate "UART7_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 7.62 180)
+					(at 26.67 17.78 180)
 					(length 8.89)
 					(name "SDMMC0_D1"
 						(effects
@@ -15907,6 +15918,15 @@
 		(uuid "39f0de6a-6b50-4ef8-b571-a510bd7c9303")
 	)
 	(bus_entry
+		(at 142.24 88.9)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4497a948-1e6b-4480-bb1a-d8fd997d51a9")
+	)
+	(bus_entry
 		(at 142.24 50.8)
 		(size 2.54 -2.54)
 		(stroke
@@ -15959,6 +15979,15 @@
 			(type default)
 		)
 		(uuid "ab427d6a-93ac-412b-90f9-9f288c103472")
+	)
+	(bus_entry
+		(at 142.24 91.44)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4f8e1c-94dd-40c9-be7b-13f12e08e61d")
 	)
 	(bus_entry
 		(at 142.24 67.31)
@@ -16016,6 +16045,16 @@
 			(type default)
 		)
 		(uuid "078959a9-9bdf-4abe-a708-abecb3659318")
+	)
+	(wire
+		(pts
+			(xy 123.19 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8b26e6-a253-4e90-baf9-d746e10ec413")
 	)
 	(bus
 		(pts
@@ -16147,6 +16186,16 @@
 		)
 		(uuid "6e72695c-d710-4950-a265-6420267bb9dd")
 	)
+	(bus
+		(pts
+			(xy 144.78 86.36) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70dcea41-2046-4c18-b119-62bf18c7df43")
+	)
 	(wire
 		(pts
 			(xy 123.19 81.28) (xy 142.24 81.28)
@@ -16189,6 +16238,16 @@
 	)
 	(bus
 		(pts
+			(xy 144.78 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44cfa24-4561-4018-b238-fb18bfc9f2ba")
+	)
+	(bus
+		(pts
 			(xy 144.78 43.18) (xy 146.05 43.18)
 		)
 		(stroke
@@ -16207,15 +16266,25 @@
 		)
 		(uuid "aac7b29d-9b5f-4819-811b-006e1e923cbf")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 144.78 69.85) (xy 144.78 72.39)
+			(xy 123.19 88.9) (xy 142.24 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df0e9a49-42ac-4557-9b20-ad65dc781975")
+		(uuid "d0b27edf-7aad-4407-b92e-263ceabfeb5e")
+	)
+	(bus
+		(pts
+			(xy 144.78 88.9) (xy 146.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2828dec-9cd1-4d9c-b757-b9cc07cc70f9")
 	)
 	(bus
 		(pts
@@ -16239,16 +16308,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 91.44) (xy 146.05 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec48ed67-eb10-448c-ba75-3b725eea4e90")
-	)
-	(wire
-		(pts
 			(xy 69.85 45.72) (xy 55.88 45.72)
 		)
 		(stroke
@@ -16257,17 +16316,7 @@
 		)
 		(uuid "f5d71d84-331e-4f0f-8a0f-fd6198b5a7c9")
 	)
-	(wire
-		(pts
-			(xy 123.19 88.9) (xy 146.05 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feaa3f29-ac09-4eac-81be-8f86161fc864")
-	)
-	(label "UART_CST"
+	(label "UART4_CTSN_M1"
 		(at 140.97 64.77 180)
 		(effects
 			(font
@@ -16277,7 +16326,7 @@
 		)
 		(uuid "246b2f64-f3f9-44e6-910c-6d2aee78eaad")
 	)
-	(label "SDIO_CLK"
+	(label "SDMMC1_CLK_M0"
 		(at 140.97 59.69 180)
 		(effects
 			(font
@@ -16287,7 +16336,7 @@
 		)
 		(uuid "26cf707a-a67a-4756-9cd7-a34953510ef0")
 	)
-	(label "UART_TX"
+	(label "UART4_RX_M1"
 		(at 140.97 69.85 180)
 		(effects
 			(font
@@ -16297,7 +16346,7 @@
 		)
 		(uuid "42d09ddb-4456-434b-99a0-2675bf6e2dbc")
 	)
-	(label "WIIFI_HOST_WAKE"
+	(label "BT_REG_ON_H"
 		(at 140.97 74.93 180)
 		(effects
 			(font
@@ -16307,7 +16356,7 @@
 		)
 		(uuid "453fb1e2-0161-488e-911e-80cb6090d010")
 	)
-	(label "PCM_IN"
+	(label "SAI2_SDI_M0"
 		(at 140.97 86.36 180)
 		(effects
 			(font
@@ -16317,7 +16366,7 @@
 		)
 		(uuid "45c3e4be-dae2-4d6e-9d1d-91b7aadd6b18")
 	)
-	(label "WIIFI_REG_ON"
+	(label "WIFI_REG_ON_H"
 		(at 140.97 72.39 180)
 		(effects
 			(font
@@ -16327,7 +16376,7 @@
 		)
 		(uuid "689353fc-ef59-4785-bbd4-b45a552327c8")
 	)
-	(label "SDIO_D2"
+	(label "SDMMC1_D2_M0"
 		(at 140.97 50.8 180)
 		(effects
 			(font
@@ -16337,7 +16386,7 @@
 		)
 		(uuid "866914ed-ffa3-437b-9de2-e96ba4b3038b")
 	)
-	(label "UART_RX"
+	(label "UART4_TX_M1"
 		(at 140.97 67.31 180)
 		(effects
 			(font
@@ -16347,7 +16396,7 @@
 		)
 		(uuid "948c0549-e6f0-42ff-9abf-70353cf99f37")
 	)
-	(label "SDIO_D3"
+	(label "SDMMC1_D3_M0"
 		(at 140.97 53.34 180)
 		(effects
 			(font
@@ -16357,7 +16406,7 @@
 		)
 		(uuid "a1e97c78-9e01-4697-8e37-cdcf28431e09")
 	)
-	(label "PCM_CLK"
+	(label "SAI2_SCLK_M0"
 		(at 140.97 81.28 180)
 		(effects
 			(font
@@ -16367,7 +16416,7 @@
 		)
 		(uuid "a28458fd-0232-4f5e-9fef-f175160f9306")
 	)
-	(label "PCM_OUT"
+	(label "SAI2_SDO_M0"
 		(at 140.97 78.74 180)
 		(effects
 			(font
@@ -16377,7 +16426,7 @@
 		)
 		(uuid "da6da9b4-b3c4-4b92-8476-c969b962a264")
 	)
-	(label "PCM_SYNC"
+	(label "SAI2_LRCK_M0"
 		(at 140.97 83.82 180)
 		(effects
 			(font
@@ -16387,7 +16436,7 @@
 		)
 		(uuid "db6d835f-f428-40ba-9fd2-60a1e3e42961")
 	)
-	(label "SDIO_CMD"
+	(label "SDMMC1_CMD_M0"
 		(at 140.97 57.15 180)
 		(effects
 			(font
@@ -16397,7 +16446,7 @@
 		)
 		(uuid "dd2b1beb-a023-4c8a-9a39-0a6322c60ff5")
 	)
-	(label "SDIO_D1"
+	(label "SDMMC1_D0_M0"
 		(at 140.97 48.26 180)
 		(effects
 			(font
@@ -16407,7 +16456,7 @@
 		)
 		(uuid "e020f029-3c07-4280-9210-cef008b6eccc")
 	)
-	(label "UART_RST"
+	(label "UART4_RTSN_M1"
 		(at 140.97 62.23 180)
 		(effects
 			(font
@@ -16417,7 +16466,17 @@
 		)
 		(uuid "f2471df6-fc99-4d13-b90f-6c1acad15a69")
 	)
-	(label "SDIO_D0"
+	(label "WIFI_BT_ANT_CTRL"
+		(at 140.97 91.44 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc2a450b-e813-4b32-95dc-f9a0304f4953")
+	)
+	(label "SDMMC1_D1_M0"
 		(at 140.97 45.72 180)
 		(effects
 			(font
@@ -16427,8 +16486,8 @@
 		)
 		(uuid "fe81f493-ad35-4201-a0db-afe800bb8d5c")
 	)
-	(label "BT_REG_ON"
-		(at 139.7 88.9 180)
+	(label "HOST_WAKE_BT_H"
+		(at 140.97 88.9 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -16440,6 +16499,7 @@
 	(hierarchical_label "WIFI_SDIO"
 		(shape bidirectional)
 		(at 146.05 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16447,21 +16507,24 @@
 			(justify left)
 		)
 		(uuid "10c399a8-1be9-490c-a64b-e28f97fc3f73")
-	)
-	(hierarchical_label "BT_CTRL"
-		(shape bidirectional)
-		(at 146.05 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Netclass" "WIFI_SDIO"
+			(at 146.05 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
-			(justify left)
 		)
-		(uuid "54859f68-d5f8-4def-b124-fc66d69d6b95")
 	)
 	(hierarchical_label "BT_UART"
 		(shape bidirectional)
 		(at 146.05 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16469,10 +16532,24 @@
 			(justify left)
 		)
 		(uuid "55d7ffca-76fe-4118-b131-283dbe5a85ef")
+		(property "Netclass" "BT_UART"
+			(at 146.05 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "WIFI_CTRL"
+	(hierarchical_label "WIFI_GPIOs"
 		(shape bidirectional)
 		(at 146.05 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16480,21 +16557,49 @@
 			(justify left)
 		)
 		(uuid "6e67b402-3ede-451f-9bb4-b4ecc6b9a9ea")
+		(property "Netclass" "WIFI_GPIOs"
+			(at 146.05 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "WIFI_BT_ANT_CTRL"
+	(hierarchical_label "WIFI_GPIOs"
 		(shape bidirectional)
-		(at 146.05 91.44 0)
+		(at 146.05 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7fcc18fc-1218-41ab-a8ba-67201c4b69ed")
+		(uuid "9fde8bcb-55fb-47fb-a274-c60bb0371a80")
+		(property "Netclass" "WIFI_GPIOs"
+			(at 146.05 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "BT_PCM"
+	(hierarchical_label "BT_BCM"
 		(shape bidirectional)
 		(at 146.05 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16502,6 +16607,69 @@
 			(justify left)
 		)
 		(uuid "a63425fd-e4ea-4239-8e93-3039664b3aa2")
+		(property "Netclass" "BT_BCM"
+			(at 146.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "BT_GPIOs"
+		(shape bidirectional)
+		(at 146.05 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ede54e67-5897-4acf-897e-1069be4dcb3c")
+		(property "Netclass" "BT_GPIOs"
+			(at 146.05 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "BT_GPIOs"
+		(shape bidirectional)
+		(at 146.05 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f68367b5-3b14-4a7a-9365-dda28cb4e3e3")
+		(property "Netclass" "BT_GPIOs"
+			(at 146.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -16515,7 +16683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33616b82-0ba9-48d8-aafc-0132817cda5e")
-		(property "Reference" "#PWR0419"
+		(property "Reference" "#PWR0134"
 			(at 55.88 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16575,7 +16743,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/758a90de-94a4-4b45-a7ba-61e4621900fd"
-					(reference "#PWR0419")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -16591,10 +16759,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d79e8d6-422e-4c6d-a433-9c1cf5e6134f")
-		(property "Reference" "U27"
-			(at 96.52 26.67 0)
+		(property "Reference" "U2"
+			(at 96.52 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16604,7 +16771,7 @@
 			)
 		)
 		(property "Value" "RK3576"
-			(at 96.52 29.21 0)
+			(at 96.52 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16651,6 +16818,7 @@
 		)
 		(property "Manf" "Rockchip"
 			(at 96.52 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16661,6 +16829,7 @@
 		)
 		(property "MPN" "RK3576"
 			(at 96.52 34.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16671,6 +16840,62 @@
 		)
 		(property "Package" "FCCSP698L"
 			(at 96.52 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 96.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 96.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 96.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 96.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 96.52 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18794,7 +19019,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/758a90de-94a4-4b45-a7ba-61e4621900fd"
-					(reference "U27")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -18811,7 +19036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d44ca5d9-8ef5-442c-9838-d79eaa26fe0c")
-		(property "Reference" "#PWR0420"
+		(property "Reference" "#PWR0135"
 			(at 55.88 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18871,7 +19096,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/758a90de-94a4-4b45-a7ba-61e4621900fd"
-					(reference "#PWR0420")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -18889,7 +19114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ac577b-0848-45fc-9034-c32cbd37217d")
-		(property "Reference" "C325"
+		(property "Reference" "C98"
 			(at 58.42 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18944,6 +19169,61 @@
 				)
 			)
 		)
+		(property "Dielectric" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5babc485-7b2f-42ea-958d-2047eff7e615")
 		)
@@ -18953,7 +19233,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/758a90de-94a4-4b45-a7ba-61e4621900fd"
-					(reference "C325")
+					(reference "C98")
 					(unit 1)
 				)
 			)

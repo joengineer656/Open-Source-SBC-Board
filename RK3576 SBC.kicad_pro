@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -511,13 +511,333 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "40PIN_GPIOs",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 28,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "BT_BCM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 14,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "BT_CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 29,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "BT_GPIOs",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "BT_UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 30,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Close to BGA ",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 16,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "EMMC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 22,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "GMAC_0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 13,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 26,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "HDMI_GPIOs",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "LPDDR5",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 17,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MIPI_CSI12",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 19,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MIPI_CSI_CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MIPI_DSI0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 18,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PCIE0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 25,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PCIE0_CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 27,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PMIC_GPIOs",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RTC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "UFS_2.0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 20,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB3_HOST",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB3_HOST1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB3_HOST2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB3_HOST3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB3_HOST4",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB3_OTG1_USB_HUB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 24,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB_C_OTG0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 23,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB_C_OTG0_GPIOs",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 12,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Under BGA ",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 15,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "WIFI_ANT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "WIFI_CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 31,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "WIFI_GPIOs",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "line_style": 0,
+        "name": "WIFI_SDIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 32,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "uSD_CARD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 21,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/4x USB Hub/USB3_HOST1": [
+        "USB3_HOST1"
+      ],
+      "/4x USB Hub/USB3_HOST2": [
+        "USB3_HOST2"
+      ],
+      "/4x USB Hub/USB3_HOST3": [
+        "USB3_HOST3"
+      ],
+      "/4x USB Hub/USB3_HOST4": [
+        "USB3_HOST4"
+      ],
+      "/4x USB Hub/USB3_OTG1_USB_HUB": [
+        "USB3_OTG1_USB_HUB"
+      ],
+      "/HDMI/HDMI": [
+        "HDMI"
+      ],
+      "/HDMI/HDMI_PWREN_H": [
+        "USB3_HOST"
+      ],
+      "/HDMI/HDMI_TX_ON": [
+        "HDMI_GPIOs"
+      ],
+      "/MIPI/MIPI_CSI12": [
+        "MIPI_CSI12"
+      ],
+      "/MIPI/MIPI_CSI_CTRL": [
+        "MIPI_CSI_CTRL"
+      ],
+      "/MIPI/MIPI_DSI0": [
+        "MIPI_DSI0"
+      ],
+      "/PCIe/PCIE0": [
+        "PCIE0"
+      ],
+      "/PCIe/PCIE0_CTRL": [
+        "PCIE0_CTRL"
+      ],
+      "/RK3576/GPIO1/BT_BCM": [
+        "BT_BCM"
+      ],
+      "/RK3576/GPIO1/BT_GPIOs": [
+        "BT_GPIOs"
+      ],
+      "/RK3576/GPIO1/BT_UART": [
+        "BT_UART"
+      ],
+      "/RK3576/GPIO1/WIFI_GPIOs": [
+        "WIFI_GPIOs"
+      ],
+      "/RK3576/GPIO1/WIFI_SDIO": [
+        "WIFI_SDIO"
+      ],
+      "/RK3576/GPIO2/PCIE0_CTRL": [
+        "PCIE0_CTRL"
+      ],
+      "/USB3.2 Host/USB3_HOST_PWREN_H": [
+        "USB3_HOST"
+      ],
+      "/USB3.2 OTG/USB_C_OTG0": [
+        "USB_C_OTG0"
+      ],
+      "/USB3.2 OTG/USB_C_OTG0_GPIOs": [
+        "USB_C_OTG0_GPIOs"
+      ],
+      "/WIFI & Blutooth/BT_BCM": [
+        "BT_BCM"
+      ],
+      "/WIFI & Blutooth/BT_GPIOs": [
+        "BT_GPIOs"
+      ],
+      "/WIFI & Blutooth/BT_UART": [
+        "BT_UART"
+      ],
+      "/WIFI & Blutooth/WIFI_GPIOs": [
+        "WIFI_GPIOs"
+      ],
+      "/WIFI & Blutooth/WIFI_SDIO": [
+        "WIFI_SDIO"
+      ],
+      "/uSD Card/uSD_CARD": [
+        "uSD_CARD"
+      ],
+      "/uSD Card/uSD_PWREN_H": [
+        "USB3_HOST"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -761,13 +1081,37 @@
           "label": "Author",
           "name": "Author",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S5.1",
+          "name": "KLC_S5.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
+      "sort_asc": true,
       "sort_field": "Reference"
     },
     "bus_aliases": {},
@@ -811,7 +1155,7 @@
         "uuid": "b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3"
       }
     ],
-    "used_designators": "J1-13,R1-169,#PWR1-971,D1-23,U1-43,C1-798,FL1-5,Y1-6,L1-17,AE1-3,Q1-6,LED1-4,JP1,F1-2,NT1-10,SW1-5,#SYM2,#SYMr2",
+    "used_designators": "J1-17,J501,J2001,J2101,J2201-2202,J2501-2502,J2601,J2801,J3001-3002,J3101,J3201,J5001,J20001,J21001,J22001-22002,J25001-25002,J26001,J28001,J30001-30002,J31001,J32001,R1-180,R201-211,R501-510,R1001-1009,R1101-1104,R1201,R1301-1303,R1401-1403,R1701,R2001-2011,R2101-2107,R2201-2216,R2301-2304,R2401,R2501-2530,R2601-2612,R2801-2814,R2901-2912,R3001-3002,R3101-3107,R3201-3202,R5001-5010,R10001-10009,R11001-11004,R12001,R13001-13003,R14001-14003,R17001,R20001-20007,R21001-21007,R22001-22016,R23001-23004,R24001,R25001-25030,R26001-26012,R28001-28014,R29001-29012,R30001-30002,R31001-31007,R32001-32002,#PWR1-971,#PWR1001-1019,#PWR1101-1110,#PWR1201-1205,#PWR1301-1312,#PWR1401-1412,#PWR1601-1602,#PWR1701-1707,#PWR1801-1818,#PWR1901-1908,#PWR2001-2074,#PWR2101-2115,#PWR2201-2232,#PWR2301-2320,#PWR2401-2468,#PWR2501-2523,#PWR2601-2621,#PWR2701-2711,#PWR2801-2807,#PWR2901-2920,#PWR3001-3015,#PWR3101-3106,#PWR3201-3206,#PWR4001-4036,#PWR5001-5023,#PWR6001-6002,#PWR7001-7002,#PWR8001-8003,#PWR9001-9005,#PWR10001-10019,#PWR11001-11010,#PWR12001-12005,#PWR13001-13012,#PWR14001-14012,#PWR16001-16002,#PWR17001-17007,#PWR18001-18018,#PWR19001-19008,#PWR20001-20009,#PWR21001-21015,#PWR22001-22032,#PWR23001-23020,#PWR24001-24068,#PWR25001-25023,#PWR26001-26021,#PWR27001-27011,#PWR28001-28007,#PWR29001-29020,#PWR30001-30015,#PWR31001-31006,#PWR32001-32006,D1-28,D201,D501-503,D1001-1002,D2001,D2101-2104,D2201-2204,D2601-2602,D5001-5003,D10001-10002,D20001,D21001-21004,D22001-22004,D26001-26002,U1-43,U201,U401,U2001,U2101-2104,U2201-2208,U2301,U2401,U2501,U2601-2605,U2701,U2801-2802,U2901-2902,U4001,U20001,U21001-21004,U22001-22008,U23001,U24001,U25001,U26001-26005,U27001,U28001-28002,U29001-29002,C1-798,C801-802,C901-903,C1001-1010,C1101-1103,C1201-1202,C1301-1315,C1401-1408,C1601,C1701-1704,C1801-1811,C1901-1904,C2001-2059,C2101-2115,C2201-2224,C2301-2325,C2401-2462,C2501-2515,C2601-2613,C2701-2715,C2801-2802,C2901-2911,C3001-3010,C3101-3104,C3201-3202,C4001-4029,C5001-5009,C6001,C7001,C8001-8002,C9001-9003,C10001-10010,C11001-11003,C12001-12002,C13001-13015,C14001-14008,C16001,C17001-17004,C18001-18011,C19001-19004,C20001-20002,C21001-21015,C22001-22024,C23001-23025,C24001-24062,C25001-25015,C26001-26013,C27001-27015,C28001-28002,C29001-29011,C30001-30010,C31001-31004,C32001-32002,FL1-5,FL2101,FL2201-2204,FL21001,FL22001-22004,Y1-6,Y501,Y1401,Y2301,Y2501,Y2901,Y5001,Y14001,Y23001,Y25001,Y29001,L1-17,L201-210,L2001-2010,L2301,L2501,L2901-2902,L23001,L25001,L29001-29002,AE1-3,AE2901-2902,AE29001-29002,Q1-7,Q501,Q2601-2604,Q2901,Q5001,Q26001-26004,Q29001,LED1-4,LED501-502,LED2901,LED5001-5002,LED29001,JP1,JP2901,JP29001,F1-2,F2901-2902,F29001-29002,NT1-11,NT201-210,NT2001-2010,SW1-5,SW201,SW1001-1003,SW2001,SW10001-10003,#SYM1-3,#SYM101,#SYM1001,#SYMr1-2,#SYMr101,#SYMr1001,H1-4,TP1,FID1-4",
     "variants": []
   },
   "sheets": [
@@ -940,8 +1284,16 @@
       "PCIe"
     ],
     [
+      "8d8ca3e7-edc3-4c27-95c5-36c0528be879",
+      "RTC"
+    ],
+    [
       "3beb9ecc-ec91-4a8b-b1be-4e680ab0fbb5",
       "40Pin Header"
+    ],
+    [
+      "10e9244f-4cbe-4d20-b848-5b1e81efdab1",
+      "Mechanical"
     ]
   ],
   "text_variables": {},
