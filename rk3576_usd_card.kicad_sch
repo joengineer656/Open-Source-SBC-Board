@@ -16187,16 +16187,30 @@
 		)
 		(uuid "fd19b52b-1838-4c6c-904f-2e2d14d1ca0c")
 	)
-	(hierarchical_label "uSD_SDIO"
+	(hierarchical_label "uSD_CARD"
 		(shape bidirectional)
 		(at 179.07 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1d20648f-2dc9-497e-88cd-d7e3d25b8a6b")
+		(uuid "a645247f-b67e-45e4-8495-033797dccc0f")
+		(property "Netclass" "uSD_CARD"
+			(at 179.07 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
@@ -16211,7 +16225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fee3d90-a753-4f29-be74-388c35387665")
-		(property "Reference" "C143"
+		(property "Reference" "C151"
 			(at 58.42 71.1262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16330,7 +16344,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/e3169b31-7633-42aa-8b59-c93f8fc73ecf"
-					(reference "C143")
+					(reference "C151")
 					(unit 1)
 				)
 			)
@@ -16348,7 +16362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dedc64d-1977-4812-a2b2-91e12bff6079")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0217"
 			(at 60.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -16408,7 +16422,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/e3169b31-7633-42aa-8b59-c93f8fc73ecf"
-					(reference "#PWR0205")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -16426,7 +16440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3da54859-e84f-4153-a0cf-fbf4518e4dd9")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0216"
 			(at 60.96 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16486,7 +16500,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/e3169b31-7633-42aa-8b59-c93f8fc73ecf"
-					(reference "#PWR0204")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -16504,7 +16518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4808898-98d8-4657-8b67-778fc60d5986")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 101.6 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16524,7 +16538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:FCCSP-698_L17.2-W16.1-TL_RK3576"
 			(at 34.29 24.765 0)
 			(hide yes)
 			(show_name no)
@@ -18742,7 +18756,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/e3169b31-7633-42aa-8b59-c93f8fc73ecf"
-					(reference "U2")
+					(reference "U3")
 					(unit 16)
 				)
 			)

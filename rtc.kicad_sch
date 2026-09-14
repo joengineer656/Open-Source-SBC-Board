@@ -783,199 +783,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Connectors:JST_02"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JST_02"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "JST Connector  2 pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "JST 2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JST_02_0_1"
-				(rectangle
-					(start -1.27 2.54)
-					(end 1.27 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 -1.778) (xy 1.016 -1.778) (xy 1.016 -2.286)
-						(xy -1.016 -2.286) (xy -1.016 -1.778) (xy -1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0.254 1.27)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0.254 -1.27)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 1.778)
-					(end 1.27 -1.778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.778) (xy 1.27 2.54) (xy -1.27 2.54) (xy -1.27 1.778) (xy -1.016 1.778) (xy -1.016 2.286)
-						(xy 1.016 2.286) (xy 1.016 1.778) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "JST_02_1_1"
-				(pin passive line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Transistor_MOSFET_AKL:AO3401A"
 			(pin_names
 				(hide yes)
@@ -1243,6 +1050,223 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_fab:Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 5.715 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001"
+				(at 5.715 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_fab:Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-001.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery, Linx BAT-HLD-001, Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell 2025 2032 retainer holder 20mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Battery?Holder*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001_0_1"
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -5.08 0) (xy -5.08 -1.27) (xy -4.445 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.54) (xy 3.175 2.54) (xy 4.445 1.27) (xy 4.445 -2.54) (xy -4.445 -2.54) (xy -4.445 1.27)
+						(xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -2.54 -1.27) (xy -1.905 -1.27) (xy -1.905 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0.635) (xy 1.905 -1.27) (xy 2.54 -1.27) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 5.08 0) (xy 5.08 -1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1774,60 +1798,78 @@
 		(uuid "0c732593-f303-4d0a-931b-40cc225b1e45")
 	)
 	(junction
-		(at 63.5 73.66)
+		(at 58.42 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ed5dbfb-c1c3-4667-9c89-415ebb0281e9")
 	)
 	(junction
-		(at 102.87 48.26)
+		(at 97.79 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1330288d-7868-41f2-b41d-047bfb2506a0")
 	)
 	(junction
-		(at 63.5 57.15)
+		(at 58.42 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3629338a-e577-430e-89a2-1ac8ed8978f1")
 	)
 	(junction
-		(at 71.12 76.2)
+		(at 66.04 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b383fa0-d501-4bf7-9ff8-63592fd52a4f")
 	)
 	(junction
-		(at 138.43 48.26)
+		(at 133.35 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63d10b56-cd94-47a9-b6cb-069edc8e6e3a")
 	)
 	(junction
-		(at 85.09 48.26)
+		(at 80.01 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a63139e-85a7-433a-aff9-26c0071e247a")
 	)
 	(junction
-		(at 132.08 81.28)
+		(at 127 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "808ff4b9-f324-450c-a14c-018d06e65a92")
 	)
 	(junction
-		(at 116.84 81.28)
+		(at 111.76 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1020d07-4452-4f81-98a2-694f2cf88e68")
 	)
 	(no_connect
-		(at 85.09 81.28)
+		(at 80.01 81.28)
 		(uuid "949e0841-345e-4a85-9eb9-32c6a7535f06")
+	)
+	(bus_entry
+		(at 182.88 35.56)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6dfad1-c109-4e2c-99e4-5ed0318809a5")
+	)
+	(bus_entry
+		(at 182.88 33.02)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724a9452-a8a5-4bcd-a6a8-238a3dab030a")
 	)
 	(wire
 		(pts
-			(xy 45.72 73.66) (xy 63.5 73.66)
+			(xy 40.64 73.66) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1879,27 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 63.5 73.66)
+			(xy 166.37 35.56) (xy 182.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129ee3cc-b3eb-46c5-90da-a79ace99bc8a")
+	)
+	(bus
+		(pts
+			(xy 185.42 30.48) (xy 186.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa0039f-7ecb-4b45-b0c3-70a7c9a3c8e4")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 81.28) (xy 132.08 81.28)
+			(xy 111.76 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 55.88) (xy 63.5 57.15)
+			(xy 58.42 55.88) (xy 58.42 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1929,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 132.08 81.28)
+			(xy 166.37 33.02) (xy 182.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3315d797-c0df-4460-a1cd-f59e7b8b7db9")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 57.15) (xy 71.12 57.15)
+			(xy 58.42 57.15) (xy 66.04 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 57.15) (xy 63.5 58.42)
+			(xy 58.42 57.15) (xy 58.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 48.26) (xy 97.79 68.58)
+			(xy 92.71 48.26) (xy 92.71 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 58.42) (xy 138.43 59.69)
+			(xy 133.35 58.42) (xy 133.35 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 116.84 81.28)
+			(xy 111.76 72.39) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 83.82) (xy 132.08 83.82)
+			(xy 130.81 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1935,19 +2007,19 @@
 		)
 		(uuid "66427a91-d212-46d6-946f-c077d209e601")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 156.21 50.8) (xy 157.48 50.8)
+			(xy 185.42 30.48) (xy 185.42 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7058264b-80c6-43bb-bb42-76041ad10d05")
+		(uuid "7c50909f-4a83-41f7-aa21-32473b7f1474")
 	)
 	(wire
 		(pts
-			(xy 45.72 76.2) (xy 71.12 76.2)
+			(xy 40.64 76.2) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 147.32 48.26)
+			(xy 133.35 48.26) (xy 142.24 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 58.42) (xy 71.12 57.15)
+			(xy 66.04 58.42) (xy 66.04 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 116.84 67.31)
+			(xy 111.76 63.5) (xy 111.76 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 48.26) (xy 95.25 48.26)
+			(xy 80.01 48.26) (xy 90.17 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 81.28) (xy 116.84 81.28)
+			(xy 105.41 81.28) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 135.89 48.26)
+			(xy 133.35 48.26) (xy 130.81 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2017,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 76.2) (xy 85.09 76.2)
+			(xy 66.04 76.2) (xy 80.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 129.54 76.2)
+			(xy 105.41 76.2) (xy 124.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 81.28) (xy 132.08 83.82)
+			(xy 127 81.28) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 152.4 48.26)
+			(xy 147.32 48.26) (xy 154.94 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 46.99) (xy 85.09 48.26)
+			(xy 80.01 46.99) (xy 80.01 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 83.82) (xy 146.05 83.82)
+			(xy 135.89 83.82) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 71.12 76.2)
+			(xy 66.04 63.5) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 48.26) (xy 102.87 48.26)
+			(xy 120.65 48.26) (xy 97.79 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 73.66) (xy 85.09 73.66)
+			(xy 58.42 73.66) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 48.26) (xy 95.25 68.58)
+			(xy 90.17 48.26) (xy 90.17 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 48.26) (xy 97.79 48.26)
+			(xy 97.79 48.26) (xy 92.71 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 80.01) (xy 132.08 80.01)
+			(xy 130.81 80.01) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 80.01) (xy 146.05 80.01)
+			(xy 135.89 80.01) (xy 161.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2145,8 +2217,20 @@
 		)
 		(uuid "f90c3162-fb75-4466-bf3e-f809ebfff2c3")
 	)
+	(label "I2C2_SDA_M0_CC_RTC"
+		(at 166.37 35.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "036cb5cd-0d4c-48f3-95b5-1a7bf3b7692d")
+	)
 	(label "RTC_INT_L"
-		(at 129.54 76.2 180)
+		(at 124.46 76.2 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2158,7 +2242,7 @@
 		(uuid "0f33ad81-512b-4ffe-821c-5f83beab7eb5")
 	)
 	(label "I2C2_SDA_M0_CC_RTC"
-		(at 45.72 76.2 0)
+		(at 40.64 76.2 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2169,8 +2253,20 @@
 		)
 		(uuid "12586cf6-4370-488d-b13c-f207477347ed")
 	)
+	(label "RTC_32KOUT_SOC"
+		(at 158.75 80.01 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b236edf-a166-48c8-be91-6d5f75cde4c2")
+	)
 	(label "I2C2_SCL_M0_CC_RTC"
-		(at 45.72 73.66 0)
+		(at 40.64 73.66 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2181,9 +2277,33 @@
 		)
 		(uuid "55944df5-7d17-493d-8ab8-00851e4ac460")
 	)
+	(label "RTC_32KOUT_WIFI"
+		(at 158.75 83.82 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b8c1252-654b-4d35-8a85-6bb75bd0f44e")
+	)
+	(label "I2C2_SCL_M0_CC_RTC"
+		(at 166.37 33.02 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e428d879-fc71-41a0-b97a-6bb3c82bb88e")
+	)
 	(hierarchical_label "RTC_32KOUT_SOC"
 		(shape output)
-		(at 146.05 80.01 0)
+		(at 161.29 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2194,7 +2314,7 @@
 	)
 	(hierarchical_label "RTC_32KOUT_WIFI"
 		(shape output)
-		(at 146.05 83.82 0)
+		(at 161.29 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2203,9 +2323,20 @@
 		)
 		(uuid "1a623189-5974-4f39-a23b-830f77ac3107")
 	)
+	(hierarchical_label "I2C_RTC"
+		(shape bidirectional)
+		(at 186.69 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aef15a1-4ec4-4fab-b0c7-324b239b502f")
+	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 85.09 46.99 0)
+		(at 80.01 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2214,8 +2345,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "002bdf11-7b02-4a67-bd80-5d24bd82c97d")
-		(property "Reference" "#PWR0531"
-			(at 85.09 50.8 0)
+		(property "Reference" "#PWR0498"
+			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2226,7 +2357,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3_S0"
-			(at 85.09 42.926 0)
+			(at 80.01 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2236,7 +2367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 46.99 0)
+			(at 80.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 46.99 0)
+			(at 80.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 85.09 46.99 0)
+			(at 80.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2269,12 +2400,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "925ba473-aef5-4f81-931d-01d6938ff7c0")
+			(uuid "088d1921-2e9b-4b38-a5c7-304e7952c47d")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0531")
+					(reference "#PWR0498")
 					(unit 1)
 				)
 			)
@@ -2282,7 +2413,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 88.9 0)
+		(at 92.71 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2291,8 +2422,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19725142-417f-49d3-8683-1fe1e5b97051")
-		(property "Reference" "#PWR0468"
-			(at 97.79 95.25 0)
+		(property "Reference" "#PWR0506"
+			(at 92.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 92.71 0)
+			(at 92.71 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2313,7 +2444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 88.9 0)
+			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,7 +2455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 88.9 0)
+			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,7 +2466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 88.9 0)
+			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2346,94 +2477,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dabe117a-2fc3-44cf-882a-fe3361439956")
+			(uuid "3d70fe85-0786-4edd-8191-3220060e18fc")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0468")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Connectors:JST_02")
-		(at 161.29 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27029d41-6cb5-445c-82d7-50e90df998c8")
-		(property "Reference" "J14"
-			(at 163.83 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B Connector"
-			(at 163.83 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 161.29 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "JST Connector  2 pins"
-			(at 161.29 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "595ac7ea-4de1-4373-a9ba-8bbfaca89953")
-		)
-		(pin "1"
-			(uuid "da07aa0c-fc70-4c4a-a5ac-a22aca10a428")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "J14")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -2441,7 +2490,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 59.69 0)
+		(at 124.46 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2450,8 +2499,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "287c972c-af89-4a3a-af2d-6f32b638e2fa")
-		(property "Reference" "#PWR0533"
-			(at 129.54 66.04 0)
+		(property "Reference" "#PWR0503"
+			(at 124.46 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2462,7 +2511,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 63.5 0)
+			(at 124.46 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2472,7 +2521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 59.69 0)
+			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2483,7 +2532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 59.69 0)
+			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2494,7 +2543,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 59.69 0)
+			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2505,12 +2554,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8eb1638a-b395-4de2-a075-92fd327995f6")
+			(uuid "8abd0388-83c1-4e64-b72d-9b769f38b7ac")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0533")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -2518,7 +2567,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:AO3401A")
-		(at 130.81 50.8 90)
+		(at 125.73 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2529,7 +2578,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e242b8b-1446-4f13-9ba3-dd8136d2f0cf")
 		(property "Reference" "Q7"
-			(at 130.81 41.91 90)
+			(at 125.73 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2539,7 +2588,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 130.81 44.45 90)
+			(at 125.73 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2549,7 +2598,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 133.35 45.72 0)
+			(at 128.27 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2609,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d25b071532a0a1e329733a03427696ee/AO3401A-DTE.pdf"
-			(at 130.81 50.8 0)
+			(at 125.73 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +2620,7 @@
 			)
 		)
 		(property "Description" "SOT-23 P-MOSFET enchancement mode transistor, 30V, 4A, 1.4W, Alternate KiCAD Library"
-			(at 130.81 50.8 0)
+			(at 125.73 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,13 +2631,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "67b3c245-9913-4547-9848-f8e7944ad662")
+			(uuid "f0f5c538-3cf6-4b93-8bbd-b1532d6c481b")
 		)
 		(pin "1"
-			(uuid "c3cbdb34-510d-453f-a34b-6332b0fa2b5e")
+			(uuid "dca7c676-405a-43c0-a94f-ff9277b6b8f1")
 		)
 		(pin "2"
-			(uuid "633b301c-9997-429c-8b72-f01c444bb847")
+			(uuid "991abf21-5850-4919-9f87-77a23d03c10c")
 		)
 		(instances
 			(project "RK3576 SBC"
@@ -2601,7 +2650,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 149.86 48.26 90)
+		(at 144.78 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2611,7 +2660,7 @@
 		(dnp no)
 		(uuid "3542b9c0-1698-441b-87aa-11f1e4b0b33f")
 		(property "Reference" "F1"
-			(at 149.86 43.434 90)
+			(at 144.78 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2621,7 +2670,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 149.86 45.974 90)
+			(at 144.78 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2631,7 +2680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 46.99 0)
+			(at 149.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2643,7 +2692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 48.26 0)
+			(at 144.78 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2654,7 +2703,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 149.86 48.26 0)
+			(at 144.78 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2665,10 +2714,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba93c631-8245-457a-a5fa-d16c8224ac16")
+			(uuid "c3612c79-8b9a-47e5-a37b-911d413ff863")
 		)
 		(pin "2"
-			(uuid "81274d58-c250-41db-963f-642c88523971")
+			(uuid "9cc8a1f8-9c3a-4c04-9a2d-4c9bf24d1e9b")
 		)
 		(instances
 			(project "RK3576 SBC"
@@ -2681,7 +2730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 138.43 80.01 90)
+		(at 133.35 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2690,8 +2739,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b6cd362-6477-4376-93d9-9fdef2bb7f98")
-		(property "Reference" "R134"
-			(at 134.62 78.74 90)
+		(property "Reference" "R162"
+			(at 129.54 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2701,7 +2750,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 142.748 78.74 90)
+			(at 137.668 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2711,7 +2760,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm"
-			(at 138.43 80.01 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 80.01 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2733,7 +2782,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 138.43 80.01 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2744,7 +2793,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 138.43 80.01 90)
+			(at 133.35 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2755,7 +2804,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 138.43 80.01 90)
+			(at 133.35 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2766,7 +2815,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 138.43 80.01 90)
+			(at 133.35 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2777,7 +2826,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 138.43 80.01 90)
+			(at 133.35 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2788,7 +2837,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 138.43 80.01 90)
+			(at 133.35 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2799,15 +2848,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9d046e6-48ee-4825-bb26-bf1fff441c4d")
+			(uuid "b8479d3a-a98c-4ea2-877c-bb76ef941729")
 		)
 		(pin "2"
-			(uuid "f179b3c4-45b9-4f6f-9898-6fc30260b204")
+			(uuid "fbda19c0-f893-4478-bd0d-367ac29030c7")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R134")
+					(reference "R162")
 					(unit 1)
 				)
 			)
@@ -2815,7 +2864,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 116.84 63.5 0)
+		(at 111.76 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2824,8 +2873,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4982d97b-ea3d-4a45-b47b-a4b9e1ddb1bd")
-		(property "Reference" "#PWR0532"
-			(at 116.84 67.31 0)
+		(property "Reference" "#PWR0505"
+			(at 111.76 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2836,7 +2885,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3_S0"
-			(at 116.84 59.436 0)
+			(at 111.76 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2846,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 63.5 0)
+			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,7 +2906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 63.5 0)
+			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2868,7 +2917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 63.5 0)
+			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,12 +2928,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0bf0b93c-655d-4775-b425-16c4674268e4")
+			(uuid "e72cfd10-edda-47eb-a06e-5bb342cce66b")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0532")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -2892,7 +2941,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 71.12 60.96 0)
+		(at 66.04 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2901,8 +2950,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67bb5064-ed14-4c75-acf7-88d992b52b06")
-		(property "Reference" "R175"
-			(at 72.644 59.69 0)
+		(property "Reference" "R160"
+			(at 67.564 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2913,7 +2962,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 72.644 62.23 0)
+			(at 67.564 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2924,7 +2973,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 72.136 61.214 90)
+			(at 67.056 61.214 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2935,7 +2984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 60.96 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2946,7 +2995,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 71.12 60.96 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +3006,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 71.12 60.96 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +3017,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 71.12 60.96 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +3028,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 71.12 60.96 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,7 +3039,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 71.12 60.96 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +3050,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 71.12 60.96 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3012,15 +3061,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "42544ce6-8f19-43a9-be40-8ba4d6bc593e")
+			(uuid "397a2829-3332-4fac-9e4c-7e413d0b58a3")
 		)
 		(pin "2"
-			(uuid "9d34eb77-36d5-45f8-ac15-3e0afbc98513")
+			(uuid "98e73f8a-73f3-474a-8de8-5c243d6d725e")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R175")
+					(reference "R160")
 					(unit 1)
 				)
 			)
@@ -3028,7 +3077,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 138.43 83.82 90)
+		(at 133.35 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3037,8 +3086,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71b6dfc6-9870-4206-ab56-df788f5dbb97")
-		(property "Reference" "R143"
-			(at 134.62 82.55 90)
+		(property "Reference" "R163"
+			(at 129.54 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3048,7 +3097,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 142.748 82.55 90)
+			(at 137.668 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3058,7 +3107,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm"
-			(at 138.43 83.82 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3069,7 +3118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 83.82 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3080,7 +3129,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 138.43 83.82 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3091,7 +3140,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 138.43 83.82 90)
+			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3102,7 +3151,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 138.43 83.82 90)
+			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3113,7 +3162,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 138.43 83.82 90)
+			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3124,7 +3173,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 138.43 83.82 90)
+			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3184,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 138.43 83.82 90)
+			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3146,15 +3195,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "131d4d0e-af3d-4758-8e96-71723acd2d94")
+			(uuid "8c562dcd-7a6c-49b8-9997-9d6ff43f4a40")
 		)
 		(pin "2"
-			(uuid "e8a11170-e2a2-46fc-9538-2418d33fbaf0")
+			(uuid "036578b5-e084-4d57-ad83-bb4cdc86ad2a")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R143")
+					(reference "R163")
 					(unit 1)
 				)
 			)
@@ -3162,7 +3211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 53.34 0)
+		(at 80.01 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3171,8 +3220,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d242d08-eecb-4ad8-80f4-423d5030acb1")
-		(property "Reference" "#PWR0502"
-			(at 85.09 59.69 0)
+		(property "Reference" "#PWR0499"
+			(at 80.01 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3183,7 +3232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 57.15 0)
+			(at 80.01 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3193,7 +3242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 53.34 0)
+			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,7 +3253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 53.34 0)
+			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3215,7 +3264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 53.34 0)
+			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3226,7 +3275,298 @@
 			)
 		)
 		(pin "1"
-			(uuid "b557cc6b-093d-4cdf-8d5c-fdbb91427dae")
+			(uuid "70d941ef-742c-4237-b5f7-93eab65ec4d9")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "#PWR0499")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b0af642-4f46-4429-81d8-56daf176839b")
+		(property "Reference" "#PWR0504"
+			(at 133.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a312f33-c359-4cc6-9bbc-5622bb34ffc7")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "#PWR0504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library_0:C_Small_edited")
+		(at 80.01 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b1ef545-f49d-4a6b-be7a-fcb298c71ced")
+		(property "Reference" "C370"
+			(at 82.55 49.5362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 82.55 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd7ba54e-332e-4941-abaa-be7e147b7ddf")
+		)
+		(pin "2"
+			(uuid "367e04a9-54e5-4dfb-b173-82d055acdde1")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "C370")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90b75b1a-f899-4e45-a0ab-00079d4786ef")
+		(property "Reference" "#PWR0502"
+			(at 154.94 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2a28a1e-0030-475d-b8d0-c5f93ebb869d")
 		)
 		(instances
 			(project "RK3576 SBC"
@@ -3239,298 +3579,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b0af642-4f46-4429-81d8-56daf176839b")
-		(property "Reference" "#PWR0534"
-			(at 138.43 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4821a3c-11c9-4c42-91c7-f086786d4273")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0534")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library_0:C_Small_edited")
-		(at 85.09 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b1ef545-f49d-4a6b-be7a-fcb298c71ced")
-		(property "Reference" "C367"
-			(at 87.63 49.5362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 87.63 52.0762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 85.09 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "accacee5-c0fc-4846-8595-e4a8f94443c3")
-		)
-		(pin "2"
-			(uuid "103dce48-650f-43ff-afbc-880918818006")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "C367")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90b75b1a-f899-4e45-a0ab-00079d4786ef")
-		(property "Reference" "#PWR0471"
-			(at 156.21 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "699074c3-1e07-4b3a-bbf3-0c811be6b5ea")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0471")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 102.87 53.34 0)
+		(at 97.79 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3539,8 +3588,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a997e9c3-2638-4f94-a3ef-759181b49dec")
-		(property "Reference" "#PWR0503"
-			(at 102.87 59.69 0)
+		(property "Reference" "#PWR0500"
+			(at 97.79 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,7 +3600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 57.15 0)
+			(at 97.79 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3561,7 +3610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 53.34 0)
+			(at 97.79 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,7 +3621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 53.34 0)
+			(at 97.79 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 53.34 0)
+			(at 97.79 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3594,12 +3643,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc998ee9-fae6-402d-9edb-9db93205112a")
+			(uuid "24222928-4b4b-4599-9f1e-20eb51923e51")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0503")
+					(reference "#PWR0500")
 					(unit 1)
 				)
 			)
@@ -3607,7 +3656,7 @@
 	)
 	(symbol
 		(lib_id "Timer_RTC:RV-3028-C7")
-		(at 97.79 78.74 0)
+		(at 92.71 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3617,8 +3666,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b90d1437-8a0b-400d-9d72-f908dd0faf6a")
-		(property "Reference" "U3"
-			(at 99.9333 88.9 0)
+		(property "Reference" "U32"
+			(at 94.8533 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3629,7 +3678,7 @@
 			)
 		)
 		(property "Value" "RV-3028-C7"
-			(at 99.9333 91.44 0)
+			(at 94.8533 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3640,7 +3689,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
-			(at 123.19 87.63 0)
+			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3651,7 +3700,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
-			(at 97.79 78.74 0)
+			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3662,7 +3711,7 @@
 			)
 		)
 		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
-			(at 97.79 78.74 0)
+			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3673,33 +3722,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "428f23c7-b440-4a42-ab86-fa47af4a21db")
+			(uuid "4dd89b68-d739-4919-a068-627c0d0272b4")
 		)
 		(pin "7"
-			(uuid "49063a61-7969-4290-8817-2e4a29c15e64")
+			(uuid "7522491e-3360-402d-8d04-c042dd8a01c9")
 		)
 		(pin "6"
-			(uuid "dac81bb5-669d-4816-b953-768373b97709")
+			(uuid "43f2f0a8-0833-48e9-9512-bd2f44b08645")
 		)
 		(pin "2"
-			(uuid "a903504f-b79b-4b75-9a59-a24645f69326")
+			(uuid "79ff1545-f8b3-4f2a-9b6d-8f8671705678")
 		)
 		(pin "4"
-			(uuid "26c88f10-6ecc-4905-bbed-80d8bbeda47b")
+			(uuid "93a4c041-3b33-4097-bd08-ca7b11c6eb72")
 		)
 		(pin "3"
-			(uuid "ffca16f2-ce98-417e-bbca-547cbe99a722")
+			(uuid "c2a01691-b289-4058-a270-3b913825d2fa")
 		)
 		(pin "5"
-			(uuid "25ee4866-ef8b-41bd-9307-16c4746c82e0")
+			(uuid "95aa87d8-feab-41e2-916c-30a8effeed1c")
 		)
 		(pin "8"
-			(uuid "60f20757-1966-4cce-9b93-23f467c79141")
+			(uuid "75d2a4c2-2410-4a71-b7ba-1af08d210168")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "U3")
+					(reference "U32")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3756,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 69.85 0)
+		(at 111.76 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3716,8 +3765,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da52f105-29aa-44d3-9dc9-f56bd37137c0")
-		(property "Reference" "R50"
-			(at 118.364 68.58 0)
+		(property "Reference" "R161"
+			(at 113.284 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3728,7 +3777,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 118.364 71.12 0)
+			(at 113.284 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3739,7 +3788,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 117.856 70.104 90)
+			(at 112.776 70.104 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3810,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 116.84 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,7 +3821,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 116.84 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +3832,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 116.84 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3794,7 +3843,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 116.84 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3805,7 +3854,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 116.84 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3816,7 +3865,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 116.84 69.85 0)
+			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3827,15 +3876,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0052fe3c-af3d-4d3e-8fc6-fbb0e130908e")
+			(uuid "747e55bd-6cb0-41f9-ba94-96078a5365ee")
 		)
 		(pin "2"
-			(uuid "1a0073a1-c1aa-4dc6-aa23-4a222119d11d")
+			(uuid "e220a664-6dd2-49b0-8ede-a8808229d002")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R50")
+					(reference "R161")
 					(unit 1)
 				)
 			)
@@ -3843,7 +3892,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 63.5 55.88 0)
+		(at 58.42 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3852,8 +3901,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1d3d838-7e4b-452c-8d45-f19ccf76f465")
-		(property "Reference" "#PWR0535"
-			(at 63.5 59.69 0)
+		(property "Reference" "#PWR0501"
+			(at 58.42 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +3913,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3_S0"
-			(at 63.5 51.816 0)
+			(at 58.42 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3874,7 +3923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 55.88 0)
+			(at 58.42 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3885,7 +3934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 55.88 0)
+			(at 58.42 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +3945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 55.88 0)
+			(at 58.42 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3907,12 +3956,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "62590e9c-cddc-47d9-b27e-bb493d2c5b6b")
+			(uuid "2b8ea33b-d354-4674-bbe4-3944b6821a33")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0535")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -3920,7 +3969,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 63.5 60.96 0)
+		(at 58.42 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3930,7 +3979,7 @@
 		(dnp no)
 		(uuid "e3f67e3f-5623-4759-bf1e-cf368cedef9b")
 		(property "Reference" "R159"
-			(at 65.024 59.69 0)
+			(at 59.944 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3941,7 +3990,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 65.024 62.23 0)
+			(at 59.944 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3952,7 +4001,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 64.516 61.214 90)
+			(at 59.436 61.214 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +4012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,7 +4023,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 63.5 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3985,7 +4034,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 63.5 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +4045,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 63.5 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4007,7 +4056,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 63.5 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4018,7 +4067,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 63.5 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4029,7 +4078,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 63.5 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4040,10 +4089,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1dc04178-2e8b-4d99-b6ae-3f7e9e4351fc")
+			(uuid "cc522d91-7d12-4b6f-8376-fc92e3623dfb")
 		)
 		(pin "2"
-			(uuid "d808b091-4389-4daf-a999-995d0a210099")
+			(uuid "cbe5f111-456c-44a8-b9a4-3933e15cae30")
 		)
 		(instances
 			(project "RK3576 SBC"
@@ -4056,7 +4105,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SMBJ5.0CA")
-		(at 138.43 53.34 90)
+		(at 133.35 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4066,8 +4115,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e590867e-53f9-40eb-8fcf-9d857f14b862")
-		(property "Reference" "D26"
-			(at 140.97 52.0699 90)
+		(property "Reference" "D17"
+			(at 135.89 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4078,7 +4127,7 @@
 			)
 		)
 		(property "Value" "SMBJ5.0CA"
-			(at 140.97 54.6099 90)
+			(at 135.89 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4089,7 +4138,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB_TVS"
-			(at 138.43 53.34 0)
+			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4100,7 +4149,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 138.43 53.34 0)
+			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,7 +4160,7 @@
 			)
 		)
 		(property "Description" "SMB Bidirectional TVS Diode, 5V, 600W, Alternate KiCAD Library"
-			(at 138.43 53.34 0)
+			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4122,7 +4171,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 138.43 53.34 90)
+			(at 133.35 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,7 +4182,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 138.43 53.34 90)
+			(at 133.35 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4144,7 +4193,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 138.43 53.34 90)
+			(at 133.35 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,7 +4204,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 138.43 53.34 90)
+			(at 133.35 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4166,7 +4215,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 138.43 53.34 90)
+			(at 133.35 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4177,15 +4226,97 @@
 			)
 		)
 		(pin "2"
-			(uuid "d0883058-9664-4854-8581-a3279c792163")
+			(uuid "7d214766-dd3d-4128-bda3-7d24ff88e872")
 		)
 		(pin "1"
-			(uuid "4a75932e-7754-4d3a-bfdb-51da1691822e")
+			(uuid "60bd0e4a-1da9-4f45-bca7-df5668101aaa")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "D26")
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_fab:Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001")
+		(at 154.94 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e742ca5d-d461-4fe7-9dbb-26e2c067a634")
+		(property "Reference" "BT1"
+			(at 161.29 51.1174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS-06-B4AA012"
+			(at 161.29 53.6574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:BAT-SMD_BS-06-B4AA012"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-001.pdf"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery, Linx BAT-HLD-001, Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "57f83f0d-d13f-424e-8496-482377a2dc51")
+		)
+		(pin "1"
+			(uuid "e16b1975-1638-463a-ab25-612e7641ebcb")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -4193,7 +4324,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 129.54 57.15 0)
+		(at 124.46 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4202,8 +4333,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea079edb-4e09-4f91-9dbf-140029d516e9")
-		(property "Reference" "R51"
-			(at 131.064 55.88 0)
+		(property "Reference" "R158"
+			(at 125.984 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4214,7 +4345,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 131.064 58.42 0)
+			(at 125.984 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4225,7 +4356,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 130.556 57.404 90)
+			(at 125.476 57.404 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,7 +4367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 57.15 0)
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4247,7 +4378,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 129.54 57.15 0)
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4389,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 129.54 57.15 0)
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4269,7 +4400,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 129.54 57.15 0)
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4280,7 +4411,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 129.54 57.15 0)
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,7 +4422,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 129.54 57.15 0)
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4302,7 +4433,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 129.54 57.15 0)
+			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,15 +4444,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "de36d7f3-9d8f-44ba-b878-02a60f69da7c")
+			(uuid "98b62b3d-7036-4876-ab9e-8ed896799085")
 		)
 		(pin "2"
-			(uuid "f52ef2c7-d83d-4e34-83f8-c3aca3a94dc8")
+			(uuid "fd42c98a-d2ca-4d6f-9c00-50e813567d44")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R51")
+					(reference "R158")
 					(unit 1)
 				)
 			)
@@ -4329,7 +4460,7 @@
 	)
 	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
-		(at 102.87 50.8 0)
+		(at 97.79 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4339,8 +4470,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2d7134f-3aa7-4c61-9f72-7229f150bb40")
-		(property "Reference" "C379"
-			(at 105.41 49.5362 0)
+		(property "Reference" "C371"
+			(at 100.33 49.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4351,7 +4482,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 105.41 52.0762 0)
+			(at 100.33 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4362,7 +4493,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 102.87 50.8 0)
+			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4373,7 +4504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 50.8 0)
+			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4384,7 +4515,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 50.8 0)
+			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4526,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 102.87 50.8 0)
+			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4406,7 +4537,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 102.87 50.8 0)
+			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4548,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 102.87 50.8 0)
+			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4428,7 +4559,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 102.87 50.8 0)
+			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,7 +4570,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 102.87 50.8 0)
+			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,15 +4581,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "66564dc1-7692-4669-b84f-78552f17101f")
+			(uuid "ae084023-f427-4964-849c-dad6715c79df")
 		)
 		(pin "2"
-			(uuid "910358a6-2510-45fd-843c-82372fae649d")
+			(uuid "48e0ec7c-9027-481d-bca8-89e6ab54fccf")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "C379")
+					(reference "C371")
 					(unit 1)
 				)
 			)

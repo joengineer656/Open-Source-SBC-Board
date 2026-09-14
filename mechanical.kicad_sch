@@ -501,6 +501,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -617,9 +756,102 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Mechanical"
+		(exclude_from_sim no)
+		(at 12.065 12.065 0)
+		(size 99.695 10.16)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 159 102 255 1)
+		)
+		(fill
+			(type color)
+			(color 159 102 255 1)
+		)
+		(effects
+			(font
+				(face "Noto Sans Black")
+				(size 3.2 3.2)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "56116629-e960-4254-951b-6f8c4f1adc4b")
+	)
 	(wire
 		(pts
-			(xy 60.96 44.45) (xy 60.96 45.72)
+			(xy 33.02 76.2) (xy 33.02 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0952bdf9-21d9-4572-b567-7da223b0fc27")
+	)
+	(wire
+		(pts
+			(xy 33.02 85.09) (xy 48.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e63751-2622-4c27-8f59-debd79ecd172")
+	)
+	(wire
+		(pts
+			(xy 33.02 49.53) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f2d4e3-fa26-4866-8511-015af9452126")
+	)
+	(wire
+		(pts
+			(xy 33.02 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d417e0b-7ef6-4100-b364-bb12b1ce9bc7")
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42) (xy 33.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2bb803-deff-4e5d-911e-b0ec0565c8d5")
+	)
+	(wire
+		(pts
+			(xy 33.02 40.64) (xy 48.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bd4b6f-ed95-4b80-a089-94251eac2093")
+	)
+	(wire
+		(pts
+			(xy 33.02 67.31) (xy 33.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e66a73-aafe-48a6-8e3e-f55506693841")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18) (xy 100.33 44.45)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +861,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 44.45) (xy 133.35 45.72)
+			(xy 33.02 40.64) (xy 33.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d71a91-d876-43ce-83f0-98f32f8a8511")
+	)
+	(wire
+		(pts
+			(xy 172.72 43.18) (xy 172.72 44.45)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +881,47 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 44.45) (xy 85.09 45.72)
+			(xy 33.02 67.31) (xy 48.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4772f51-8a2c-4cf1-a687-6de62a49098c")
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42) (xy 48.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59f0a55-7bc1-4ed1-b98a-449474eb8db6")
+	)
+	(wire
+		(pts
+			(xy 33.02 92.71) (xy 48.26 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2232b4-140c-4603-84ef-c01a1aa18439")
+	)
+	(wire
+		(pts
+			(xy 33.02 49.53) (xy 33.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deaed857-9f6e-4708-ae74-c8f36a410df9")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 124.46 44.45)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 44.45) (xy 109.22 45.72)
+			(xy 148.59 43.18) (xy 148.59 44.45)
 		)
 		(stroke
 			(width 0)
@@ -657,406 +939,40 @@
 		)
 		(uuid "f58ad9e2-3a82-4e44-abef-a454d37a0c92")
 	)
-	(image
-		(at 40.64 111.76)
-		(uuid "90141bbf-8403-4838-9ca6-570f9513a923")
-		(data "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"
-			"yt+2/uso0n7YxNMUoNgrhG1F1I1HRdEkUWhMFI217m3T+DCPxeeFG07TKr0L6hgcN1SqwIbhiAYH"
-			"+6m8Fu3UtH2PQsM9tshMDXynezSfJk1+ZBnL/MeKd9664HB930s16moZ6OLi94NpXMnz0++gTbOm"
-			"HJuM+q11HbqZIttJyltiW85Zc1ZUOUjmwky/YzqN46QeyHtch7keqTLJdSovTA5rrg5O82Qzbm6L"
-			"Tvnbth3Mot+jaDxNADvPVQBucGzGmCVSMXPFHhzs02R8NpkfYZrQkiXQUjHpwmU3JgudzjXNjYl8"
-			"j99VhZDIrlNj467rK/mV+eyHJ0mDr6YpbgDn8xFFYwqCnVSZqkqDG6DBwX6qIZHX+f3BwX5mXESU"
-			"hNMLtpM0q2HIvIIZcnKpCg/P6O6ZvhXfk5jmrGR9U54Qp9Y5hq/x31zX9GFOpl6kUWaYpnyZZFDH"
-			"zOMXe61M/3TvsXdEypqu/uvez/oear3vT7+rrUw3ASj2ChGGI/Jah9p/6R59umGRylcqnJ5GeWdV"
-			"dNXqYQEyhas2kNIN5/strUWpdl50QwUmdL139T5b66Z8BsHOXC9eF/esE9HSuv/4HdkAqcqeaL7s"
-			"eLxUpl2mlZ+fL7f5MECMzcQtaa0z0iXN9UYtZw5THcPPKn8pB5y2+Xqgq3PmcWrdEFdemJxm9TlZ"
-			"//Pmn7CM88x40z8itRM9azsknA6dN832e6jlpCs3jrepk/Hgiq8ArESyGia1sVBdUVnKQBeuqcKr"
-			"7nRTuHLFhM6S1inDWGDTnRLbSTdq461ztbOFwJYuUTqftmmS8anvyAaelbraAPH7JgXMY/+66yo8"
-			"7OC1DikQM6Ob6mLUkVeH5HItnbXK319XP0zDPtmdwdkwFv+erx96q1+V1fnO9on2Od2z7KHI6oTk"
-			"7wURpzNrhVQybJW8M+tg61BlVy2LrO8h4+C0s3Xe6R5RT8hik1d1QbFXAJMSyYIblqJufJM729QL"
-			"XnQJmirsEl1jkpf3vMZbtch0Y36mNPEzRYYromhstLA4LVE0sdrKNashYytFWkdSwYMZbdHQh+FI"
-			"WIDzw1G6jrEOtd5lebzU+jDMkCH12axwdWnL65jbtAt2w182S93S9ZfzbUrjvCKfN1SIsrdBVj0Q"
-			"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"
-		)
-	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 133.35 41.91 0)
+		(lib_id "power:GND")
+		(at 33.02 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "220705f2-799b-4179-9279-35971147f8d3")
-		(property "Reference" "H4"
-			(at 135.89 39.3699 0)
+		(uuid "0e2b6fea-69a2-4dd2-9e9e-170f38f9302a")
+		(property "Reference" "#PWR0580"
+			(at 33.02 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 135.89 41.9099 0)
+		(property "Value" "GND"
+			(at 33.02 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 41.91 0)
+			(at 33.02 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1067,7 +983,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 41.91 0)
+			(at 33.02 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36df5f21-a773-473b-8305-9ce9ab6f70db")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "#PWR0580")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 172.72 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "220705f2-799b-4179-9279-35971147f8d3")
+		(property "Reference" "H4"
+			(at 175.26 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 175.26 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1078,7 +1073,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 133.35 41.91 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1101,19 +1096,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 118.11 80.01 0)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 48.26 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31b1c6b1-14a2-4688-9785-e0cb57f32e0f")
-		(property "Reference" "FID2"
-			(at 120.65 78.7399 0)
+		(uuid "24df37cf-4b9e-4173-895d-1cbf98001440")
+		(property "Reference" "TP5"
+			(at 52.07 73.3424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1123,8 +1118,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 120.65 81.2799 0)
+		(property "Value" "TestPoint_Probe"
+			(at 52.07 75.8824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1134,8 +1129,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
-			(at 118.11 80.01 0)
+		(property "Footprint" ""
+			(at 53.34 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1146,7 +1141,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 80.01 0)
+			(at 53.34 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92faa440-2a14-47b1-9f65-9fcfdaf43a75")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 130.81 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b1c6b1-14a2-4688-9785-e0cb57f32e0f")
+		(property "Reference" "FID3"
+			(at 133.35 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 133.35 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+			(at 130.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1157,7 +1231,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 118.11 80.01 0)
+			(at 130.81 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1170,26 +1244,26 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "FID2")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 60.96 41.91 0)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 48.26 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3ffd629b-b099-48a3-97a2-c5e9808d011b")
-		(property "Reference" "H1"
-			(at 63.5 39.3699 0)
+		(uuid "3f605179-1ab4-4bd1-98d9-8ce8fa92ab19")
+		(property "Reference" "TP4"
+			(at 52.07 64.4524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1199,8 +1273,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 63.5 41.9099 0)
+		(property "Value" "TestPoint_Probe"
+			(at 52.07 66.9924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1211,7 +1285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 41.91 0)
+			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1222,7 +1296,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 41.91 0)
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 48.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eed7e632-7b06-46d7-826b-071c126e6d0f")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 100.33 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ffd629b-b099-48a3-97a2-c5e9808d011b")
+		(property "Reference" "H1"
+			(at 102.87 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 102.87 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1233,7 +1386,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 60.96 41.91 0)
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1257,7 +1410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 50.8 0)
+		(at 124.46 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1267,8 +1420,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48c430f6-2959-4428-9819-211064563a8d")
-		(property "Reference" "#PWR0496"
-			(at 85.09 57.15 0)
+		(property "Reference" "#PWR0526"
+			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1279,7 +1432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 54.61 0)
+			(at 124.46 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1289,7 +1442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 50.8 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1300,7 +1453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 50.8 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1311,7 +1464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 50.8 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1327,15 +1480,15 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "#PWR0496")
+					(reference "#PWR0526")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 50.8 0)
+		(lib_id "power:+5V")
+		(at 33.02 74.93 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1344,9 +1497,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6189e9b0-9b4c-44b6-ade6-5dedd7fe8955")
-		(property "Reference" "#PWR0495"
-			(at 60.96 57.15 0)
+		(uuid "5238d9d5-b131-4862-bb9f-b51c1fd898ba")
+		(property "Reference" "#PWR0576"
+			(at 33.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1356,8 +1509,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 60.96 54.61 0)
+		(property "Value" "VDD2_DDR_S3"
+			(at 33.02 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1367,7 +1520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 50.8 0)
+			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1378,7 +1531,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 50.8 0)
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7db2f0c5-cc41-4b9d-be0f-dd53cc4b8b89")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "#PWR0576")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6189e9b0-9b4c-44b6-ade6-5dedd7fe8955")
+		(property "Reference" "#PWR0525"
+			(at 100.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1389,7 +1620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 50.8 0)
+			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1405,48 +1636,47 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "#PWR0495")
+					(reference "#PWR0525")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 135.89 80.01 0)
+		(lib_id "power:+5V")
+		(at 33.02 66.04 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63e2244a-dc5b-4486-821d-f1d79a2afa7b")
-		(property "Reference" "FID4"
-			(at 138.43 78.7399 0)
+		(uuid "62360bb9-aba5-4225-a2ad-cea44ce9fd1f")
+		(property "Reference" "#PWR0575"
+			(at 33.02 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 138.43 81.2799 0)
+		(property "Value" "VDDQ_DDR_S0"
+			(at 33.02 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
-			(at 135.89 80.01 0)
+		(property "Footprint" ""
+			(at 33.02 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1457,7 +1687,165 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 80.01 0)
+			(at 33.02 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4a7f8c5-3a99-43f1-a48c-175799374cd9")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "#PWR0575")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 48.26 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6299418f-df11-4296-9e8c-f2c72a78eb91")
+		(property "Reference" "TP7"
+			(at 52.07 89.8524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 52.07 92.3924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 48.26 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e483328-3a29-4fae-a240-71f132d32218")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 148.59 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e2244a-dc5b-4486-821d-f1d79a2afa7b")
+		(property "Reference" "FID4"
+			(at 151.13 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 151.13 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+			(at 148.59 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1468,7 +1856,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 135.89 80.01 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1489,7 +1877,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 118.11 72.39 0)
+		(at 130.81 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1500,7 +1888,7 @@
 		(fields_autoplaced yes)
 		(uuid "64dcbcba-5bc5-4448-80ed-961eec3d6f59")
 		(property "Reference" "FID1"
-			(at 120.65 71.1199 0)
+			(at 133.35 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1511,7 +1899,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 120.65 73.6599 0)
+			(at 133.35 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1522,7 +1910,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
-			(at 118.11 72.39 0)
+			(at 130.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1533,7 +1921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 72.39 0)
+			(at 130.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1544,7 +1932,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 118.11 72.39 0)
+			(at 130.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1564,9 +1952,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 50.8 0)
-		(mirror y)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 48.26 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1574,30 +1961,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7611d911-8f29-46af-ad4b-17a25b054258")
-		(property "Reference" "#PWR0497"
-			(at 109.22 57.15 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "7376d03d-3a21-47e2-be7d-5fc7709a757d")
+		(property "Reference" "TP6"
+			(at 52.07 82.2324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 54.61 0)
+		(property "Value" "TestPoint_Probe"
+			(at 52.07 84.7724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 50.8 0)
+			(at 53.34 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1608,7 +1997,164 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 50.8 0)
+			(at 53.34 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 48.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bfa64a4-ccb4-408b-a11d-ef42b46192b4")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 48.26 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73e30aa7-df4f-4250-8115-3bd3e07a9e2b")
+		(property "Reference" "TP3"
+			(at 52.07 55.5624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 52.07 58.1024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 48.26 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4cda27a-1adc-4175-8398-fc1ab26044c0")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7611d911-8f29-46af-ad4b-17a25b054258")
+		(property "Reference" "#PWR0527"
+			(at 148.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1619,7 +2165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 50.8 0)
+			(at 148.59 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1635,15 +2181,16 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "#PWR0497")
+					(reference "#PWR0527")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 133.35 48.26 0)
+		(lib_id "power:+5V")
+		(at 33.02 39.37 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1651,31 +2198,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "96daf44e-16a2-4e6a-88c3-cd7a48738fa7")
-		(property "Reference" "R180"
-			(at 134.874 46.99 0)
+		(uuid "798b6297-8332-4ce9-a114-9d6d61de4ac4")
+		(property "Reference" "#PWR0578"
+			(at 33.02 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 134.874 49.53 0)
+		(property "Value" "VCC5V0_SYS"
+			(at 33.02 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 134.366 48.514 90)
+		(property "Footprint" ""
+			(at 33.02 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +2232,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 48.26 0)
+			(at 33.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcb5bced-551b-451b-ba37-fb3f57232a2f")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "#PWR0578")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 172.72 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96daf44e-16a2-4e6a-88c3-cd7a48738fa7")
+		(property "Reference" "R176"
+			(at 174.244 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 174.244 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 173.736 47.244 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,7 +2321,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 133.35 48.26 0)
+			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,7 +2332,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 133.35 48.26 0)
+			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1719,7 +2343,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 133.35 48.26 0)
+			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,7 +2354,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 133.35 48.26 0)
+			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,7 +2365,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 133.35 48.26 0)
+			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +2376,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 133.35 48.26 0)
+			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1771,26 +2395,26 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "R180")
+					(reference "R176")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 135.89 72.39 0)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 48.26 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9adef1b0-bbf6-4571-ad14-544c629b4f26")
-		(property "Reference" "FID3"
-			(at 138.43 71.1199 0)
+		(uuid "9a274e49-101d-4297-b5a6-840d87b8a773")
+		(property "Reference" "TP2"
+			(at 52.07 46.6724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1800,8 +2424,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 138.43 73.6599 0)
+		(property "Value" "TestPoint_Probe"
+			(at 52.07 49.2124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1811,8 +2435,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
-			(at 135.89 72.39 0)
+		(property "Footprint" ""
+			(at 53.34 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +2447,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 72.39 0)
+			(at 53.34 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 48.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "facab453-b0ae-4b91-a97e-7ef3a4aa5273")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 148.59 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9adef1b0-bbf6-4571-ad14-544c629b4f26")
+		(property "Reference" "FID2"
+			(at 151.13 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 151.13 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+			(at 148.59 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +2537,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 135.89 72.39 0)
+			(at 148.59 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +2550,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "FID3")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -1855,7 +2558,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 85.09 41.91 0)
+		(at 124.46 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1866,7 +2569,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3dbd552-37c0-4359-89f0-d77fef96d96d")
 		(property "Reference" "H2"
-			(at 87.63 39.3699 0)
+			(at 127 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1877,7 +2580,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 87.63 41.9099 0)
+			(at 127 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1888,7 +2591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 41.91 0)
+			(at 124.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1899,7 +2602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 41.91 0)
+			(at 124.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1910,7 +2613,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 85.09 41.91 0)
+			(at 124.46 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1934,8 +2637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 50.8 0)
-		(mirror y)
+		(at 33.02 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1943,9 +2645,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aff67dc1-dc00-4016-8df6-305eba2ef16c")
-		(property "Reference" "#PWR0498"
-			(at 133.35 57.15 0)
+		(uuid "a8979eb9-0625-4046-b939-9eea9554b45c")
+		(property "Reference" "#PWR0579"
+			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1956,7 +2658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 54.61 0)
+			(at 33.02 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1966,7 +2668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 50.8 0)
+			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +2679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 50.8 0)
+			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,7 +2690,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 50.8 0)
+			(at 33.02 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53be3faf-6c11-40a8-a32a-b3ab902cd955")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "#PWR0579")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aff67dc1-dc00-4016-8df6-305eba2ef16c")
+		(property "Reference" "#PWR0528"
+			(at 172.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2004,7 +2784,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "#PWR0498")
+					(reference "#PWR0528")
 					(unit 1)
 				)
 			)
@@ -2012,7 +2792,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 59.69 69.85 0)
+		(at 48.26 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2023,7 +2803,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd3648a4-1652-4446-b36c-fd46fcbb6dde")
 		(property "Reference" "TP1"
-			(at 63.5 66.9924 0)
+			(at 52.07 37.7824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2034,7 +2814,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 63.5 69.5324 0)
+			(at 52.07 40.3224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2045,7 +2825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 69.85 0)
+			(at 53.34 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2056,7 +2836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 69.85 0)
+			(at 53.34 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2067,7 +2847,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 59.69 69.85 0)
+			(at 48.26 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2091,7 +2871,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 85.09 48.26 0)
+		(at 124.46 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2100,8 +2880,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8a92c28-e71e-49a0-8389-54e2f74b8fb7")
-		(property "Reference" "R178"
-			(at 86.614 46.99 0)
+		(property "Reference" "R174"
+			(at 125.984 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2112,7 +2892,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 86.614 49.53 0)
+			(at 125.984 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2123,7 +2903,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 86.106 48.514 90)
+			(at 125.476 47.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +2914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 48.26 0)
+			(at 124.46 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,7 +2925,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 85.09 48.26 0)
+			(at 124.46 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2936,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 85.09 48.26 0)
+			(at 124.46 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2167,7 +2947,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 85.09 48.26 0)
+			(at 124.46 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2178,7 +2958,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 85.09 48.26 0)
+			(at 124.46 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2189,7 +2969,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 85.09 48.26 0)
+			(at 124.46 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,7 +2980,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 85.09 48.26 0)
+			(at 124.46 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +2999,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "R178")
+					(reference "R174")
 					(unit 1)
 				)
 			)
@@ -2227,7 +3007,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 60.96 48.26 0)
+		(at 100.33 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2236,8 +3016,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca4a5912-8f8d-40b8-81f1-88307fbef216")
-		(property "Reference" "R177"
-			(at 62.484 46.99 0)
+		(property "Reference" "R173"
+			(at 101.854 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2248,7 +3028,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 62.484 49.53 0)
+			(at 101.854 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2259,7 +3039,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 61.976 48.514 90)
+			(at 101.346 47.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,7 +3050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 48.26 0)
+			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2281,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 60.96 48.26 0)
+			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +3072,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 60.96 48.26 0)
+			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +3083,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 60.96 48.26 0)
+			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2314,7 +3094,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 60.96 48.26 0)
+			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2325,7 +3105,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 60.96 48.26 0)
+			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2336,7 +3116,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 60.96 48.26 0)
+			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,15 +3135,15 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "R177")
+					(reference "R173")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 109.22 48.26 0)
+		(lib_id "power:+5V")
+		(at 33.02 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2371,31 +3151,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d1d0a691-6b0a-4e4e-bcf7-d5f3c2552e3c")
-		(property "Reference" "R179"
-			(at 110.744 46.99 0)
+		(uuid "caaeb586-dca7-455a-b336-75dcf4cba192")
+		(property "Reference" "#PWR0529"
+			(at 33.02 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 110.744 49.53 0)
+		(property "Value" "VCCA_3V3_S0"
+			(at 33.02 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 110.236 48.514 90)
+		(property "Footprint" ""
+			(at 33.02 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +3185,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 48.26 0)
+			(at 33.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03aad0aa-940c-44db-9ee9-7fdfb190fdb8")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "#PWR0529")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 33.02 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce5f726b-7804-4817-8ed3-268478c9adc2")
+		(property "Reference" "#PWR0574"
+			(at 33.02 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCCA_1V8_S0"
+			(at 33.02 53.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78537171-0188-4e0d-8cc6-ebbf91d767b8")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
+					(reference "#PWR0574")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 148.59 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1d0a691-6b0a-4e4e-bcf7-d5f3c2552e3c")
+		(property "Reference" "R175"
+			(at 150.114 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 150.114 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 149.606 47.244 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +3351,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 109.22 48.26 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +3362,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 109.22 48.26 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +3373,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 109.22 48.26 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,7 +3384,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 109.22 48.26 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2461,7 +3395,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 109.22 48.26 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2472,7 +3406,7 @@
 			)
 		)
 		(property "KLC_S5.1" ""
-			(at 109.22 48.26 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +3425,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/10e9244f-4cbe-4d20-b848-5b1e81efdab1"
-					(reference "R179")
+					(reference "R175")
 					(unit 1)
 				)
 			)
@@ -2499,7 +3433,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 109.22 41.91 0)
+		(at 148.59 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2510,7 +3444,7 @@
 		(fields_autoplaced yes)
 		(uuid "df0f777c-835c-4bff-aa28-023053da49e0")
 		(property "Reference" "H3"
-			(at 111.76 39.3699 0)
+			(at 151.13 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2521,7 +3455,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 111.76 41.9099 0)
+			(at 151.13 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2532,7 +3466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 41.91 0)
+			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 41.91 0)
+			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2554,7 +3488,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 109.22 41.91 0)
+			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

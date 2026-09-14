@@ -15515,7 +15515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe2002a0-d26e-407f-bca9-3d3199215965")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 102.87 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15535,7 +15535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:FCCSP-698_L17.2-W16.1-TL_RK3576"
 			(at 27.94 5.715 0)
 			(hide yes)
 			(show_name no)
@@ -17753,7 +17753,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/508e51b0-6de7-4e96-b14d-74d979d6204b"
-					(reference "U2")
+					(reference "U3")
 					(unit 15)
 				)
 			)

@@ -6,8 +6,8 @@
 	(paper "A3")
 	(lib_symbols)
 	(rectangle
-		(start 147.32 33.02)
-		(end 246.38 261.62)
+		(start 147.32 34.29)
+		(end 246.38 269.24)
 		(stroke
 			(width 0)
 			(type solid)
@@ -30,16 +30,1483 @@
 	)
 	(bus
 		(pts
-			(xy 0.1524 0.1524) (xy 53.4924 0.1524)
+			(xy 270.51 146.05) (xy 246.38 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf161f16-1d22-4f4a-9169-ce3e0e20f66c")
+		(uuid "0004d76c-83d8-41be-a8fb-88a4cb8803d6")
+	)
+	(bus
+		(pts
+			(xy 246.38 73.66) (xy 256.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a75782-798b-4405-9705-2a5cf77a2c03")
+	)
+	(bus
+		(pts
+			(xy 123.19 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0637bc45-3ffd-434c-82a3-223920959f93")
+	)
+	(bus
+		(pts
+			(xy 122.195 262.89) (xy 147.595 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067abdff-ce4e-44d1-b3cb-3d5d9ff94d54")
+	)
+	(bus
+		(pts
+			(xy 122.195 200.66) (xy 147.595 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a6f6f2-bc4f-42bb-a13b-701b6494a59d")
+	)
+	(bus
+		(pts
+			(xy 246.655 177.8) (xy 261.895 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba61ddc-aced-4d6b-95e0-2c8b740454a3")
+	)
+	(bus
+		(pts
+			(xy 270.51 135.89) (xy 246.38 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b983df8-898a-4733-b5eb-11de5c1da254")
+	)
+	(bus
+		(pts
+			(xy 122.195 179.07) (xy 147.595 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd9ea2d-1439-44b7-a54a-1fadc5200906")
+	)
+	(bus
+		(pts
+			(xy 246.655 237.49) (xy 264.435 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbbf8b2-d466-4fbf-baaf-fd62815c99d6")
+	)
+	(bus
+		(pts
+			(xy 123.19 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2344c599-dfa5-4671-9a71-3c3444bd1f1b")
+	)
+	(bus
+		(pts
+			(xy 270.51 128.27) (xy 246.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c203f2d-4f80-4be4-a656-725f66aa0de6")
+	)
+	(bus
+		(pts
+			(xy 123.19 127) (xy 147.32 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f91d4c3-f519-4566-a2d4-edc9d15b4f7c")
+	)
+	(bus
+		(pts
+			(xy 123.19 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c3ca57-af1f-4c2b-a9c5-de0bb8801b3e")
+	)
+	(bus
+		(pts
+			(xy 123.19 109.22) (xy 147.32 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310dac53-c8ab-4300-89aa-e69446b04a11")
+	)
+	(bus
+		(pts
+			(xy 123.19 142.24) (xy 147.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404cc20c-8333-444f-beaf-c2ae67567be9")
+	)
+	(bus
+		(pts
+			(xy 246.655 201.93) (xy 261.895 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afd9de8-5cc6-4c02-bd9d-fbf9013794fc")
+	)
+	(bus
+		(pts
+			(xy 123.19 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd55e99-d6b1-4e50-866a-6b0a29b73c5d")
+	)
+	(bus
+		(pts
+			(xy 246.655 231.14) (xy 264.435 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b04282-b596-49bb-b262-0db7a4cfe86d")
+	)
+	(bus
+		(pts
+			(xy 270.51 125.73) (xy 246.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6896bb05-256a-4b1f-b1dc-70611edff56f")
+	)
+	(wire
+		(pts
+			(xy 123.19 149.86) (xy 147.32 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fe1617-803c-4022-8b68-7f1ef18f08c1")
+	)
+	(bus
+		(pts
+			(xy 246.38 104.14) (xy 262.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741d9058-5051-4c50-b011-88b490b66fa5")
+	)
+	(bus
+		(pts
+			(xy 270.51 151.13) (xy 246.38 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7485b0ab-06da-4803-9e25-3e4baaa6a4e8")
+	)
+	(wire
+		(pts
+			(xy 123.19 146.05) (xy 147.32 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fce4fa-e36f-4b12-a72a-e5728240d3bd")
+	)
+	(wire
+		(pts
+			(xy 270.51 130.81) (xy 246.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ac9dd0-8211-46c7-9720-d1e60f2c6d59")
+	)
+	(wire
+		(pts
+			(xy 246.74 101.6) (xy 262.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e9f55f-c317-4e6f-b394-bd0b3944bafd")
+	)
+	(bus
+		(pts
+			(xy 246.38 78.74) (xy 256.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949240a8-d8a4-496a-99fb-70a5d8ae216e")
+	)
+	(bus
+		(pts
+			(xy 246.655 234.95) (xy 264.435 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98777791-1123-461e-b9f6-d86e8bbe246a")
+	)
+	(bus
+		(pts
+			(xy 246.655 45.72) (xy 256.815 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7793f3-d351-4b04-9b87-f50eb4e90427")
+	)
+	(bus
+		(pts
+			(xy 246.655 228.6) (xy 264.435 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a4b3da-2969-466d-945f-be2d4e34a25a")
+	)
+	(wire
+		(pts
+			(xy 246.74 99.06) (xy 262.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a460fad7-b50d-43d0-be2a-da781971ce5c")
+	)
+	(bus
+		(pts
+			(xy 270.51 138.43) (xy 246.38 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e2ab16-3b69-465a-a821-7ff0ae8c5e66")
+	)
+	(wire
+		(pts
+			(xy 123.19 111.76) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7e9402-df34-492c-baea-8c47ba7a2d13")
+	)
+	(bus
+		(pts
+			(xy 246.655 262.89) (xy 264.435 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d594fa-4849-47c8-8e20-82154379c43a")
+	)
+	(bus
+		(pts
+			(xy 246.655 50.8) (xy 256.815 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfccd653-d1c7-4e43-adf2-bae1dc5d59b6")
+	)
+	(bus
+		(pts
+			(xy 122.195 171.45) (xy 147.595 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b89831-dde0-41eb-9205-84dde4348f3a")
+	)
+	(wire
+		(pts
+			(xy 122.195 257.81) (xy 147.595 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e5b295-bd2f-4651-b27d-878b6dd3bd03")
+	)
+	(bus
+		(pts
+			(xy 246.655 256.54) (xy 264.435 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8742f1-5f80-45f6-9af3-c8a2d9f9e8fb")
+	)
+	(bus
+		(pts
+			(xy 122.195 208.28) (xy 147.595 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce65c5c2-22ba-41a4-ab45-95651ac31c6b")
+	)
+	(bus
+		(pts
+			(xy 123.19 138.43) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68660d4-3037-49a2-bee6-1133bdbf59f5")
+	)
+	(bus
+		(pts
+			(xy 270.51 148.59) (xy 246.38 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabcf735-391d-4d50-8f09-1c09db82e538")
+	)
+	(bus
+		(pts
+			(xy 123.19 106.68) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de02fc7c-4835-44d0-b098-c89ba3b0afee")
+	)
+	(bus
+		(pts
+			(xy 122.195 260.35) (xy 147.595 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3060bfe-f433-4228-b9f7-39d0bdf8f7d4")
+	)
+	(bus
+		(pts
+			(xy 123.19 134.62) (xy 147.32 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45f9723-a4f2-42ef-9c1d-2e684cadb82b")
+	)
+	(bus
+		(pts
+			(xy 270.51 153.67) (xy 246.38 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a272f5-1f6a-4875-b51a-1f491b240ca6")
+	)
+	(bus
+		(pts
+			(xy 246.38 106.68) (xy 262.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65617ff-d158-4e29-b13e-28f75e9de1ee")
+	)
+	(bus
+		(pts
+			(xy 270.51 140.97) (xy 246.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6661e19-1a00-44f4-80fe-b72a2971380f")
+	)
+	(bus
+		(pts
+			(xy 122.195 204.47) (xy 147.595 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4af102-077f-451a-be26-94ad7b93129c")
+	)
+	(bus
+		(pts
+			(xy 270.51 143.51) (xy 246.38 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff0b087-c7bc-4d3e-8565-9d19f63ebbe4")
+	)
+	(bus
+		(pts
+			(xy 270.51 156.21) (xy 246.38 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac5156f-0882-452b-8be3-8a3b0cd0237d")
+	)
+	(wire
+		(pts
+			(xy 270.51 133.35) (xy 246.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf90e1b-c7b1-4fc4-bff8-f5ca9df86ebb")
+	)
+	(bus
+		(pts
+			(xy 122.195 175.26) (xy 147.595 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1ebf1c-e6fd-444c-b22d-abb5cf6e12a3")
+	)
+	(hierarchical_label "MIPI_DSI_CTRL"
+		(shape bidirectional)
+		(at 264.435 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01bfdb65-1c3d-4fc7-82a5-85b3dcab6a45")
+		(property "Netclass" "MIPI_CSI_CTRL"
+			(at 264.435 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "RGMII_TX"
+		(shape input)
+		(at 122.195 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "059e3f21-0201-4d50-9c47-9540ab2b307d")
+	)
+	(hierarchical_label "uSD_CARD"
+		(shape bidirectional)
+		(at 270.51 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07a7fbae-a3b5-445e-9406-2d5274200732")
+		(property "Netclass" "uSD_CARD"
+			(at 270.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "UFS3.1_RX"
+		(shape output)
+		(at 262.89 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0aef8e1a-69ef-4fa9-9403-548826e7565d")
+	)
+	(hierarchical_label "USB_C_OTG0_GPIOs"
+		(shape bidirectional)
+		(at 122.195 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e846bfd-743d-4b3e-b8a9-ec69edba1f30")
+		(property "Netclass" "USB_C_OTG0_GPIOs"
+			(at 122.195 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "HDMI"
+		(shape bidirectional)
+		(at 261.895 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1576a061-bea4-4707-8ea7-bcd43cc00284")
+		(property "Netclass" "HDMI"
+			(at 261.895 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "USB_{HUB}"
+		(shape bidirectional)
+		(at 264.435 262.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24bbf73e-1a77-43a3-a585-3676cb411089")
+		(property "Netclass" "USB3_OTG1_USB_HUB"
+			(at 264.435 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "MIPI_CSI12"
+		(shape bidirectional)
+		(at 264.435 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "267a4e56-adbc-4644-867f-431e4e30f25d")
+		(property "Netclass" "MIPI_CSI12"
+			(at 264.435 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "LPDDR5_B{LPDDR5}"
+		(shape bidirectional)
+		(at 122.195 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2700ff56-9643-4a54-bb86-97af9adca831")
+	)
+	(hierarchical_label "Vdet_USB_{OTG}"
+		(shape input)
+		(at 270.51 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aac1eee-8f1e-4146-8a3c-89ebf9f995cb")
+	)
+	(hierarchical_label "WIFI_SDIO"
+		(shape bidirectional)
+		(at 123.19 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f27d7b7-8b09-4f0a-b883-af018ef60ae2")
+		(property "Netclass" "WIFI_SDIO"
+			(at 123.19 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "PCIE0"
+		(shape bidirectional)
+		(at 264.435 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "317bbbc2-bb7e-4497-bc88-3b0736b50f3e")
+		(property "Netclass" "PCIE0"
+			(at 264.435 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "Bi_Switch"
+		(shape input)
+		(at 123.19 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "331b038f-336b-4ea3-a5bc-4f7eabe5d0f4")
+	)
+	(hierarchical_label "MIPI_CSI_CTRL"
+		(shape bidirectional)
+		(at 264.435 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b4f6405-539e-42e0-8a3b-8398ad37b6ea")
+		(property "Netclass" "MIPI_CSI_CTRL"
+			(at 264.435 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "PCIE0_CTRL"
+		(shape bidirectional)
+		(at 123.19 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cc4464c-fe53-45cc-8155-425fed4a5ced")
+		(property "Netclass" "PCIE0_CTRL"
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "MIPI_DSI_CTRL"
+		(shape bidirectional)
+		(at 270.51 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d432110-830b-4ed8-83e2-b4daf1095e74")
+		(property "Netclass" "MIPI_CSI_CTRL"
+			(at 270.51 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "USB_C_OTG0_GPIOs"
+		(shape bidirectional)
+		(at 256.54 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f873599-cad0-4739-8b8d-41eaf52ba44c")
+		(property "Netclass" "USB_C_OTG0_GPIOs"
+			(at 256.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "USB_C_OTG0"
+		(shape bidirectional)
+		(at 256.54 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40ac6f05-5319-47fd-ad34-49c16b1b0184")
+		(property "Netclass" "USB_C_OTG0"
+			(at 256.54 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "RGMII_RX"
+		(shape output)
+		(at 122.195 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40b13bf0-b8bf-4cbd-9ced-0e477e0f3814")
+	)
+	(hierarchical_label "MDIO"
+		(shape bidirectional)
+		(at 123.19 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "429775b2-3bf1-4305-96ec-c61763840b4a")
+	)
+	(hierarchical_label "HDMI_GPIOs"
+		(shape bidirectional)
+		(at 122.195 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46e13569-6960-47da-9b63-6676bb853be9")
+		(property "Netclass" "HDMI_GPIOs"
+			(at 122.195 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "USB_C_OTG0_GPIOs"
+		(shape bidirectional)
+		(at 270.51 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ff18ad8-64d0-49e0-a5e8-e6de4f56b08e")
+		(property "Netclass" "USB_C_OTG0_GPIOs"
+			(at 270.51 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "SPI1_{MCU}"
+		(shape bidirectional)
+		(at 123.19 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "508981e7-4201-4645-82ca-5ab341916273")
+	)
+	(hierarchical_label "40GPIOs"
+		(shape bidirectional)
+		(at 122.195 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "517d738a-f469-4cc5-b6fc-f18a5a343568")
+	)
+	(hierarchical_label "WIFI_BT_ANT_CTRL"
+		(shape bidirectional)
+		(at 123.19 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54999ffa-e8bc-4fe1-bf0d-98540e46a1a7")
+	)
+	(hierarchical_label "40GPIOs"
+		(shape bidirectional)
+		(at 123.19 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c90b19d-c495-4e59-b644-0bbb0949c1df")
+	)
+	(hierarchical_label "MIPI_DSI0"
+		(shape bidirectional)
+		(at 264.435 234.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "610e8ebd-498d-401b-acde-6dfc93eb978a")
+		(property "Netclass" "MIPI_DSI0"
+			(at 264.435 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "MDIO"
+		(shape bidirectional)
+		(at 122.195 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66e49955-f513-4b1b-87ee-83e84f1e9d82")
+	)
+	(hierarchical_label "UFS3.1_REF_{CLK}"
+		(shape output)
+		(at 262.89 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68181321-23db-4ad3-82ef-a959c3bef840")
+	)
+	(hierarchical_label "BT_GPIOs"
+		(shape bidirectional)
+		(at 123.19 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68bf9bfe-b542-46ba-b94e-6183c2b23a64")
+		(property "Netclass" "BT_GPIOs"
+			(at 123.19 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "WIFI_GPIOs"
+		(shape bidirectional)
+		(at 270.51 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ad94108-6fcf-442d-aab5-a44f08619335")
+		(property "Netclass" "WIFI_GPIOs"
+			(at 270.51 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "USB_{HOST}_PWREN_H"
+		(shape output)
+		(at 270.51 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "798d11b1-b11c-4aaf-922e-78b3a3f22518")
+		(property "Netclass" "USB3_HOST"
+			(at 270.51 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "PMIC_CTRL"
+		(shape input)
+		(at 270.51 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b6ba460-2348-4861-841e-ce7fe10a332a")
+	)
+	(hierarchical_label "BT_BCM"
+		(shape bidirectional)
+		(at 123.19 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c802916-c7fd-401f-aabb-3462df9cde8a")
+		(property "Netclass" "BT_BCM"
+			(at 123.19 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "USB_C_OTG0"
+		(shape bidirectional)
+		(at 256.815 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87cbde2d-bdd6-4553-bb6a-daec4a6ff2b5")
+		(property "Netclass" "USB_C_OTG0"
+			(at 256.815 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "UFS3.1_RESET"
+		(shape output)
+		(at 262.89 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a16f9fe-5824-4c22-beab-36943522dcb7")
+	)
+	(hierarchical_label "uSD_PWREN_H"
+		(shape input)
+		(at 270.51 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f5ad732-1fa4-4a4a-8eae-c06c1de99b00")
+		(property "Netclass" "uSD_CARD"
+			(at 270.51 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "USB_{HOST}_PWREN_H"
+		(shape input)
+		(at 123.19 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9686c222-f945-46a5-9608-cee7e208797a")
+		(property "Netclass" "USB3_HOST"
+			(at 123.19 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "I2C_RTC"
+		(shape bidirectional)
+		(at 270.51 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c6de69e-56b4-4afc-94cf-154689b705f1")
+	)
+	(hierarchical_label "UFS3.1_TX"
+		(shape input)
+		(at 262.89 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac134c6d-0844-49e2-95b0-d274f3b3600b")
+	)
+	(hierarchical_label "Vdet_USB_{MCU}"
+		(shape output)
+		(at 123.19 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adff0422-993a-4ad8-a483-05014a57cfdb")
+	)
+	(hierarchical_label "PCIE0_CTRL"
+		(shape bidirectional)
+		(at 270.51 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae75278b-5b81-4e8b-9878-3c8bec5b6cb8")
+		(property "Netclass" "PCIE0_CTRL"
+			(at 270.51 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "~{LPDDR5_{RESET}}"
+		(shape output)
+		(at 122.195 257.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc046a68-b0eb-499d-897f-cc18f60b68be")
+	)
+	(hierarchical_label "USB_{HUB}"
+		(shape bidirectional)
+		(at 256.815 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc19f08c-ce17-4e8e-9b47-46d8765e63cb")
+		(property "Netclass" "USB3_OTG1_USB_HUB"
+			(at 256.815 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "BT_GPIOs"
+		(shape bidirectional)
+		(at 270.51 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "caaaf48b-ac23-47c3-9a1c-9766101c5ea1")
+		(property "Netclass" "BT_GPIOs"
+			(at 270.51 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "RTC_32KOUT_SOC"
+		(shape output)
+		(at 270.51 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d062f70a-5e42-41fe-809a-22a99cdac26e")
+	)
+	(hierarchical_label "40GPIOs"
+		(shape bidirectional)
+		(at 270.51 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d72fa918-c368-4066-844a-b549d1be09ae")
+	)
+	(hierarchical_label "WIFI_GPIOs"
+		(shape bidirectional)
+		(at 123.19 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e54ef6ae-9f62-4958-a4a7-cb84217ed7c1")
+		(property "Netclass" "WIFI_GPIOs"
+			(at 123.19 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "LPDDR5_A{LPDDR5}"
+		(shape bidirectional)
+		(at 122.195 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f42d2b16-8fa4-496a-afd4-9d55254115a4")
+	)
+	(hierarchical_label "uSD_CARD"
+		(shape bidirectional)
+		(at 261.895 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f59582e8-7e1b-4dbb-b121-e1b988a58170")
+		(property "Netclass" "uSD_CARD"
+			(at 261.895 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "BT_UART"
+		(shape bidirectional)
+		(at 123.19 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fedffb47-5b8c-4193-b416-5f45373abc03")
+		(property "Netclass" "BT_UART"
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(sheet
-		(at 147.32 236.22)
+		(at 147.595 251.46)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56,7 +1523,7 @@
 		)
 		(uuid "1a77fa89-d539-445c-bb5c-b5ba8302bb81")
 		(property "Sheetname" "LPDDR PHY"
-			(at 147.32 235.3426 0)
+			(at 147.595 250.5826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -70,7 +1537,7 @@
 			)
 		)
 		(property "Sheetfile" "lpddr_phy.kicad_sch"
-			(at 147.32 254.8554 0)
+			(at 147.595 270.0954 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -79,6 +1546,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LPDDR5_A{LPDDR5}" bidirectional
+			(at 147.595 260.35 180)
+			(uuid "d70fc1cb-46c9-473c-baad-674cc9ac813e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LPDDR5_B{LPDDR5}" bidirectional
+			(at 147.595 262.89 180)
+			(uuid "0adaa3f7-4638-46b1-80a3-b9472a7c94a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{LPDDR5_{RESET}}" output
+			(at 147.595 257.81 180)
+			(uuid "b677d8e4-d7f0-456e-91e1-c5c21b313d46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -90,7 +1587,7 @@
 		)
 	)
 	(sheet
-		(at 147.32 180.34)
+		(at 147.595 195.58)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -107,7 +1604,7 @@
 		)
 		(uuid "3a63a63f-0660-4de2-bd2e-c637401ccb58")
 		(property "Sheetname" "GPIO4"
-			(at 147.32 179.4626 0)
+			(at 147.595 194.7026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -121,7 +1618,7 @@
 			)
 		)
 		(property "Sheetfile" "gpio4.kicad_sch"
-			(at 147.32 198.9754 0)
+			(at 147.595 214.2154 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -130,6 +1627,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "40GPIOs" bidirectional
+			(at 147.595 208.28 180)
+			(uuid "2d295676-b6ff-4779-bf0d-914a96f3dacd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI_GPIOs" bidirectional
+			(at 147.595 200.66 180)
+			(uuid "2e25904f-1d0e-4db8-a84e-816af1199049")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_C_OTG0_GPIOs" bidirectional
+			(at 147.595 204.47 180)
+			(uuid "17efff70-11e4-401f-a50c-e14d5d1b5dbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -141,7 +1668,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 208.915)
+		(at 206.015 224.155)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -158,7 +1685,7 @@
 		)
 		(uuid "3d5cf1fd-cf1d-40b3-8281-0faeaedb4d97")
 		(property "Sheetname" "MIPI PHY"
-			(at 205.74 208.0376 0)
+			(at 206.015 223.2776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -172,7 +1699,7 @@
 			)
 		)
 		(property "Sheetfile" "mipi_phy.kicad_sch"
-			(at 205.74 227.5504 0)
+			(at 206.015 242.7904 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -181,165 +1708,52 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MIPI_CSI12" bidirectional
+			(at 247.015 228.6 0)
+			(uuid "3213a1df-61e1-4178-81e4-b7e8ac6f4dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI_CSI_CTRL" bidirectional
+			(at 247.015 231.14 0)
+			(uuid "1f8f1d4e-59ec-4cb7-81cb-471b4c6f7a61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI_DSI0" bidirectional
+			(at 247.015 234.95 0)
+			(uuid "6f00d632-6a95-4aa3-ba9d-5bcdce43fa76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI_DSI_CTRL" bidirectional
+			(at 247.015 237.49 0)
+			(uuid "8b6ac813-c0e6-4a91-b063-4d4bac1c9863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
 					(page "18")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 205.105 124.46)
-		(size 41 18)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(color 155 89 182 1)
-		)
-		(uuid "508e51b0-6de7-4e96-b14d-74d979d6204b")
-		(property "Sheetname" "RK3576 eMMC"
-			(at 205.105 123.5826 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "rk3576_emmc.kicad_sch"
-			(at 205.105 143.0954 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
-					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 204.47 96.52)
-		(size 41 18)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(color 155 89 182 1)
-		)
-		(uuid "51173a63-65bb-4420-9c6d-af77ebfb98d4")
-		(property "Sheetname" "RK3576 UFS"
-			(at 204.47 95.6426 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "rk3576_ufs.kicad_sch"
-			(at 204.47 115.1554 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 147.32 152.4)
-		(size 41 18)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(color 155 89 182 1)
-		)
-		(uuid "5c5b5f2c-d981-472c-a803-168d99f2d260")
-		(property "Sheetname" "GPIO3"
-			(at 147.32 151.5226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "gpio3.kicad_sch"
-			(at 147.32 171.0354 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
-					(page "8")
 				)
 			)
 		)
@@ -360,8 +1774,8 @@
 		(fill
 			(color 155 89 182 1)
 		)
-		(uuid "639beb15-5321-4e65-8c52-deaab36f7482")
-		(property "Sheetname" "GPIO0"
+		(uuid "508e51b0-6de7-4e96-b14d-74d979d6204b")
+		(property "Sheetname" "RK3576 eMMC"
 			(at 147.32 67.7026 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -375,7 +1789,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "gpio0.kicad_sch"
+		(property "Sheetfile" "rk3576_emmc.kicad_sch"
 			(at 147.32 87.2154 0)
 			(hide yes)
 			(show_name no)
@@ -385,6 +1799,359 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 96.52)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "51173a63-65bb-4420-9c6d-af77ebfb98d4")
+		(property "Sheetname" "RK3576 UFS"
+			(at 205.74 95.6426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rk3576_ufs.kicad_sch"
+			(at 205.74 115.1554 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UFS3.1_REF_{CLK}" output
+			(at 246.74 99.06 0)
+			(uuid "67e06ce9-ba43-4fe8-82ca-59f0dd389c08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UFS3.1_RESET" output
+			(at 246.74 101.6 0)
+			(uuid "a0d42a9c-5f17-4b2f-8e15-9fb089aa458f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UFS3.1_RX" bidirectional
+			(at 246.74 106.68 0)
+			(uuid "d303a466-28a9-4d39-8cf6-1d68bb460404")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UFS3.1_TX" bidirectional
+			(at 246.74 104.14 0)
+			(uuid "3f81620b-9430-495a-a2e7-8b46190ed68b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.595 167.64)
+		(size 41 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "5c5b5f2c-d981-472c-a803-168d99f2d260")
+		(property "Sheetname" "GPIO3"
+			(at 147.595 166.7626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio3.kicad_sch"
+			(at 147.595 186.2754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MDIO" bidirectional
+			(at 147.595 179.07 180)
+			(uuid "d68eb0c8-e239-4a2a-843d-c841bbeb5144")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGMII_RX" output
+			(at 147.595 175.26 180)
+			(uuid "b6b86bb6-f602-40e5-911e-ec38aba677cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RGMII_TX" input
+			(at 147.595 171.45 180)
+			(uuid "1104d8f4-71f3-4e48-b16e-1e2ea0386d5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.38 124.46)
+		(size 41 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 155 89 182 1)
+		)
+		(uuid "639beb15-5321-4e65-8c52-deaab36f7482")
+		(property "Sheetname" "GPIO0"
+			(at 205.38 123.5826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio0.kicad_sch"
+			(at 205.38 158.1154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "40GPIOs" bidirectional
+			(at 246.38 156.21 0)
+			(uuid "36b11829-e350-4751-b3b6-6313a5964799")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BT_GPIOs" bidirectional
+			(at 246.38 143.51 0)
+			(uuid "b013d757-de61-402d-9b2c-bb883b2a4cb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_RTC" bidirectional
+			(at 246.38 146.05 0)
+			(uuid "66fafac0-2410-40cc-ab34-f2d8992e66a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIPI_DSI_CTRL" bidirectional
+			(at 246.38 151.13 0)
+			(uuid "6030765d-15fb-4c7f-ac79-cbb00137aa25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE0_CTRL" bidirectional
+			(at 246.38 128.27 0)
+			(uuid "df1f69bb-750e-4e62-8f2e-5bb6c67c83b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMIC_CTRL" input
+			(at 246.38 125.73 0)
+			(uuid "1f7df91b-40a0-4982-8861-fa1b34d5f3a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RTC_32KOUT_SOC" output
+			(at 246.38 148.59 0)
+			(uuid "12bf4286-aa91-4db5-88d4-9fcd2762c57b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_C_OTG0_GPIOs" bidirectional
+			(at 246.38 153.67 0)
+			(uuid "4db4524b-9f38-4f8a-a42b-14d1e88b73cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uSD_CARD" bidirectional
+			(at 246.38 135.89 0)
+			(uuid "eb57c9df-6aa4-4ecd-87b4-052d289bddfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uSD_PWREN_H" input
+			(at 246.38 138.43 0)
+			(uuid "e4f864fc-554f-485d-bd9b-40c4f713b544")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIFI_GPIOs" bidirectional
+			(at 246.38 140.97 0)
+			(uuid "243da769-ab4f-44ea-802a-b59d8df8a84f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI_PWREN_H" input
+			(at 246.38 130.81 0)
+			(uuid "3e96867e-edf8-4069-a6b0-416ecdb3f04b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vdet_USB_{OTG}" input
+			(at 246.38 133.35 0)
+			(uuid "bafe2293-15dc-4831-84bf-283208085554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -438,6 +2205,66 @@
 				(justify left top)
 			)
 		)
+		(pin "BT_BCM" bidirectional
+			(at 147.32 106.68 180)
+			(uuid "0b265880-ed2f-4e8a-88e6-a6cba14bd704")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_GPIOs" bidirectional
+			(at 147.32 109.22 180)
+			(uuid "6f1da66f-7830-4b9d-a596-5511c26628a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_UART" bidirectional
+			(at 147.32 104.14 180)
+			(uuid "511052e5-7f37-48f9-987f-108415a860a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WIFI_GPIOs" bidirectional
+			(at 147.32 101.6 180)
+			(uuid "5e094045-4e95-494a-8099-5a8528d6c1aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WIFI_SDIO" bidirectional
+			(at 147.32 99.06 180)
+			(uuid "a3a3698d-3dd9-41df-8e21-43b0e385845f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WIFI_BT_ANT_CTRL" bidirectional
+			(at 147.32 111.76 180)
+			(uuid "81fba831-07de-471c-a9de-80d08575d175")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
@@ -448,7 +2275,7 @@
 	)
 	(sheet
 		(at 147.32 124.46)
-		(size 41 18)
+		(size 41 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -478,7 +2305,7 @@
 			)
 		)
 		(property "Sheetfile" "gpio2.kicad_sch"
-			(at 147.32 143.0954 0)
+			(at 147.32 158.1154 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -487,6 +2314,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "40GPIOs" bidirectional
+			(at 147.32 138.43 180)
+			(uuid "5c1e4898-d3d2-470e-bdd8-b65df9c1f0ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Bi_Switch" input
+			(at 147.32 127 180)
+			(uuid "ebeaaf7f-2c2b-4b9f-a1a2-f5a38cbea1f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDIO" bidirectional
+			(at 147.32 134.62 180)
+			(uuid "3613fbec-82e3-436f-941a-516460b79b47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE0_CTRL" bidirectional
+			(at 147.32 130.81 180)
+			(uuid "9e39e823-791e-4f5f-bb15-532254d55907")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_{MCU}" bidirectional
+			(at 147.32 142.24 180)
+			(uuid "62a1da05-241b-42d3-a139-e1057406ce89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_{HOST}_PWREN_H" input
+			(at 147.32 149.86 180)
+			(uuid "c349573f-63fe-45a0-8371-ec5f1d9830e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vdet_USB_{MCU}" output
+			(at 147.32 146.05 180)
+			(uuid "c00c2a9f-e339-440a-939d-4b218059cdbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -498,7 +2395,7 @@
 		)
 	)
 	(sheet
-		(at 205.105 40.64)
+		(at 205.38 40.64)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -515,7 +2412,7 @@
 		)
 		(uuid "9bcc6d7f-da29-4287-9b29-e4401b85eb03")
 		(property "Sheetname" "RK3576 USB2"
-			(at 205.105 39.7626 0)
+			(at 205.38 39.7626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -529,7 +2426,7 @@
 			)
 		)
 		(property "Sheetfile" "rk3576_usb2.kicad_sch"
-			(at 205.105 59.2754 0)
+			(at 205.38 59.2754 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -538,6 +2435,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_{HUB}" bidirectional
+			(at 246.38 45.72 0)
+			(uuid "f52773aa-21f3-4113-b36b-b6de6d075dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_{OTG}_Data" bidirectional
+			(at 246.38 50.8 0)
+			(uuid "76ed8459-0db1-4f39-99e6-86e9c68f69fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -549,7 +2466,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 180.975)
+		(at 206.015 196.215)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -566,7 +2483,7 @@
 		)
 		(uuid "a13aaadd-6699-4337-b396-0a7f06d85e16")
 		(property "Sheetname" "HDMI PHY"
-			(at 205.74 180.0976 0)
+			(at 206.015 195.3376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -580,7 +2497,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi_phy.kicad_sch"
-			(at 205.74 199.6104 0)
+			(at 206.015 214.8504 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -589,6 +2506,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HDMI" bidirectional
+			(at 247.015 201.93 0)
+			(uuid "111377ad-32b3-42b1-86ce-e074e15b1a76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -642,6 +2569,26 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_C_OTG0" bidirectional
+			(at 246.74 73.66 0)
+			(uuid "e1bdb194-b48a-40c2-9515-719c536835f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_C_OTG0_GPIOs" bidirectional
+			(at 246.74 78.74 0)
+			(uuid "55d6eb76-1d48-403a-b048-1a2e32554259")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392"
@@ -651,7 +2598,7 @@
 		)
 	)
 	(sheet
-		(at 147.32 40.64)
+		(at 147.955 40.64)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -668,7 +2615,7 @@
 		)
 		(uuid "b9c235bb-901b-4321-97db-b0a0f617f372")
 		(property "Sheetname" "RK3576 Power"
-			(at 147.32 39.7626 0)
+			(at 147.955 39.7626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -682,7 +2629,7 @@
 			)
 		)
 		(property "Sheetfile" "rk3576_power.kicad_sch"
-			(at 147.32 59.2754 0)
+			(at 147.955 59.2754 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -702,7 +2649,7 @@
 		)
 	)
 	(sheet
-		(at 205.105 236.22)
+		(at 205.38 251.46)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -719,7 +2666,7 @@
 		)
 		(uuid "d8d32105-9063-4f17-92f2-de6a5ce61e13")
 		(property "Sheetname" "RK3576 PCIe"
-			(at 205.105 235.3426 0)
+			(at 205.38 250.5826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -733,7 +2680,7 @@
 			)
 		)
 		(property "Sheetfile" "rk3576_pcie.kicad_sch"
-			(at 205.105 254.8554 0)
+			(at 205.38 270.0954 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -742,6 +2689,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PCIE0" bidirectional
+			(at 246.38 256.54 0)
+			(uuid "7c502af9-09d6-42aa-ab45-a2bc1cc32f3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_{HUB}" bidirectional
+			(at 246.38 262.89 0)
+			(uuid "f5aa81b2-1770-42a0-ae44-056faada4c8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -753,7 +2720,7 @@
 		)
 	)
 	(sheet
-		(at 147.32 208.28)
+		(at 147.595 223.52)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -770,7 +2737,7 @@
 		)
 		(uuid "dccca234-f8f9-4327-a950-2a989d974907")
 		(property "Sheetname" "SARADC"
-			(at 147.32 207.4026 0)
+			(at 147.595 222.6426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -784,7 +2751,7 @@
 			)
 		)
 		(property "Sheetfile" "saradc.kicad_sch"
-			(at 147.32 226.9154 0)
+			(at 147.595 242.1554 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -804,7 +2771,7 @@
 		)
 	)
 	(sheet
-		(at 205.105 153.035)
+		(at 205.38 168.275)
 		(size 41 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -821,7 +2788,7 @@
 		)
 		(uuid "e3169b31-7633-42aa-8b59-c93f8fc73ecf")
 		(property "Sheetname" "RK3576 uSD Card"
-			(at 205.105 152.1576 0)
+			(at 205.38 167.3976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -835,7 +2802,7 @@
 			)
 		)
 		(property "Sheetfile" "rk3576_usd_card.kicad_sch"
-			(at 205.105 171.6704 0)
+			(at 205.38 186.9104 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -844,6 +2811,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "uSD_CARD" bidirectional
+			(at 246.38 177.8 0)
+			(uuid "02a9435e-72b2-45d9-b22b-2529c8ef0286")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

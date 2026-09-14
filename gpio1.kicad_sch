@@ -16571,7 +16571,7 @@
 			)
 		)
 	)
-	(hierarchical_label "WIFI_GPIOs"
+	(hierarchical_label "WIFI_BT_ANT_CTRL"
 		(shape bidirectional)
 		(at 146.05 88.9 0)
 		(fields_autoplaced yes)
@@ -16683,7 +16683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33616b82-0ba9-48d8-aafc-0132817cda5e")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0146"
 			(at 55.88 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16743,7 +16743,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/758a90de-94a4-4b45-a7ba-61e4621900fd"
-					(reference "#PWR0134")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -16760,7 +16760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d79e8d6-422e-4c6d-a433-9c1cf5e6134f")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 96.52 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16780,7 +16780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:FCCSP-698_L17.2-W16.1-TL_RK3576"
 			(at 29.21 6.985 0)
 			(hide yes)
 			(show_name no)
@@ -18217,46 +18217,36 @@
 		)
 		(pin "1A23"
 			(uuid "00e4c76c-2dfe-49d7-af27-527dc35fbad8")
-			(alternate "SDMMC1_D2_M0")
 		)
 		(pin "1A24"
 			(uuid "b56d07fb-ae11-4301-83b9-97e1dbd9b384")
-			(alternate "SAI2_LRCK_M0")
 		)
 		(pin "1B22"
 			(uuid "0301b390-ded9-4284-8bbb-9907b9e066cb")
-			(alternate "SDMMC1_CLK_M0")
 		)
 		(pin "1B23"
 			(uuid "1a330932-5ae1-4ad9-8b4d-345223b55bb5")
-			(alternate "UART4_TX_M1")
 		)
 		(pin "1A17"
 			(uuid "903af2fb-632c-4d5f-a448-922c54c303e7")
 		)
 		(pin "B28"
 			(uuid "33c8637a-91e6-4bc1-8c65-4eeed3556e67")
-			(alternate "UART4_RX_M1")
 		)
 		(pin "C28"
 			(uuid "85938ceb-04a2-4be2-bf33-fd860c0717d1")
-			(alternate "SAI2_SDI_M0")
 		)
 		(pin "1C22"
 			(uuid "f33c5473-2174-4389-8daa-4a9da3d2ba66")
-			(alternate "GPIO1_C7_d")
 		)
 		(pin "1E21"
 			(uuid "fc593322-0ff7-4a27-8d60-e8fdd25364ff")
-			(alternate "GPIO1_D4_d")
 		)
 		(pin "B27"
 			(uuid "a332ea0b-080d-404f-881c-9f7c9f2fef43")
-			(alternate "SDMMC1_D1_M0")
 		)
 		(pin "B26"
 			(uuid "0a922512-e1e8-456f-94e4-332f1f7600a1")
-			(alternate "SDMMC1_CMD_M0")
 		)
 		(pin "1A13"
 			(uuid "6446e492-5201-425c-8bd4-625059f9a2df")
@@ -18266,7 +18256,6 @@
 		)
 		(pin "B29"
 			(uuid "fcd11644-b4e4-4beb-a675-1201d045ccbb")
-			(alternate "UART4_RTSN_M1")
 		)
 		(pin "1D18"
 			(uuid "892da49d-6bdf-4b5d-bcef-b7d4168f43af")
@@ -18288,34 +18277,27 @@
 		)
 		(pin "A26"
 			(uuid "85828fc7-3dbc-4025-b3d2-57b6122ef221")
-			(alternate "GPIO1_C6_d")
 		)
 		(pin "1C23"
 			(uuid "ba86f702-b61f-4414-9604-393737d0a7bc")
-			(alternate "UART4_CTSN_M1")
 		)
 		(pin "A27"
 			(uuid "fcb11c74-5f56-420f-92ca-cac8550114b0")
-			(alternate "SDMMC1_D3_M0")
 		)
 		(pin "A28"
 			(uuid "bc3c1484-dfb1-4e38-9987-84fb04e18902")
-			(alternate "SDMMC1_D0_M0")
 		)
 		(pin "C29"
 			(uuid "3267cadc-c515-4748-8a5e-71c568a16b68")
-			(alternate "SAI2_SDO_M0")
 		)
 		(pin "1D22"
 			(uuid "910e3001-9690-4f5e-b758-46686f4c3680")
-			(alternate "SAI2_SCLK_M0")
 		)
 		(pin "1A14"
 			(uuid "a5196c4a-6ecf-4638-a687-be1ea6317427")
 		)
 		(pin "1E22"
 			(uuid "18fdf0ef-3fc8-4509-94ba-83fd58f10138")
-			(alternate "GPIO1_D5_d")
 		)
 		(pin "1A18"
 			(uuid "50ee13b5-9b1d-4dc0-b170-f74964f32b74")
@@ -19019,7 +19001,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/758a90de-94a4-4b45-a7ba-61e4621900fd"
-					(reference "U2")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -19036,7 +19018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d44ca5d9-8ef5-442c-9838-d79eaa26fe0c")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0147"
 			(at 55.88 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -19096,7 +19078,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/758a90de-94a4-4b45-a7ba-61e4621900fd"
-					(reference "#PWR0135")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -19114,7 +19096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ac577b-0848-45fc-9034-c32cbd37217d")
-		(property "Reference" "C98"
+		(property "Reference" "C106"
 			(at 58.42 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19233,7 +19215,7 @@
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/758a90de-94a4-4b45-a7ba-61e4621900fd"
-					(reference "C98")
+					(reference "C106")
 					(unit 1)
 				)
 			)
