@@ -2,9 +2,8 @@
 
 A custom single-board computer built around the Rockchip RK3576 SoC, designed as a learning project to explore modern SBC architecture.
 
-> **Status: Work in Progress** — schematic complete, PCB layout in progress. Not yet fabricated.
+> **Status: Work in Progress** — schematic Simi complete. Not yet fabricated.
 
-![KiCad 3D render placeholder](docs/board-render.png)
 
 ## Overview
 
