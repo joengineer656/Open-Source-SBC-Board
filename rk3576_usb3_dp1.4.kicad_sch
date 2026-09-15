@@ -16965,7 +16965,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "(property \"ki_keywords\" \"capacitor cap\""
 			(at 164.338 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17052,7 +17052,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 160.02 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 160.02 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -17074,6 +17085,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b3f56451-88f5-457c-b7d5-78c62f5ba49e"
 					(reference "R35")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -17100,7 +17114,7 @@
 				)
 			)
 		)
-		(property "Value" "RK3576"
+		(property "Value" ""
 			(at 100.33 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17220,7 +17234,29 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "(polyline"
+			(at 100.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 100.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 100.33 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -19330,6 +19366,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b3f56451-88f5-457c-b7d5-78c62f5ba49e"
 					(reference "U3")
 					(unit 12)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -19522,7 +19561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 55.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19599,7 +19638,40 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "C5209398"
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 55.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 55.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19621,6 +19693,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b3f56451-88f5-457c-b7d5-78c62f5ba49e"
 					(reference "C127")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -19659,7 +19734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 40.64 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19736,7 +19811,40 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "C5209398"
+			(at 40.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 40.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 40.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 40.64 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19758,6 +19866,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/b3f56451-88f5-457c-b7d5-78c62f5ba49e"
 					(reference "C126")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)

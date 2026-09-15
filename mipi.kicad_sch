@@ -4687,7 +4687,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DSI Connector"
+		(property "Value" "AFC11-S30ICC-00"
 			(at 243.84 107.0355 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +4775,40 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "C11078"
+			(at 241.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "38-52559-3052"
+			(at 241.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 241.3 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 241.3 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4884,6 +4917,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "J10")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -4977,6 +5013,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5209398"
+			(at 185.42 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 185.42 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 185.42 140.97 0)
 			(hide yes)
@@ -4999,7 +5057,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 185.42 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 185.42 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5021,6 +5090,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C361")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -5048,7 +5120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSI Connector"
+		(property "Value" "AFC11-S30ICC-00"
 			(at 125.73 107.0355 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5136,7 +5208,40 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "C11078"
+			(at 123.19 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "38-52559-3052"
+			(at 123.19 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 123.19 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5245,6 +5350,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "J9")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -5338,6 +5446,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C86295"
+			(at 176.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL10A226MP8NUNE "
+			(at 176.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 176.53 140.97 0)
 			(hide yes)
@@ -5360,7 +5490,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 176.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 176.53 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5382,6 +5523,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C360")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -5408,7 +5552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" ""
 			(at 66.294 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,7 +5640,29 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "(do_not_autoplace no)"
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 64.77 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5518,6 +5684,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "R150")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -5612,6 +5781,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5209398"
+			(at 101.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 101.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 101.6 143.51 0)
 			(hide yes)
@@ -5634,7 +5825,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 101.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 101.6 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5656,6 +5858,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C363")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -5749,6 +5954,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C86295"
+			(at 210.82 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL10A226MP8NUNE "
+			(at 210.82 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 210.82 143.51 0)
 			(hide yes)
@@ -5771,7 +5998,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 210.82 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 210.82 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5793,6 +6031,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C364")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -5887,6 +6128,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5209398"
+			(at 66.04 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 66.04 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 66.04 140.97 0)
 			(hide yes)
@@ -5909,7 +6172,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 66.04 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 66.04 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5931,6 +6205,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C359")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -6179,6 +6456,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5209398"
+			(at 219.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 219.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 219.71 143.51 0)
 			(hide yes)
@@ -6201,7 +6500,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 219.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 219.71 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6223,6 +6533,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C365")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -6393,6 +6706,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C86295"
+			(at 144.78 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL10A226MP8NUNE "
+			(at 144.78 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 144.78 135.89 0)
 			(hide yes)
@@ -6415,7 +6750,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 144.78 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6437,6 +6783,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C356")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -6531,6 +6880,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5209398"
+			(at 153.67 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 153.67 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 153.67 135.89 0)
 			(hide yes)
@@ -6553,7 +6924,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 153.67 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 153.67 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6575,6 +6957,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C357")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -6976,6 +7361,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C86295"
+			(at 57.15 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL10A226MP8NUNE "
+			(at 57.15 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 57.15 140.97 0)
 			(hide yes)
@@ -6998,7 +7405,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 57.15 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 57.15 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7020,6 +7438,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C358")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -7267,6 +7688,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C86295"
+			(at 92.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL10A226MP8NUNE "
+			(at 92.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "KLC_S3.3" ""
 			(at 92.71 143.51 0)
 			(hide yes)
@@ -7289,7 +7732,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 92.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 92.71 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7311,6 +7765,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "C362")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -7722,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" ""
 			(at 58.674 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +8267,29 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "(do_not_autoplace no)"
+			(at 57.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 57.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 57.15 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7832,6 +8311,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/6afd6835-4cb6-41e5-9c41-d5fc47ac94a3"
 					(reference "R149")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)

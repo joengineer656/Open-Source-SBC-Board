@@ -2630,6 +2630,50 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 125.73 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 125.73 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 125.73 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 125.73 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f0f5c538-3cf6-4b93-8bbd-b1532d6c481b")
 		)
@@ -2644,6 +2688,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "Q7")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -2669,7 +2716,7 @@
 				)
 			)
 		)
-		(property "Value" "500mA"
+		(property "Value" "1A"
 			(at 144.78 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +2726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 149.86 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2713,6 +2760,61 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 144.78 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 144.78 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C28326708"
+			(at 144.78 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 144.78 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c3612c79-8b9a-47e5-a37b-911d413ff863")
 		)
@@ -2724,6 +2826,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "F1")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -2749,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "(property \"Description\" \"Unpolarized capacitor, small symbol\""
 			(at 137.668 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2836,7 +2941,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 133.35 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 133.35 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -2858,6 +2974,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "R162")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -2961,7 +3080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" ""
 			(at 67.564 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +3168,29 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "(do_not_autoplace no)"
+			(at 66.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 66.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3071,6 +3212,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "R160")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -3096,7 +3240,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "(property \"Description\" \"Unpolarized capacitor, small symbol\""
 			(at 137.668 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3183,7 +3327,18 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "KLC_S4.2_DVDD" ""
+			(at 133.35 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 133.35 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -3205,6 +3360,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "R163")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -3397,7 +3555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3474,7 +3632,40 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "C5209398"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3496,6 +3687,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "C370")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -3677,7 +3871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RV-3028-C7"
+		(property "Value" ""
 			(at 94.8533 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3688,7 +3882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
+		(property "Footprint" "(effects"
 			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3711,6 +3905,50 @@
 			)
 		)
 		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
+			(at 92.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 92.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 92.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 92.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3750,6 +3988,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "U32")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -3776,7 +4017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" ""
 			(at 113.284 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +4105,29 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "(at 0 0 0)"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 111.76 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3886,6 +4149,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "R161")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -3989,7 +4255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" ""
 			(at 59.944 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4077,7 +4343,29 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "(do_not_autoplace no)"
+			(at 58.42 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 58.42 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4099,6 +4387,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "R159")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -4214,7 +4505,40 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "C113975"
+			(at 133.35 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "581-SMBJ5.0CA "
+			(at 133.35 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 133.35 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 133.35 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -4236,6 +4560,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "D17")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -4307,6 +4634,61 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C964758"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "57f83f0d-d13f-424e-8496-482377a2dc51")
 		)
@@ -4318,6 +4700,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "BT1")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -4344,7 +4729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" ""
 			(at 125.984 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4817,29 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "(at 0 0 0)"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 124.46 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4454,6 +4861,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "R158")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
@@ -4492,7 +4902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4569,7 +4979,40 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
+		(property "LCSC Part" "C5209398"
+			(at 97.79 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "CL03A105KP3NSNC "
+			(at 97.79 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 97.79 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 97.79 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4591,6 +5034,9 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "C371")
 					(unit 1)
+					(variant
+						(name "Test")
+					)
 				)
 			)
 		)
