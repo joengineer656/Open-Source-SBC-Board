@@ -370,10 +370,12 @@
 			(property "Manf" "Rockchip"
 				(at -67.31 -63.5 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -381,10 +383,12 @@
 			(property "MPN" "RK3576"
 				(at -67.31 -66.04 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -392,10 +396,12 @@
 			(property "Package" "FCCSP698L"
 				(at -67.31 -68.58 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify right)
 				)
@@ -412,9 +418,21 @@
 			)
 			(symbol "RK3576_1_1"
 				(unit_name "GPIO0")
+				(polyline
+					(pts
+						(xy -29.21 48.26) (xy -7.62 48.26) (xy -7.62 25.4) (xy -29.21 25.4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -29.21 48.2599)
-					(end 29.21 -40.6399)
+					(end 29.21 -50.7999)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -425,19 +443,7 @@
 				)
 				(polyline
 					(pts
-						(xy -29.21 26.67) (xy -7.62 26.67) (xy -7.62 3.81) (xy -29.21 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -29.21 15.24) (xy -17.78 15.24) (xy -17.78 7.62) (xy -29.21 7.62)
+						(xy -29.21 36.83) (xy -17.78 36.83) (xy -17.78 29.21) (xy -29.21 29.21)
 					)
 					(stroke
 						(width 0)
@@ -473,7 +479,7 @@
 				)
 				(polyline
 					(pts
-						(xy -21.59 15.24) (xy -21.59 7.62)
+						(xy -21.59 36.83) (xy -21.59 29.21)
 					)
 					(stroke
 						(width 0)
@@ -485,7 +491,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 48.26) (xy -7.62 29.21) (xy -29.21 29.21)
+						(xy -7.62 46.99) (xy -11.43 46.99) (xy -11.43 29.21) (xy -7.62 29.21)
 					)
 					(stroke
 						(width 0)
@@ -497,7 +503,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 45.72) (xy -10.16 45.72) (xy -11.43 45.72) (xy -11.43 39.37) (xy -11.43 38.1) (xy -7.62 38.1)
+						(xy -7.62 25.4) (xy -7.62 6.35) (xy -29.21 6.35)
 					)
 					(stroke
 						(width 0)
@@ -509,7 +515,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 25.4) (xy -11.43 25.4) (xy -11.43 7.62) (xy -7.62 7.62)
+						(xy -7.62 22.86) (xy -10.16 22.86) (xy -11.43 22.86) (xy -11.43 16.51) (xy -11.43 15.24) (xy -7.62 15.24)
 					)
 					(stroke
 						(width 0)
@@ -545,7 +551,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -35.56) (xy 0 -35.56) (xy 0 -40.64) (xy 29.21 -40.64)
+						(xy -7.62 -35.56) (xy 0 -35.56) (xy 0 -41.91) (xy 0 -51.435)
 					)
 					(stroke
 						(width 0)
@@ -557,7 +563,7 @@
 				)
 				(polyline
 					(pts
-						(xy 29.21 12.7) (xy 0 12.7) (xy 0 3.81) (xy -7.62 3.81)
+						(xy 29.21 6.35) (xy 0 6.35) (xy 0 6.35) (xy -7.62 6.35)
 					)
 					(stroke
 						(width 0)
@@ -568,7 +574,7 @@
 					)
 				)
 				(text "Reset"
-					(at -20.066 11.43 900)
+					(at -20.066 33.02 900)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -578,23 +584,31 @@
 					)
 				)
 				(text "Operation Voltage = 1.8V"
-					(at -18.542 5.334 0)
+					(at -20.066 26.924 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.8382 0.8382)
 						)
 					)
 				)
 				(text "Operation Voltage = 0.75V"
-					(at -18.288 -34.29 0)
+					(at -19.558 -40.132 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.8382 0.8382)
 						)
 					)
 				)
-				(text "OSC"
-					(at -9.398 41.656 900)
+				(text "Operation Voltage = 1.8V/3.3V"
+					(at -18.288 -34.29 0)
+					(effects
+						(font
+							(size 0.8382 0.8382)
+						)
+					)
+				)
+				(text "PMUIO0 Domain"
+					(at -9.398 38.354 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -603,8 +617,8 @@
 						)
 					)
 				)
-				(text "PMUIO0 Domain"
-					(at -9.398 16.764 900)
+				(text "OSC"
+					(at -9.398 18.796 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -634,7 +648,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 -15.24 180)
+					(at 38.1 -22.86 180)
 					(length 8.89)
 					(name "SAI0_SDO0_M1"
 						(effects
@@ -656,7 +670,7 @@
 					(alternate "UART10_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -33.02 180)
+					(at 38.1 -40.64 180)
 					(length 8.89)
 					(name "SAI0_SDI3_M1"
 						(effects
@@ -879,7 +893,7 @@
 					(alternate "I2C6_SCL_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -35.56 180)
+					(at 38.1 -43.18 180)
 					(length 8.89)
 					(name "UART0_TX_M0"
 						(effects
@@ -899,7 +913,7 @@
 					(alternate "JTAG_TCK_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -7.62 180)
+					(at 38.1 -15.24 180)
 					(length 8.89)
 					(name "I2C0_SDA_M1"
 						(effects
@@ -920,7 +934,7 @@
 					(alternate "UART8_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -10.16 180)
+					(at 38.1 -17.78 180)
 					(length 8.89)
 					(name "PDM0_CLK1_M0"
 						(effects
@@ -942,7 +956,7 @@
 					(alternate "SPI0_CSN1_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -12.7 180)
+					(at 38.1 -20.32 180)
 					(length 8.89)
 					(name "SAI0_MCLK_M1"
 						(effects
@@ -964,7 +978,7 @@
 					(alternate "UART10_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -25.4 180)
+					(at 38.1 -33.02 180)
 					(length 8.89)
 					(name "SAI0_SDI0_M1"
 						(effects
@@ -985,7 +999,7 @@
 					(alternate "SPI0_MOSI_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 2.54 180)
+					(at 38.1 -5.08 180)
 					(length 8.89)
 					(name "I2C2_SCL_M0"
 						(effects
@@ -1007,7 +1021,7 @@
 					(alternate "UART1_TX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -17.78 180)
+					(at 38.1 -25.4 180)
 					(length 8.89)
 					(name "SAI0_SCLK_M1"
 						(effects
@@ -1028,7 +1042,7 @@
 					(alternate "SPI0_CSN0_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -30.48 180)
+					(at 38.1 -38.1 180)
 					(length 8.89)
 					(name "SAI0_SDI2_M1"
 						(effects
@@ -1053,7 +1067,7 @@
 					(alternate "UART1_CTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -20.32 180)
+					(at 38.1 -27.94 180)
 					(length 8.89)
 					(name "SAI0_LRCK_M1"
 						(effects
@@ -1074,7 +1088,7 @@
 					(alternate "SPI0_CLK_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 5.08 180)
+					(at 38.1 -2.54 180)
 					(length 8.89)
 					(name "SDMMC0_PWREN"
 						(effects
@@ -1133,7 +1147,7 @@
 					)
 				)
 				(pin power_in line
-					(at -38.1 10.16 0)
+					(at -38.1 31.75 0)
 					(length 8.89)
 					(name "TVSS"
 						(effects
@@ -1169,7 +1183,7 @@
 					)
 				)
 				(pin power_in line
-					(at -38.1 33.02 0)
+					(at -38.1 21.59 0)
 					(length 8.89)
 					(name "OSC_AVDD1V8"
 						(effects
@@ -1187,7 +1201,7 @@
 					)
 				)
 				(pin power_in line
-					(at -38.1 20.32 0)
+					(at -38.1 41.91 0)
 					(length 8.89)
 					(name "PMUIO0_VCC1V8"
 						(effects
@@ -1242,7 +1256,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 -38.1 180)
+					(at 38.1 -45.72 180)
 					(length 8.89)
 					(name "UART0_RX_M0"
 						(effects
@@ -1262,7 +1276,7 @@
 					(alternate "JTAG_TMS_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -5.08 180)
+					(at 38.1 -12.7 180)
 					(length 8.89)
 					(name "I2C0_SCL_M1"
 						(effects
@@ -1283,7 +1297,7 @@
 					(alternate "UART8_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -2.54 180)
+					(at 38.1 -10.16 180)
 					(length 8.89)
 					(name "I2C2_SDA_M0"
 						(effects
@@ -1305,7 +1319,7 @@
 					(alternate "UART1_RX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 -27.94 180)
+					(at 38.1 -35.56 180)
 					(length 8.89)
 					(name "SAI0_SDI1_M1"
 						(effects
@@ -1327,7 +1341,7 @@
 					(alternate "SPI0_MISO_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 10.16 180)
+					(at 38.1 2.54 180)
 					(length 8.89)
 					(name "REF_CLK1_OUT"
 						(effects
@@ -1349,7 +1363,7 @@
 					(alternate "UART4_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 38.1 7.62 180)
+					(at 38.1 0 180)
 					(length 8.89)
 					(name "REF_CLK2_OUT"
 						(effects
@@ -1371,7 +1385,7 @@
 					(alternate "UART4_RX_M2" bidirectional line)
 				)
 				(pin input line
-					(at -38.1 39.37 0)
+					(at -38.1 8.89 0)
 					(length 8.89)
 					(name "OSC_XIN"
 						(effects
@@ -1389,7 +1403,7 @@
 					)
 				)
 				(pin output line
-					(at -38.1 45.72 0)
+					(at -38.1 15.24 0)
 					(length 8.89)
 					(name "OSC_XOUT"
 						(effects
@@ -1427,7 +1441,7 @@
 					(alternate "GPIO0_A0_d" bidirectional line)
 				)
 				(pin input input_low
-					(at -38.1 12.7 0)
+					(at -38.1 34.29 0)
 					(length 8.89)
 					(name "NPOR"
 						(effects
@@ -1488,8 +1502,8 @@
 			(symbol "RK3576_2_1"
 				(unit_name "GPIO1")
 				(rectangle
-					(start -14.097 29.972)
-					(end 14.097 -29.972)
+					(start -17.7799 27.686)
+					(end 17.7799 -27.686)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1499,7 +1513,7 @@
 					)
 				)
 				(text "Operation Voltage = 1.8V/3.3V"
-					(at 0.762 -28.194 0)
+					(at -1.27 -25.654 0)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1507,7 +1521,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 21.59 180)
+					(at 26.67 19.05 180)
 					(length 8.89)
 					(name "ETH1_RXCLK_M1"
 						(effects
@@ -1531,7 +1545,7 @@
 					(alternate "UART3_CTSN_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -11.43 180)
+					(at 26.67 -13.97 180)
 					(length 8.89)
 					(name "ETH1_MDC_M1"
 						(effects
@@ -1553,7 +1567,7 @@
 					(alternate "SAI2_LRCK_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 12.7 180)
+					(at 26.67 10.16 180)
 					(length 8.89)
 					(name "ETH1_TXCLK_M1"
 						(effects
@@ -1576,7 +1590,7 @@
 					(alternate "UART3_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 5.08 180)
+					(at 26.67 2.54 180)
 					(length 8.89)
 					(name "ETH1_TXD0_M1"
 						(effects
@@ -1600,7 +1614,7 @@
 					(alternate "UART4_TX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -2.54 180)
+					(at 26.67 -5.08 180)
 					(length 8.89)
 					(name "ETH1_RXD0_M1"
 						(effects
@@ -1624,7 +1638,7 @@
 					(alternate "UART2_RX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 7.62 180)
+					(at 26.67 5.08 180)
 					(length 8.89)
 					(name "ETH1_PPSTRIG_M1"
 						(effects
@@ -1648,7 +1662,7 @@
 					(alternate "UART4_CTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -8.89 180)
+					(at 26.67 -11.43 180)
 					(length 8.89)
 					(name "ETH1_RXCTL_M1"
 						(effects
@@ -1670,7 +1684,7 @@
 					(alternate "UART10_RX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -16.51 180)
+					(at 26.67 -19.05 180)
 					(length 8.89)
 					(name "ETH1_MCLK_M1"
 						(effects
@@ -1694,7 +1708,7 @@
 					(alternate "UART10_RTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -19.05 180)
+					(at 26.67 -21.59 180)
 					(length 8.89)
 					(name "ETH_CLK1_25M_OUT_M1"
 						(effects
@@ -1721,7 +1735,7 @@
 					(alternate "UART10_CTSN_M1" bidirectional line)
 				)
 				(pin power_in line
-					(at 22.86 -25.4 180)
+					(at -26.67 24.13 0)
 					(length 8.89)
 					(name "VCCIO3_VCC"
 						(effects
@@ -1739,7 +1753,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 0 180)
+					(at 26.67 -2.54 180)
 					(length 8.89)
 					(name "ETH1_TXCTL_M1"
 						(effects
@@ -1763,7 +1777,7 @@
 					(alternate "UART2_TX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 19.05 180)
+					(at 26.67 16.51 180)
 					(length 8.89)
 					(name "ETH1_TXD2_M1"
 						(effects
@@ -1786,7 +1800,7 @@
 					(alternate "UART3_RTSN_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 24.13 180)
+					(at 26.67 21.59 180)
 					(length 8.89)
 					(name "ETH1_RXD2_M1"
 						(effects
@@ -1811,7 +1825,7 @@
 					(alternate "SPI1_CLK_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 15.24 180)
+					(at 26.67 12.7 180)
 					(length 8.89)
 					(name "ETH1_TXD3_M1"
 						(effects
@@ -1835,7 +1849,7 @@
 					(alternate "UART3_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 26.67 180)
+					(at 26.67 24.13 180)
 					(length 8.89)
 					(name "ETH1_RXD3_M1"
 						(effects
@@ -1859,7 +1873,7 @@
 					(alternate "SPI1_MOSI_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 2.54 180)
+					(at 26.67 0 180)
 					(length 8.89)
 					(name "ETH1_TXD1_M1"
 						(effects
@@ -1883,7 +1897,7 @@
 					(alternate "UART4_RX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 26.67 7.62 180)
 					(length 8.89)
 					(name "ETH1_PPSCLK_M1"
 						(effects
@@ -1909,7 +1923,7 @@
 					(alternate "UART4_RTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -13.97 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(name "ETH1_MDIO_M1"
 						(effects
@@ -1931,7 +1945,7 @@
 					(alternate "SAI2_SDI_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -6.35 180)
+					(at 26.67 -8.89 180)
 					(length 8.89)
 					(name "ETH1_RXD1_M1"
 						(effects
@@ -1955,8 +1969,8 @@
 			(symbol "RK3576_3_1"
 				(unit_name "GPIO2")
 				(rectangle
-					(start -12.7 45.72)
-					(end 12.7 -45.72)
+					(start -17.78 27.686)
+					(end 17.78 -27.686)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1965,20 +1979,8 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 12.7 45.72) (xy -12.7 45.72)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(text "Operation Voltage = 1.8V/3.3V"
-					(at 0 -43.942 0)
+					(at 0 -25.908 0)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1986,7 +1988,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 3.81 180)
+					(at 26.67 -13.97 180)
 					(length 8.89)
 					(name "VI_CIF_D1"
 						(effects
@@ -2011,7 +2013,7 @@
 					(alternate "UART11_TX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -1.27 180)
+					(at 26.67 -19.05 180)
 					(length 8.89)
 					(name "ETH1_TXD0_M0"
 						(effects
@@ -2034,7 +2036,7 @@
 					(alternate "UART4_CTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 11.43 180)
+					(at 26.67 -6.35 180)
 					(length 8.89)
 					(name "VI_CIF_D4"
 						(effects
@@ -2060,7 +2062,7 @@
 					(alternate "UART9_TX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -10.16 180)
+					(at -26.67 5.08 0)
 					(length 8.89)
 					(name "ETH1_RXD0_M0"
 						(effects
@@ -2083,7 +2085,7 @@
 					(alternate "UART4_RX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 30.48 180)
+					(at 26.67 12.7 180)
 					(length 8.89)
 					(name "VI_CIF_D11"
 						(effects
@@ -2109,7 +2111,7 @@
 					(alternate "UART1_CTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 33.02 180)
+					(at 26.67 15.24 180)
 					(length 8.89)
 					(name "VI_CIF_D12"
 						(effects
@@ -2133,7 +2135,7 @@
 					(alternate "UART1_RX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -36.83 180)
+					(at -26.67 -21.59 0)
 					(length 8.89)
 					(name "VI_CIF_CLKI"
 						(effects
@@ -2159,7 +2161,7 @@
 					(alternate "UART3_RTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -34.29 180)
+					(at -26.67 -19.05 0)
 					(length 8.89)
 					(name "VI_CIF_CLKO"
 						(effects
@@ -2186,7 +2188,7 @@
 					(alternate "UART3_CTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -17.78 180)
+					(at -26.67 -2.54 0)
 					(length 8.89)
 					(name "ISP_PRELIGHT_TRIG_M0"
 						(effects
@@ -2209,7 +2211,7 @@
 					(alternate "UART6_RTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -20.32 180)
+					(at -26.67 -5.08 0)
 					(length 8.89)
 					(name "ISP_FLASH_TRIGOUT_M0"
 						(effects
@@ -2232,7 +2234,7 @@
 					(alternate "UART6_CTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 27.94 180)
+					(at 26.67 10.16 180)
 					(length 8.89)
 					(name "VI_CIF_D10"
 						(effects
@@ -2258,7 +2260,7 @@
 					(alternate "UART1_RTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -31.75 180)
+					(at -26.67 -16.51 0)
 					(length 8.89)
 					(name "VI_CIF_VSYNC"
 						(effects
@@ -2283,7 +2285,7 @@
 					(alternate "UART3_RX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 1.27 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(name "VI_CIF_D0"
 						(effects
@@ -2308,7 +2310,7 @@
 					(alternate "UART11_RX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 22.86 180)
+					(at 26.67 5.08 180)
 					(length 8.89)
 					(name "VI_CIF_D8"
 						(effects
@@ -2334,7 +2336,7 @@
 					(alternate "UART7_RTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 8.89 180)
+					(at 26.67 -8.89 180)
 					(length 8.89)
 					(name "VI_CIF_D3"
 						(effects
@@ -2360,7 +2362,7 @@
 					(alternate "UART11_CTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -29.21 180)
+					(at -26.67 -13.97 0)
 					(length 8.89)
 					(name "VI_CIF_HREF"
 						(effects
@@ -2384,7 +2386,7 @@
 					(alternate "UART3_TX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -22.86 180)
+					(at -26.67 -7.62 0)
 					(length 8.89)
 					(name "CAM_CLK1_OUT_M1"
 						(effects
@@ -2410,7 +2412,7 @@
 					(alternate "UART9_RTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -25.4 180)
+					(at -26.67 -10.16 0)
 					(length 8.89)
 					(name "CAM_CLK2_OUT_M1"
 						(effects
@@ -2436,7 +2438,7 @@
 					(alternate "UART9_CTSN_M0" bidirectional line)
 				)
 				(pin power_in line
-					(at 21.59 -41.91 180)
+					(at -26.67 24.13 0)
 					(length 8.89)
 					(name "VCCIO4_VCC"
 						(effects
@@ -2454,7 +2456,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 6.35 180)
+					(at 26.67 -11.43 180)
 					(length 8.89)
 					(name "VI_CIF_D2"
 						(effects
@@ -2479,7 +2481,7 @@
 					(alternate "UART11_RTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 13.97 180)
+					(at 26.67 -3.81 180)
 					(length 8.89)
 					(name "VI_CIF_D5"
 						(effects
@@ -2503,7 +2505,7 @@
 					(alternate "UART9_RX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 25.4 180)
+					(at 26.67 7.62 180)
 					(length 8.89)
 					(name "VI_CIF_D9"
 						(effects
@@ -2529,7 +2531,7 @@
 					(alternate "UART7_CTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 20.32 180)
+					(at 26.67 2.54 180)
 					(length 8.89)
 					(name "VI_CIF_D7"
 						(effects
@@ -2554,7 +2556,7 @@
 					(alternate "UART8_RTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -3.81 180)
+					(at 26.67 -21.59 180)
 					(length 8.89)
 					(name "ETH1_TXD1_M0"
 						(effects
@@ -2577,7 +2579,7 @@
 					(alternate "UART4_RTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -7.62 180)
+					(at -26.67 7.62 0)
 					(length 8.89)
 					(name "ETH1_TXCTL_M0"
 						(effects
@@ -2600,7 +2602,7 @@
 					(alternate "UART4_TX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -12.7 180)
+					(at -26.67 2.54 0)
 					(length 8.89)
 					(name "CAM_CLK0_OUT_M1"
 						(effects
@@ -2624,7 +2626,7 @@
 					(alternate "UART6_TX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -15.24 180)
+					(at -26.67 0 0)
 					(length 8.89)
 					(name "ETH1_RXCTL_M0"
 						(effects
@@ -2646,7 +2648,7 @@
 					(alternate "UART6_RX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 35.56 180)
+					(at 26.67 17.78 180)
 					(length 8.89)
 					(name "VI_CIF_D13"
 						(effects
@@ -2670,7 +2672,7 @@
 					(alternate "UART1_TX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 39.37 180)
+					(at 26.67 21.59 180)
 					(length 8.89)
 					(name "VI_CIF_D14"
 						(effects
@@ -2694,7 +2696,7 @@
 					(alternate "UART8_RX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 17.78 180)
+					(at 26.67 0 180)
 					(length 8.89)
 					(name "VI_CIF_D6"
 						(effects
@@ -2718,7 +2720,7 @@
 					(alternate "UART8_CTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 41.91 180)
+					(at 26.67 24.13 180)
 					(length 8.89)
 					(name "VI_CIF_D15"
 						(effects
@@ -2746,8 +2748,8 @@
 			(symbol "RK3576_4_1"
 				(unit_name "GPIO3")
 				(rectangle
-					(start -13.97 45.72)
-					(end 13.97 -45.72)
+					(start -17.7799 27.686)
+					(end 17.7799 -27.686)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -2757,7 +2759,7 @@
 					)
 				)
 				(text "Operation Voltage = 1.8V/3.3V"
-					(at 0 -43.688 0)
+					(at 1.016 -25.654 0)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2765,7 +2767,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 38.1 180)
+					(at 26.67 19.05 180)
 					(length 8.89)
 					(name "VO_LCDC_D21"
 						(effects
@@ -2792,7 +2794,7 @@
 					(alternate "VO_EBC_GDOE" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 2.54 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(name "VO_LCDC_D8"
 						(effects
@@ -2821,7 +2823,7 @@
 					(alternate "VO_EBC_SDDO8" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 19.05 180)
+					(at 26.67 0 180)
 					(length 8.89)
 					(name "VO_LCDC_D14"
 						(effects
@@ -2847,7 +2849,7 @@
 					(alternate "VO_EBC_SDDO14" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -16.51 180)
+					(at -26.67 -2.54 0)
 					(length 8.89)
 					(name "VO_LCDC_D1"
 						(effects
@@ -2877,7 +2879,7 @@
 					(alternate "VO_EBC_SDDO1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 29.21 180)
+					(at 26.67 10.16 180)
 					(length 8.89)
 					(name "VO_LCDC_D18"
 						(effects
@@ -2904,7 +2906,7 @@
 					(alternate "VO_EBC_SDCE2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -13.97 180)
+					(at -26.67 0 0)
 					(length 8.89)
 					(name "VO_LCDC_D2"
 						(effects
@@ -2931,7 +2933,7 @@
 					(alternate "VO_EBC_SDDO2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -33.02 180)
+					(at -26.67 -19.05 0)
 					(length 8.89)
 					(name "VO_POST_EMPTY"
 						(effects
@@ -2959,7 +2961,7 @@
 					(alternate "UART3_RX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -2.54 180)
+					(at 26.67 -21.59 180)
 					(length 8.89)
 					(name "VO_LCDC_D6"
 						(effects
@@ -2985,7 +2987,7 @@
 					(alternate "VO_EBC_SDDO6" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 7.62 180)
+					(at 26.67 -11.43 180)
 					(length 8.89)
 					(name "VO_LCDC_D10"
 						(effects
@@ -3013,7 +3015,7 @@
 					(alternate "VO_EBC_SDDO10" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -35.56 180)
+					(at -26.67 -21.59 0)
 					(length 8.89)
 					(name "SPDIF_RX0_M1"
 						(effects
@@ -3042,7 +3044,7 @@
 					(alternate "UART3_TX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -7.62 180)
+					(at -26.67 8.89 0)
 					(length 8.89)
 					(name "VO_LCDC_D4"
 						(effects
@@ -3067,7 +3069,7 @@
 					(alternate "VO_EBC_SDDO4" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -26.67 180)
+					(at -26.67 -12.7 0)
 					(length 8.89)
 					(name "VO_LCDC_VSYNC"
 						(effects
@@ -3093,7 +3095,7 @@
 					(alternate "VO_EBC_SDCLK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -11.43 180)
+					(at -26.67 2.54 0)
 					(length 8.89)
 					(name "VO_LCDC_D3"
 						(effects
@@ -3119,7 +3121,7 @@
 					(alternate "VO_EBC_SDDO3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -5.08 180)
+					(at -26.67 11.43 0)
 					(length 8.89)
 					(name "VO_LCDC_D5"
 						(effects
@@ -3144,7 +3146,7 @@
 					(alternate "VO_EBC_SDDO5" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 0 180)
+					(at 26.67 -19.05 180)
 					(length 8.89)
 					(name "VO_LCDC_D7"
 						(effects
@@ -3171,7 +3173,7 @@
 					(alternate "VO_EBC_SDDO7" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -24.13 180)
+					(at -26.67 -10.16 0)
 					(length 8.89)
 					(name "VO_LCDC_HSYNC"
 						(effects
@@ -3197,7 +3199,7 @@
 					(alternate "VO_EBC_GDCLK" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 13.97 180)
+					(at 26.67 -5.08 180)
 					(length 8.89)
 					(name "VO_LCDC_D12"
 						(effects
@@ -3225,7 +3227,7 @@
 					(alternate "VO_EBC_SDDO12" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 43.18 180)
+					(at 26.67 24.13 180)
 					(length 8.89)
 					(name "VO_LCDC_D23"
 						(effects
@@ -3253,7 +3255,7 @@
 					(alternate "VO_EBC_SDSHR" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -29.21 180)
+					(at -26.67 -15.24 0)
 					(length 8.89)
 					(name "VO_LCDC_CLK"
 						(effects
@@ -3282,7 +3284,7 @@
 					(alternate "VO_EBC_SDOE" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 26.67 -8.89 180)
 					(length 8.89)
 					(name "VO_LCDC_D11"
 						(effects
@@ -3309,7 +3311,7 @@
 					(alternate "VO_EBC_SDDO11" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -21.59 180)
+					(at -26.67 -7.62 0)
 					(length 8.89)
 					(name "VO_LCDC_DEN"
 						(effects
@@ -3335,7 +3337,7 @@
 					(alternate "VO_EBC_SDLE" bidirectional line)
 				)
 				(pin power_in line
-					(at 22.86 -40.64 180)
+					(at -26.67 24.13 0)
 					(length 8.89)
 					(name "VCCIO5_VCC[2]"
 						(effects
@@ -3353,7 +3355,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -40.64 180)
+					(at -26.67 24.13 0)
 					(length 8.89)
 					(hide yes)
 					(name "VCCIO5_VCC[2]"
@@ -3372,7 +3374,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 40.64 180)
+					(at 26.67 21.59 180)
 					(length 8.89)
 					(name "VO_LCDC_D22"
 						(effects
@@ -3399,7 +3401,7 @@
 					(alternate "VO_EBC_GDSP" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 24.13 180)
+					(at 26.67 5.08 180)
 					(length 8.89)
 					(name "VO_LCDC_D16"
 						(effects
@@ -3425,7 +3427,7 @@
 					(alternate "VO_EBC_SDCE0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 26.67 180)
+					(at 26.67 7.62 180)
 					(length 8.89)
 					(name "VO_LCDC_D17"
 						(effects
@@ -3451,7 +3453,7 @@
 					(alternate "VO_EBC_SDCE1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 5.08 180)
+					(at 26.67 -13.97 180)
 					(length 8.89)
 					(name "VO_LCDC_D9"
 						(effects
@@ -3479,7 +3481,7 @@
 					(alternate "VO_EBC_SDDO9" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 21.59 180)
+					(at 26.67 2.54 180)
 					(length 8.89)
 					(name "VO_LCDC_D15"
 						(effects
@@ -3505,7 +3507,7 @@
 					(alternate "VO_EBC_SDDO15" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 16.51 180)
+					(at 26.67 -2.54 180)
 					(length 8.89)
 					(name "VO_LCDC_D13"
 						(effects
@@ -3530,7 +3532,7 @@
 					(alternate "VO_EBC_SDDO13" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 -19.05 180)
+					(at -26.67 -5.08 0)
 					(length 8.89)
 					(name "VO_LCDC_D0"
 						(effects
@@ -3557,7 +3559,7 @@
 					(alternate "VO_EBC_SDDO0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 35.56 180)
+					(at 26.67 16.51 180)
 					(length 8.89)
 					(name "VO_LCDC_D20"
 						(effects
@@ -3583,7 +3585,7 @@
 					(alternate "VO_EBC_VCOM" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 22.86 31.75 180)
+					(at 26.67 12.7 180)
 					(length 8.89)
 					(name "VO_LCDC_D19"
 						(effects
@@ -3613,8 +3615,8 @@
 			(symbol "RK3576_5_1"
 				(unit_name "GPIO4")
 				(rectangle
-					(start -11.43 43.18)
-					(end 16.51 -29.21)
+					(start -17.7799 27.686)
+					(end 17.7799 -27.686)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -3625,7 +3627,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 0) (xy -11.43 0)
+						(xy 17.78 -6.985) (xy -17.78 -6.985)
 					)
 					(stroke
 						(width 0)
@@ -3635,24 +3637,8 @@
 						(type none)
 					)
 				)
-				(text "Operation Voltage = 1.8V/3.3V"
-					(at 2.54 2.286 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "Operation Voltage = 1.8V/3.3V"
-					(at 2.54 -26.924 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 25.4 10.16 180)
+					(at 26.67 -5.08 180)
 					(length 8.89)
 					(name "SPDIF_TX0_M0"
 						(effects
@@ -3676,7 +3662,7 @@
 					(alternate "UART2_TX_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 22.86 180)
+					(at 26.67 7.62 180)
 					(length 8.89)
 					(name "SAI1_SDO1_M0"
 						(effects
@@ -3702,7 +3688,7 @@
 					(alternate "UART6_RTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 15.24 180)
+					(at 26.67 0 180)
 					(length 8.89)
 					(name "SAI1_SDI0_M0"
 						(effects
@@ -3726,7 +3712,7 @@
 					(alternate "SPI4_CSN0_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -17.78 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(name "SAI4_SDI_M2"
 						(effects
@@ -3752,7 +3738,7 @@
 					(alternate "VP1_SYNC_OUT" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -10.16 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(name "DSM_AUD_RN_M1"
 						(effects
@@ -3776,7 +3762,7 @@
 					(alternate "UART9_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 29.21 180)
+					(at 26.67 13.97 180)
 					(length 8.89)
 					(name "SAI4_LRCK_M0"
 						(effects
@@ -3801,7 +3787,7 @@
 					(alternate "UART6_RX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 31.75 180)
+					(at 26.67 16.51 180)
 					(length 8.89)
 					(name "SAI1_LRCK_M0"
 						(effects
@@ -3825,7 +3811,7 @@
 					(alternate "UART5_CTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 34.29 180)
+					(at 26.67 19.05 180)
 					(length 8.89)
 					(name "SAI4_SCLK_M0"
 						(effects
@@ -3850,7 +3836,7 @@
 					(alternate "UART6_TX_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 36.83 180)
+					(at 26.67 21.59 180)
 					(length 8.89)
 					(name "SAI1_SCLK_M0"
 						(effects
@@ -3874,7 +3860,7 @@
 					(alternate "UART5_RTSN_M1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 39.37 180)
+					(at 26.67 24.13 180)
 					(length 8.89)
 					(name "SAI1_MCLK_M0"
 						(effects
@@ -3896,7 +3882,7 @@
 					(alternate "SAI4_MCLK_M0" bidirectional line)
 				)
 				(pin power_in line
-					(at 25.4 6.35 180)
+					(at -26.67 24.13 0)
 					(length 8.89)
 					(name "VCCIO2_VCC"
 						(effects
@@ -3914,7 +3900,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -24.13 180)
+					(at -26.67 -8.89 0)
 					(length 8.89)
 					(name "VCCIO6_VCC"
 						(effects
@@ -3932,7 +3918,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25.4 26.67 180)
+					(at 26.67 11.43 180)
 					(length 8.89)
 					(name "SAI1_SDO0_M0"
 						(effects
@@ -3954,7 +3940,7 @@
 					(alternate "SPI3_CLK_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -20.32 180)
+					(at 26.67 -26.67 180)
 					(length 8.89)
 					(name "SAI4_SCLK_M2"
 						(effects
@@ -3978,7 +3964,7 @@
 					(alternate "VP2_SYNC_OUT" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -15.24 180)
+					(at 26.67 -21.59 180)
 					(length 8.89)
 					(name "ISP_FLASH_TRIGOUT_M1"
 						(effects
@@ -4004,7 +3990,7 @@
 					(alternate "VP0_SYNC_OUT" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -5.08 180)
+					(at 26.67 -11.43 180)
 					(length 8.89)
 					(name "DSM_AUD_LN_M1"
 						(effects
@@ -4029,7 +4015,7 @@
 					(alternate "UART11_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -2.54 180)
+					(at 26.67 -8.89 180)
 					(length 8.89)
 					(name "DSM_AUD_LP_M1"
 						(effects
@@ -4054,7 +4040,7 @@
 					(alternate "UART11_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -7.62 180)
+					(at 26.67 -13.97 180)
 					(length 8.89)
 					(name "DSM_AUD_RP_M1"
 						(effects
@@ -4078,7 +4064,7 @@
 					(alternate "UART9_TX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -12.7 180)
+					(at 26.67 -19.05 180)
 					(length 8.89)
 					(name "ISP_PRELIGHT_TRIG_M1"
 						(effects
@@ -4103,7 +4089,7 @@
 					(alternate "UART6_TX_M3" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 17.78 180)
+					(at 26.67 2.54 180)
 					(length 8.89)
 					(name "SAI1_SDO3_M0"
 						(effects
@@ -4127,7 +4113,7 @@
 					(alternate "SPI4_MISO_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 20.32 180)
+					(at 26.67 5.08 180)
 					(length 8.89)
 					(name "SAI1_SDO2_M0"
 						(effects
@@ -4153,7 +4139,7 @@
 					(alternate "UART6_CTSN_M0" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 12.7 180)
+					(at 26.67 -2.54 180)
 					(length 8.89)
 					(name "SPDIF_RX0_M0"
 						(effects
@@ -8152,8 +8138,8 @@
 			(symbol "RK3576_10_1"
 				(unit_name "PWR")
 				(rectangle
-					(start -11.43 31.75)
-					(end 11.43 -33.02)
+					(start -17.78 27.686)
+					(end 17.78 -27.686)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -8163,7 +8149,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8182,7 +8168,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8201,7 +8187,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8220,7 +8206,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8239,7 +8225,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8258,7 +8244,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8277,7 +8263,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8296,7 +8282,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8315,7 +8301,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8334,7 +8320,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8353,7 +8339,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8372,7 +8358,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8391,7 +8377,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8410,7 +8396,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8429,7 +8415,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8448,7 +8434,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8467,7 +8453,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8486,7 +8472,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8505,7 +8491,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8524,7 +8510,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8543,7 +8529,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8562,7 +8548,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8581,7 +8567,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8600,7 +8586,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8619,7 +8605,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8638,7 +8624,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8657,7 +8643,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8676,7 +8662,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8695,7 +8681,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8714,7 +8700,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8733,7 +8719,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8752,7 +8738,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -8771,7 +8757,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8790,7 +8776,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8809,7 +8795,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8828,7 +8814,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8847,7 +8833,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8866,7 +8852,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8885,7 +8871,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8904,7 +8890,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8923,7 +8909,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8942,7 +8928,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8961,7 +8947,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8980,7 +8966,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -8999,7 +8985,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9018,7 +9004,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9037,7 +9023,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9056,7 +9042,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9075,7 +9061,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9094,7 +9080,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9113,7 +9099,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9132,7 +9118,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9151,7 +9137,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9170,7 +9156,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9189,7 +9175,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9208,7 +9194,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9227,7 +9213,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9246,7 +9232,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9265,7 +9251,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9284,7 +9270,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9303,7 +9289,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9322,7 +9308,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9341,7 +9327,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9360,7 +9346,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9379,7 +9365,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9398,7 +9384,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9417,7 +9403,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9436,7 +9422,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9455,7 +9441,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9474,7 +9460,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9493,7 +9479,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9512,7 +9498,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9531,7 +9517,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9550,7 +9536,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9569,7 +9555,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9588,7 +9574,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9607,7 +9593,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9626,7 +9612,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9645,7 +9631,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9664,7 +9650,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9683,7 +9669,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9702,7 +9688,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9721,7 +9707,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9740,7 +9726,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9759,7 +9745,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9778,7 +9764,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9797,7 +9783,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9816,7 +9802,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9835,7 +9821,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9854,7 +9840,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9873,7 +9859,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9892,7 +9878,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9911,7 +9897,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9930,7 +9916,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9949,7 +9935,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -9968,7 +9954,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -9987,7 +9973,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -10006,7 +9992,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -10025,7 +10011,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -10044,7 +10030,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10063,7 +10049,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10082,7 +10068,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10101,7 +10087,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -10120,7 +10106,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -10139,7 +10125,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -10158,7 +10144,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10177,7 +10163,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10196,7 +10182,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10215,7 +10201,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10234,7 +10220,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10253,7 +10239,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10272,7 +10258,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10291,7 +10277,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10310,7 +10296,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10329,7 +10315,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10348,7 +10334,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10367,7 +10353,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10386,7 +10372,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10405,7 +10391,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10424,7 +10410,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10443,7 +10429,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10462,7 +10448,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10481,7 +10467,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10500,7 +10486,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10519,7 +10505,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10538,7 +10524,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10557,7 +10543,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10576,7 +10562,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10595,7 +10581,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10614,7 +10600,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10633,7 +10619,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10652,7 +10638,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10671,7 +10657,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10690,7 +10676,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10709,7 +10695,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -10728,7 +10714,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10747,7 +10733,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10766,7 +10752,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10785,7 +10771,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10804,7 +10790,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10823,7 +10809,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10842,7 +10828,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10861,7 +10847,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10880,7 +10866,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10899,7 +10885,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10918,7 +10904,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10937,7 +10923,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10956,7 +10942,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10975,7 +10961,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -10994,7 +10980,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11013,7 +10999,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11032,7 +11018,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11051,7 +11037,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 1.27 180)
+					(at 26.67 -10.16 180)
 					(length 8.89)
 					(name "GPU_DVDD[5]"
 						(effects
@@ -11069,7 +11055,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 1.27 180)
+					(at 26.67 -10.16 180)
 					(length 8.89)
 					(hide yes)
 					(name "GPU_DVDD[5]"
@@ -11088,7 +11074,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11107,7 +11093,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -5.08 180)
+					(at -26.67 -10.16 0)
 					(length 8.89)
 					(name "NPU_DVDD[5]"
 						(effects
@@ -11125,7 +11111,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
+					(at -26.67 -10.16 0)
 					(length 8.89)
 					(hide yes)
 					(name "NPU_DVDD[5]"
@@ -11144,7 +11130,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
+					(at -26.67 -10.16 0)
 					(length 8.89)
 					(hide yes)
 					(name "NPU_DVDD[5]"
@@ -11163,7 +11149,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11182,7 +11168,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11201,7 +11187,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11220,7 +11206,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11239,7 +11225,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 1.27 180)
+					(at 26.67 -10.16 180)
 					(length 8.89)
 					(hide yes)
 					(name "GPU_DVDD[5]"
@@ -11258,7 +11244,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 1.27 180)
+					(at 26.67 -10.16 180)
 					(length 8.89)
 					(hide yes)
 					(name "GPU_DVDD[5]"
@@ -11277,7 +11263,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11296,7 +11282,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
+					(at -26.67 -10.16 0)
 					(length 8.89)
 					(hide yes)
 					(name "NPU_DVDD[5]"
@@ -11315,7 +11301,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
+					(at -26.67 -10.16 0)
 					(length 8.89)
 					(hide yes)
 					(name "NPU_DVDD[5]"
@@ -11334,7 +11320,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11353,7 +11339,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -11372,7 +11358,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11391,7 +11377,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 1.27 180)
+					(at 26.67 -10.16 180)
 					(length 8.89)
 					(hide yes)
 					(name "GPU_DVDD[5]"
@@ -11410,7 +11396,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11429,7 +11415,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11448,7 +11434,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 13.97 180)
+					(at 26.67 6.35 180)
 					(length 8.89)
 					(name "LOGIC_DVDD[7]"
 						(effects
@@ -11466,7 +11452,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11485,7 +11471,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11504,7 +11490,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -11523,7 +11509,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11542,7 +11528,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11561,7 +11547,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11580,7 +11566,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 7.62 180)
+					(at -26.67 6.35 0)
 					(length 8.89)
 					(name "LOGIC_MEM_DVDD[2]"
 						(effects
@@ -11598,7 +11584,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 13.97 180)
+					(at 26.67 6.35 180)
 					(length 8.89)
 					(hide yes)
 					(name "LOGIC_DVDD[7]"
@@ -11617,7 +11603,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 13.97 180)
+					(at 26.67 6.35 180)
 					(length 8.89)
 					(hide yes)
 					(name "LOGIC_DVDD[7]"
@@ -11636,7 +11622,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11655,7 +11641,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 26.67 180)
+					(at 26.67 22.86 180)
 					(length 8.89)
 					(name "CPU_BIG_DVDD[8]"
 						(effects
@@ -11673,7 +11659,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 26.67 180)
+					(at 26.67 22.86 180)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_BIG_DVDD[8]"
@@ -11692,7 +11678,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11711,7 +11697,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 13.97 180)
+					(at 26.67 6.35 180)
 					(length 8.89)
 					(hide yes)
 					(name "LOGIC_DVDD[7]"
@@ -11730,7 +11716,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 13.97 180)
+					(at 26.67 6.35 180)
 					(length 8.89)
 					(hide yes)
 					(name "LOGIC_DVDD[7]"
@@ -11749,7 +11735,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11768,7 +11754,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11787,7 +11773,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 20.32 180)
+					(at -26.67 22.86 0)
 					(length 8.89)
 					(name "CPU_LIT_DVDD[5]"
 						(effects
@@ -11805,7 +11791,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11824,7 +11810,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 26.67 180)
+					(at 26.67 22.86 180)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_BIG_DVDD[8]"
@@ -11843,7 +11829,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 26.67 180)
+					(at 26.67 22.86 180)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_BIG_DVDD[8]"
@@ -11862,7 +11848,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 13.97 180)
+					(at 26.67 6.35 180)
 					(length 8.89)
 					(hide yes)
 					(name "LOGIC_DVDD[7]"
@@ -11881,7 +11867,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 13.97 180)
+					(at 26.67 6.35 180)
 					(length 8.89)
 					(hide yes)
 					(name "LOGIC_DVDD[7]"
@@ -11900,7 +11886,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11919,7 +11905,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 20.32 180)
+					(at -26.67 22.86 0)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_LIT_DVDD[5]"
@@ -11938,7 +11924,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 20.32 180)
+					(at -26.67 22.86 0)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_LIT_DVDD[5]"
@@ -11957,7 +11943,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -11976,7 +11962,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 26.67 180)
+					(at 26.67 22.86 180)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_BIG_DVDD[8]"
@@ -11995,7 +11981,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 26.67 180)
+					(at 26.67 22.86 180)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_BIG_DVDD[8]"
@@ -12014,7 +12000,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12033,7 +12019,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 7.62 180)
+					(at -26.67 6.35 0)
 					(length 8.89)
 					(hide yes)
 					(name "LOGIC_MEM_DVDD[2]"
@@ -12052,7 +12038,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12071,7 +12057,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12090,7 +12076,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12109,7 +12095,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12128,7 +12114,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 20.32 180)
+					(at -26.67 22.86 0)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_LIT_DVDD[5]"
@@ -12147,7 +12133,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 20.32 180)
+					(at -26.67 22.86 0)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_LIT_DVDD[5]"
@@ -12166,7 +12152,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12185,7 +12171,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 26.67 180)
+					(at 26.67 22.86 180)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_BIG_DVDD[8]"
@@ -12204,7 +12190,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 26.67 180)
+					(at 26.67 22.86 180)
 					(length 8.89)
 					(hide yes)
 					(name "CPU_BIG_DVDD[8]"
@@ -12223,7 +12209,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12242,7 +12228,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12261,7 +12247,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12280,7 +12266,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12299,7 +12285,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12318,7 +12304,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12337,7 +12323,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12356,7 +12342,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12375,7 +12361,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12394,7 +12380,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12413,7 +12399,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12432,7 +12418,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12451,7 +12437,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -12470,7 +12456,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12489,7 +12475,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12508,7 +12494,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12527,7 +12513,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12546,7 +12532,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12565,7 +12551,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12584,7 +12570,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12603,7 +12589,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12622,7 +12608,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12641,7 +12627,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12660,7 +12646,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12679,7 +12665,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12698,7 +12684,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12717,7 +12703,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12736,7 +12722,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12755,7 +12741,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12774,7 +12760,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12793,7 +12779,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12812,7 +12798,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12831,7 +12817,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12850,7 +12836,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12869,7 +12855,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12888,7 +12874,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12907,7 +12893,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12926,7 +12912,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12945,7 +12931,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12964,7 +12950,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -12983,7 +12969,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13002,7 +12988,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13021,7 +13007,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13040,7 +13026,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13059,7 +13045,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13078,7 +13064,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13097,7 +13083,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13116,7 +13102,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13135,7 +13121,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13154,7 +13140,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13173,7 +13159,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13192,7 +13178,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13211,7 +13197,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13230,7 +13216,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13249,7 +13235,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13268,7 +13254,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13287,7 +13273,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13306,7 +13292,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13325,7 +13311,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13344,7 +13330,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13363,7 +13349,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13382,7 +13368,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13401,7 +13387,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13420,7 +13406,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13439,7 +13425,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(name "VSS[163]"
 						(effects
@@ -13457,7 +13443,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -13476,7 +13462,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -13495,7 +13481,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(name "AVSS[77]"
 						(effects
@@ -13513,7 +13499,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13532,7 +13518,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13551,7 +13537,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13570,7 +13556,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -13589,7 +13575,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13608,7 +13594,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13627,7 +13613,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13646,7 +13632,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13665,7 +13651,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 180)
+					(at 26.67 -24.13 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS[77]"
@@ -13684,7 +13670,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -13703,7 +13689,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -13722,7 +13708,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(name "AVSS1[25]"
 						(effects
@@ -13740,7 +13726,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -13759,7 +13745,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -26.67 180)
+					(at 26.67 -20.32 180)
 					(length 8.89)
 					(hide yes)
 					(name "AVSS1[25]"
@@ -13778,7 +13764,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -22.86 180)
+					(at 26.67 -16.51 180)
 					(length 8.89)
 					(hide yes)
 					(name "VSS[163]"
@@ -15504,20 +15490,9 @@
 			)
 			(symbol "RK3576_16_1"
 				(unit_name "SD Card")
-				(rectangle
-					(start -12.7 12.7)
-					(end 12.7 -12.7)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
-						(xy -12.7 10.16) (xy -5.08 10.16) (xy -5.08 -7.62) (xy -12.7 -7.62)
+						(xy -17.78 15.875) (xy -10.16 15.875) (xy -10.16 4.445) (xy -17.78 4.445)
 					)
 					(stroke
 						(width 0)
@@ -15527,8 +15502,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -17.7799 24.765)
+					(end 17.7799 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(text "SD Card"
-					(at -8.89 1.524 900)
+					(at -13.97 10.16 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15538,7 +15524,7 @@
 					)
 				)
 				(text "Operation Voltage = 1.8V/3.3V"
-					(at 0 -10.922 0)
+					(at -1.016 2.032 0)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -15546,7 +15532,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 0 180)
+					(at 26.67 10.16 180)
 					(length 8.89)
 					(name "SDMMC0_CMD"
 						(effects
@@ -15571,7 +15557,7 @@
 					(alternate "UART5_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 -2.54 180)
+					(at 26.67 7.62 180)
 					(length 8.89)
 					(name "SDMMC0_CLK"
 						(effects
@@ -15597,7 +15583,7 @@
 					(alternate "UART5_TX_M2" bidirectional line)
 				)
 				(pin power_in line
-					(at 21.59 -7.62 180)
+					(at -26.67 20.32 0)
 					(length 8.89)
 					(name "VCCIO1_VCC"
 						(effects
@@ -15615,7 +15601,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 5.08 180)
+					(at 26.67 15.24 180)
 					(length 8.89)
 					(name "SDMMC0_D2"
 						(effects
@@ -15642,7 +15628,7 @@
 					(alternate "UART5_RTSN_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 2.54 180)
+					(at 26.67 12.7 180)
 					(length 8.89)
 					(name "SDMMC0_D3"
 						(effects
@@ -15668,7 +15654,7 @@
 					(alternate "UART5_CTSN_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 10.16 180)
+					(at 26.67 20.32 180)
 					(length 8.89)
 					(name "SDMMC0_D0"
 						(effects
@@ -15695,7 +15681,7 @@
 					(alternate "UART7_RX_M2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 21.59 7.62 180)
+					(at 26.67 17.78 180)
 					(length 8.89)
 					(name "SDMMC0_D1"
 						(effects
@@ -18233,7 +18219,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "RK3576"
 			(at 210.82 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18353,7 +18339,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "(polyline"
+		(property "LCSC Part" "C42388007"
 			(at 210.82 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -21608,154 +21594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 251.46 210.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ec2935d-e68a-47fc-9fef-f463423aa642")
-		(property "Reference" "R37"
-			(at 247.65 209.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "(property \"Description\" \"Unpolarized capacitor, small symbol\""
-			(at 255.778 209.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm"
-			(at 251.46 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 251.46 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 251.46 210.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 251.46 210.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 251.46 210.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 251.46 210.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 251.46 210.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 251.46 210.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cff627ed-401d-42bc-98bd-74dc56c7de4b")
-		)
-		(pin "2"
-			(uuid "96d34a79-131e-404e-9007-ac2aa2e9b897")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/1a77fa89-d539-445c-bb5c-b5ba8302bb81"
-					(reference "R37")
-					(unit 1)
-					(variant
-						(name "Test")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 304.8 156.21 0)
 		(unit 1)
@@ -21904,6 +21742,162 @@
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/1a77fa89-d539-445c-bb5c-b5ba8302bb81"
 					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 251.46 213.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42759d36-b8d0-4be5-bda1-510598aefbfc")
+		(property "Reference" "R214"
+			(at 247.396 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 255.778 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 251.46 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 251.46 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 251.46 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 251.46 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 251.46 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C114765"
+			(at 251.46 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "603-RC0402FR-0722RL "
+			(at 251.46 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7593bf8-8c4c-4b8c-b247-906d0fc1ca1a")
+		)
+		(pin "2"
+			(uuid "8dd05402-3005-4e4c-8350-e0040df2827e")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/1a77fa89-d539-445c-bb5c-b5ba8302bb81"
+					(reference "R214")
 					(unit 1)
 				)
 			)
@@ -22506,154 +22500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 251.46 213.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70321cc9-eb54-4d21-82c6-2d63945b84a0")
-		(property "Reference" "R38"
-			(at 247.396 212.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "(property \"Description\" \"Unpolarized capacitor, small symbol\""
-			(at 255.778 212.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm"
-			(at 251.46 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 251.46 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 251.46 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 251.46 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 251.46 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 251.46 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 251.46 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 251.46 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3026d5d8-6201-4609-9fcd-b3fd5f21fb26")
-		)
-		(pin "2"
-			(uuid "70ef6e20-626e-440d-8f98-d87ae24c1a12")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/1a77fa89-d539-445c-bb5c-b5ba8302bb81"
-					(reference "R38")
-					(unit 1)
-					(variant
-						(name "Test")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
 		(at 295.91 170.18 0)
 		(unit 1)
@@ -23231,6 +23077,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 251.46 210.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad465409-fb12-4d88-b555-540cb972ccaa")
+		(property "Reference" "R213"
+			(at 247.65 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 255.778 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 251.46 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 251.46 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 251.46 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 251.46 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 251.46 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C114765"
+			(at 251.46 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "603-RC0402FR-0722RL "
+			(at 251.46 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2d26e5c-0cdc-4179-a89a-280e0108de3d")
+		)
+		(pin "2"
+			(uuid "7c8082e4-076b-4591-9984-ce77e203a0de")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/1a77fa89-d539-445c-bb5c-b5ba8302bb81"
+					(reference "R213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library_0:C_Small_edited")
 		(at 283.21 198.12 0)
 		(unit 1)
@@ -23654,6 +23656,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 251.46 200.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd573503-9ceb-496c-ab74-077139a6bddd")
+		(property "Reference" "R212"
+			(at 247.65 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 255.778 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 251.46 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 251.46 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 251.46 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 251.46 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 251.46 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 251.46 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 251.46 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C114765"
+			(at 251.46 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "603-RC0402FR-0722RL "
+			(at 251.46 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a34a59c5-5b6b-4b67-956c-f93e1a61152f")
+		)
+		(pin "2"
+			(uuid "dbef28b1-440f-41ec-b46d-031e9eba7f5a")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/1a77fa89-d539-445c-bb5c-b5ba8302bb81"
+					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 314.96 184.15 0)
 		(unit 1)
@@ -23972,154 +24130,6 @@
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/1a77fa89-d539-445c-bb5c-b5ba8302bb81"
 					(reference "C128")
-					(unit 1)
-					(variant
-						(name "Test")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 251.46 200.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed2cf909-d856-4105-8e4c-4a026d69ccc9")
-		(property "Reference" "R36"
-			(at 247.65 199.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "(property \"Description\" \"Unpolarized capacitor, small symbol\""
-			(at 255.778 199.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm"
-			(at 251.46 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 251.46 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 251.46 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 251.46 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 251.46 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 251.46 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 251.46 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 251.46 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba222fe8-f6e5-4c5b-8108-7bd9b2eb2bc8")
-		)
-		(pin "2"
-			(uuid "e23f80b2-692c-47b0-87ea-f2acf736b943")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/34f9b0cb-aeae-42b4-a2af-a0a79afcf392/1a77fa89-d539-445c-bb5c-b5ba8302bb81"
-					(reference "R36")
 					(unit 1)
 					(variant
 						(name "Test")

@@ -1798,28 +1798,22 @@
 		(uuid "0c732593-f303-4d0a-931b-40cc225b1e45")
 	)
 	(junction
-		(at 58.42 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ed5dbfb-c1c3-4667-9c89-415ebb0281e9")
-	)
-	(junction
 		(at 97.79 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1330288d-7868-41f2-b41d-047bfb2506a0")
 	)
 	(junction
+		(at 58.42 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "355e8f0a-f3eb-47cb-bec4-3662b8d9ef6d")
+	)
+	(junction
 		(at 58.42 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3629338a-e577-430e-89a2-1ac8ed8978f1")
-	)
-	(junction
-		(at 66.04 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b383fa0-d501-4bf7-9ff8-63592fd52a4f")
 	)
 	(junction
 		(at 133.35 48.26)
@@ -1845,6 +1839,12 @@
 		(color 0 0 0 0)
 		(uuid "b1020d07-4452-4f81-98a2-694f2cf88e68")
 	)
+	(junction
+		(at 66.04 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d492cf1a-4d6c-4737-a9a9-593ad6810a52")
+	)
 	(no_connect
 		(at 80.01 81.28)
 		(uuid "949e0841-345e-4a85-9eb9-32c6a7535f06")
@@ -1856,7 +1856,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6f6dfad1-c109-4e2c-99e4-5ed0318809a5")
+		(uuid "66c8b000-283c-456a-8c32-54f77d64f527")
 	)
 	(bus_entry
 		(at 182.88 33.02)
@@ -1865,11 +1865,11 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "724a9452-a8a5-4bcd-a6a8-238a3dab030a")
+		(uuid "8b358b3b-2cdd-4677-865a-ee9a8ac3efe3")
 	)
 	(wire
 		(pts
-			(xy 40.64 73.66) (xy 58.42 73.66)
+			(xy 31.75 73.66) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1877,25 +1877,15 @@
 		)
 		(uuid "0eea597c-cff6-441c-8af4-f5af50671e3d")
 	)
-	(wire
-		(pts
-			(xy 166.37 35.56) (xy 182.88 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129ee3cc-b3eb-46c5-90da-a79ace99bc8a")
-	)
 	(bus
 		(pts
-			(xy 185.42 30.48) (xy 186.69 30.48)
+			(xy 185.42 30.48) (xy 185.42 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1aa0039f-7ecb-4b45-b0c3-70a7c9a3c8e4")
+		(uuid "10d17703-7e20-4a76-ad11-4148ce250d23")
 	)
 	(wire
 		(pts
@@ -1929,13 +1919,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 33.02) (xy 182.88 33.02)
+			(xy 158.75 33.02) (xy 182.88 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3315d797-c0df-4460-a1cd-f59e7b8b7db9")
+		(uuid "2db7f8a2-5cc5-4df7-8721-aae73094446c")
 	)
 	(wire
 		(pts
@@ -2007,19 +1997,9 @@
 		)
 		(uuid "66427a91-d212-46d6-946f-c077d209e601")
 	)
-	(bus
-		(pts
-			(xy 185.42 30.48) (xy 185.42 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c50909f-4a83-41f7-aa21-32473b7f1474")
-	)
 	(wire
 		(pts
-			(xy 40.64 76.2) (xy 66.04 76.2)
+			(xy 31.75 76.2) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2167,6 +2147,16 @@
 		)
 		(uuid "d00a2815-88d0-4229-ab68-efae3466d033")
 	)
+	(bus
+		(pts
+			(xy 185.42 30.48) (xy 186.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d174f5dd-92e8-4815-8cbb-8b2d95a4c35f")
+	)
 	(wire
 		(pts
 			(xy 58.42 73.66) (xy 80.01 73.66)
@@ -2199,6 +2189,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 35.56) (xy 182.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f2a44a-016c-42bf-ae90-acc95a06c3b2")
+	)
+	(wire
+		(pts
 			(xy 130.81 80.01) (xy 127 80.01)
 		)
 		(stroke
@@ -2217,17 +2217,15 @@
 		)
 		(uuid "f90c3162-fb75-4466-bf3e-f809ebfff2c3")
 	)
-	(label "I2C2_SDA_M0_CC_RTC"
-		(at 166.37 35.56 0)
+	(label "I2C2_SDA_M0_CC_RTC_EEPROM"
+		(at 31.75 76.2 0)
 		(effects
 			(font
 				(size 1.016 1.016)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
-		(uuid "036cb5cd-0d4c-48f3-95b5-1a7bf3b7692d")
+		(uuid "02346778-63da-4c83-915e-ec6a4fd72db4")
 	)
 	(label "RTC_INT_L"
 		(at 124.46 76.2 180)
@@ -2241,18 +2239,6 @@
 		)
 		(uuid "0f33ad81-512b-4ffe-821c-5f83beab7eb5")
 	)
-	(label "I2C2_SDA_M0_CC_RTC"
-		(at 40.64 76.2 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "12586cf6-4370-488d-b13c-f207477347ed")
-	)
 	(label "RTC_32KOUT_SOC"
 		(at 158.75 80.01 180)
 		(effects
@@ -2265,17 +2251,15 @@
 		)
 		(uuid "2b236edf-a166-48c8-be91-6d5f75cde4c2")
 	)
-	(label "I2C2_SCL_M0_CC_RTC"
-		(at 40.64 73.66 0)
+	(label "I2C2_SCL_M0_CC_RTC_EEPROM"
+		(at 158.75 33.02 0)
 		(effects
 			(font
 				(size 1.016 1.016)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
-		(uuid "55944df5-7d17-493d-8ab8-00851e4ac460")
+		(uuid "4d14e6f1-3cf0-4db3-ba3a-ee41a0b1208e")
 	)
 	(label "RTC_32KOUT_WIFI"
 		(at 158.75 83.82 180)
@@ -2289,17 +2273,25 @@
 		)
 		(uuid "9b8c1252-654b-4d35-8a85-6bb75bd0f44e")
 	)
-	(label "I2C2_SCL_M0_CC_RTC"
-		(at 166.37 33.02 0)
+	(label "I2C2_SDA_M0_CC_RTC_EEPROM"
+		(at 158.75 35.56 0)
 		(effects
 			(font
 				(size 1.016 1.016)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
-		(uuid "e428d879-fc71-41a0-b97a-6bb3c82bb88e")
+		(uuid "c276eb8f-e0bd-4d9e-b234-2e82da63a736")
+	)
+	(label "I2C2_SCL_M0_CC_RTC_EEPROM"
+		(at 31.75 73.66 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd9817b7-65ff-4a2d-8dee-903ed0888d98")
 	)
 	(hierarchical_label "RTC_32KOUT_SOC"
 		(shape output)
@@ -2332,7 +2324,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2aef15a1-4ec4-4fab-b0c7-324b239b502f")
+		(uuid "37c62cb5-f36f-4153-9af4-daf520ba7694")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2406,6 +2398,322 @@
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "#PWR0498")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02d38dd5-e558-4584-a59b-02e82eeea3e8")
+		(property "Reference" "R162"
+			(at 125.984 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.984 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 125.476 57.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47f5d9a2-2fc1-4810-a9d8-ac9e58d06de2")
+		)
+		(pin "2"
+			(uuid "51768210-8505-4bce-a3bd-e5e0e8f1aae4")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "R162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.76 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "089796bd-21cb-4a32-98e0-ad271f608038")
+		(property "Reference" "R161"
+			(at 113.284 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 113.284 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 112.776 70.104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acb042ac-3519-47fd-99e0-de38e996cb59")
+		)
+		(pin "2"
+			(uuid "fe7f7f8f-721e-4965-ace4-611ef0fedcf4")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "R161")
 					(unit 1)
 				)
 			)
@@ -2566,6 +2874,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28e56c55-a7fc-4ee3-a0bc-310d856fa0f1")
+		(property "Reference" "R163"
+			(at 129.54 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 137.668 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 133.35 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 133.35 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 133.35 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C114765"
+			(at 133.35 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "603-RC0402FR-0722RL "
+			(at 133.35 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c5cbabd-b813-40cc-b601-3a4dedb14d70")
+		)
+		(pin "2"
+			(uuid "07bb995f-5dd4-42c8-b8cc-a4e4980e91f5")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "R163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:AO3401A")
 		(at 125.73 50.8 90)
 		(unit 1)
@@ -2674,6 +3138,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C347476"
+			(at 125.73 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f0f5c538-3cf6-4b93-8bbd-b1532d6c481b")
 		)
@@ -2691,6 +3166,162 @@
 					(variant
 						(name "Test")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33f667f3-750d-4ed5-aa10-d0d20bfd0e19")
+		(property "Reference" "R241"
+			(at 129.54 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 137.668 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 133.35 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 133.35 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 133.35 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 133.35 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C114765"
+			(at 133.35 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "603-RC0402FR-0722RL "
+			(at 133.35 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4672cfdb-804a-415b-8510-941df05a0b62")
+		)
+		(pin "2"
+			(uuid "6080c29e-55f1-439c-b4eb-f2a0cce6fc45")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "R241")
+					(unit 1)
 				)
 			)
 		)
@@ -2834,8 +3465,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 133.35 80.01 90)
+		(lib_id "Timer_RTC:RV-3028-C7")
+		(at 92.71 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2843,29 +3474,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3b6cd362-6477-4376-93d9-9fdef2bb7f98")
-		(property "Reference" "R162"
-			(at 129.54 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "(property \"Description\" \"Unpolarized capacitor, small symbol\""
-			(at 137.668 78.74 90)
+		(fields_autoplaced yes)
+		(uuid "479ad22e-2ce7-4c19-bd54-d294055e8aff")
+		(property "Reference" "U32"
+			(at 94.8533 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm"
-			(at 133.35 80.01 0)
+		(property "Value" "RV-3028-C7"
+			(at 94.8533 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
+			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2875,8 +3509,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 80.01 0)
+		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
+			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,8 +3520,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 133.35 80.01 0)
+		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
+			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2897,63 +3531,8 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
-			(at 133.35 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 133.35 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 133.35 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 133.35 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 133.35 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 133.35 80.01 90)
+		(property "Mouser Part" "428-203591-MG01 "
+			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2964,19 +3543,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8479d3a-a98c-4ea2-877c-bb76ef941729")
+			(uuid "bab0fded-9012-42c8-a29a-cf761df7642f")
+		)
+		(pin "7"
+			(uuid "b8fab2f3-d5fd-4f7d-8659-fd2221766558")
+		)
+		(pin "6"
+			(uuid "a0d067fb-3c04-426e-a01e-04ea6122a28c")
 		)
 		(pin "2"
-			(uuid "fbda19c0-f893-4478-bd0d-367ac29030c7")
+			(uuid "c431617b-2a1e-4310-8947-2222f95f9f66")
+		)
+		(pin "4"
+			(uuid "ba13a2bf-2fdb-425a-961f-daba463b9c4c")
+		)
+		(pin "3"
+			(uuid "7a609db2-2284-40cd-9366-a5f802f00561")
+		)
+		(pin "5"
+			(uuid "6e452888-7ed7-47cd-9b2d-975eb7f00e12")
+		)
+		(pin "8"
+			(uuid "3c0793df-1cf6-4516-8431-afb2bc796844")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R162")
+					(reference "U32")
 					(unit 1)
-					(variant
-						(name "Test")
-					)
 				)
 			)
 		)
@@ -3054,315 +3648,6 @@
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "#PWR0505")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 66.04 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "67bb5064-ed14-4c75-acf7-88d992b52b06")
-		(property "Reference" "R160"
-			(at 67.564 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 67.564 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 67.056 61.214 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "(do_not_autoplace no)"
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 66.04 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "397a2829-3332-4fac-9e4c-7e413d0b58a3")
-		)
-		(pin "2"
-			(uuid "98e73f8a-73f3-474a-8de8-5c243d6d725e")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R160")
-					(unit 1)
-					(variant
-						(name "Test")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 133.35 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "71b6dfc6-9870-4206-ab56-df788f5dbb97")
-		(property "Reference" "R163"
-			(at 129.54 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "(property \"Description\" \"Unpolarized capacitor, small symbol\""
-			(at 137.668 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric_Pad0.72x0.64mm"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 133.35 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 133.35 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 133.35 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 133.35 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 133.35 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 133.35 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c562dcd-7a6c-49b8-9997-9d6ff43f4a40")
-		)
-		(pin "2"
-			(uuid "036578b5-e084-4d57-ad83-bb4cdc86ad2a")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R163")
-					(unit 1)
-					(variant
-						(name "Test")
-					)
 				)
 			)
 		)
@@ -3849,155 +4134,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Timer_RTC:RV-3028-C7")
-		(at 92.71 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b90d1437-8a0b-400d-9d72-f908dd0faf6a")
-		(property "Reference" "U32"
-			(at 94.8533 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 94.8533 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "(effects"
-			(at 118.11 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
-			(at 92.71 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
-			(at 92.71 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 92.71 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 92.71 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 92.71 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 92.71 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4dd89b68-d739-4919-a068-627c0d0272b4")
-		)
-		(pin "7"
-			(uuid "7522491e-3360-402d-8d04-c042dd8a01c9")
-		)
-		(pin "6"
-			(uuid "43f2f0a8-0833-48e9-9512-bd2f44b08645")
-		)
-		(pin "2"
-			(uuid "79ff1545-f8b3-4f2a-9b6d-8f8671705678")
-		)
-		(pin "4"
-			(uuid "93a4c041-3b33-4097-bd08-ca7b11c6eb72")
-		)
-		(pin "3"
-			(uuid "c2a01691-b289-4058-a270-3b913825d2fa")
-		)
-		(pin "5"
-			(uuid "95aa87d8-feab-41e2-916c-30a8effeed1c")
-		)
-		(pin "8"
-			(uuid "75d2a4c2-2410-4a71-b7ba-1af08d210168")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "U32")
-					(unit 1)
-					(variant
-						(name "Test")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 111.76 69.85 0)
+		(at 66.04 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4005,9 +4143,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "da52f105-29aa-44d3-9dc9-f56bd37137c0")
-		(property "Reference" "R161"
-			(at 113.284 68.58 0)
+		(uuid "cd2f7866-97fb-4838-84b4-f55a83fc35be")
+		(property "Reference" "R160"
+			(at 67.564 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4017,8 +4155,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 113.284 71.12 0)
+		(property "Value" "2.2k"
+			(at 67.564 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4029,7 +4167,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 112.776 70.104 90)
+			(at 67.056 61.214 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4040,7 +4178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 69.85 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4189,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 111.76 69.85 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4062,7 +4200,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 111.76 69.85 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4211,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 111.76 69.85 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4084,7 +4222,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 111.76 69.85 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +4233,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 111.76 69.85 0)
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,8 +4243,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "(at 0 0 0)"
-			(at 111.76 69.85 0)
+		(property "KLC_S5.1" ""
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,8 +4254,8 @@
 				)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 111.76 69.85 0)
+		(property "LCSC Part" "C114762"
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,8 +4265,8 @@
 				)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 111.76 69.85 0)
+		(property "Mouser Part" "603-RC0402FR-072K2L"
+			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4139,95 +4277,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "747e55bd-6cb0-41f9-ba94-96078a5365ee")
+			(uuid "c8a3cb1d-216b-4008-8702-21aa2f9f7e71")
 		)
 		(pin "2"
-			(uuid "e220a664-6dd2-49b0-8ede-a8808229d002")
+			(uuid "1fa2a0d1-4137-4f11-9914-0c755b9a9359")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R161")
-					(unit 1)
-					(variant
-						(name "Test")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 58.42 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1d3d838-7e4b-452c-8d45-f19ccf76f465")
-		(property "Reference" "#PWR0501"
-			(at 58.42 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3_S0"
-			(at 58.42 51.816 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 58.42 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b8ea33b-d354-4674-bbe4-3944b6821a33")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "#PWR0501")
+					(reference "R160")
 					(unit 1)
 				)
 			)
@@ -4243,7 +4301,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e3f67e3f-5623-4759-bf1e-cf368cedef9b")
+		(uuid "d894a0fe-fe96-48ec-9843-f3baa086d7d9")
 		(property "Reference" "R159"
 			(at 59.944 59.69 0)
 			(show_name no)
@@ -4255,7 +4313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "2.2k"
 			(at 59.944 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +4401,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "(do_not_autoplace no)"
+		(property "KLC_S5.1" ""
 			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4354,7 +4412,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC Part" "C114762"
 			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4365,7 +4423,7 @@
 				)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "Mouser Part" "603-RC0402FR-072K2L"
 			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4377,19 +4435,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc522d91-7d12-4b6f-8376-fc92e3623dfb")
+			(uuid "4fa9dca6-d444-4121-a098-ced00042d813")
 		)
 		(pin "2"
-			(uuid "cbe5f111-456c-44a8-b9a4-3933e15cae30")
+			(uuid "41ef45e5-5642-456a-bcff-d583edf1c9ef")
 		)
 		(instances
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "R159")
 					(unit 1)
-					(variant
-						(name "Test")
-					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 58.42 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1d3d838-7e4b-452c-8d45-f19ccf76f465")
+		(property "Reference" "#PWR0501"
+			(at 58.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3_S0"
+			(at 58.42 51.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 58.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b8ea33b-d354-4674-bbe4-3944b6821a33")
+		)
+		(instances
+			(project "RK3576 SBC"
+				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
+					(reference "#PWR0501")
+					(unit 1)
 				)
 			)
 		)
@@ -4699,167 +4831,6 @@
 			(project "RK3576 SBC"
 				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
 					(reference "BT1")
-					(unit 1)
-					(variant
-						(name "Test")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea079edb-4e09-4f91-9dbf-140029d516e9")
-		(property "Reference" "R158"
-			(at 125.984 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 125.984 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 125.476 57.404 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "(at 0 0 0)"
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 124.46 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98b62b3d-7036-4876-ab9e-8ed896799085")
-		)
-		(pin "2"
-			(uuid "fd42c98a-d2ca-4d6f-9c00-50e813567d44")
-		)
-		(instances
-			(project "RK3576 SBC"
-				(path "/b79dbff4-0cad-4ff7-bec2-7c0e4f8b14d3/8d8ca3e7-edc3-4c27-95c5-36c0528be879"
-					(reference "R158")
 					(unit 1)
 					(variant
 						(name "Test")
