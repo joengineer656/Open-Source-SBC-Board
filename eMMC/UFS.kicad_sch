@@ -2,10 +2,13 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "9e6549ff-cbe9-45fb-ad9f-bc4aea8efc72")
+	(uuid "a77b1db0-ef92-48ac-b9fb-8880573843bc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch"
+		(symbol "PCM_SparkFun-Connector:Barrel_Jack_PTH_Slot"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -24,7 +27,7 @@
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack_Switch"
+			(property "Value" "Barrel_Jack_PTH_Slot"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -34,8 +37,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
+			(property "Footprint" "PCM_SparkFun-Connector:Barrel_Jack_PTH_Slot"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -45,8 +48,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 1.27 -1.016 0)
+			(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -57,7 +60,7 @@
 				)
 			)
 			(property "Description" "DC Barrel Jack with an internal switch"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -67,7 +70,18 @@
 					)
 				)
 			)
-			(property "ki_keywords" "DC power barrel jack connector"
+			(property "PROD_ID" "CONN-08197"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun DC power barrel jack connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,7 +103,7 @@
 					)
 				)
 			)
-			(symbol "Barrel_Jack_Switch_0_1"
+			(symbol "Barrel_Jack_PTH_Slot_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -185,36 +199,18 @@
 					)
 				)
 			)
-			(symbol "Barrel_Jack_Switch_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "Barrel_Jack_PTH_Slot_1_1"
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name ""
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -225,14 +221,32 @@
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name ""
+					(name "GNDBREAK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "GNDBREAK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PWR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -244,9 +258,65 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 46.99 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c26f51f7-166f-4219-8788-641c1fb1ce54")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.69) (xy 54.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7fa170-0d57-43ec-a353-d89668bfc3a9")
+	)
+	(wire
+		(pts
+			(xy 46.99 57.15) (xy 46.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e7bc7c-7818-4eaa-9ce7-aab41e929d19")
+	)
+	(wire
+		(pts
+			(xy 44.45 54.61) (xy 54.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1b3d50-c0ae-4167-b1e5-930a46976326")
+	)
+	(wire
+		(pts
+			(xy 44.45 59.69) (xy 46.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2e41e6-0fe5-4d01-bb91-07d90f2d8517")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 46.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88dd8fd-4313-478f-86ac-d97651e3b05c")
+	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 74.93 76.2 0)
+		(lib_id "PCM_SparkFun-Connector:Barrel_Jack_PTH_Slot")
+		(at 36.83 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -255,9 +325,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9fab36f-700f-4a09-b47c-1057e953c6d0")
+		(uuid "150584ac-e08a-48e9-b30a-9431a2c39bcf")
 		(property "Reference" "J1"
-			(at 74.93 67.31 0)
+			(at 36.83 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -266,8 +336,8 @@
 				)
 			)
 		)
-		(property "Value" "Barrel_Jack_Switch"
-			(at 74.93 69.85 0)
+		(property "Value" "Barrel_Jack_PTH_Slot"
+			(at 36.83 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -276,8 +346,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
-			(at 76.2 77.216 0)
+		(property "Footprint" "PCM_SparkFun-Connector:Barrel_Jack_PTH_Slot"
+			(at 36.83 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -287,8 +357,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 76.2 77.216 0)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf"
+			(at 36.83 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -299,7 +369,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 74.93 76.2 0)
+			(at 36.83 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -309,17 +379,32 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "3eb91046-e529-4041-afc9-fa51541ca73e")
+		(property "PROD_ID" "CONN-08197"
+			(at 36.83 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "6eec40b5-3f1f-438d-bac3-10558777e4e6")
+		(pin "PWR"
+			(uuid "32935206-7caf-4dec-a89c-7d77b6f49f59")
 		)
-		(pin "2"
-			(uuid "af331e99-479e-45b6-9802-55ef7a6db1a8")
+		(pin "GNDBREAK"
+			(uuid "d1331d64-c85b-4a5a-a261-54fb6c91a60d")
+		)
+		(pin "GND"
+			(uuid "dbda941e-2ff3-4460-ab8d-aff8ad1e22d7")
 		)
 		(instances
 			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/18e487aa-7d5d-4330-b69d-f75c2ebdb2cf"
+					(reference "J3")
+					(unit 1)
+				)
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/976da9c6-11e1-4e8a-b7c7-c3dc062804e4"
 					(reference "J1")
 					(unit 1)
