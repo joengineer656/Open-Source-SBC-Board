@@ -1,0 +1,42 @@
+(directive_label "Close to PGA"
+  (length 2.54)
+  (shape round)
+  (at 50.8 50.8 0)
+  (fields_autoplaced yes)
+  (effects
+    (font
+      (size 1.27 1.27)
+    )
+    (justify left)
+  )
+  (uuid "dffa069a-d75a-4be6-a028-c944773c94d9")
+  (property "Netclass" "Close to PGA"
+    (at 50.8 48.26 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+  )
+)
+(directive_label "Under PGA"
+  (length 2.54)
+  (shape round)
+  (at 50.8 60.8 0)
+  (fields_autoplaced yes)
+  (effects
+    (font
+      (size 1.27 1.27)
+    )
+    (justify left)
+  )
+  (uuid "03dcab40-deb9-45d9-8ea5-2ae7797c38f4")
+  (property "Netclass" "Under PGA"
+    (at 50.8 58.26 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+    )
+  )
+)

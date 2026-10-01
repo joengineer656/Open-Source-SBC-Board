@@ -1,0 +1,21 @@
+# KiCad temp / backup / local files — never push these
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*~
+~*.lck
+*.lck
+_autosave*
+*-backups/
+.history/
+fp-info-cache
+*.net
+*.xml
+*.csv
+.DS_Store
+Thumbs.db
+
+# Keep project outputs intentional via Releases, not autosaves
+project.kicad_dru
+.hs_rules.json
