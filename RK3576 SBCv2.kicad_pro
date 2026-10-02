@@ -534,6 +534,125 @@
         "wire_width": 6
       },
       {
+        "name": "Blutooth",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 16,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Blutooth CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 15,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "CSI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 20,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Close to PGA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DSI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 19,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "HDMI CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 12,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "LPDDR5 A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 22,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "LPDDR5 B",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 21,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MCU - SOC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MDI0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MDI1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "OLED Display",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 27,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PCIE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 14,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PCIE CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 13,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PHY0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PHY1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
@@ -543,13 +662,97 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 29,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 1.0,
         "via_drill": 0.7,
         "wire_width": 6
+      },
+      {
+        "name": "RTC CLK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 25,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RTC CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 26,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "UFS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 23,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB HOST",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB HOST HUB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB SOC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB SOC CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Under PGA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "WIFI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 17,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "WIFI CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 18,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "eMMC/FSPI0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 24,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "uSD Card",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 28,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -557,6 +760,33 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/RESET_L": [
+        "Close to PGA"
+      ],
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/SARADC_VIN0_BOOT": [
+        "Close to PGA"
+      ],
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/SARADC_VIN1_KEY{slash}RECOVERY": [
+        "Close to PGA"
+      ],
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/SARADC_VIN2_HW_ID": [
+        "Close to PGA"
+      ],
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/SARADC_VIN3_HP_HOOK": [
+        "Close to PGA"
+      ],
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/SARADC_VIN4_IN": [
+        "Close to PGA"
+      ],
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/SARADC_VIN5_BOM_ID": [
+        "Close to PGA"
+      ],
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/SARADC_VIN6": [
+        "Close to PGA"
+      ],
+      "/(label \"I2C0_SDA_M1_TP_Wireless\"\t(at 193.04 124.46 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"0bcef739-c6eb-4d1a-99bd-629966802e7e\"))(label \"I2C0_SCL_M1_TP_Wireless\"\t(at 193.04 121.92 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"02175ab3-f649-4a81-94a1-1825c5d15372\"))/SARADC_VIN7_DC": [
+        "Close to PGA"
+      ],
       "/(wire\t(pts\t\t(xy 157.48 184.15) (xy 200.66 184.15)\t)\t(stroke (width 0) (type default))\t(uuid \"9f1eb821-1da7-41c3-abc1-80acd5a001ec\"))(wire\t(pts\t\t(xy 162.56 66.04) (xy 189.23 66.04)\t)\t(stroke (width 0) (type default))\t(uuid \"f467982b-a64f-4a18-8fbe-ec4723ac692d\"))(wire\t(pts\t\t(xy 157.48 179.07) (xy 176.53 179.07)\t)\t(stroke (width 0) (type default))\t(uuid \"f69c623c-2265-4997-9b1c-238b0aca6ccb\"))(wire\t(pts\t\t(xy 157.48 186.69) (xy 184.15 186.69)\t)\t(stroke (width 0) (type default))\t(uuid \"76e0e704-50e2-4b04-8814-1d65b6aabc73\"))(wire\t(pts\t\t(xy 162.56 68.58) (xy 196.85 68.58)\t)\t(stroke (width 0) (type default))\t(uuid \"088a6096-48e3-4600-bb35-a512d7ba56f8\"))(wire\t(pts\t\t(xy 157.48 189.23) (xy 191.77 189.23)\t)\t(stroke (width 0) (type default))\t(uuid \"468cbf5e-685f-4db5-a639-234018d02dbb\"))(wire\t(pts\t\t(xy 162.56 58.42) (xy 181.61 58.42)\t)\t(stroke (width 0) (type default))\t(uuid \"588f4987-40e4-4823-8b55-56bafb416fcc\"))(wire\t(pts\t\t(xy 162.56 63.5) (xy 205.74 63.5)\t)\t(stroke (width 0) (type default))\t(uuid \"7ec10e0a-abb5-4640-b017-747cff39fb4f\"))(label \"ETH0_{PHY}_MDC\"\t(at 162.56 63.5 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"68319cee-0895-40ca-8bc9-f1c73898d296\"))(label \"ETH0_{PHY}_MDIO\"\t(at 162.56 66.04 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"7f8c913f-5899-4a42-9d54-9f9086d46098\"))(label \"ETH0_{PHY}_RESET\"\t(at 162.56 58.42 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"8bb512c3-d18c-4bd7-b140-9482d340cf07\"))(label \"ETH1_{PHY}_RESET\"\t(at 157.48 179.07 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"9216a7ed-8387-4ff7-9856-d4f302fec104\"))(label \"ETH1_{PHY}_MDIO\"\t(at 157.48 186.69 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"bc91dd39-958e-4d53-b9f7-ee839d41656a\"))(label \"ETH1_{PHY}_MDC\"\t(at 157.48 184.15 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"d2ffd242-0d3c-45d2-947c-06c375af173c\"))(label \"ETH0_{PHY}_INT\"\t(at 162.56 68.58 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"e46d3f79-ab29-4c0d-8631-a946ae4e30b6\"))(label \"ETH1_{PHY}_INT\"\t(at 157.48 189.23 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"08917f0e-7684-4624-a0b6-3d47c927147d\"))/RESET_L": [
         "Close to PGA"
       ],
@@ -822,7 +1052,7 @@
         "HDMI CTRL"
       ],
       "/HDMI/HDMI_TX_ON": [
-        "HDMI"
+        "HDMI CTRL"
       ],
       "/HDMI/HDMI_TX_SBD_N": [
         "HDMI"
@@ -1076,6 +1306,21 @@
       "/OLED Screen/OLED_RS": [
         "OLED Display"
       ],
+      "/PCIe/PCIE0_CLKREQ_L": [
+        "PCIE CTRL"
+      ],
+      "/PCIe/PCIE0_DET_L": [
+        "PCIE CTRL"
+      ],
+      "/PCIe/PCIE0_REFCLK_N": [
+        "PCIE CTRL"
+      ],
+      "/PCIe/PCIE0_REFCLK_P": [
+        "PCIE CTRL"
+      ],
+      "/PCIe/PCIE0_RESET_L": [
+        "PCIE CTRL"
+      ],
       "/PCIe/PCIE0_RX_N": [
         "PCIE"
       ],
@@ -1088,7 +1333,34 @@
       "/PCIe/PCIE0_TX_P": [
         "PCIE"
       ],
+      "/PCIe/PCIE0_WAKE_L": [
+        "PCIE CTRL"
+      ],
       "/RK3576 SOC/RESET_L": [
+        "Close to PGA"
+      ],
+      "/RK3576 SOC/SARADC_VIN0_BOOT": [
+        "Close to PGA"
+      ],
+      "/RK3576 SOC/SARADC_VIN1_KEY{slash}RECOVERY": [
+        "Close to PGA"
+      ],
+      "/RK3576 SOC/SARADC_VIN2_HW_ID": [
+        "Close to PGA"
+      ],
+      "/RK3576 SOC/SARADC_VIN3_HP_HOOK": [
+        "Close to PGA"
+      ],
+      "/RK3576 SOC/SARADC_VIN4_IN": [
+        "Close to PGA"
+      ],
+      "/RK3576 SOC/SARADC_VIN5_BOM_ID": [
+        "Close to PGA"
+      ],
+      "/RK3576 SOC/SARADC_VIN6": [
+        "Close to PGA"
+      ],
+      "/RK3576 SOC/SARADC_VIN7_DC": [
         "Close to PGA"
       ],
       "/RP2350A MCU/SPI1_{MCU}_CS": [
@@ -1107,6 +1379,12 @@
         "RTC CTRL"
       ],
       "/RTC/I2C2_SDA_M0_CC_RTC_EEPROM": [
+        "RTC CTRL"
+      ],
+      "/RTC/I2C8_SCL_M3_RTC_EEPROM": [
+        "RTC CTRL"
+      ],
+      "/RTC/I2C8_SDA_M3_RTC_EEPROM": [
         "RTC CTRL"
       ],
       "/RTC/RTC_32KOUT_SOC": [
@@ -1280,7 +1558,19 @@
       "/USB-C SOC/I2C0_SCL_M1_TP": [
         "USB SOC CTRL"
       ],
+      "/USB-C SOC/I2C0_SCL_M1_TP_Wireless": [
+        "USB SOC CTRL"
+      ],
       "/USB-C SOC/I2C0_SDA_M1_TP": [
+        "USB SOC CTRL"
+      ],
+      "/USB-C SOC/I2C0_SDA_M1_TP_Wireless": [
+        "USB SOC CTRL"
+      ],
+      "/USB-C SOC/I2C2_SCL_M0_USB_Wireless": [
+        "USB SOC CTRL"
+      ],
+      "/USB-C SOC/I2C2_SDA_M0_USB_Wireless": [
         "USB SOC CTRL"
       ],
       "/USB-C SOC/USB_{SOC}_AUX_N": [
@@ -1354,6 +1644,18 @@
       ],
       "/Wireless/SDMMC1_D3_M0": [
         "WIFI"
+      ],
+      "/Wireless/WIFI_REG_ON_L": [
+        "WIFI CTRL"
+      ],
+      "/Wireless/WIFI_RESET_L": [
+        "WIFI CTRL"
+      ],
+      "/Wireless/WIFI_WAKE_DEV_L": [
+        "WIFI CTRL"
+      ],
+      "/Wireless/WIFI_WAKE_HOST_L": [
+        "WIFI CTRL"
       ],
       "/uSD Card/C_uSD_CS": [
         "uSD Card"
@@ -1440,13 +1742,50 @@
       "Net-(U11-SPWR_DET)": [
         "HOST_HUB"
       ],
+      "Net-(U12DDR-DDRPHY_PLL_AVSS)": [
+        "Under PGA"
+      ],
+      "Net-(U12MIPI-MIPI_DCPHY_VREG)": [
+        "Under PGA"
+      ],
       "VCCA_1.8v_S0": [
+        "Under PGA"
+      ],
+      "VCCA_1V8_S0": [
+        "Under PGA"
+      ],
+      "VCCA_1V8_S3": [
         "Under PGA"
       ],
       "VCC_3.3v_S0": [
         "Under PGA"
       ],
+      "VCC_3V3_S0": [
+        "Under PGA"
+      ],
+      "VDD2_DDR_S3": [
+        "Under PGA"
+      ],
+      "VDDA0V75_HDMI_S0": [
+        "Under PGA"
+      ],
       "VDDA_0.75v_S0": [
+        "Under PGA"
+      ],
+      "VDDA_0V75_S0": [
+        "Under PGA"
+      ],
+      "VDDA_0V85_S0": [
+        "Under PGA"
+      ],
+      "VDDA_1V2_S0": [
+        "Under PGA"
+      ],
+      "VDDA_DDR_PLL_S0": [
+        "Under PGA"
+      ],
+      "VDDQ_DDR_S0": [
+        "Close to PGA",
         "Under PGA"
       ],
       "VDD_3.3v_S3": [
@@ -1457,6 +1796,10 @@
         "Under PGA"
       ],
       "VDD_CPU_LIT_S0": [
+        "Close to PGA",
+        "Under PGA"
+      ],
+      "VDD_DDR_S0": [
         "Close to PGA",
         "Under PGA"
       ],
@@ -1473,7 +1816,12 @@
         "Under PGA"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -1524,6 +1872,18 @@
         },
         {
           "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part",
+          "name": "Mouser Part",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
@@ -1541,18 +1901,186 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_DVDD",
+          "name": "KLC_S4.2_DVDD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_VREG_LX",
+          "name": "KLC_S4.2_VREG_LX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S5.1",
+          "name": "KLC_S5.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_URL",
+          "name": "LCSC_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manf",
+          "name": "Manf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "KLC_S4.2_VREG_LX"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1616,7 +2144,7 @@
         "uuid": "802f5b9f-44c6-4b1a-a63a-2c094d5816db"
       }
     ],
-    "used_designators": "BT1,NT1-10,FID5-8,Y1-7,Y9,#PWR2-37,#PWR39-65,#PWR67-81,#PWR83-85,#PWR123,#PWR125,#PWR134,#PWR137,#PWR142,#PWR148-251,#PWR255-256,#PWR278-279,#PWR281,#PWR314-315,#PWR321,#PWR325-589,#PWR594-595,#PWR598-599,#PWR604-614,#PWR621-646,C1-66,C97,C112,C119-170,C173,C232-233,C238-433,AE1-2,SW1,SW5-9,J1-37,H5-8,LED1-4,TP8-14,R1,R5-8,R14,R17-21,R35,R42-43,R53-54,R71-301,Q1-8,F1-4,D1-6,D11-12,D14,D18-29,U2,U10,U12-16,U18-38,U41,U53,L1-16",
+    "used_designators": "Y1-7,Y9,#PWR2-37,#PWR39-65,#PWR67-81,#PWR83-85,#PWR123,#PWR125,#PWR134,#PWR137,#PWR142,#PWR148-251,#PWR255-256,#PWR278-279,#PWR281,#PWR314-315,#PWR321,#PWR325-589,#PWR594-595,#PWR598-599,#PWR604-614,#PWR621-646,NT1-10,FID5-8,BT1,H5-8,LED1-4,R1-2,R5-8,R14,R17-21,R35,R42-43,R53-54,R71-301,TP8-14,Q1-8,F1-4,L1-16,J1-37,C1-66,C97,C112,C119-170,C173,C232-233,C238-435,U2,U10,U12-38,U41,U53,D1-6,D11-12,D14,D18-29,SW1,SW5-9,AE1-2",
     "variants": []
   },
   "sheets": [

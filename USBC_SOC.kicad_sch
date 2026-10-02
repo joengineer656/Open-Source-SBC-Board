@@ -1873,7 +1873,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -11.43 90)
+					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -4686,6 +4686,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 130.81) (xy 218.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107b34c7-a9b1-4fee-b5e9-12d61bc98e53")
+	)
+	(wire
+		(pts
 			(xy 181.61 120.65) (xy 181.61 123.19)
 		)
 		(stroke
@@ -5217,6 +5227,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 133.35) (xy 218.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85767c89-2846-4e54-833d-0d8e27ac57e4")
+	)
+	(wire
+		(pts
 			(xy 229.87 124.46) (xy 242.57 124.46)
 		)
 		(stroke
@@ -5418,16 +5438,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 135.89) (xy 212.09 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a074e7a8-db92-42cf-be80-f5d3ac1e7838")
-	)
-	(wire
-		(pts
 			(xy 82.55 149.86) (xy 107.95 149.86)
 		)
 		(stroke
@@ -5435,16 +5445,6 @@
 			(type default)
 		)
 		(uuid "a4851011-e5ad-4507-979d-e10b1f55118c")
-	)
-	(wire
-		(pts
-			(xy 194.31 133.35) (xy 212.09 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51a95ca-30f0-4b2c-9df5-7884a7adb240")
 	)
 	(wire
 		(pts
@@ -5625,6 +5625,16 @@
 			(type default)
 		)
 		(uuid "c7201c81-82a4-4de5-84eb-00595c2bbd46")
+	)
+	(wire
+		(pts
+			(xy 157.48 59.69) (xy 157.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca08da3b-f984-43cf-87f4-0d1fa21531bd")
 	)
 	(wire
 		(pts
@@ -5858,16 +5868,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 130.81) (xy 194.31 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e894f3f8-5cd2-44bb-8d53-036f87d24454")
-	)
-	(wire
-		(pts
 			(xy 229.87 45.72) (xy 242.57 45.72)
 		)
 		(stroke
@@ -5905,6 +5905,16 @@
 			(type default)
 		)
 		(uuid "ed4aa558-6659-4283-8d95-b2d4dabd89db")
+	)
+	(wire
+		(pts
+			(xy 194.31 135.89) (xy 218.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f790ff-0198-4c82-bf32-2e3e13fa95fe")
 	)
 	(wire
 		(pts
@@ -6710,6 +6720,16 @@
 		)
 		(uuid "14dab62e-3376-48a1-bc0d-f01a2d3f307e")
 	)
+	(label "I2C2_SCL_M0_USB_Wireless"
+		(at 218.44 133.35 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "19440f6d-e5a5-459e-8230-c6383a76eca4")
+	)
 	(label "CUSB_{SOC}_TX1_N"
 		(at 229.87 82.55 0)
 		(effects
@@ -6751,7 +6771,7 @@
 		(uuid "2d84d9f9-f3e7-4910-ac33-f6a6b4a358be")
 	)
 	(label "USB_{SOC}_CON_INT"
-		(at 212.09 135.89 180)
+		(at 218.44 135.89 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6819,16 +6839,6 @@
 			(justify right bottom)
 		)
 		(uuid "45329a71-9bd5-4a63-bff8-1b42bee2a8e3")
-	)
-	(label "I2C0_SCL_M1_TP"
-		(at 212.09 133.35 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "46dd382b-9d2a-4d0c-be62-f64c6b59cea9")
 	)
 	(label "CUSB_{SOC}_TX2_P"
 		(at 229.87 124.46 0)
@@ -6950,16 +6960,6 @@
 		)
 		(uuid "8f24cb3a-20f3-46ee-92e9-8a8cb53443d6")
 	)
-	(label "I2C0_SDA_M1_TP"
-		(at 212.09 130.81 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "94b978f6-5f9e-4694-983c-8945daa29c9d")
-	)
 	(label "CUSB_{SOC}_TX1_N"
 		(at 53.34 142.24 0)
 		(effects
@@ -7060,6 +7060,16 @@
 		)
 		(uuid "d2f8d55c-bdfc-49e0-8de5-e9e2c1d03699")
 	)
+	(label "I2C2_SDA_M0_USB_Wireless"
+		(at 218.44 130.81 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "d82b8a57-aadf-49a9-834f-a031094a20a9")
+	)
 	(label "USB_{SOC}_RX2_N"
 		(at 107.95 149.86 180)
 		(effects
@@ -7137,7 +7147,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 196.85 127.635) (xy 214.63 127.635) (xy 214.63 137.795) (xy 196.85 137.795)
+				(xy 197.485 127.635) (xy 220.98 127.635) (xy 220.98 137.795) (xy 197.485 137.795)
 			)
 			(stroke
 				(width 0)
@@ -7153,7 +7163,7 @@
 	(netclass_flag "Under PGA"
 		(length 2.54)
 		(shape round)
-		(at 214.63 130.81 270)
+		(at 220.98 130.81 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7162,7 +7172,7 @@
 		)
 		(uuid "55f619b5-47a5-4dbd-a5ab-a21d937aadd2")
 		(property "Netclass" "USB SOC CTRL"
-			(at 225.552 130.81 0)
+			(at 231.902 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7501,6 +7511,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "561eb0aa-65c6-46f7-b4a2-6441f0307934")
 		)
@@ -7669,6 +7690,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62c9a218-944d-4a13-9c71-2670892c61ec")
 		)
@@ -7827,6 +7859,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 80.01 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 80.01 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -8315,6 +8358,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "92e6a256-f1ab-4ad1-9f5c-1c45a0ca7a32")
 		)
@@ -8497,6 +8551,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 170.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e491cef-bcc4-43dd-b7de-35f8a9436005")
 		)
@@ -8655,6 +8720,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 80.01 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 80.01 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -8910,6 +8986,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2e97afa-2a65-41ee-bf14-8dd5954d396b")
 		)
@@ -9068,6 +9155,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 80.01 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 80.01 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -9246,6 +9344,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95cb3d6d-aefd-4738-bded-7bee5fa6a5b6")
 		)
@@ -9395,6 +9504,17 @@
 			)
 		)
 		(property "Mouser Part" "512-FUSB302BMPX "
+			(at 181.61 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 181.61 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9600,6 +9720,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5071427-efad-4553-a7ae-950d9e0ddc4e")
 		)
@@ -9727,7 +9858,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5209398"
+		(property "LCSC Part" ""
 			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9738,7 +9869,7 @@
 				)
 			)
 		)
-		(property "Mouser Part" "CL03A105KP3NSNC "
+		(property "Mouser Part" ""
 			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9761,6 +9892,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9939,6 +10081,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23e8de83-3c95-4f3f-b868-d9f28f286593")
 		)
@@ -10100,6 +10253,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 146.05 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 146.05 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -10345,6 +10509,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "231c319c-8e7e-40ac-9a2c-b79a6539fb04")
 		)
@@ -10505,6 +10680,17 @@
 			)
 		)
 		(property "LCSC Part" "C138714"
+			(at 255.27 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 255.27 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10709,6 +10895,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 69.85 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e555ae54-28e9-433d-b200-f5d63443f7af")
 		)
@@ -10758,7 +10955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.83 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10869,6 +11066,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 163.83 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11189,6 +11397,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 52.07 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9350b33c-0388-4c50-84e9-6b9c42d63147")
 		)
@@ -11292,6 +11511,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 157.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "14dcd28c-7c1a-4f5b-a943-b01e030f159f")
 		)
@@ -11368,7 +11598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.67 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11479,6 +11709,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 153.67 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 153.67 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11660,6 +11901,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 173.99 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca13a3a3-61ce-465a-ba50-183d221cdddc")
 		)
@@ -11818,6 +12070,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 80.01 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 80.01 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -12074,6 +12337,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec74800c-5f32-4dc0-8ddc-01abc6b4373e")
 		)
@@ -12233,6 +12507,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 116.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 116.84 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12480,6 +12765,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 200.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 200.66 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12800,6 +13096,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 176.53 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97d252f4-ab29-4a24-acef-5dde1a38e21b")
 		)
@@ -13047,6 +13354,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 189.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "841727c5-e653-4034-ae4d-fb376d223d6d")
 		)
@@ -13284,6 +13602,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 199.39 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 199.39 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13618,6 +13947,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 138.43 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61bcb880-5f69-47d6-b155-a21e63be5d27")
 		)
@@ -13754,7 +14094,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C105871"
+		(property "LCSC Part" "C60490"
 			(at 137.16 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13765,7 +14105,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-074K7L"
+		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 137.16 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13999,6 +14350,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 80.01 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 80.01 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -14287,6 +14649,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 80.01 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "2ead2ebb-f9b1-4814-bc3e-beeb948dcbfd")
 		)
@@ -14445,6 +14818,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 59.69 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 59.69 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -14615,6 +14999,17 @@
 			)
 		)
 		(property "LCSC Part" "C138714"
+			(at 255.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 255.27 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14797,6 +15192,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 25.4 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 25.4 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -15197,6 +15603,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 33.02 134.62 0)
 			(hide yes)
 			(show_name no)

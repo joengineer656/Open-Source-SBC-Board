@@ -2773,7 +2773,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 143.1925 40.64) (xy 143.51 68.58) (xy 127.635 68.58) (xy 127.635 40.64)
+				(xy 143.51 40.64) (xy 143.51 68.58) (xy 127.635 68.58) (xy 127.635 40.64)
 			)
 			(stroke
 				(width 0)
@@ -2974,6 +2974,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 93.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 93.98 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3345,6 +3356,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 71.12 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76b5c496-20c5-40b4-88e6-2178c28c5885")
 		)
@@ -3514,6 +3536,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 71.12 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8eb4422-d725-4ce9-b186-2a0da05de58e")
 		)
@@ -3650,7 +3683,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 118.11 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3661,7 +3694,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 118.11 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 118.11 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3841,6 +3885,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24023cfe-449b-4249-af44-79a9d8055c28")
 		)
@@ -4000,6 +4055,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 45.72 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 45.72 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4377,7 +4443,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 118.11 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -4388,7 +4454,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 118.11 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 118.11 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -4535,7 +4612,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 118.11 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -4546,7 +4623,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 118.11 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 118.11 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -4717,6 +4805,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 36.83 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4940,7 +5039,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 118.11 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -4951,7 +5050,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 118.11 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 118.11 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -5121,6 +5231,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 154.94 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)

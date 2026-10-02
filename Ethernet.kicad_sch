@@ -4352,12 +4352,6 @@
 		(uuid "272b20ab-5e68-46c8-a22b-9c02dd1b961d")
 	)
 	(junction
-		(at 189.23 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c084b53-290e-42f2-897e-e731ec99069d")
-	)
-	(junction
 		(at 322.58 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4517,7 +4511,7 @@
 		(at 196.85 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a8a69b0-cd4a-4742-b288-cc73c3efe328")
+		(uuid "87d0f8c3-b62d-4a3a-b5ee-b05afe8b1220")
 	)
 	(junction
 		(at 312.42 187.96)
@@ -5773,16 +5767,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 189.23 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48cbd7b5-f8cf-45f2-be72-ff649d007374")
-	)
-	(wire
-		(pts
 			(xy 262.89 167.64) (xy 261.62 167.64)
 		)
 		(stroke
@@ -5923,6 +5907,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 43.18) (xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59824a1a-3791-40f7-a3e8-c9930a7663eb")
+	)
+	(wire
+		(pts
 			(xy 184.15 111.76) (xy 205.74 111.76)
 		)
 		(stroke
@@ -6020,6 +6014,16 @@
 			(type default)
 		)
 		(uuid "5fbd451f-e6ce-4ac1-9cd4-3017fe420465")
+	)
+	(wire
+		(pts
+			(xy 189.23 44.45) (xy 196.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe7670d-fe93-44bd-8fe4-8986b422bf05")
 	)
 	(wire
 		(pts
@@ -6723,6 +6727,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 44.45) (xy 196.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959740c9-b8d4-4929-89c6-70d14c6fc8ea")
+	)
+	(wire
+		(pts
 			(xy 356.87 210.82) (xy 369.57 210.82)
 		)
 		(stroke
@@ -7141,16 +7155,6 @@
 			(type default)
 		)
 		(uuid "bf9fb082-8196-4ed0-92d5-7ce9437f8d79")
-	)
-	(wire
-		(pts
-			(xy 181.61 45.72) (xy 181.61 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfe4137f-eaf8-467a-824c-e3ac75376861")
 	)
 	(wire
 		(pts
@@ -7865,16 +7869,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 196.85 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae3ae5d-2db5-4a9d-99a4-39bee4115448")
-	)
-	(wire
-		(pts
 			(xy 184.15 109.22) (xy 205.74 109.22)
 		)
 		(stroke
@@ -7922,16 +7916,6 @@
 			(type default)
 		)
 		(uuid "fd6329db-e194-41cc-84d7-9367046a12fb")
-	)
-	(wire
-		(pts
-			(xy 181.61 44.45) (xy 189.23 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe149103-f801-4367-a807-5ff8a1607206")
 	)
 	(wire
 		(pts
@@ -10215,6 +10199,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 181.61 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8fac3b9c-f889-48c4-9543-e1df4ac23627")
 		)
@@ -10363,6 +10358,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 382.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 382.27 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10697,6 +10703,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 92.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77524bdd-a558-4666-9d92-e29ce4213987")
 		)
@@ -10867,6 +10884,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 309.88 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "802986b3-f5d5-4924-a6e5-f763a15599e4")
 		)
@@ -11013,6 +11041,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-07590RL"
+			(at 71.12 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 71.12 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -11192,6 +11231,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 73.66 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "fc8d5620-47f1-4d40-97fb-7b3f8db498c0")
 		)
@@ -11334,7 +11384,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 269.24 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -11345,7 +11395,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 269.24 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 269.24 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -11504,6 +11565,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 374.65 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 374.65 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11736,6 +11808,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 167.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70d7ac54-0358-4af6-b077-8c06fc1e1c84")
 		)
@@ -11878,7 +11961,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 269.24 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -11889,7 +11972,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 269.24 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 269.24 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -12036,7 +12130,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 269.3134 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -12047,7 +12141,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 269.3134 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 269.3134 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -12341,6 +12446,17 @@
 			)
 		)
 		(property "LCSC Part" "C187932"
+			(at 236.22 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12703,6 +12819,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 382.27 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e2cdec1-dfb6-46e5-bd68-239112aa0600")
 		)
@@ -12873,6 +13000,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 327.66 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "352bd5bc-3605-4cba-931d-0f17fa36f1bf")
 		)
@@ -13019,6 +13157,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 181.61 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 181.61 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -13277,6 +13426,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 93.98 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c32d602c-6da8-43a6-bd0c-f5d3ed132b2c")
 		)
@@ -13524,6 +13684,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 318.77 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24149de4-1269-4d49-bec7-19609df0a0cb")
 		)
@@ -13573,7 +13744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13684,6 +13855,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 156.21 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13852,6 +14034,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 384.81 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47ff92d5-2ed9-497c-a227-a00086d11ae3")
 		)
@@ -14000,6 +14193,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-071K2L"
+			(at 377.19 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 377.19 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -14166,6 +14370,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 307.34 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "186a69a4-e21b-4bdc-b096-ff42601c9bcc")
 		)
@@ -14312,6 +14527,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 181.61 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 181.61 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -14480,6 +14706,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 377.19 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d8d4d748-6857-41a8-b789-bd64d38f1192")
 		)
@@ -14626,6 +14863,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 181.61 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 181.61 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -14794,6 +15042,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 369.57 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "29355e5f-635e-4b6f-820e-6dfd4594b1a7")
 		)
@@ -14930,7 +15189,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 274.32 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -14941,7 +15200,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 274.32 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 274.32 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -15108,6 +15378,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 176.53 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "336f8327-ec76-446c-ba6a-61f454b3f19c")
 		)
@@ -15254,6 +15535,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-07590RL"
+			(at 72.39 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 72.39 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -15499,6 +15791,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 184.15 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f0e7f710-a7d7-41bb-8aa7-3c179cad9c41")
 		)
@@ -15711,6 +16014,17 @@
 			)
 		)
 		(property "LCSC Part" "C20612981"
+			(at 162.56 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 162.56 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -16030,6 +16344,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 377.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 377.19 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16411,6 +16736,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 43.18 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 43.18 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -16864,6 +17200,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 176.53 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9317504b-b627-485f-9681-c541bc4cf3df")
 		)
@@ -17034,6 +17381,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 300.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8add08e2-845a-4e27-bd0e-d35a349333ee")
 		)
@@ -17190,6 +17548,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 176.53 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45016264-e2d2-496e-bd9c-2d015e052468")
 		)
@@ -17316,7 +17685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -17437,6 +17806,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 151.13 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b78ba7b-5c00-4cbe-bc10-20fea95b87f9")
 		)
@@ -17524,6 +17904,84 @@
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/e4ab3877-862f-4c83-bdad-f81a74420297"
 					(reference "#PWR0438")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 43.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "573c2a1f-ee6c-453b-8b6d-2c53da7a4085")
+		(property "Reference" "#PWR0477"
+			(at 196.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCCA_1V8_S3"
+			(at 196.85 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d74de47-bed8-495c-b92f-5fc3424c66ca")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/e4ab3877-862f-4c83-bdad-f81a74420297"
+					(reference "#PWR0477")
 					(unit 1)
 				)
 			)
@@ -17660,6 +18118,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 176.4922 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 176.4922 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -17830,6 +18299,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 295.91 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 295.91 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18065,6 +18545,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 196.85 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 196.85 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -18462,6 +18953,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 71.12 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72b7087b-2a91-4b29-98ab-855d0484f597")
 		)
@@ -18610,6 +19112,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-071K2L"
+			(at 377.19 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 377.19 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -18776,6 +19289,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 181.61 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2148777e-b4e8-4360-a60e-9af3049de211")
 		)
@@ -18922,6 +19446,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 176.4922 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 176.4922 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -19102,6 +19637,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 327.66 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "452ef777-a4b1-4e6d-be31-e81292a1644d")
 		)
@@ -19248,6 +19794,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 176.53 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 176.53 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -19582,6 +20139,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 322.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c995a51-e704-44a5-8df5-d230ebb95cd3")
 		)
@@ -19741,6 +20309,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 74.93 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 74.93 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19992,6 +20571,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 181.61 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b494e38-a425-4eed-b1f2-048a7cbbf5b1")
 		)
@@ -20140,6 +20730,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 377.19 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 377.19 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -20308,6 +20909,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 392.43 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca6575d3-ec54-48a9-9daa-f2f7a5cb2f1e")
 		)
@@ -20464,6 +21076,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 176.53 234.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8bd6fd78-2b9f-4ce4-a905-9d8058511414")
 		)
@@ -20610,6 +21233,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-07590RL"
+			(at 72.39 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 72.39 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -20778,6 +21412,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 377.19 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47dec58b-1b3c-4ea6-8deb-6d8ab3231f4e")
 		)
@@ -20924,6 +21569,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 181.61 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 181.61 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -21082,6 +21738,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 198.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 198.12 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -21461,6 +22128,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 231.14 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "9d75d667-dc52-4ea7-9397-e1e636470998")
 		)
@@ -21736,6 +22414,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 377.19 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "06e92711-2a54-47cc-84db-9b781be779b1")
 		)
@@ -21862,7 +22551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 175.26 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -21973,6 +22662,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 175.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 175.26 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22131,6 +22831,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 377.19 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 377.19 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -22311,6 +23022,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 102.87 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00a050e0-80f1-4a30-90d3-3e0442c3a34f")
 		)
@@ -22459,6 +23181,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 392.43 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 392.43 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22627,6 +23360,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 189.23 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8ac06b4-1aed-4503-a37c-450e4fb7edc9")
 		)
@@ -22785,6 +23529,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 193.04 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c833cb57-47d0-4e43-bade-dfb7378af972")
 		)
@@ -22921,7 +23676,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 269.24 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -22932,7 +23687,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 269.24 234.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 269.24 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -23156,7 +23922,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 274.32 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -23167,7 +23933,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 274.32 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 274.32 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -23348,6 +24125,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 302.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1358b686-3255-43e5-b942-5eab726720f0")
 		)
@@ -23484,7 +24272,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 274.32 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -23495,7 +24283,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 274.32 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 274.32 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -23676,6 +24475,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 312.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12dba636-22cc-4064-8002-6be2fa440686")
 		)
@@ -23836,6 +24646,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 304.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 304.8 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24079,6 +24900,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 181.61 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2464f8e-0f08-436f-b481-aafa4aefdda6")
 		)
@@ -24089,6 +24921,83 @@
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/e4ab3877-862f-4c83-bdad-f81a74420297"
 					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 181.61 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aea6ebdf-f505-46a3-b65e-ba1d34228ff8")
+		(property "Reference" "#PWR0627"
+			(at 181.61 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3_S0"
+			(at 181.61 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9eb0fa-26f2-4c56-881b-c9d5af6ade9b")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/e4ab3877-862f-4c83-bdad-f81a74420297"
+					(reference "#PWR0627")
 					(unit 1)
 				)
 			)
@@ -24227,6 +25136,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-071K2L"
+			(at 377.19 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 377.19 220.98 90)
 			(hide yes)
 			(show_name no)
@@ -24407,6 +25327,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 101.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52f9925c-fa59-4682-96fb-0828d0f4f09a")
 		)
@@ -24565,6 +25496,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 191.77 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4de054f2-9934-4c6e-a56b-d16d6e91118d")
 		)
@@ -24701,7 +25643,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 269.24 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -24712,7 +25654,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 269.24 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 269.24 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -24893,6 +25846,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 297.18 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e390c9b-80d6-40f2-b7ec-eed28814a278")
 		)
@@ -25053,6 +26017,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 322.58 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 322.58 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -25233,6 +26208,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 317.5 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "344bdb79-d0d1-4da3-9cb4-af8de422e0fa")
 		)
@@ -25391,6 +26377,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 374.65 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3f99574a-26ae-4b36-a77e-e7eb7dfa555a")
 		)
@@ -25401,83 +26398,6 @@
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/e4ab3877-862f-4c83-bdad-f81a74420297"
 					(reference "R181")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 196.85 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2eca801-92d1-4a9b-95bd-ca14b3fff7bf")
-		(property "Reference" "#PWR0477"
-			(at 196.85 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3_S0"
-			(at 196.85 39.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 196.85 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1dfcaef-f8bf-4397-be1c-ee9ebc0fa63a")
-		)
-		(instances
-			(project "RK3576 SBCv2"
-				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/e4ab3877-862f-4c83-bdad-f81a74420297"
-					(reference "#PWR0477")
 					(unit 1)
 				)
 			)
@@ -25779,6 +26699,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 181.61 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac098653-0b96-456a-b66a-be600b1a4e7f")
 		)
@@ -25828,7 +26759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 170.18 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -25939,6 +26870,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 170.18 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 170.18 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -26109,6 +27051,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 322.58 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 322.58 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -26751,6 +27704,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 292.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4edf042-e935-4188-bfd5-a6eea43ed150")
 		)
@@ -26911,6 +27875,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 196.85 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 196.85 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -27091,6 +28066,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 327.66 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e9fe5428-241a-4841-84d8-a76cb399a592")
 		)
@@ -27261,6 +28247,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 317.5 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2685466-4c74-4645-9597-914f7cf03760")
 		)
@@ -27407,6 +28404,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 302.26 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 302.26 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -27573,6 +28581,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 176.53 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e5e051bf-083a-4c86-bbbf-d7f7e5e3b791")
 		)
@@ -27709,7 +28728,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 269.24 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -27720,7 +28739,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 269.24 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 269.24 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -27867,7 +28897,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 274.32 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -27878,7 +28908,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 274.32 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 274.32 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -28025,7 +29066,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 274.3934 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -28036,7 +29077,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 274.3934 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 274.3934 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -28195,6 +29247,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-071K2L"
+			(at 377.19 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 377.19 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -28509,6 +29572,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 41.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S1"
 			(uuid "4e8fb920-8809-4ff4-b122-da1edb9d0d07")
 		)
@@ -28733,6 +29807,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 312.42 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8c12db5-5f40-490a-9d35-c1880b7f1749")
 		)
@@ -28893,6 +29978,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 313.69 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 313.69 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -29073,6 +30169,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8280a44c-2f81-4385-a45b-28e233d42e25")
 		)
@@ -29221,6 +30328,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 369.57 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 369.57 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -29444,7 +30562,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114765"
+		(property "LCSC Part" "C106231"
 			(at 274.32 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -29455,7 +30573,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0722RL "
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 274.32 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 274.32 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -29614,6 +30743,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-074K7L"
+			(at 384.81 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 384.81 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -29858,6 +30998,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 176.53 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e8c553e-3f73-46ca-b468-9292ece6f55a")
 		)
@@ -30018,6 +31169,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 307.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 307.34 39.37 0)
 			(hide yes)
 			(show_name no)

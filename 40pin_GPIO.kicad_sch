@@ -2245,8 +2245,28 @@
 		(uuid "fdb0755a-1fba-4782-a695-5556c595f991")
 	)
 	(no_connect
+		(at 149.86 115.57)
+		(uuid "28bd5424-30d2-43ef-87b3-21c8f2cbad85")
+	)
+	(no_connect
+		(at 149.86 125.73)
+		(uuid "a0798f55-612b-4c0c-860b-a689cd27ad52")
+	)
+	(no_connect
+		(at 149.86 118.11)
+		(uuid "c3eeca38-7166-4fcd-b29c-15621f475cc3")
+	)
+	(no_connect
 		(at 226.06 50.8)
 		(uuid "c860e641-5dc5-48b5-932f-c0dc3b37b3c3")
+	)
+	(no_connect
+		(at 149.86 123.19)
+		(uuid "c951f131-52a5-458f-b4b0-54c5e5700ab1")
+	)
+	(no_connect
+		(at 149.86 113.03)
+		(uuid "f18e7c81-7100-495b-ab35-5b1f119f099a")
 	)
 	(no_connect
 		(at 224.79 85.09)
@@ -2654,16 +2674,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 125.73) (xy 182.88 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "866ccd67-0e29-486c-938e-25358e7366c2")
-	)
-	(wire
-		(pts
 			(xy 205.74 45.72) (xy 199.39 45.72)
 		)
 		(stroke
@@ -2741,16 +2751,6 @@
 			(type default)
 		)
 		(uuid "a539a966-a157-422b-b930-273e7843d319")
-	)
-	(wire
-		(pts
-			(xy 182.88 118.11) (xy 149.86 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5468614-e4d9-4235-bb2f-b2fcdebbcdd3")
 	)
 	(wire
 		(pts
@@ -2914,16 +2914,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 123.19) (xy 182.88 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a1362d-f0ad-4182-8877-05d8a9b011e0")
-	)
-	(wire
-		(pts
 			(xy 50.8 110.49) (xy 83.82 110.49)
 		)
 		(stroke
@@ -2931,16 +2921,6 @@
 			(type default)
 		)
 		(uuid "d5825c1b-f28d-4d18-83c8-e2c884f5652d")
-	)
-	(wire
-		(pts
-			(xy 182.88 113.03) (xy 149.86 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b56d4b-8294-4fd4-a40e-275be27e5fb2")
 	)
 	(wire
 		(pts
@@ -2991,16 +2971,6 @@
 			(type default)
 		)
 		(uuid "f3b6d417-68ec-49c8-b6e2-31fe684acb9d")
-	)
-	(wire
-		(pts
-			(xy 182.88 115.57) (xy 149.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4276fb7-4839-4650-9884-5690eae4d5bf")
 	)
 	(wire
 		(pts
@@ -4096,16 +4066,6 @@
 		)
 		(uuid "15c45230-be9f-41fb-9fbb-e06d114c445d")
 	)
-	(label "40GPIOs_GPIO(3_C2)_I2C(5)_SCL-M3"
-		(at 50.8 135.89 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "17b563a9-f5da-4071-8aa8-f8451499b321")
-	)
 	(label "40GPIOs_GPIO(3_C3)_I2C(9)_SDA-M3"
 		(at 182.88 128.27 180)
 		(effects
@@ -4114,47 +4074,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "19dd8a87-2e26-4ec8-9a8d-1ce3d1f3fb60")
-	)
-	(label "40GPIOs_GPIO(3_A1)_UART(3)_RX-M1"
-		(at 182.88 123.19 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "321a6b62-c152-499e-9234-3ae6c8c93b63")
-	)
-	(label "40GPIOs_GPIO(3_D2)_I3C(1)_SDA-M2"
-		(at 182.88 115.57 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "44dfd55d-669f-4a83-bada-ca2ccfe66602")
-	)
-	(label "40GPIOs_GPIO(3_A0)_UART(3)_RX-M1"
-		(at 182.88 125.73 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "56329a7c-d8ed-4de0-8f12-8031e5ce5961")
-	)
-	(label "40GPIOs_GPIO(3_B2)_I2C(8)_SDA-M3"
-		(at 182.88 105.41 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ada2618-9d7e-4181-ad7b-797d070d7738")
+		(uuid "2f3909bb-3c81-42ee-8f5a-21eb3f9e8f76")
 	)
 	(label "SPI1_{MCU}_SDO"
 		(at 50.8 113.03 0)
@@ -4196,36 +4116,6 @@
 		)
 		(uuid "7dcd2d53-86a6-4fc5-9c80-8a47788853da")
 	)
-	(label "40GPIOs_GPIO(3_B3)_I2C(8)_SCL-M3"
-		(at 182.88 107.95 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "7eb3d91f-2db5-4d36-a2e6-9376a1557018")
-	)
-	(label "40GPIOs_GPIO(3_C4)_I2C(9)_SCL-M3"
-		(at 182.88 130.81 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "810f78e5-cb92-4106-86dc-578d885225fe")
-	)
-	(label "40GPIOs_GPIO(3_C1)_I2C(5)_SDA-M3"
-		(at 50.8 133.35 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "854551be-e6e4-460d-b6f5-6f333ca2df91")
-	)
 	(label "SARADC_VIN4_IN"
 		(at 182.88 133.35 180)
 		(effects
@@ -4235,6 +4125,16 @@
 			(justify right bottom)
 		)
 		(uuid "8693e17c-1abf-4e29-b32e-c24645283add")
+	)
+	(label "40GPIOs_GPIO(3_C2)_I2C(9)_SCL-M3"
+		(at 182.88 130.81 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a6fc6d7-1775-45ca-9bb0-27bb6464f0a7")
 	)
 	(label "PWM_FAN"
 		(at 36.83 163.83 0)
@@ -4256,15 +4156,15 @@
 		)
 		(uuid "8cc2384f-f840-4b17-b14c-c918c110b46b")
 	)
-	(label "40GPIOs_GPIO(3_D3)_I3C(1)_SCL-M2"
-		(at 182.88 118.11 180)
+	(label "40GPIOs_GPIO(3_C1)_I2C(5)_SDA-M3"
+		(at 50.8 133.35 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "8d807850-c7f8-417d-bf3d-4eed348cf568")
+		(uuid "96510958-3df1-4dab-b40f-0c6201c134f4")
 	)
 	(label "40GPIOs_GPIO(3_B6)_PWM(0)_CH1-M3"
 		(at 50.8 90.17 0)
@@ -4276,15 +4176,15 @@
 		)
 		(uuid "9adee48d-073d-408e-9798-916722df9b09")
 	)
-	(label "40GPIOs_GPIO(3_D1)_I3C(1)_SDA_PU-M2"
-		(at 182.88 113.03 180)
+	(label "I2C2_SDA_M0_CC_RTC_EEPROM"
+		(at 182.88 105.41 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
-		(uuid "a5931cf6-0d04-4504-a322-da303174cc60")
+		(uuid "a3ee4195-a546-43d9-888b-54d3f93b1553")
 	)
 	(label "SPI1_{MCU}_SCK"
 		(at 50.8 118.11 0)
@@ -4306,6 +4206,16 @@
 		)
 		(uuid "bbad4a7f-5139-42e2-b7b2-36d8a8deb123")
 	)
+	(label "I2C2_SCL_M0_CC_RTC_EEPROM"
+		(at 182.88 107.95 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "be66f978-2a49-46b0-a3ca-facf0e0fbf04")
+	)
 	(label "40GPIOs_GPIO(3_C7)"
 		(at 50.8 107.95 0)
 		(effects
@@ -4315,6 +4225,16 @@
 			(justify left bottom)
 		)
 		(uuid "ccd26034-ea2d-4b5f-a5d3-28864eebe803")
+	)
+	(label "40GPIOs_GPIO(3_C4)_I2C(5)_SCL-M3"
+		(at 50.8 135.89 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3a0b327-566a-4ee9-9399-97aa0c2b602c")
 	)
 	(label "SPI1_{MCU}_SDI"
 		(at 50.8 115.57 0)
@@ -4576,6 +4496,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 214.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 214.63 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4913,6 +4844,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "18"
 			(uuid "64361c60-fdc2-43d4-baca-d9605b1ca042")
 		)
@@ -5185,6 +5127,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 240.03 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0b51738-fd78-4558-8905-e804d07fb307")
 		)
@@ -5354,6 +5307,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 186.69 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a15bef2-f9dc-454b-a914-47aede9afebd")
 		)
@@ -5490,7 +5454,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114761"
+		(property "LCSC Part" "C60490"
 			(at 199.39 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5501,7 +5465,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0715KL"
+		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 199.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 199.39 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5749,6 +5724,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 168.91 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 168.91 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -6050,7 +6036,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114761"
+		(property "LCSC Part" "C60490"
 			(at 198.12 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6061,7 +6047,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-0715KL"
+		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 198.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 198.12 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6319,6 +6316,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 77.47 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d7bbeaea-003c-4963-bf15-4b886ea906a8")
 		)
@@ -6446,6 +6454,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 97.79 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 97.79 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -6784,6 +6803,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 240.03 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de81e83d-abfb-450e-a284-5f3a5240e6eb")
 		)
@@ -6930,6 +6960,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 53.34 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 53.34 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -7110,6 +7151,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 238.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b21f409-0774-4279-b4f8-16631297726d")
 		)
@@ -7268,6 +7320,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 215.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 215.9 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7690,6 +7753,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 185.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ecdd0a8b-0eb6-4275-bf60-abc1634ecffe")
 		)
@@ -7850,6 +7924,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 62.23 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 62.23 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -8150,7 +8235,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60491"
+		(property "LCSC Part" "C60490"
 			(at 228.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8161,7 +8246,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-07100KL"
+		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 228.6 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 228.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8308,7 +8404,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C60491"
+		(property "LCSC Part" "C60490"
 			(at 229.87 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8319,7 +8415,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-07100KL"
+		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 229.87 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 229.87 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8731,6 +8838,17 @@
 				)
 			)
 		)
+		(property "Sim.Library" ""
+			(at 170.18 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "683d18f5-9363-4bb9-9127-2587cfd6dec2")
 		)
@@ -8880,6 +8998,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 165.1 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 165.1 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9102,7 +9231,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C106231"
+		(property "LCSC Part" "C60490"
 			(at 158.75 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +9242,18 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-070RL"
+		(property "Mouser Part" "603-RC0402FR-0710KL"
+			(at 158.75 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 158.75 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -9272,6 +9412,17 @@
 			)
 		)
 		(property "Mouser Part" "603-RC0402FR-072K2L"
+			(at 238.76 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
 			(at 238.76 80.01 90)
 			(hide yes)
 			(show_name no)
