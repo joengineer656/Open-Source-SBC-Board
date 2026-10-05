@@ -1,1 +1,55 @@
 (version 1)
+
+(rule "50 OHM"
+  (condition "A.inNetClass('50 OHM')")
+  (constraint track_width (min 0.085mm) (opt 0.09mm) (max 0.095mm))
+)
+
+(rule "40 OHM"
+  (condition "A.inNetClass('40 OHM')")
+  (constraint track_width (min 0.125mm) (opt 0.13mm) (max 0.135mm))
+)
+
+(rule "DIFF 90 OHM"
+  (condition "A.inNetClass('DIFF 90 OHM')")
+  (constraint track_width (min 0.07mm) (opt 0.075mm) (max 0.08mm))
+  (constraint diff_pair_gap (min 0.07mm) (opt 0.075mm) (max 0.08mm))
+)
+
+(rule "JLC min track-space"
+  (condition "A.isTrack()")
+  (constraint track_width (min 0.09mm))
+  (constraint clearance (min 0.09mm))
+)
+
+(rule "JLC vias"
+  (condition "A.isVia()")
+  (constraint via_hole (min 0.15mm))
+  (constraint via_diameter (min 0.25mm))
+  (constraint annular_width (min 0.15mm))
+)
+
+(rule "JLC hole-to-hole"
+  (condition "A.isVia() || A.isPad()")
+  (constraint hole_to_hole (min 0.20mm))
+)
+
+(rule "JLC hole-to-copper"
+  (condition "A.isVia()")
+  (constraint hole_clearance (min 0.20mm))
+)
+
+(rule "JLC PTH-to-track"
+  (condition "A.isPlatedHole()")
+  (constraint clearance (min 0.28mm))
+)
+
+(rule "JLC copper-to-edge"
+  (condition "A.isTrack() || A.isVia() || A.isPad() || A.isZone()")
+  (constraint edge_clearance (min 0.30mm))
+)
+
+(rule "JLC clearance floor"
+  (condition "A.isPad() || A.isTrack()")
+  (constraint clearance (min 0.10mm))
+)

@@ -7147,6 +7147,26 @@
 		(dnp no)
 		(polyline
 			(pts
+				(xy 95.885 168.91) (xy 95.885 120.65) (xy 114.3 120.65) (xy 114.3 168.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+				(color 255 0 26 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "6dc89993-3e3f-4c51-a0a6-b034168d4127")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
 				(xy 197.485 127.635) (xy 220.98 127.635) (xy 220.98 137.795) (xy 197.485 137.795)
 			)
 			(stroke
@@ -7178,6 +7198,29 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(netclass_flag "Under PGA"
+		(length 1.27)
+		(shape round)
+		(at 114.3 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b415d8f0-30e0-4d56-9412-5327472288ed")
+		(property "Netclass" "DIFF 90 OHM"
+			(at 120.396 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(color 255 0 26 1)
 				)
 			)
 		)
@@ -7215,7 +7258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "023d2947-1d5c-412d-a585-dc29e9a464a6")
-		(property "Reference" "#PWR0266"
+		(property "Reference" "#PWR0215"
 			(at 52.07 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7275,7 +7318,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0266")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -7292,7 +7335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0303640f-1db7-4ccb-aedc-670adc64291c")
-		(property "Reference" "#PWR0253"
+		(property "Reference" "#PWR0229"
 			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7352,7 +7395,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0253")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -7370,7 +7413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0842b37e-bfac-4686-9aba-06d2174acc4b")
-		(property "Reference" "C184"
+		(property "Reference" "C136"
 			(at 76.454 150.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,7 +7574,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C184")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -7549,7 +7592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a0beae5-10d6-492a-ae11-84767aa4ed11")
-		(property "Reference" "C186"
+		(property "Reference" "C138"
 			(at 76.454 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,7 +7753,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C186")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -7728,7 +7771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11e22b78-6f69-4291-a773-28d2bf288822")
-		(property "Reference" "C183"
+		(property "Reference" "C135"
 			(at 76.454 148.336 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7889,7 +7932,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C183")
+					(reference "C135")
 					(unit 1)
 				)
 			)
@@ -7906,7 +7949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "141f14cc-b93e-45ed-8667-264e58b2467b")
-		(property "Reference" "#PWR0265"
+		(property "Reference" "#PWR0236"
 			(at 255.27 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7966,7 +8009,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0265")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -7983,7 +8026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18208cbf-4e3f-4174-9342-176698d2e0e5")
-		(property "Reference" "#PWR0261"
+		(property "Reference" "#PWR0226"
 			(at 160.02 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8043,7 +8086,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0261")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -8060,7 +8103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18fe5bc7-6795-4b56-abe3-972674368f49")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR0227"
 			(at 163.83 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8120,7 +8163,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0264")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -8137,7 +8180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20d02039-736d-46c5-955c-216a050c10c6")
-		(property "Reference" "#PWR0263"
+		(property "Reference" "#PWR0223"
 			(at 146.05 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8197,7 +8240,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0263")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -8214,7 +8257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2220cada-5509-4972-9135-ca13a977a3b6")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 255.27 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8402,7 +8445,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8419,7 +8462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2329b39f-bbde-4dcb-89da-05608b7c373d")
-		(property "Reference" "R53"
+		(property "Reference" "R54"
 			(at 171.704 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8571,7 +8614,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -8589,7 +8632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "276b4198-1f20-4509-81ee-ce823ae3e9eb")
-		(property "Reference" "C187"
+		(property "Reference" "C139"
 			(at 76.454 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8750,7 +8793,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C187")
+					(reference "C139")
 					(unit 1)
 				)
 			)
@@ -8767,7 +8810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28644325-1624-47b1-8c63-dd6ecf9a9f1e")
-		(property "Reference" "#PWR0279"
+		(property "Reference" "#PWR0228"
 			(at 170.18 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8827,7 +8870,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0279")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -8845,7 +8888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38960bea-9767-4f2c-a5ae-13069ce6c5e7")
-		(property "Reference" "C181"
+		(property "Reference" "C133"
 			(at 76.454 140.716 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9006,7 +9049,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C181")
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -9024,7 +9067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "392461d0-ff14-478f-ad70-823cfcc3ffc4")
-		(property "Reference" "C179"
+		(property "Reference" "C131"
 			(at 76.454 133.096 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9185,7 +9228,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C179")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -9203,7 +9246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d1b6308-c796-4047-ba62-6903965c6587")
-		(property "Reference" "C188"
+		(property "Reference" "C140"
 			(at 76.454 166.116 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9364,7 +9407,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C188")
+					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -9382,7 +9425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "405842d6-23a5-49e3-876a-d318c084dcc8")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 189.738 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9573,7 +9616,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9590,7 +9633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4128727d-48d3-4d1c-8e44-839edb0908c0")
-		(property "Reference" "R48"
+		(property "Reference" "R50"
 			(at 75.184 172.212 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9740,7 +9783,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R48")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -9759,7 +9802,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4445c8d0-b7a1-4a69-b86f-3f0c3c378eef")
-		(property "Reference" "C200"
+		(property "Reference" "C142"
 			(at 149.86 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9922,7 +9965,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C200")
+					(reference "C142")
 					(unit 1)
 				)
 			)
@@ -9940,7 +9983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c374f9a-2351-496d-bcdb-6c0a0697f6da")
-		(property "Reference" "C180"
+		(property "Reference" "C132"
 			(at 76.454 135.636 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,7 +10144,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C180")
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -10119,7 +10162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "570a393c-6aba-436f-a7f9-fb9938d06214")
-		(property "Reference" "D9"
+		(property "Reference" "D7"
 			(at 148.59 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10283,7 +10326,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10300,7 +10343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6113f0d5-4939-499e-aa35-af1da192ac1f")
-		(property "Reference" "#PWR0269"
+		(property "Reference" "#PWR0238"
 			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10360,7 +10403,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0269")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -10377,7 +10420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69cfec96-c293-4bec-9d27-781b05a2964a")
-		(property "Reference" "R44"
+		(property "Reference" "R52"
 			(at 138.684 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10572,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R44")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -10546,7 +10589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d9cf671-a3af-46e6-8734-83f16dff1e4b")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 255.27 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10734,7 +10777,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -10752,7 +10795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f8a3552-07b1-41c4-b755-e49e86fdd333")
-		(property "Reference" "D11"
+		(property "Reference" "D5"
 			(at 72.39 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10915,7 +10958,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "D11")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10933,7 +10976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "719850dc-3291-4a3f-bd68-2b84395ff772")
-		(property "Reference" "C178"
+		(property "Reference" "C144"
 			(at 166.37 140.9762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11096,7 +11139,255 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C178")
+					(reference "C144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle")
+		(at 33.02 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71f78c7f-bf5f-4ba4-b0c7-41b9f665360a")
+		(property "Reference" "J5"
+			(at 33.02 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle"
+			(at 33.02 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Datasheet_Footprints:USB-C-SMD_GT-USB-7092B"
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 36.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22471967"
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B12"
+			(uuid "a9c35552-1b74-40de-8eda-71a9edeb808b")
+		)
+		(pin "B9"
+			(uuid "1303c113-1f5a-4498-8d86-722c0bc44f8c")
+		)
+		(pin "B11"
+			(uuid "a8650753-2c0d-4e37-a9cb-46ce8e80357a")
+		)
+		(pin "B10"
+			(uuid "cf0bff56-9e8b-485e-a03d-39171a41c041")
+		)
+		(pin "SH"
+			(uuid "0cff1f6a-e2fd-480f-a4a6-22e986e88368")
+		)
+		(pin "B4"
+			(uuid "aeecb71d-14eb-4575-bb5c-a9109d19f280")
+		)
+		(pin "B1"
+			(uuid "6294ab6c-a3b7-4d63-8b78-9dfb4f0b53fe")
+		)
+		(pin "A3"
+			(uuid "4e317729-d2f4-4423-a11a-f78232dc53e6")
+		)
+		(pin "B2"
+			(uuid "f325b52e-8d00-4c24-825b-13692215cb33")
+		)
+		(pin "B7"
+			(uuid "6786a84d-93ee-4d69-ab60-c05ba82e86b5")
+		)
+		(pin "A11"
+			(uuid "f3887fd4-7868-4820-bf38-7d5d3f47b5ea")
+		)
+		(pin "B8"
+			(uuid "b95e3c26-be61-460f-b4cf-112b2523c9bc")
+		)
+		(pin "B5"
+			(uuid "f95ca18e-a170-4f2f-9b51-53579e20b543")
+		)
+		(pin "A2"
+			(uuid "85ffe786-f263-4721-bf38-b43c19688deb")
+		)
+		(pin "A4"
+			(uuid "335f7980-6537-4840-a2d7-f493658efac4")
+		)
+		(pin "A8"
+			(uuid "c0087df7-8e90-4941-b6b1-40789c932d82")
+		)
+		(pin "A9"
+			(uuid "410fb11e-bc54-423a-97f6-29dcbfa0430a")
+		)
+		(pin "A1"
+			(uuid "f7b9cd3e-2b4e-4886-928b-9c6a388500b8")
+		)
+		(pin "A6"
+			(uuid "b1cabf1c-64f4-466d-b2f0-7bd5c295562c")
+		)
+		(pin "A5"
+			(uuid "2143c9d9-1c28-4742-95b3-3b5db5bca788")
+		)
+		(pin "A10"
+			(uuid "90fbc17c-84e2-4f3e-a07a-0365146538a1")
+		)
+		(pin "A12"
+			(uuid "ee8f8dcc-f1a0-46b9-be30-33a403c9c698")
+		)
+		(pin "A7"
+			(uuid "e40008f7-053b-4a3d-b851-50f9587dc556")
+		)
+		(pin "B3"
+			(uuid "b0b5093b-c96e-4338-8c11-8bf1134eea3d")
+		)
+		(pin "B6"
+			(uuid "45e38fb6-ac4a-4c68-a810-2dc923d524ea")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11113,7 +11404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b2c2f17-2697-4177-8d1b-aa7472d201ca")
-		(property "Reference" "#PWR0276"
+		(property "Reference" "#PWR0224"
 			(at 147.32 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11173,7 +11464,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0276")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -11190,7 +11481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f596459-fa87-495f-86c2-1107fbd72745")
-		(property "Reference" "#PWR0260"
+		(property "Reference" "#PWR0225"
 			(at 157.48 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11250,7 +11541,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0260")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -11267,7 +11558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80909662-cb98-484d-b3b5-404231eccc1d")
-		(property "Reference" "R46"
+		(property "Reference" "R48"
 			(at 55.372 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11417,7 +11708,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R46")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -11436,7 +11727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80e0289e-5d47-45f4-b0be-6222152e45a8")
-		(property "Reference" "U2"
+		(property "Reference" "U6"
 			(at 157.48 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11558,7 +11849,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "U2")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11576,7 +11867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83941304-5f6b-4953-9fbb-597b6db0b1a5")
-		(property "Reference" "C177"
+		(property "Reference" "C143"
 			(at 156.21 140.9762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11739,7 +12030,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C177")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -11758,7 +12049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "854dfedd-1a87-4678-9b39-e0255035b400")
-		(property "Reference" "C174"
+		(property "Reference" "C145"
 			(at 171.45 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11921,7 +12212,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C174")
+					(reference "C145")
 					(unit 1)
 				)
 			)
@@ -11939,7 +12230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87f76172-40c5-4abd-91ab-38646200a895")
-		(property "Reference" "C182"
+		(property "Reference" "C134"
 			(at 76.454 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12100,7 +12391,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C182")
+					(reference "C134")
 					(unit 1)
 				)
 			)
@@ -12118,7 +12409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89f01c43-8403-4451-96b2-bd5600b027ad")
-		(property "Reference" "#PWR0258"
+		(property "Reference" "#PWR0230"
 			(at 173.99 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12178,7 +12469,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0258")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -12196,7 +12487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "934225dd-27aa-493b-8935-28778bd8698f")
-		(property "Reference" "C185"
+		(property "Reference" "C137"
 			(at 76.454 155.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12357,7 +12648,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C185")
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -12374,7 +12665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93d07992-7929-4784-8881-24f4cc982efe")
-		(property "Reference" "C172"
+		(property "Reference" "C141"
 			(at 119.38 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12537,7 +12828,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C172")
+					(reference "C141")
 					(unit 1)
 				)
 			)
@@ -12554,7 +12845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "970a500d-fefc-4b74-92ef-72a5a1f15e22")
-		(property "Reference" "#PWR0262"
+		(property "Reference" "#PWR0231"
 			(at 181.61 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12614,7 +12905,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0262")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -12632,7 +12923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4fcf8e7-b28c-4ecb-8f82-6553966dcffb")
-		(property "Reference" "C171"
+		(property "Reference" "C148"
 			(at 203.2 43.1862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12795,7 +13086,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C171")
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -12812,7 +13103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a55549a5-1787-441b-a3b1-e1d4c9255c9e")
-		(property "Reference" "#PWR0268"
+		(property "Reference" "#PWR0237"
 			(at 255.27 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12872,7 +13163,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0268")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -12889,7 +13180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa83228c-73d7-4f4c-8fa5-911a83276468")
-		(property "Reference" "#PWR0590"
+		(property "Reference" "#PWR0219"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12949,7 +13240,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0590")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -12966,7 +13257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab47e2d0-0001-4090-9226-ccb12bc1fa90")
-		(property "Reference" "R81"
+		(property "Reference" "R55"
 			(at 172.72 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13116,7 +13407,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R81")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -13133,7 +13424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ace81ae0-a977-43f2-8ad8-27561995b16a")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0220"
 			(at 116.84 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13193,7 +13484,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0315")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -13211,7 +13502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4deaab0-de03-48a3-ab1f-dd7ef5a79085")
-		(property "Reference" "C175"
+		(property "Reference" "C146"
 			(at 191.77 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13374,7 +13665,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C175")
+					(reference "C146")
 					(unit 1)
 				)
 			)
@@ -13391,7 +13682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8f2f067-f687-404f-9570-a41e83180222")
-		(property "Reference" "#PWR0281"
+		(property "Reference" "#PWR0216"
 			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13451,7 +13742,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0281")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -13469,7 +13760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba083a5c-b8cd-41fd-9b65-e5edabe5d3ca")
-		(property "Reference" "C176"
+		(property "Reference" "C147"
 			(at 201.93 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13632,7 +13923,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "C176")
+					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -13650,7 +13941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba877d39-583f-4a77-ae67-694ed990c616")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR0221"
 			(at 116.84 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13710,7 +14001,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0321")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -13727,7 +14018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbaa0a43-f7ee-4b47-bbba-7160b64dc703")
-		(property "Reference" "#PWR0267"
+		(property "Reference" "#PWR0214"
 			(at 25.4 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -13787,7 +14078,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0267")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -13804,7 +14095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0b97bca-5818-463c-a19f-4a83c53f363f")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 140.97 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13967,7 +14258,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13984,7 +14275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c69ee061-8c25-4e44-803b-4c12fb92c4a3")
-		(property "Reference" "R45"
+		(property "Reference" "R53"
 			(at 138.684 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14136,7 +14427,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R45")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -14153,7 +14444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9319b11-5144-4852-aedf-d14208281682")
-		(property "Reference" "#PWR0591"
+		(property "Reference" "#PWR0218"
 			(at 63.5 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14213,7 +14504,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0591")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -14230,7 +14521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9f55a24-0e26-4a65-94fd-db09965056a8")
-		(property "Reference" "R49"
+		(property "Reference" "R51"
 			(at 75.184 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14380,7 +14671,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R49")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -14397,7 +14688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbeef6ed-a3cb-4fd5-8e1e-21d512b43579")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR0235"
 			(at 200.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14457,7 +14748,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0252")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -14475,7 +14766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4b4a247-69a8-49b8-9c00-94825647c804")
-		(property "Reference" "#PWR0254"
+		(property "Reference" "#PWR0232"
 			(at 199.39 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14535,7 +14826,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0254")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -14552,7 +14843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d76f82a9-3f2a-4af2-935a-a2181f352593")
-		(property "Reference" "U39"
+		(property "Reference" "U5"
 			(at 80.264 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14681,7 +14972,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "U39")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -14698,7 +14989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8c727d5-59ce-4ad1-a2f1-2d57a3b46e34")
-		(property "Reference" "R47"
+		(property "Reference" "R49"
 			(at 62.992 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14848,7 +15139,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R47")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -14865,7 +15156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8ca1d84-6f72-45be-a5e3-aa11860e1321")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 255.27 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15053,7 +15344,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -15070,7 +15361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d93a9fd9-d5c0-4539-9112-5f36d931e57a")
-		(property "Reference" "R50"
+		(property "Reference" "R47"
 			(at 26.924 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15222,7 +15513,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "R50")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -15240,7 +15531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc6e634e-5525-402d-868a-5afc99b51144")
-		(property "Reference" "#PWR0257"
+		(property "Reference" "#PWR0222"
 			(at 137.16 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15300,7 +15591,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0257")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -15317,7 +15608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e00abfce-e801-4fc4-b3e7-ee1389b82b87")
-		(property "Reference" "#PWR0278"
+		(property "Reference" "#PWR0234"
 			(at 200.66 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -15377,7 +15668,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0278")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -15394,7 +15685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eea6968c-7b2c-4058-8c67-e38e7d4b9bea")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0217"
 			(at 69.85 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15454,255 +15745,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0314")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle")
-		(at 33.02 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f495566e-d744-42d4-84bd-c8f2e1d48adc")
-		(property "Reference" "J2"
-			(at 33.02 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle"
-			(at 33.02 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Datasheet_Footprints:USB-C-SMD-24P_GT-USB-7092B"
-			(at 36.83 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 36.83 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" ""
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22471967"
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 33.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B12"
-			(uuid "019d1b63-b11a-4874-b2d6-a4e98b648c6b")
-		)
-		(pin "B9"
-			(uuid "c4ed169e-c952-4699-80c6-9cd15ac9ab4e")
-		)
-		(pin "B11"
-			(uuid "ca1aca0e-13a7-4007-ac62-758baf38db1d")
-		)
-		(pin "B10"
-			(uuid "9853e904-9039-48d3-bbd4-49ecb111b387")
-		)
-		(pin "SH"
-			(uuid "4616e3d1-6bea-4997-ab3c-39c94bf311ca")
-		)
-		(pin "B4"
-			(uuid "694ddb99-4579-435d-b1d6-d4c4476d20bd")
-		)
-		(pin "B1"
-			(uuid "1fd22ee1-d083-480f-b8fa-2359578fcf87")
-		)
-		(pin "A3"
-			(uuid "a0c02a90-e081-4af2-8427-7d703bc12afa")
-		)
-		(pin "B2"
-			(uuid "c3545034-0fc4-46ab-b682-e33a92cc2662")
-		)
-		(pin "B7"
-			(uuid "a9fb6ee3-eb56-40e3-8fdc-8d72791c3242")
-		)
-		(pin "A11"
-			(uuid "7b361e73-5138-4b8d-bacd-8036720ee55f")
-		)
-		(pin "B8"
-			(uuid "c5b72627-137d-4357-b9bd-c72a56c9a9bb")
-		)
-		(pin "B5"
-			(uuid "af8ca998-8484-4300-8504-0abf1c927054")
-		)
-		(pin "A2"
-			(uuid "f38fa010-3c4b-4676-8404-bb0aa007a2e0")
-		)
-		(pin "A4"
-			(uuid "10d5cc5a-2f58-4a65-96df-f28b569760ec")
-		)
-		(pin "A8"
-			(uuid "f6485c19-cb35-49cd-8216-23450d1b5096")
-		)
-		(pin "A9"
-			(uuid "14fc697a-7e2c-463f-98ae-73c4aab8e3d4")
-		)
-		(pin "A1"
-			(uuid "76e2c749-b951-4ed6-9d24-380a6332be63")
-		)
-		(pin "A6"
-			(uuid "b909cf27-d384-453e-b129-7d8cffb89681")
-		)
-		(pin "A5"
-			(uuid "f27804e6-2368-4726-a5ac-a787251d345f")
-		)
-		(pin "A10"
-			(uuid "7c861949-8f96-4ba4-a48f-71b2b58876e4")
-		)
-		(pin "A12"
-			(uuid "5a3ca8c9-ea12-4678-80ff-0204f3c09b5f")
-		)
-		(pin "A7"
-			(uuid "c869cc8f-f250-477e-8ad6-e30d808ff88e")
-		)
-		(pin "B3"
-			(uuid "9c2f5c85-bc15-4d99-808d-aff5b6f75888")
-		)
-		(pin "B6"
-			(uuid "f42342a9-b469-41a6-880e-89440e47860a")
-		)
-		(instances
-			(project "RK3576 SBCv2"
-				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "J2")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -15720,7 +15763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4b830f0-d948-4b6d-8eed-b922db33e2c2")
-		(property "Reference" "#PWR0259"
+		(property "Reference" "#PWR0233"
 			(at 199.39 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -15780,7 +15823,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/271d8c2d-5a75-4107-b067-1d0518e13126"
-					(reference "#PWR0259")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)

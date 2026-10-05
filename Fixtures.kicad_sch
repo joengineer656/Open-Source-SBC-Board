@@ -1553,7 +1553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19ba95c8-b5ef-40cc-8654-7e4540ad98b4")
-		(property "Reference" "#PWR0580"
+		(property "Reference" "#PWR0527"
 			(at 33.02 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1613,97 +1613,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0580")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 172.72 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ba157ed-423d-443f-933b-52ff939933de")
-		(property "Reference" "H8"
-			(at 175.26 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 175.26 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 172.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 172.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 172.72 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d66b607a-ccda-480d-9b07-8723df4111c0")
-		)
-		(instances
-			(project "RK3576 SBCv2"
-				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "H8")
+					(reference "#PWR0527")
 					(unit 1)
 				)
 			)
@@ -1721,7 +1631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39c6a5a8-d0f3-4dd0-9fde-7dbfcdb8e362")
-		(property "Reference" "TP14"
+		(property "Reference" "TP7"
 			(at 52.07 89.8524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,7 +1703,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "TP14")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -1811,7 +1721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c7d4826-acee-4ddd-bc8f-205a79ded2dd")
-		(property "Reference" "TP13"
+		(property "Reference" "TP6"
 			(at 52.07 82.2324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,7 +1793,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "TP13")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -1901,7 +1811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d02d1ce-aac2-4510-bfa3-3610c22969a3")
-		(property "Reference" "TP11"
+		(property "Reference" "TP4"
 			(at 52.07 64.4524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1973,7 +1883,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "TP11")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1981,7 +1891,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 124.46 40.64 0)
+		(at 100.33 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1990,9 +1900,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6cf14bc3-2e80-422a-8d06-507d6c4c91f5")
-		(property "Reference" "H6"
-			(at 127 38.0999 0)
+		(uuid "685d8b83-6561-4760-9240-071fbce04cf4")
+		(property "Reference" "H1"
+			(at 102.87 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2003,7 +1913,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 127 40.6399 0)
+			(at 102.87 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2013,8 +1923,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 124.46 40.64 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad_Via"
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +1935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 40.64 0)
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2036,7 +1946,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 124.46 40.64 0)
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2047,7 +1957,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 124.46 40.64 0)
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,12 +1968,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c80ed047-bcea-4880-ab10-579140de62db")
+			(uuid "413698b5-6bd3-4941-9922-183e8763909a")
 		)
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "H6")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2081,7 +1991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f7ea5f9-f3b6-4e52-a201-4c7197a7bfd4")
-		(property "Reference" "FID6"
+		(property "Reference" "FID2"
 			(at 133.35 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2150,7 +2060,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "FID6")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -2168,7 +2078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fb9e721-3dbd-4c31-ac93-5ce5be65d187")
-		(property "Reference" "#PWR0526"
+		(property "Reference" "#PWR0529"
 			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2228,7 +2138,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0526")
+					(reference "#PWR0529")
 					(unit 1)
 				)
 			)
@@ -2245,7 +2155,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7895b998-a4e1-4296-ae6d-058d91562f02")
-		(property "Reference" "#PWR0529"
+		(property "Reference" "#PWR0522"
 			(at 33.02 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2305,7 +2215,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0529")
+					(reference "#PWR0522")
 					(unit 1)
 				)
 			)
@@ -2323,7 +2233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78ebffef-1623-48a5-87ff-ae8b60256c3d")
-		(property "Reference" "#PWR0576"
+		(property "Reference" "#PWR0525"
 			(at 33.02 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2383,7 +2293,97 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0576")
+					(reference "#PWR0525")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 148.59 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd95eaa-f55d-41e6-8526-4643e6894a94")
+		(property "Reference" "H3"
+			(at 151.13 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 151.13 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad_Via"
+			(at 148.59 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 148.59 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 148.59 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67205030-ba93-48d7-9932-e5458a4060f5")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2401,7 +2401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "883a0d25-f7a9-4b66-813b-ef482d182a4b")
-		(property "Reference" "TP8"
+		(property "Reference" "TP1"
 			(at 52.07 37.7824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +2473,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "TP8")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2491,7 +2491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "908f3b73-8524-49a2-a496-278e3fef3770")
-		(property "Reference" "FID7"
+		(property "Reference" "FID3"
 			(at 151.13 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2560,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "FID7")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -2578,7 +2578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96465654-41a9-4b70-8146-33e5ebb36e45")
-		(property "Reference" "#PWR0527"
+		(property "Reference" "#PWR0530"
 			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2638,7 +2638,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0527")
+					(reference "#PWR0530")
 					(unit 1)
 				)
 			)
@@ -2656,7 +2656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99d6fa98-17ab-4e72-88a0-c2902485d115")
-		(property "Reference" "#PWR0578"
+		(property "Reference" "#PWR0521"
 			(at 33.02 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2716,7 +2716,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0578")
+					(reference "#PWR0521")
 					(unit 1)
 				)
 			)
@@ -2733,7 +2733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a792481-b46e-412b-b02a-ad5aae2c2294")
-		(property "Reference" "R255"
+		(property "Reference" "R208"
 			(at 125.984 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2885,97 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "R255")
+					(reference "R208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 124.46 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1cc19fd-1df3-4ae8-9bd1-e9346c8ec3b1")
+		(property "Reference" "H2"
+			(at 127 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 127 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad_Via"
+			(at 124.46 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 124.46 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 124.46 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60c57225-70b4-4efa-9a63-e381de2b94a0")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2903,7 +2993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5dc9dc1-de6c-424a-8e9c-451f0c9ab3ea")
-		(property "Reference" "TP12"
+		(property "Reference" "TP5"
 			(at 52.07 73.3424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2975,7 +3065,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "TP12")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -2992,7 +3082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a65741c1-787c-41be-8420-c883386f0554")
-		(property "Reference" "#PWR0579"
+		(property "Reference" "#PWR0526"
 			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3052,97 +3142,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0579")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 100.33 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa896b1a-39bc-4d13-b3e4-2da62326365d")
-		(property "Reference" "H5"
-			(at 102.87 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 102.87 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 100.33 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 100.33 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 100.33 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4474a7a-5c2a-40ed-8d2a-02786c622274")
-		)
-		(instances
-			(project "RK3576 SBCv2"
-				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "H5")
+					(reference "#PWR0526")
 					(unit 1)
 				)
 			)
@@ -3160,7 +3160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adcb07a0-7d66-4515-98c0-8fe3fdbd236d")
-		(property "Reference" "TP10"
+		(property "Reference" "TP3"
 			(at 52.07 55.5624 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +3232,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "TP10")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3250,7 +3250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae799fe1-599e-4c37-afbc-e3e448c7b275")
-		(property "Reference" "#PWR0528"
+		(property "Reference" "#PWR0531"
 			(at 172.72 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3310,7 +3310,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0528")
+					(reference "#PWR0531")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bde00489-7b46-4ecb-9e30-51473e37959d")
-		(property "Reference" "#PWR0575"
+		(property "Reference" "#PWR0524"
 			(at 33.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3388,7 +3388,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0575")
+					(reference "#PWR0524")
 					(unit 1)
 				)
 			)
@@ -3406,7 +3406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc7a38fd-4565-40aa-81fb-04fadec5ff05")
-		(property "Reference" "FID5"
+		(property "Reference" "FID1"
 			(at 133.35 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3475,7 +3475,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "FID5")
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -3493,7 +3493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d55197f4-2eeb-4f79-ab6f-155d54504e8f")
-		(property "Reference" "FID8"
+		(property "Reference" "FID4"
 			(at 151.13 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,7 +3562,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "FID8")
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -3580,7 +3580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc79c9c6-4e10-426a-87cc-01664fa91998")
-		(property "Reference" "TP9"
+		(property "Reference" "TP2"
 			(at 52.07 46.6724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3652,7 +3652,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "TP9")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3670,7 +3670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd94d3fe-9592-4f3d-a7cc-47379982c071")
-		(property "Reference" "#PWR0525"
+		(property "Reference" "#PWR0528"
 			(at 100.33 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3730,7 +3730,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0525")
+					(reference "#PWR0528")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2d2483f-bc2d-4b88-8067-322e65042df7")
-		(property "Reference" "R252"
+		(property "Reference" "R207"
 			(at 101.854 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3899,7 +3899,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "R252")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -3916,7 +3916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e671fc7e-eda1-4668-9db6-50a91f261f54")
-		(property "Reference" "R257"
+		(property "Reference" "R210"
 			(at 174.244 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4068,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "R257")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -4085,7 +4085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efb4ad11-f986-4e5a-a9a4-9a20850299ac")
-		(property "Reference" "R256"
+		(property "Reference" "R209"
 			(at 150.114 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4237,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "R256")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -4245,7 +4245,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 148.59 40.64 0)
+		(at 172.72 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4254,9 +4254,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8a7f7cc-c2a4-4837-a8e6-40546af3a8bf")
-		(property "Reference" "H7"
-			(at 151.13 38.0999 0)
+		(uuid "fa80065b-a716-46bc-9900-249b778412af")
+		(property "Reference" "H4"
+			(at 175.26 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4267,7 +4267,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 151.13 40.6399 0)
+			(at 175.26 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4277,8 +4277,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 148.59 40.64 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad_Via"
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 40.64 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,7 +4300,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 148.59 40.64 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4311,7 +4311,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 148.59 40.64 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,12 +4322,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bc67a7a-ecf7-4bca-920d-f06c9806d353")
+			(uuid "a0dc5dfc-879d-48e8-96d8-262ec53c24a1")
 		)
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "H7")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4344,7 +4344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb262348-7e89-42dc-ad82-60e49ac53c3c")
-		(property "Reference" "#PWR0574"
+		(property "Reference" "#PWR0523"
 			(at 33.02 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4404,7 +4404,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/b1762425-fa86-48de-998c-9dee18dd9420"
-					(reference "#PWR0574")
+					(reference "#PWR0523")
 					(unit 1)
 				)
 			)

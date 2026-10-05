@@ -534,121 +534,156 @@
         "wire_width": 6
       },
       {
-        "name": "Blutooth",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 16,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "Blutooth CTRL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 15,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "CSI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 20,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "Close to PGA",
+        "name": "100 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "DSI",
+        "name": "40 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 19,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "HDMI",
+        "name": "50 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "HDMI CTRL",
+        "name": "85 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "LPDDR5 A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 22,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "LPDDR5 B",
+        "name": "Blutooth",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 21,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "MCU - SOC",
+        "name": "Blutooth CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 20,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "CSI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 25,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Close to PGA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DIFF 90 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "MDI0",
+        "name": "DSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 24,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "MDI1",
+        "name": "HDMI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 16,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "OLED Display",
+        "name": "HDMI CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 17,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "LPDDR5 A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 27,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
-        "name": "PCIE",
+        "name": "LPDDR5 B",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 26,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MCU - SOC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MDI0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 15,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MDI1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 14,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
+        "name": "OLED Display",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 32,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PCIE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 19,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "name": "PCIE CTRL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
+        "priority": 18,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "PHY0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "PHY1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
@@ -662,7 +697,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 29,
+        "priority": 34,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -673,84 +708,84 @@
       {
         "name": "RTC CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 25,
+        "priority": 30,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "RTC CTRL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 26,
+        "priority": 31,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "UFS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 23,
+        "priority": 28,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "USB HOST",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "USB HOST HUB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "USB SOC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "USB SOC CTRL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "Under PGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "WIFI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 17,
+        "priority": 22,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "WIFI CTRL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 18,
+        "priority": 23,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "eMMC/FSPI0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 24,
+        "priority": 29,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "uSD Card",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 28,
+        "priority": 33,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -1067,226 +1102,378 @@
         "HDMI CTRL"
       ],
       "/LPDDR5/LPDDR5_A.CA0": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CA1": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CA2": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CA3": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CA4": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CA5": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CA6": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CK_N": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CK_P": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CS0": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CS1": [
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DMI0": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DMI1": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ0": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ1": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ10": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ11": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ12": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ13": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ14": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ15": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ2": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ3": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ4": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ5": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ6": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ7": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ8": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DQ9": [
+        "40 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.RDQS0_N": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.RDQS0_P": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.RDQS1_N": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.RDQS1_P": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.WCK0_N": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.WCK0_P": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.WCK1_N": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.WCK1_P": [
+        "DIFF 90 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_B.CA0": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CA1": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CA2": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CA3": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CA4": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CA5": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CA6": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CK_N": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CK_P": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CS0": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CS1": [
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DMI0": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DMI1": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ0": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ1": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ10": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ11": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ12": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ13": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ14": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ15": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ2": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ3": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ4": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ5": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ6": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ7": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ8": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DQ9": [
+        "40 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.RDQS0_N": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.RDQS0_P": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.RDQS1_N": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.RDQS1_P": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.WCK0_N": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.WCK0_P": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.WCK1_N": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.WCK1_P": [
+        "DIFF 90 OHM",
         "LPDDR5 B"
+      ],
+      "/MIPI/CSI0_RX_CLK_N": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_CLK_P": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_D0_N": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_D0_P": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_D1_N": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_D1_P": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_D2_N": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_D2_P": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_D3_N": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/CSI0_RX_D3_P": [
+        "100 OHM",
+        "CSI"
+      ],
+      "/MIPI/DSI0_TX_CLK_N": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_CLK_P": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_D0_N": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_D0_P": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_D1_N": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_D1_P": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_D2_N": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_D2_P": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_D3_N": [
+        "100 OHM",
+        "DSI"
+      ],
+      "/MIPI/DSI0_TX_D3_P": [
+        "100 OHM",
+        "DSI"
       ],
       "/OLED Screen/OLED_CLK": [
         "OLED Display"
@@ -1313,24 +1500,30 @@
         "PCIE CTRL"
       ],
       "/PCIe/PCIE0_REFCLK_N": [
+        "100 OHM",
         "PCIE CTRL"
       ],
       "/PCIe/PCIE0_REFCLK_P": [
+        "100 OHM",
         "PCIE CTRL"
       ],
       "/PCIe/PCIE0_RESET_L": [
         "PCIE CTRL"
       ],
       "/PCIe/PCIE0_RX_N": [
+        "85 OHM",
         "PCIE"
       ],
       "/PCIe/PCIE0_RX_P": [
+        "85 OHM",
         "PCIE"
       ],
       "/PCIe/PCIE0_TX_N": [
+        "85 OHM",
         "PCIE"
       ],
       "/PCIe/PCIE0_TX_P": [
+        "85 OHM",
         "PCIE"
       ],
       "/PCIe/PCIE0_WAKE_L": [
@@ -1400,30 +1593,39 @@
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_CMD{slash}EMMC_CMD": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_D0{slash}EMMC_D0": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_D1{slash}EMMC_D1": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_D2{slash}EMMC_D2": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_D3{slash}EMMC_D3": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_D4{slash}EMMC_D4": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_D5{slash}EMMC_D5": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_D6{slash}EMMC_D6": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_D7{slash}EMMC_D7": [
+        "50 OHM",
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/FSPI0_DS{slash}EMMC_CLK_OUT": [
@@ -1627,6 +1829,18 @@
       "/Wireless/BT_WAKE_HOST_L": [
         "Blutooth CTRL"
       ],
+      "/Wireless/SAI2_LRCK_M0": [
+        "Blutooth"
+      ],
+      "/Wireless/SAI2_SCLK_M0": [
+        "Blutooth"
+      ],
+      "/Wireless/SAI2_SDI_M0": [
+        "Blutooth"
+      ],
+      "/Wireless/SAI2_SDO_M0": [
+        "Blutooth"
+      ],
       "/Wireless/SDMMC1_CLK_M0": [
         "WIFI"
       ],
@@ -1644,6 +1858,18 @@
       ],
       "/Wireless/SDMMC1_D3_M0": [
         "WIFI"
+      ],
+      "/Wireless/UART4_CTSN_M1": [
+        "Blutooth"
+      ],
+      "/Wireless/UART4_RTSN_M1": [
+        "Blutooth"
+      ],
+      "/Wireless/UART4_RX_M1": [
+        "Blutooth"
+      ],
+      "/Wireless/UART4_TX_M1": [
+        "Blutooth"
       ],
       "/Wireless/WIFI_REG_ON_L": [
         "WIFI CTRL"
@@ -1730,8 +1956,11 @@
         "uSD Card"
       ],
       "GND": [
+        "50 OHM",
+        "85 OHM",
         "Close to PGA",
-        "Under PGA"
+        "Under PGA",
+        "eMMC/FSPI0"
       ],
       "Net-(J6-Pad16)": [
         "MDI0"
@@ -1746,6 +1975,12 @@
         "Under PGA"
       ],
       "Net-(U12MIPI-MIPI_DCPHY_VREG)": [
+        "Under PGA"
+      ],
+      "Net-(U1DDR-DDRPHY_PLL_AVSS)": [
+        "Under PGA"
+      ],
+      "Net-(U1MIPI-MIPI_DCPHY_VREG)": [
         "Under PGA"
       ],
       "VCCA_1.8v_S0": [
@@ -1779,7 +2014,9 @@
         "Under PGA"
       ],
       "VDDA_1V2_S0": [
-        "Under PGA"
+        "50 OHM",
+        "Under PGA",
+        "eMMC/FSPI0"
       ],
       "VDDA_DDR_PLL_S0": [
         "Under PGA"
@@ -1814,6 +2051,14 @@
       "VDD_NPU_S0": [
         "Close to PGA",
         "Under PGA"
+      ],
+      "unconnected-(J16-Pin_8-Pad8)": [
+        "100 OHM",
+        "CSI"
+      ],
+      "unconnected-(J16-Pin_9-Pad9)": [
+        "100 OHM",
+        "CSI"
       ]
     },
     "netclass_patterns": [
@@ -2080,7 +2325,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "KLC_S4.2_VREG_LX"
+      "sort_field": "LCSC Part"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -2144,7 +2389,7 @@
         "uuid": "802f5b9f-44c6-4b1a-a63a-2c094d5816db"
       }
     ],
-    "used_designators": "Y1-7,Y9,#PWR2-37,#PWR39-65,#PWR67-81,#PWR83-85,#PWR123,#PWR125,#PWR134,#PWR137,#PWR142,#PWR148-251,#PWR255-256,#PWR278-279,#PWR281,#PWR314-315,#PWR321,#PWR325-589,#PWR594-595,#PWR598-599,#PWR604-614,#PWR621-646,NT1-10,FID5-8,BT1,H5-8,LED1-4,R1-2,R5-8,R14,R17-21,R35,R42-43,R53-54,R71-301,TP8-14,Q1-8,F1-4,L1-16,J1-37,C1-66,C97,C112,C119-170,C173,C232-233,C238-435,U2,U10,U12-38,U41,U53,D1-6,D11-12,D14,D18-29,SW1,SW5-9,AE1-2",
+    "used_designators": "Y1-7,Y9,#PWR1-646,AE1-2,SW1-9,D1-29,U1-45,U53,C1-436,R1-301,TP1-14,LED1-4,H1-8,BT1,#SYM1,FID1-8,NT1-10,#SYMr1,J1-37,L1-16,F1-4,Q1-8",
     "variants": []
   },
   "sheets": [
