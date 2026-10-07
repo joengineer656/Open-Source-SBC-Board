@@ -253850,10 +253850,6 @@
 		(uuid "696f2948-9394-4d86-ac88-81174b997f51")
 	)
 	(no_connect
-		(at 158.75 201.93)
-		(uuid "77a74d1f-84a5-4b86-a7f5-74bc7f4c68e8")
-	)
-	(no_connect
 		(at 671.83 356.87)
 		(uuid "809fd4a0-d48f-49a9-ba4c-41de3c81d6bd")
 	)
@@ -254621,16 +254617,6 @@
 			(type default)
 		)
 		(uuid "116ef54b-e44f-442f-8bed-3a3b6688a501")
-	)
-	(wire
-		(pts
-			(xy 176.53 186.69) (xy 158.75 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117fcafb-1481-4e0a-87e9-c3343a56729b")
 	)
 	(wire
 		(pts
@@ -256616,6 +256602,16 @@
 			(color 73 164 173 1)
 		)
 		(uuid "5c4cf467-ad7c-4dd9-8bf2-da3524418779")
+	)
+	(wire
+		(pts
+			(xy 176.53 186.69) (xy 158.75 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d229d7f-d299-444f-86b8-2043057a586d")
 	)
 	(wire
 		(pts
@@ -259118,6 +259114,16 @@
 			(type default)
 		)
 		(uuid "bec2f0db-a254-4dda-94b3-3f5ab75acc4a")
+	)
+	(wire
+		(pts
+			(xy 176.53 201.93) (xy 158.75 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedf1cdc-927e-43f7-b8e8-dcf8fd64f890")
 	)
 	(wire
 		(pts
@@ -263121,6 +263127,16 @@
 		)
 		(uuid "3a42e2ae-da16-49d9-8729-bcc5d48fa726")
 	)
+	(label "40GPIOs_PWR_EN"
+		(at 176.53 201.93 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ab02724-4d81-4d39-b307-42eaf1af4cc6")
+	)
 	(label "TSADC_CTRL_M0"
 		(at 176.53 152.4 180)
 		(effects
@@ -263170,16 +263186,6 @@
 			(justify left bottom)
 		)
 		(uuid "3c7af24d-a7db-424b-8c0b-9a5873764e7e")
-	)
-	(label "40GPIOs_PWR_EN"
-		(at 176.53 186.69 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "3cc6b02b-cb9f-4811-8070-9d59e0e90996")
 	)
 	(label "PCIE0_TX_N"
 		(at 728.98 420.37 180)
@@ -265002,6 +265008,16 @@
 			(justify right bottom)
 		)
 		(uuid "db86d0a7-0f03-4652-8b6f-1dceea987586")
+	)
+	(label "PWM_FAN"
+		(at 176.53 186.69 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd3d4ebd-4ec2-4e02-b0c2-9b45593058a1")
 	)
 	(label "UART4_RX_M1"
 		(at 182.88 334.01 180)
@@ -296704,7 +296720,7 @@
 		)
 		(pin "AD28"
 			(uuid "8e41121f-2864-448d-b97f-81a13c87d54d")
-			(alternate "GPIO0_B4_d")
+			(alternate "PWM1_CH0_M0")
 		)
 		(pin "1F1"
 			(uuid "bbe880e1-6a4b-4d80-9fc8-205a3b2a1be4")

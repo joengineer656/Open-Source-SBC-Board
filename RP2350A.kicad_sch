@@ -5125,6 +5125,51 @@
 		(at 167.64 231.14)
 		(uuid "f53d42c7-ec40-406b-97bf-b47fa8ec1be8")
 	)
+	(bus_entry
+		(at 274.32 165.1)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015942e2-99eb-4d46-bf7f-1b19ce2a0b19")
+	)
+	(bus_entry
+		(at 274.32 157.48)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b40f87-bf46-4fbb-99f5-3f3f2bd2cb1e")
+	)
+	(bus_entry
+		(at 274.32 162.56)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70799558-d996-4618-9150-ea5674fe9b89")
+	)
+	(bus_entry
+		(at 274.32 154.94)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77793c45-a4fe-486e-a032-a8c567da3b36")
+	)
+	(bus_entry
+		(at 274.32 160.02)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9baff5f3-1618-4442-ac5e-5d294df58ab8")
+	)
 	(wire
 		(pts
 			(xy 293.37 71.12) (xy 293.37 72.39)
@@ -6347,6 +6392,16 @@
 		)
 		(uuid "adef3762-f0ea-4b3d-89c9-be52e3a7ea7c")
 	)
+	(bus
+		(pts
+			(xy 276.86 152.4) (xy 276.86 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b199268d-c772-4942-ab42-069ff94cb121")
+	)
 	(wire
 		(pts
 			(xy 257.81 165.1) (xy 274.32 165.1)
@@ -6536,6 +6591,16 @@
 			(type default)
 		)
 		(uuid "d10855a7-3723-4b78-8b09-47d58df871b5")
+	)
+	(bus
+		(pts
+			(xy 276.86 152.4) (xy 278.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bae323-e8d2-490f-bad6-7155447ebadb")
 	)
 	(wire
 		(pts
@@ -10063,6 +10128,17 @@
 			(justify right bottom)
 		)
 		(uuid "f5fdb554-0929-4520-be02-0761682020dc")
+	)
+	(hierarchical_label "OLED Display"
+		(shape bidirectional)
+		(at 278.13 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59b4f266-e0d1-4062-8b0f-08b600258004")
 	)
 	(rule_area
 		(exclude_from_sim no)

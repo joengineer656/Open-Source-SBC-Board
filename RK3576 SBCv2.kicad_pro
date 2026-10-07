@@ -9,7 +9,7 @@
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.05,
-        "copper_line_width": 0.2,
+        "copper_line_width": 0.1,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -164,7 +164,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -215,7 +215,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1,
+        0.3,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -247,6 +251,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false,
@@ -534,32 +546,18 @@
         "wire_width": 6
       },
       {
-        "name": "100 OHM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
         "name": "40 OHM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 194, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "40 OHM"
       },
       {
         "name": "50 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "85 OHM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "50 OHM"
       },
       {
         "name": "Blutooth",
@@ -590,11 +588,25 @@
         "tuning_profile": ""
       },
       {
+        "name": "DIFF 100 OHM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "DIFF 100 OHM"
+      },
+      {
+        "name": "DIFF 85 OHM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "85 OHM"
+      },
+      {
         "name": "DIFF 90 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "tuning_profile": "DIFF 90 OHM"
       },
       {
         "name": "DSI",
@@ -874,42 +886,54 @@
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_RXC": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_RXCTL": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_RXD0": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_RXD1": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_RXD2": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_RXD3": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_Reg_{OUT}": [
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_TXC": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_TXCTL": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_TXD0": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_TXD1": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_TXD2": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH0_{PHY}_TXD3": [
+        "50 OHM",
         "PHY0"
       ],
       "/Ethernet/ETH1_{PHY}_CLK_{OUT}": [
@@ -961,42 +985,54 @@
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_RXC": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_RXCTL": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_RXD0": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_RXD1": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_RXD2": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_RXD3": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_Reg_{OUT}": [
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_TXC": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_TXCTL": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_TXD0": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_TXD1": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_TXD2": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/ETH1_{PHY}_TXD3": [
+        "50 OHM",
         "PHY1"
       ],
       "/Ethernet/RJ45_CT_C0": [
@@ -1054,27 +1090,35 @@
         "HDMI"
       ],
       "/HDMI/HDMI_CK_N": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_CK_P": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_D0_N": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_D0_P": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_D1_N": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_D1_P": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_D2_N": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_D2_P": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_PWREN_H": [
@@ -1090,9 +1134,11 @@
         "HDMI CTRL"
       ],
       "/HDMI/HDMI_TX_SBD_N": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_TX_SBD_P": [
+        "DIFF 100 OHM",
         "HDMI"
       ],
       "/HDMI/HDMI_TX_SCL": [
@@ -1142,6 +1188,7 @@
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.CS1": [
+        "50 OHM",
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.DMI0": [
@@ -1289,6 +1336,7 @@
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.CS1": [
+        "50 OHM",
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.DMI0": [
@@ -1396,83 +1444,83 @@
         "LPDDR5 B"
       ],
       "/MIPI/CSI0_RX_CLK_N": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_CLK_P": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_D0_N": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_D0_P": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_D1_N": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_D1_P": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_D2_N": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_D2_P": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_D3_N": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/CSI0_RX_D3_P": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "/MIPI/DSI0_TX_CLK_N": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_CLK_P": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_D0_N": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_D0_P": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_D1_N": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_D1_P": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_D2_N": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_D2_P": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_D3_N": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/MIPI/DSI0_TX_D3_P": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "DSI"
       ],
       "/OLED Screen/OLED_CLK": [
@@ -1500,11 +1548,11 @@
         "PCIE CTRL"
       ],
       "/PCIe/PCIE0_REFCLK_N": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "PCIE CTRL"
       ],
       "/PCIe/PCIE0_REFCLK_P": [
-        "100 OHM",
+        "DIFF 100 OHM",
         "PCIE CTRL"
       ],
       "/PCIe/PCIE0_RESET_L": [
@@ -1567,6 +1615,12 @@
       ],
       "/RP2350A MCU/SPI1_{MCU}_SDO": [
         "MCU - SOC"
+      ],
+      "/RP2350A MCU/USB_{MCU}_N": [
+        "DIFF 90 OHM"
+      ],
+      "/RP2350A MCU/USB_{MCU}_P": [
+        "DIFF 90 OHM"
       ],
       "/RTC/I2C2_SCL_M0_CC_RTC_EEPROM": [
         "RTC CTRL"
@@ -1635,33 +1689,43 @@
         "eMMC/FSPI0"
       ],
       "/UFS\\eMMC/UFS3.1_REF_{CLK}": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_RESET": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_RX0_N": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_RX0_P": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_RX1_N": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_RX1_P": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_TX0_N": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_TX0_P": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_TX1_N": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/UFS\\eMMC/UFS3.1_TX1_P": [
+        "DIFF 100 OHM",
         "UFS"
       ],
       "/USB-A Host/USB_{HOST1}_D_N": [
@@ -1776,18 +1840,22 @@
         "USB SOC CTRL"
       ],
       "/USB-C SOC/USB_{SOC}_AUX_N": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_AUX_P": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_CON_INT": [
         "USB SOC CTRL"
       ],
       "/USB-C SOC/USB_{SOC}_D_N": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_D_P": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_PUPDCTRL1": [
@@ -1797,27 +1865,35 @@
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_RX1_N": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_RX1_P": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_RX2_N": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_RX2_P": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_TX1_N": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_TX1_P": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_TX2_N": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/USB-C SOC/USB_{SOC}_TX2_P": [
+        "DIFF 90 OHM",
         "USB SOC"
       ],
       "/Wireless/BT_REG_ON_L": [
@@ -1842,21 +1918,27 @@
         "Blutooth"
       ],
       "/Wireless/SDMMC1_CLK_M0": [
+        "50 OHM",
         "WIFI"
       ],
       "/Wireless/SDMMC1_CMD_M0": [
+        "50 OHM",
         "WIFI"
       ],
       "/Wireless/SDMMC1_D0_M0": [
+        "50 OHM",
         "WIFI"
       ],
       "/Wireless/SDMMC1_D1_M0": [
+        "50 OHM",
         "WIFI"
       ],
       "/Wireless/SDMMC1_D2_M0": [
+        "50 OHM",
         "WIFI"
       ],
       "/Wireless/SDMMC1_D3_M0": [
+        "50 OHM",
         "WIFI"
       ],
       "/Wireless/UART4_CTSN_M1": [
@@ -1932,21 +2014,27 @@
         "uSD Card"
       ],
       "/uSD Card/uSD_CLK": [
+        "50 OHM",
         "uSD Card"
       ],
       "/uSD Card/uSD_CMD": [
+        "50 OHM",
         "uSD Card"
       ],
       "/uSD Card/uSD_D0": [
+        "50 OHM",
         "uSD Card"
       ],
       "/uSD Card/uSD_D1": [
+        "50 OHM",
         "uSD Card"
       ],
       "/uSD Card/uSD_D2": [
+        "50 OHM",
         "uSD Card"
       ],
       "/uSD Card/uSD_D3": [
+        "50 OHM",
         "uSD Card"
       ],
       "/uSD Card/uSD_DET": [
@@ -1956,11 +2044,8 @@
         "uSD Card"
       ],
       "GND": [
-        "50 OHM",
-        "85 OHM",
         "Close to PGA",
-        "Under PGA",
-        "eMMC/FSPI0"
+        "Under PGA"
       ],
       "Net-(J6-Pad16)": [
         "MDI0"
@@ -2014,9 +2099,7 @@
         "Under PGA"
       ],
       "VDDA_1V2_S0": [
-        "50 OHM",
-        "Under PGA",
-        "eMMC/FSPI0"
+        "Under PGA"
       ],
       "VDDA_DDR_PLL_S0": [
         "Under PGA"
@@ -2053,18 +2136,102 @@
         "Under PGA"
       ],
       "unconnected-(J16-Pin_8-Pad8)": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ],
       "unconnected-(J16-Pin_9-Pad9)": [
-        "100 OHM",
-        "CSI"
+        "CSI",
+        "DIFF 100 OHM"
       ]
     },
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "40 OHM",
+        "pattern": "/*LPDDR5_*.D*"
+      },
+      {
+        "netclass": "50 OHM",
+        "pattern": "/*LPDDR5_*.CS*"
+      },
+      {
+        "netclass": "50 OHM",
+        "pattern": "/*LPDDR5_*.CA*"
+      },
+      {
+        "netclass": "DIFF 90 OHM",
+        "pattern": "/*LPDDR5_*.CK*"
+      },
+      {
+        "netclass": "DIFF 90 OHM",
+        "pattern": "/*LPDDR5_*.WCK*"
+      },
+      {
+        "netclass": "DIFF 100 OHM",
+        "pattern": "/*CSI0_RX*"
+      },
+      {
+        "netclass": "DIFF 100 OHM",
+        "pattern": "/*UFS3.1_T*"
+      },
+      {
+        "netclass": "DIFF 100 OHM",
+        "pattern": "/*UFS3.1_R*"
+      },
+      {
+        "netclass": "50 OHM",
+        "pattern": "/*FSPI0_D*EMMC_D*"
+      },
+      {
+        "netclass": "50 OHM",
+        "pattern": "/*FSPI0_CMD*EMMC_CMD"
+      },
+      {
+        "netclass": "DIFF 100 OHM",
+        "pattern": "/*DSI0_TX_*"
+      },
+      {
+        "netclass": "50 OHM",
+        "pattern": "/*SDMMC1_D*"
+      },
+      {
+        "netclass": "DIFF 85 OHM",
+        "pattern": "/*PCIE0_*X*"
+      },
+      {
+        "netclass": "DIFF 100 OHM",
+        "pattern": "/*PCIE0_REFCLK_*"
+      },
+      {
+        "netclass": "50 OHM",
+        "pattern": "/*uSD_*"
+      },
+      {
+        "netclass": "DIFF 100 OHM",
+        "pattern": "/*HDMI_D*"
+      },
+      {
+        "netclass": "DIFF 100 OHM",
+        "pattern": "/*HDMI_TX_SBD*"
+      },
+      {
+        "netclass": "50 OHM",
+        "pattern": "/*ETH*_{PHY}_*X*"
+      },
+      {
+        "netclass": "DIFF 90 OHM",
+        "pattern": "/*USB_{SOC}_*X*"
+      },
+      {
+        "netclass": "DIFF 90 OHM",
+        "pattern": "/*USB_{MCU}_*"
+      },
+      {
+        "netclass": "DIFF 90 OHM",
+        "pattern": "/*USB_{*}_D_*"
+      },
+      {
+        "netclass": "DIFF 90 OHM",
+        "pattern": "/*USB_{*}_SS*"
       }
     ]
   },
@@ -2389,7 +2556,7 @@
         "uuid": "802f5b9f-44c6-4b1a-a63a-2c094d5816db"
       }
     ],
-    "used_designators": "Y1-7,Y9,#PWR1-646,AE1-2,SW1-9,D1-29,U1-45,U53,C1-436,R1-301,TP1-14,LED1-4,H1-8,BT1,#SYM1,FID1-8,NT1-10,#SYMr1,J1-37,L1-16,F1-4,Q1-8",
+    "used_designators": "#SYM1,BT1,H1-8,LED1-4,TP1-14,R1-301,Q1-8,F1-4,L1-16,J1-37,#SYMr1,NT1-10,FID1-8,Y1-7,Y9,#PWR1-646,C1-436,SW1-9,AE1-2,U1-45,U53,D1-29",
     "variants": []
   },
   "sheets": [
@@ -2471,6 +2638,377 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5627100,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 186311
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 0,
+            "signal_layer": "In1.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 112872
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 0,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 133725
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 0,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 178380
+          },
+          {
+            "bottom_reference_layer": "In5.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 0,
+            "signal_layer": "In4.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 178380
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 0,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 133725
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 0,
+            "signal_layer": "In6.Cu",
+            "top_reference_layer": "In5.Cu",
+            "width": 112872
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5627100,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 186311
+          }
+        ],
+        "profile_name": "40 OHM",
+        "target_impedance": 40.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5468000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 127594
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 0,
+            "signal_layer": "In1.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 67224
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 0,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 80958
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 0,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 113053
+          },
+          {
+            "bottom_reference_layer": "In5.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 0,
+            "signal_layer": "In4.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 113053
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 0,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 80958
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 0,
+            "signal_layer": "In6.Cu",
+            "top_reference_layer": "In5.Cu",
+            "width": 67224
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5468000,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 127594
+          }
+        ],
+        "profile_name": "50 OHM",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5736600,
+            "diff_pair_gap": 150000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 121780
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In1.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 96298
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 100236
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 156864
+          },
+          {
+            "bottom_reference_layer": "In5.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In4.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 156864
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 100236
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In6.Cu",
+            "top_reference_layer": "In5.Cu",
+            "width": 96298
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5736600,
+            "diff_pair_gap": 150000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 121780
+          }
+        ],
+        "profile_name": "DIFF 100 OHM",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5800000,
+            "diff_pair_gap": 150000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 160732
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In1.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 138745
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 144943
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 242442
+          },
+          {
+            "bottom_reference_layer": "In5.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In4.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 242442
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 144943
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In6.Cu",
+            "top_reference_layer": "In5.Cu",
+            "width": 138745
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5800000,
+            "diff_pair_gap": 150000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 160732
+          }
+        ],
+        "profile_name": "DIFF 85 OHM",
+        "target_impedance": 85.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5777600,
+            "diff_pair_gap": 150000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 146180
+          },
+          {
+            "bottom_reference_layer": "In2.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In1.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 122980
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 128305
+          },
+          {
+            "bottom_reference_layer": "In4.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In3.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 208508
+          },
+          {
+            "bottom_reference_layer": "In5.Cu",
+            "delay": 6834400,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In4.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 208508
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6806300,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 128305
+          },
+          {
+            "bottom_reference_layer": "B.Cu",
+            "delay": 6812800,
+            "diff_pair_gap": 150000,
+            "signal_layer": "In6.Cu",
+            "top_reference_layer": "In5.Cu",
+            "width": 122980
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5777600,
+            "diff_pair_gap": 150000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 146180
+          }
+        ],
+        "profile_name": "DIFF 90 OHM",
+        "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }

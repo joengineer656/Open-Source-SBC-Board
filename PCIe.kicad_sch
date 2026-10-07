@@ -2899,9 +2899,9 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9aa22cfc-dca2-4547-8dc4-3279215fd2db")
-		(property "Netclass" "100 OHM"
-			(at 147.32 36.83 0)
+		(uuid "311524c4-11a5-4684-b6a3-b7ea72507514")
+		(property "Netclass" "DIFF 100 OHM"
+			(at 152.908 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2909,6 +2909,7 @@
 					(size 0.762 0.762)
 					(color 255 0 26 1)
 				)
+				(justify right)
 			)
 		)
 	)

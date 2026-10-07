@@ -5,6 +5,36 @@
 	(uuid "9492e021-10d8-4eee-b5c9-0e8c11cad0ba")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 129.54 87.63) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c90b204-73c7-4f5a-967a-74b13e14f2ee")
+	)
+	(bus
+		(pts
+			(xy 137.16 68.58) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ccb1b4-949f-442e-9f3c-dbe7d9d7f0c0")
+	)
+	(bus
+		(pts
+			(xy 147.32 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4190cd3-373f-4fe6-ac85-52c0115f3f5c")
+	)
 	(image
 		(at 309.88 135.89)
 		(uuid "49a9ce16-5fd1-4b38-afc3-e389a0443a7c")
@@ -1246,6 +1276,16 @@
 				(justify left top)
 			)
 		)
+		(pin "OLED Display" bidirectional
+			(at 147.32 68.58 180)
+			(uuid "b587e127-da0e-4453-a0ce-ce7047b5d057")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db"
@@ -1397,6 +1437,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "OLED Display" bidirectional
+			(at 129.9 87.63 0)
+			(uuid "04d0059b-9ae2-4b8c-9a1f-ebe1ba18eea7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

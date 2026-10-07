@@ -1,55 +1,146 @@
 (version 1)
 
-(rule "50 OHM"
-  (condition "A.inNetClass('50 OHM')")
-  (constraint track_width (min 0.085mm) (opt 0.09mm) (max 0.095mm))
-)
+# JLCPCB DRC rules for 8-layer SBC, KiCad 10
+# Config: 8L, 1oz outer + 1oz inner, thru vias only, black soldermask, standard (non-HDI, no impedance-control service)
+# Source: jlcpcb.com/capabilities/pcb-capabilities (Oct 2026 check) + multilayer laminated structures doc
+# Stackup target: 1.6mm finished. You MUST pick exact JLC 8L 1.6mm stackup at order time.
+# How to use: KiCad PCB Editor -> File -> Board Setup -> Design Rules -> Custom Rules -> Paste this file content -> OK -> Run DRC
+# Board Setup Constraints to set MANUALLY (these are not in this file):
+#   Min track width 0.09mm (3.5mil), Recommended 0.10-0.127mm (4-5mil)
+#   Min clearance 0.09mm, Recommended 0.10-0.127mm
+#   Min via hole 0.20mm / dia 0.45mm for NO surcharge (absolute JLC min 0.15/0.25)
+#   Min annular ring 0.15mm absolute, 0.20mm recommended
+#   Copper to edge 0.20mm routed, 0.40mm if V-scored
 
-(rule "40 OHM"
-  (condition "A.inNetClass('40 OHM')")
-  (constraint track_width (min 0.125mm) (opt 0.13mm) (max 0.135mm))
-)
-
-(rule "DIFF 90 OHM"
-  (condition "A.inNetClass('DIFF 90 OHM')")
-  (constraint track_width (min 0.07mm) (opt 0.075mm) (max 0.08mm))
-  (constraint diff_pair_gap (min 0.07mm) (opt 0.075mm) (max 0.08mm))
-)
-
-(rule "JLC min track-space"
-  (condition "A.isTrack()")
+# 1. Absolute min track width 1oz multilayer: 0.09mm (3.5mil)
+(rule "JLC 1oz min track 0.09mm"
+  (severity error)
   (constraint track_width (min 0.09mm))
+)
+
+# 2. Absolute min copper-copper clearance 0.09mm (track-track, track-pad, zone-track)
+(rule "JLC min clearance 0.09mm"
+  (severity error)
   (constraint clearance (min 0.09mm))
 )
 
-(rule "JLC vias"
-  (condition "A.isVia()")
-  (constraint via_hole (min 0.15mm))
+# 3. Black soldermask bridge: 0.13mm min pad spacing (green would be 0.10mm)
+# JLC also specs SMD pad-pad different nets 0.15mm, use 0.15mm as hard rule for SMD
+(rule "JLC black mask pad-pad 0.15mm"
+  (severity error)
+  (constraint clearance (min 0.15mm))
+  (condition "A.Type == 'pad' && B.Type == 'pad'")
+)
+
+# 4. Pad to track 0.10mm (JLC 1oz), 0.09mm local BGA exception NOT enabled per your choice
+(rule "JLC pad to track 0.10mm"
+  (severity error)
+  (constraint clearance (min 0.10mm))
+  (condition "A.Type == 'pad' && B.Type == 'track'")
+)
+
+# 5. Absolute min thru-via: hole 0.15mm, diameter 0.25mm -> FAIL if smaller
+(rule "JLC via absolute min 0.15-0.25"
+  (severity error)
+  (constraint hole_size (min 0.15mm))
   (constraint via_diameter (min 0.25mm))
+  (condition "A.Type == 'via'")
+)
+
+# 6. Cost-optimized thru-via: hole 0.20mm, dia 0.45mm -> WARN if smaller (JLC surcharge zone)
+# JLC: 0.15mm hole any dia, and 0.20/0.25mm hole with <0.45mm dia costs more. Select via size option at order.
+(rule "JLC via cost-opt 0.20-0.45"
+  (severity warning)
+  (constraint hole_size (min 0.20mm))
+  (constraint via_diameter (min 0.45mm))
+  (condition "A.Type == 'via'")
+)
+
+# 7. Min annular ring multilayer 1oz: 0.15mm absolute (0.20mm recommended)
+(rule "JLC annular ring 0.15mm"
+  (severity error)
   (constraint annular_width (min 0.15mm))
 )
 
-(rule "JLC hole-to-hole"
-  (condition "A.isVia() || A.isPad()")
-  (constraint hole_to_hole (min 0.20mm))
-)
-
-(rule "JLC hole-to-copper"
-  (condition "A.isVia()")
+# 8. Via hole to track 0.20mm
+(rule "JLC via to track 0.20mm"
+  (severity error)
   (constraint hole_clearance (min 0.20mm))
+  (condition "A.Type == 'via' && B.Type == 'track'")
 )
 
-(rule "JLC PTH-to-track"
-  (condition "A.isPlatedHole()")
-  (constraint clearance (min 0.28mm))
+# 9. PTH pad hole to track 0.28mm (0.35mm recommended)
+(rule "JLC PTH to track 0.28mm"
+  (severity error)
+  (constraint hole_clearance (min 0.28mm))
+  (condition "A.Pad_Type == 'thru_hole' && B.Type == 'track'")
 )
 
-(rule "JLC copper-to-edge"
-  (condition "A.isTrack() || A.isVia() || A.isPad() || A.isZone()")
-  (constraint edge_clearance (min 0.30mm))
+# 10. NPTH to track 0.20mm
+(rule "JLC NPTH to track 0.20mm"
+  (severity error)
+  (constraint hole_clearance (min 0.20mm))
+  (condition "A.Pad_Type == 'np_thru_hole' && B.Type == 'track'")
 )
 
-(rule "JLC clearance floor"
-  (condition "A.isPad() || A.isTrack()")
-  (constraint clearance (min 0.10mm))
+# 11. Via hole-to-hole 0.20mm edge-to-edge
+(rule "JLC via hole-to-hole 0.20mm"
+  (severity error)
+  (constraint hole_to_hole (min 0.20mm))
+  (condition "A.Type == 'via' && B.Type == 'via'")
+)
+
+# 12. PTH hole-to-hole 0.45mm (pad holes different nets)
+(rule "JLC PTH hole-to-hole 0.45mm"
+  (severity error)
+  (constraint hole_to_hole (min 0.45mm))
+  (condition "A.Pad_Type == 'thru_hole' && B.Pad_Type == 'thru_hole'")
+)
+
+# 13. Inner-layer clearances: via copper 0.20mm, PTH copper 0.30mm
+# Enforced as hole_clearance to zone
+(rule "JLC inner via to copper 0.20mm"
+  (severity error)
+  (constraint hole_clearance (min 0.20mm))
+  (condition "A.Type == 'via' && B.Type == 'zone'")
+)
+(rule "JLC inner PTH to copper 0.30mm"
+  (severity error)
+  (constraint hole_clearance (min 0.30mm))
+  (condition "A.Pad_Type == 'thru_hole' && B.Type == 'zone'")
+)
+
+# 14. Copper to board edge 0.20mm routed (use 0.40mm if V-cut panel)
+(rule "JLC copper to edge 0.20mm"
+  (severity error)
+  (constraint edge_clearance (min 0.20mm))
+)
+
+# 15. Soldermask to trace 0.09mm, plugged via to opening 0.35mm, max plugged via 0.50mm
+# mask-to-trace enforced via physical clearance pad-zone? Best approx: silk/mask bridge via clearance rule
+(rule "JLC mask opening to trace 0.09mm"
+  (severity error)
+  (constraint clearance (min 0.09mm))
+  (condition "A.Type == 'pad' && B.Type == 'track'")
+)
+
+# 16. Silkscreen: pad to silk 0.15mm, min line 0.15mm / text 1.0mm (check manually in footprint)
+(rule "JLC silk to pad 0.15mm"
+  (severity error)
+  (constraint silk_clearance (min 0.15mm))
+)
+
+# 17. Min drill slot: plated 0.35mm multilayer, non-plated 1.0mm -> catch micro-slots
+(rule "JLC min plated slot 0.35mm"
+  (severity error)
+  (constraint hole_size (min 0.35mm))
+  (condition "A.Type == 'pad' && A.Pad_Shape == 'oval'")
+)
+
+# 18. Same-net track spacing 0.25mm for coils / parallel same-net (JLC trace-coil spec)
+# Warning only, to avoid false fails on tight BGA neck-down
+(rule "JLC same-net spacing 0.25mm coils"
+  (severity warning)
+  (constraint clearance (min 0.25mm))
+  (condition "A.Net == B.Net && A.Type == 'track' && B.Type == 'track'")
 )

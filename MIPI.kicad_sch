@@ -4878,16 +4878,16 @@
 	(netclass_flag "Under PGA"
 		(length 1.27)
 		(shape round)
-		(at 208.28 69.85 90)
+		(at 208.28 72.39 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "49e73b93-03be-40a3-8f4b-4725a81b14cd")
-		(property "Netclass" "100 OHM"
-			(at 203.2 69.85 0)
+		(uuid "603e5988-f8de-47a4-b373-7c3c4b865746")
+		(property "Netclass" "DIFF 100 OHM"
+			(at 197.612 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4895,29 +4895,7 @@
 					(size 0.762 0.762)
 					(color 255 0 26 1)
 				)
-			)
-		)
-	)
-	(netclass_flag "Under PGA"
-		(length 1.27)
-		(shape round)
-		(at 91.44 71.12 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89fa32fe-fef3-4cf8-a75d-a974b2d08e91")
-		(property "Netclass" "100 OHM"
-			(at 86.36 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(color 255 0 26 1)
-				)
+				(justify left)
 			)
 		)
 	)
@@ -4940,6 +4918,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(netclass_flag "Under PGA"
+		(length 1.27)
+		(shape round)
+		(at 91.44 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d48e0315-2851-4437-b266-fadbbb7d7827")
+		(property "Netclass" "DIFF 100 OHM"
+			(at 80.772 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(color 255 0 26 1)
+				)
+				(justify left)
 			)
 		)
 	)
