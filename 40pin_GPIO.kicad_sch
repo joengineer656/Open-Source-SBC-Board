@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "5d7a93f9-4988-4490-b380-690080a8201d")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:Raspberry_Pi_4"
 			(exclude_from_sim no)
@@ -1319,6 +1319,321 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Diode_TVS_AKL:PESD5V0S1BA"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD5V0S1BA"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS bidirectional PESD5V0S1BA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PESD5V0S1BA_0_1"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PESD5V0S1BA_0_2"
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy -2.667 -0.889) (xy 0 0) (xy -0.889 -2.667) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0.889) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0.889) (xy 0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -0.889) (xy 1.27 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 2.667 0.889) (xy 0 0) (xy 0.889 2.667) (xy 1.778 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PESD5V0S1BA_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PESD5V0S1BA_1_2"
+				(pin passive line
+					(at 3.81 3.81 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Diode_TVS_AKL:SMBJ5.0CA"
 			(body_styles demorgan)
 			(pin_numbers
@@ -2161,16 +2476,34 @@
 		(uuid "0ce0954d-830a-4160-8242-2ad902cf75da")
 	)
 	(junction
+		(at 85.09 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1943dedd-5f78-4505-be55-d4e4f967cc1f")
+	)
+	(junction
 		(at 186.69 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a1a7433-89e1-4b7e-b701-23717594c018")
 	)
 	(junction
-		(at 62.23 163.83)
+		(at 142.24 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2388ea32-eac2-4ab6-a946-26d9e6e6b1a2")
+	)
+	(junction
+		(at 287.02 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23cad8c0-b29b-4ca7-8c2c-ef4c32b6319d")
+	)
+	(junction
+		(at 125.73 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b51e130-c847-4ec2-bae7-3ed26a89ed35")
 	)
 	(junction
 		(at 185.42 74.93)
@@ -2197,10 +2530,64 @@
 		(uuid "4c9d8021-8f68-41e7-9743-811fbaaa75a8")
 	)
 	(junction
+		(at 111.76 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525d4d64-c749-49f1-8ac7-01e518a7a908")
+	)
+	(junction
+		(at 151.13 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "594bafd2-2386-40d0-a094-152a7ac97bdc")
+	)
+	(junction
 		(at 229.87 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66b613aa-4188-4778-8fcc-c7e862f3a929")
+	)
+	(junction
+		(at 134.62 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66e2bd88-acd0-4f7a-8718-ea88918d5ec3")
+	)
+	(junction
+		(at 143.51 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e97e524-cbf0-4dfd-bb6c-d0357179fb1d")
+	)
+	(junction
+		(at 74.93 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70110a56-3611-4fb5-b7e6-3b7aeb8c7dd2")
+	)
+	(junction
+		(at 76.2 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "720ff4ed-1f6c-4798-8385-51f9f5508008")
+	)
+	(junction
+		(at 110.49 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "722ccbef-e66e-4195-a6dd-2ab9c0ec66c0")
+	)
+	(junction
+		(at 133.35 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7338c545-86d3-48a5-8a93-344ad617fcc8")
+	)
+	(junction
+		(at 160.02 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7490cbff-fbfb-4fa4-aa9d-ca52576f10d6")
 	)
 	(junction
 		(at 186.69 40.64)
@@ -2209,7 +2596,25 @@
 		(uuid "927ca9cf-dcbb-4e59-9fdd-7e9cca143142")
 	)
 	(junction
-		(at 77.47 161.29)
+		(at 101.6 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5aeb666-6c20-44f8-aad8-462c4af36ab5")
+	)
+	(junction
+		(at 161.29 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1896c78-ea02-4199-b1b7-81d531c6f81a")
+	)
+	(junction
+		(at 92.71 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc3fd2ef-0a57-482c-8392-70965f02db6c")
+	)
+	(junction
+		(at 302.26 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c43714c9-54bb-4d53-bdc8-ade4a16ae3ae")
@@ -2227,16 +2632,52 @@
 		(uuid "d9b68a8b-f993-4cab-87f8-c99329e654bb")
 	)
 	(junction
+		(at 251.46 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db207b1c-015e-4c77-89f5-d8ad4292d07f")
+	)
+	(junction
+		(at 152.4 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e09497b4-2b94-475b-ad3f-0199deaa340f")
+	)
+	(junction
 		(at 168.91 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e27c826f-e91d-4609-8cea-9663a75e67ee")
 	)
 	(junction
+		(at 102.87 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85cac68-e832-4211-8809-0f7e5d1f1466")
+	)
+	(junction
+		(at 83.82 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea6a8a87-013e-4f17-933f-6bb1dfcace2b")
+	)
+	(junction
+		(at 93.98 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edde21ad-7d7a-44dc-b00b-9299d0b95fa8")
+	)
+	(junction
 		(at 170.18 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b5258e-1e91-4399-8f06-74c784f0178a")
+	)
+	(junction
+		(at 124.46 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4e58a0f-e6e2-4b29-8558-d35ceec90aa1")
 	)
 	(junction
 		(at 170.18 53.34)
@@ -2272,6 +2713,214 @@
 		(at 224.79 85.09)
 		(uuid "fdcbbca5-f164-4d2f-b36a-5fccc52a3ef2")
 	)
+	(bus_entry
+		(at 46.99 87.63)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eff740b-010b-4ee7-8b6f-ad76af5b65d8")
+	)
+	(bus_entry
+		(at 68.58 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26675a04-ad13-4139-be72-ce4828af839a")
+	)
+	(bus_entry
+		(at 187.96 128.27)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d4ab17-eee4-4321-929f-b7b0c6aca6b4")
+	)
+	(bus_entry
+		(at 187.96 97.79)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3f6576-e9a9-4df6-a26d-21c9d927de7f")
+	)
+	(bus_entry
+		(at 187.96 100.33)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb36693-2c82-47d0-8f01-f2f053f8752d")
+	)
+	(bus_entry
+		(at 46.99 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb6fbae-2ea0-47d7-a5be-c59dc9913c7c")
+	)
+	(bus_entry
+		(at 46.99 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71493062-01cf-4beb-8472-589f89ad2332")
+	)
+	(bus_entry
+		(at 68.58 115.57)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77102392-bd5e-4584-b54b-53d2fff40c6b")
+	)
+	(bus_entry
+		(at 187.96 130.81)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7803c7b7-fd69-4c55-a8f8-1c2dde12d4a2")
+	)
+	(bus_entry
+		(at 46.99 97.79)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947aa951-e4e8-4444-b362-130672503107")
+	)
+	(bus_entry
+		(at 46.99 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbafc66-bed5-484d-93a1-bf6c90d824cd")
+	)
+	(bus_entry
+		(at 46.99 90.17)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6853d98-3c68-4578-912f-1cbb8802b1ce")
+	)
+	(bus_entry
+		(at 46.99 123.19)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fe82d1-8276-48de-97db-c27be3cc8caa")
+	)
+	(bus_entry
+		(at 176.53 102.87)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f3b1e5-88d2-4786-b97f-1abbb5a86562")
+	)
+	(bus_entry
+		(at 46.99 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1008163-4be7-4d01-b26b-8164bba42e6f")
+	)
+	(bus_entry
+		(at 46.99 128.27)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b690e496-6844-4d0e-8a11-3974b65244b9")
+	)
+	(bus_entry
+		(at 46.99 130.81)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9559b12-def1-499f-90c7-3eed9e6fbbf9")
+	)
+	(bus_entry
+		(at 46.99 125.73)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd24122a-90b6-436a-82af-161cf2c42eea")
+	)
+	(bus_entry
+		(at 176.53 105.41)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c72122-999a-4b15-8a0d-d202896deca9")
+	)
+	(bus_entry
+		(at 68.58 113.03)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e728b711-1858-43bb-a240-91f50cc9bbf2")
+	)
+	(bus_entry
+		(at 68.58 110.49)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8884f6e-c60c-45bf-a41f-415528389ec0")
+	)
+	(bus_entry
+		(at 46.99 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff223d9d-f017-4ef5-8d77-c172589d3442")
+	)
+	(wire
+		(pts
+			(xy 203.2 180.34) (xy 160.02 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f0f63d-3ac7-48f4-8f6b-695758d46b2c")
+	)
 	(wire
 		(pts
 			(xy 170.18 53.34) (xy 186.69 53.34)
@@ -2284,13 +2933,53 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 166.37) (xy 92.71 166.37)
+			(xy 111.76 207.01) (xy 111.76 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f9a447-066a-4ac4-8935-da734784c5d9")
+	)
+	(wire
+		(pts
+			(xy 168.91 193.04) (xy 160.02 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04168033-3f65-4fb5-9593-b1ed9735c061")
+	)
+	(wire
+		(pts
+			(xy 318.77 156.21) (xy 317.5 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "078037a1-f69b-4072-aa50-f63e790e2f36")
+	)
+	(wire
+		(pts
+			(xy 74.93 193.04) (xy 83.82 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083132c6-0237-4904-b858-d3d6ce66867a")
+	)
+	(bus
+		(pts
+			(xy 46.99 101.6) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bdb1b9-0be4-4cdd-80d3-c0ade20d6ff0")
 	)
 	(wire
 		(pts
@@ -2304,6 +2993,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 193.04) (xy 74.93 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f28e9a7-419b-49d9-97a3-2cac5dbc14c9")
+	)
+	(wire
+		(pts
 			(xy 186.69 40.64) (xy 186.69 45.72)
 		)
 		(stroke
@@ -2311,6 +3010,26 @@
 			(type default)
 		)
 		(uuid "10d1a6a0-e229-4f72-8784-bb725e6bcd35")
+	)
+	(wire
+		(pts
+			(xy 92.71 175.26) (xy 92.71 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117853b3-1575-4f9a-9325-3c0123d0bb37")
+	)
+	(wire
+		(pts
+			(xy 78.74 106.68) (xy 78.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1197be7f-e69f-4380-b793-49ed35225273")
 	)
 	(wire
 		(pts
@@ -2324,6 +3043,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 182.88) (xy 66.04 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e73808-06d3-43de-a257-366061e08b7f")
+	)
+	(wire
+		(pts
 			(xy 149.86 133.35) (xy 156.21 133.35)
 		)
 		(stroke
@@ -2334,13 +3063,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 118.11) (xy 50.8 118.11)
+			(xy 33.02 207.01) (xy 111.76 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b81a667-c6ef-429d-ae08-0e16f67deeb0")
+		(uuid "188842d3-d884-4213-9698-ee569924ebc1")
+	)
+	(wire
+		(pts
+			(xy 160.02 193.04) (xy 151.13 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b94d2cb-5f20-42b8-90f8-7099e9064dc1")
 	)
 	(wire
 		(pts
@@ -2354,7 +3093,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 133.35) (xy 182.88 133.35)
+			(xy 142.24 193.04) (xy 133.35 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20975da0-a398-48f9-8ffe-c95f49d93b66")
+	)
+	(wire
+		(pts
+			(xy 205.74 209.55) (xy 134.62 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20eec3b4-6700-4c30-8458-288886b29594")
+	)
+	(wire
+		(pts
+			(xy 161.29 133.35) (xy 170.18 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2364,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 130.81) (xy 182.88 130.81)
+			(xy 149.86 130.81) (xy 187.96 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2374,13 +3133,53 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 90.17) (xy 50.8 90.17)
+			(xy 149.86 100.33) (xy 187.96 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2744f467-8a5a-46a3-b664-32e869f27c2d")
+	)
+	(wire
+		(pts
+			(xy 124.46 170.18) (xy 124.46 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290d203c-ec49-41aa-a737-01d835a2c093")
+	)
+	(wire
+		(pts
+			(xy 49.53 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "297b037a-4a05-4fff-b659-b2baf3f758de")
+	)
+	(wire
+		(pts
+			(xy 92.71 193.04) (xy 101.6 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afb021a-6977-410a-acb5-b3f7eb2cdde9")
+	)
+	(wire
+		(pts
+			(xy 160.02 180.34) (xy 160.02 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2beb7284-943a-40c6-a3e0-b1e8066ad391")
 	)
 	(wire
 		(pts
@@ -2394,6 +3193,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 182.88) (xy 168.91 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f26f5e7-9c68-4af1-b08b-647189c18ff7")
+	)
+	(wire
+		(pts
+			(xy 71.12 110.49) (xy 83.82 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316e2e74-1a95-44bc-a810-7b825ae2bc20")
+	)
+	(wire
+		(pts
 			(xy 186.69 40.64) (xy 205.74 40.64)
 		)
 		(stroke
@@ -2404,13 +3223,33 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 133.35) (xy 50.8 133.35)
+			(xy 71.12 115.57) (xy 83.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3548b6a4-4983-453a-84b2-be11a170bc7f")
+	)
+	(wire
+		(pts
+			(xy 49.53 133.35) (xy 83.82 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "363e2be3-3370-4d99-8098-ef2156bca1a0")
+	)
+	(wire
+		(pts
+			(xy 143.51 212.09) (xy 143.51 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365e4ad6-2034-465a-96a6-146563530bda")
 	)
 	(wire
 		(pts
@@ -2424,7 +3263,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 92.71) (xy 50.8 92.71)
+			(xy 134.62 209.55) (xy 134.62 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6e3e95-9f0f-4e26-b4ee-3374503ce79b")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 83.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +3293,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 128.27) (xy 50.8 128.27)
+			(xy 85.09 229.87) (xy 93.98 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ee49ce-c4e4-4583-bb28-ed4ed9db21dd")
+	)
+	(wire
+		(pts
+			(xy 49.53 128.27) (xy 83.82 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2454,33 +3313,103 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 115.57) (xy 50.8 115.57)
+			(xy 133.35 193.04) (xy 124.46 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45f5a0ae-4550-439f-8406-07d7cbf71e2a")
+		(uuid "4b0e9a73-df7e-4f07-95bf-ff2144b9b7b1")
 	)
 	(wire
 		(pts
-			(xy 149.86 128.27) (xy 182.88 128.27)
+			(xy 203.2 172.72) (xy 133.35 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50ab0914-72b6-47f7-a7ee-b8741c1434f8")
+		(uuid "4cc8f7d8-1b6e-4e31-adde-0b0f4b562df7")
 	)
 	(wire
 		(pts
-			(xy 83.82 125.73) (xy 50.8 125.73)
+			(xy 152.4 214.63) (xy 152.4 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5f7f47-97d3-49fb-ac29-5e9f191ef6e2")
+	)
+	(wire
+		(pts
+			(xy 102.87 229.87) (xy 111.76 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f36b6e6-fc96-42a0-971c-ff7569854614")
+	)
+	(wire
+		(pts
+			(xy 204.47 214.63) (xy 152.4 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb94586-7e6f-45dc-bc72-4144a2d8b0bf")
+	)
+	(wire
+		(pts
+			(xy 33.02 219.71) (xy 67.31 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507c9015-0939-495f-ab61-94c2b3cf70aa")
+	)
+	(wire
+		(pts
+			(xy 110.49 170.18) (xy 110.49 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e3423b-7896-461f-bd48-872187081e02")
+	)
+	(wire
+		(pts
+			(xy 49.53 125.73) (xy 83.82 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5422ce0c-4b3d-4334-8266-31943fab848a")
+	)
+	(wire
+		(pts
+			(xy 125.73 207.01) (xy 125.73 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544e01a1-5c66-4285-bf68-daca9106cbfe")
+	)
+	(wire
+		(pts
+			(xy 85.09 214.63) (xy 85.09 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d0dea6-0346-40db-b082-f7754f3c2d5c")
 	)
 	(wire
 		(pts
@@ -2494,7 +3423,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 163.83) (xy 93.98 163.83)
+			(xy 134.62 229.87) (xy 125.73 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f0d6b6-79e4-43de-bc0a-e7ef113f5ccb")
+	)
+	(wire
+		(pts
+			(xy 287.02 153.67) (xy 318.77 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2511,6 +3450,16 @@
 			(type default)
 		)
 		(uuid "5bab9b38-c2e5-4dbc-a92b-4aaa0cea94ae")
+	)
+	(bus
+		(pts
+			(xy 190.5 95.25) (xy 190.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8dd3c5-228a-45ac-a3be-87a944609ab8")
 	)
 	(wire
 		(pts
@@ -2534,6 +3483,26 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 212.09) (xy 93.98 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffb2251-5409-4cec-92a9-d9020cf5c279")
+	)
+	(wire
+		(pts
+			(xy 31.75 180.34) (xy 74.93 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e94efa-8a19-4a26-ab03-667b7121d3a3")
+	)
+	(wire
+		(pts
 			(xy 156.21 74.93) (xy 156.21 92.71)
 		)
 		(stroke
@@ -2541,6 +3510,16 @@
 			(type default)
 		)
 		(uuid "61ba6caf-6eb7-4e19-8b72-414388918941")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 187.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6501b30c-ce9f-41a5-98bd-dea42084fc0b")
 	)
 	(wire
 		(pts
@@ -2564,27 +3543,47 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 113.03) (xy 50.8 113.03)
+			(xy 149.86 128.27) (xy 187.96 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69991b02-5b34-40d7-93b2-dba60b4e091d")
+		(uuid "6983ec99-5f16-404d-9a57-30dd0bdecd9f")
 	)
 	(wire
 		(pts
-			(xy 50.8 107.95) (xy 83.82 107.95)
+			(xy 204.47 219.71) (xy 170.18 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a3c2d82-483d-4b83-a8ab-1acdea43bc65")
+		(uuid "6dcd72ad-3257-46a2-ab3f-3c273bf1f3c3")
 	)
 	(wire
 		(pts
-			(xy 83.82 123.19) (xy 50.8 123.19)
+			(xy 33.02 217.17) (xy 76.2 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e214ec6-9969-4c23-b248-ae751c8be033")
+	)
+	(wire
+		(pts
+			(xy 161.29 229.87) (xy 152.4 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6feac513-cd04-4445-9473-33ddcf326edf")
+	)
+	(wire
+		(pts
+			(xy 49.53 123.19) (xy 83.82 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +3593,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 107.95) (xy 182.88 107.95)
+			(xy 203.2 170.18) (xy 124.46 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a79482-2c83-42b7-9c38-8d4732665ddd")
+	)
+	(wire
+		(pts
+			(xy 149.86 107.95) (xy 173.99 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2634,7 +3643,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 163.83) (xy 62.23 165.1)
+			(xy 33.02 209.55) (xy 102.87 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bab9dac-d815-408d-8e85-a41583cdd545")
+	)
+	(wire
+		(pts
+			(xy 287.02 153.67) (xy 287.02 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2654,13 +3673,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 166.37) (xy 92.71 167.64)
+			(xy 317.5 156.21) (xy 317.5 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "830a5ffc-6236-4fac-8d87-39f786ccd7de")
+	)
+	(wire
+		(pts
+			(xy 125.73 207.01) (xy 205.74 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830f8efa-02cf-4123-a36c-8ed7fa44d3f1")
 	)
 	(wire
 		(pts
@@ -2674,6 +3703,36 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 45.72) (xy 252.73 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85499284-5e28-48de-a170-2b26b58b03fc")
+	)
+	(wire
+		(pts
+			(xy 31.75 172.72) (xy 101.6 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899e22ee-5fa1-4aed-8f48-3996a154fc93")
+	)
+	(bus
+		(pts
+			(xy 190.5 95.25) (xy 191.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8baf2543-6307-42ce-8f10-16453310d9df")
+	)
+	(wire
+		(pts
 			(xy 205.74 45.72) (xy 199.39 45.72)
 		)
 		(stroke
@@ -2681,6 +3740,36 @@
 			(type default)
 		)
 		(uuid "8c75bdff-6d29-42fe-8539-1b6c998bea10")
+	)
+	(bus
+		(pts
+			(xy 67.31 107.95) (xy 68.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c968150-5984-422e-ae0f-19aadbdf62e9")
+	)
+	(wire
+		(pts
+			(xy 76.2 229.87) (xy 85.09 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eeeb73e-5cac-43ce-8bb4-d99bc2487d91")
+	)
+	(wire
+		(pts
+			(xy 203.2 175.26) (xy 142.24 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f56913d-6d85-4a63-a0dc-2273675030d1")
 	)
 	(wire
 		(pts
@@ -2694,6 +3783,46 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 118.11) (xy 83.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9159f15e-7923-42fc-a187-83aaae25ecd4")
+	)
+	(wire
+		(pts
+			(xy 49.53 106.68) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92170b35-200a-4a30-b5d3-396a5a3f3f5f")
+	)
+	(wire
+		(pts
+			(xy 142.24 175.26) (xy 142.24 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9667f451-c009-4048-8387-e494966c7847")
+	)
+	(wire
+		(pts
+			(xy 67.31 229.87) (xy 76.2 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981b69ba-b13e-4d3d-b533-3d3d7376e040")
+	)
+	(wire
+		(pts
 			(xy 185.42 85.09) (xy 185.42 87.63)
 		)
 		(stroke
@@ -2704,13 +3833,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 105.41) (xy 83.82 105.41)
+			(xy 80.01 104.14) (xy 80.01 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "991f7f90-5270-49c2-8df4-fe42fe1002b0")
+		(uuid "99655ae6-8def-421f-8642-75409afddccc")
 	)
 	(wire
 		(pts
@@ -2724,7 +3853,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 161.29) (xy 77.47 165.1)
+			(xy 143.51 229.87) (xy 134.62 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07cb635-4d37-4cb3-8953-4adeb59bc4a7")
+	)
+	(wire
+		(pts
+			(xy 302.26 151.13) (xy 302.26 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2734,7 +3873,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 160.02) (xy 77.47 161.29)
+			(xy 102.87 209.55) (xy 102.87 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a291a9de-51f1-4661-b8ae-2ba9d8abc89b")
+	)
+	(wire
+		(pts
+			(xy 302.26 149.86) (xy 302.26 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2742,9 +3891,29 @@
 		)
 		(uuid "a32d9766-da7b-45f3-ab2d-4d525fb9b047")
 	)
+	(bus
+		(pts
+			(xy 68.58 107.95) (xy 68.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33466ea-d69a-414f-9486-248bfa632087")
+	)
 	(wire
 		(pts
-			(xy 242.57 45.72) (xy 262.89 45.72)
+			(xy 101.6 172.72) (xy 101.6 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d2af13-e5d9-4270-a69f-111254e445a9")
+	)
+	(wire
+		(pts
+			(xy 242.57 45.72) (xy 251.46 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2752,9 +3921,19 @@
 		)
 		(uuid "a539a966-a157-422b-b930-273e7843d319")
 	)
+	(bus
+		(pts
+			(xy 46.99 97.79) (xy 46.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b82329-9b02-4ae2-a941-6e3ae0c551b2")
+	)
 	(wire
 		(pts
-			(xy 77.47 161.29) (xy 93.98 161.29)
+			(xy 302.26 151.13) (xy 318.77 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2764,13 +3943,63 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 182.88 105.41)
+			(xy 31.75 177.8) (xy 83.82 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7598918-e775-46da-b8e1-f7073e31344d")
+	)
+	(bus
+		(pts
+			(xy 46.99 133.35) (xy 46.99 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa275f2a-1daf-456e-8e66-dc7d231d1f72")
+	)
+	(wire
+		(pts
+			(xy 31.75 175.26) (xy 92.71 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4bbd5d-283f-4539-8815-521fd37b0c9f")
+	)
+	(wire
+		(pts
+			(xy 251.46 45.72) (xy 251.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabd8b37-ce77-4f2b-a64f-efb571090edd")
+	)
+	(wire
+		(pts
+			(xy 149.86 105.41) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab9da1e7-3ea1-46d7-9c0c-b53db92b64c1")
+	)
+	(wire
+		(pts
+			(xy 80.01 105.41) (xy 83.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd7be62-a126-4f4a-851b-70b4f983f00d")
 	)
 	(wire
 		(pts
@@ -2784,13 +4013,33 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 100.33) (xy 83.82 100.33)
+			(xy 33.02 214.63) (xy 85.09 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bfe0a7-d307-49c5-9208-a65d5140162a")
+	)
+	(wire
+		(pts
+			(xy 49.53 100.33) (xy 83.82 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b15fdc93-b265-442c-a552-81efe146f9ca")
+	)
+	(wire
+		(pts
+			(xy 71.12 113.03) (xy 83.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1922bae-cc3e-43cf-9e8b-173fecf84d2d")
 	)
 	(wire
 		(pts
@@ -2801,6 +4050,16 @@
 			(type default)
 		)
 		(uuid "b25a1953-8aa7-4719-a35f-c967114b5e33")
+	)
+	(bus
+		(pts
+			(xy 46.99 104.14) (xy 46.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31a30d5-0fca-4f5b-8e33-08b60ff09703")
 	)
 	(wire
 		(pts
@@ -2824,7 +4083,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 163.83) (xy 50.8 163.83)
+			(xy 269.24 153.67) (xy 275.59 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2834,7 +4093,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 80.01) (xy 261.62 80.01)
+			(xy 151.13 177.8) (xy 151.13 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba25e83e-c547-4831-b166-228c2282f8ae")
+	)
+	(wire
+		(pts
+			(xy 241.3 80.01) (xy 251.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2844,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 130.81) (xy 50.8 130.81)
+			(xy 49.53 130.81) (xy 83.82 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2854,17 +4123,27 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 182.88 100.33)
+			(xy 83.82 177.8) (xy 83.82 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd3f96db-6509-4a59-9b3b-b04880c07444")
+		(uuid "bbae54c2-1394-4626-8fdb-3f43d5530f09")
+	)
+	(bus
+		(pts
+			(xy 46.99 87.63) (xy 46.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda50c5f-7467-4bb0-a3d0-8a652c982f24")
 	)
 	(wire
 		(pts
-			(xy 50.8 97.79) (xy 83.82 97.79)
+			(xy 49.53 97.79) (xy 83.82 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2894,6 +4173,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 170.18) (xy 110.49 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85cf3e9-9721-427a-86bd-dbaa7c454a6e")
+	)
+	(wire
+		(pts
 			(xy 199.39 52.07) (xy 199.39 53.34)
 		)
 		(stroke
@@ -2901,6 +4190,16 @@
 			(type default)
 		)
 		(uuid "ca940cf3-10ca-40c4-8c06-609f0d3971ab")
+	)
+	(wire
+		(pts
+			(xy 93.98 212.09) (xy 93.98 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac78f53-4231-4c57-ae4c-5402cfad06f4")
 	)
 	(wire
 		(pts
@@ -2914,17 +4213,87 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 110.49) (xy 83.82 110.49)
+			(xy 83.82 193.04) (xy 92.71 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5825c1b-f28d-4d18-83c8-e2c884f5652d")
+		(uuid "cedaf533-921a-465e-9cd4-842ee3c889b3")
 	)
 	(wire
 		(pts
-			(xy 83.82 135.89) (xy 50.8 135.89)
+			(xy 93.98 229.87) (xy 102.87 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0027ce5-ee27-4c29-82d7-f8589a2332ae")
+	)
+	(bus
+		(pts
+			(xy 176.53 105.41) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08d4699-f475-4a73-967e-0b8620a2aed3")
+	)
+	(wire
+		(pts
+			(xy 170.18 229.87) (xy 161.29 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6728053-bcae-4044-afbc-8bf724f6604e")
+	)
+	(wire
+		(pts
+			(xy 49.53 104.14) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77a8826-951a-41ff-adc3-a8783db5fc64")
+	)
+	(wire
+		(pts
+			(xy 101.6 193.04) (xy 110.49 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78362d2-b3f8-495d-9350-217c820f7099")
+	)
+	(wire
+		(pts
+			(xy 74.93 180.34) (xy 74.93 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ced22e-21b5-43f9-a740-a46419a1cc66")
+	)
+	(wire
+		(pts
+			(xy 78.74 107.95) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3773b0-c083-4663-8472-ee8fd294a3b7")
+	)
+	(wire
+		(pts
+			(xy 49.53 135.89) (xy 83.82 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2934,23 +4303,73 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 97.79) (xy 182.88 97.79)
+			(xy 133.35 172.72) (xy 133.35 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4446315-533e-441a-85aa-a08a9eff4626")
+		(uuid "de0db195-daa0-4cd1-a570-574596d8cb35")
 	)
 	(wire
 		(pts
-			(xy 55.88 163.83) (xy 62.23 163.83)
+			(xy 161.29 217.17) (xy 161.29 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee6b907-3890-445c-8270-01f58b82ee1c")
+	)
+	(wire
+		(pts
+			(xy 151.13 193.04) (xy 142.24 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd999d6-3b74-4c10-ba8a-1000c09614b2")
+	)
+	(bus
+		(pts
+			(xy 177.8 101.6) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d1747d-cf5c-4b90-acd5-dc61bc569e4f")
+	)
+	(wire
+		(pts
+			(xy 76.2 217.17) (xy 76.2 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e821e5b1-d270-452f-99fb-86f65f69abe6")
+	)
+	(wire
+		(pts
+			(xy 280.67 153.67) (xy 287.02 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e892cc3e-90f3-471c-a114-254ae12bc782")
+	)
+	(wire
+		(pts
+			(xy 204.47 217.17) (xy 161.29 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e927098e-cca8-4038-883b-375bf452d281")
 	)
 	(wire
 		(pts
@@ -2961,6 +4380,26 @@
 			(type default)
 		)
 		(uuid "ea0a0c58-024f-41b6-8fc8-4a6a03655e34")
+	)
+	(wire
+		(pts
+			(xy 204.47 212.09) (xy 143.51 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb25682d-84dc-4f4d-b09f-190f27d5fb84")
+	)
+	(wire
+		(pts
+			(xy 203.2 177.8) (xy 151.13 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed38c2fb-d14d-4137-bb19-72e1d4837ab0")
 	)
 	(wire
 		(pts
@@ -2982,9 +4421,29 @@
 		)
 		(uuid "f75da3d0-171e-4958-948e-7ad313320d2f")
 	)
+	(bus
+		(pts
+			(xy 46.99 147.32) (xy 190.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb331ab3-065f-418f-b673-a3e0821969e1")
+	)
+	(wire
+		(pts
+			(xy 152.4 229.87) (xy 143.51 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc9fd6e-00fe-47ca-a613-b41ee0cf790a")
+	)
 	(image
-		(at 222.885 102.235)
-		(scale 0.644066)
+		(at 191.135 62.23)
+		(scale 0.330643)
 		(uuid "18787cc9-7735-45ff-9c91-acfa2e0f157c")
 		(data "iVBORw0KGgoAAAANSUhEUgAABNIAAAEYCAIAAAAWJkzxAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOzdZ0AURxsA4Nm9xtF770VpAgo2LIiKqCD2HruxRxOTqEksMUaNxuTT2LDXKBpFULEjKgqKBQQU"
@@ -4016,8 +5475,8 @@
 			"edoJAAAAAFAQaScAAAAAQEGknQAAAAAABf0GK0pAonTcH5IAAAAASUVORK5CYII="
 		)
 	)
-	(label "40GPIOs_GPIO(3_B7)_UART(2)_RX-M2"
-		(at 50.8 128.27 0)
+	(label "40GPIOs.GPIO(3_B7)_UART(2)_RX-M2"
+		(at 49.53 128.27 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4026,8 +5485,8 @@
 		)
 		(uuid "026fddad-5171-4db7-ad23-1c85c4ebc0b0")
 	)
-	(label "40GPIOs_GPIO(3_C6)"
-		(at 50.8 105.41 0)
+	(label "40GPIOs.GPIO(3_C6)"
+		(at 49.53 104.14 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4036,18 +5495,18 @@
 		)
 		(uuid "0a60d30d-accb-4ecb-9968-34612cb24559")
 	)
-	(label "40GPIOs_PWR_EN"
-		(at 262.89 45.72 180)
+	(label "40GPIOs.GPIO(3_C3)_I2C(9)_SDA-M3"
+		(at 203.2 180.34 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
-		(uuid "0f54ea98-2686-4912-a941-2244d77defb5")
+		(uuid "0da4dc42-230f-4b0a-8932-bc0013dba82d")
 	)
-	(label "40GPIOs_GPIO(3_B5)_PWM(1)_CH5-M3"
-		(at 50.8 92.71 0)
+	(label "40GPIOs.GPIO(3_B5)_PWM(1)_CH5-M3"
+		(at 49.53 92.71 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4056,18 +5515,58 @@
 		)
 		(uuid "10e18173-bcc4-4a7f-9c2b-009adce95d09")
 	)
-	(label "40GPIOs_PWR_EN"
-		(at 261.62 80.01 180)
+	(label "40GPIOs.GPIO(3_C5)_PWM(2)_CH2-M3"
+		(at 31.75 170.18 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "2000b226-ef00-4ac7-8815-71991f58ae74")
+	)
+	(label "40GPIOs.GPIO(3_B1)_UART(10)_TX-M0"
+		(at 33.02 214.63 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "2184ced8-02d1-4700-8225-bfe49d6f1112")
+	)
+	(label "I2C2_SDA_M0_CC_RTC_EEPROM"
+		(at 203.2 175.26 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
-		(uuid "15c45230-be9f-41fb-9fbb-e06d114c445d")
+		(uuid "23ae2556-a4f8-48bf-8803-6976df334ea2")
 	)
-	(label "40GPIOs_GPIO(3_C3)_I2C(9)_SDA-M3"
-		(at 182.88 128.27 180)
+	(label "40GPIOs.GPIO(3_C4)_I2C(5)_SCL-M3"
+		(at 31.75 182.88 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "26ed7782-3917-4dba-8adf-1972d20e6646")
+	)
+	(label "SPI1_{MCU}.SCK"
+		(at 204.47 219.71 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "271767d7-e6c4-47af-adf3-8adf0f6cfebe")
+	)
+	(label "40GPIOs.GPIO(3_C3)_I2C(9)_SDA-M3"
+		(at 187.96 128.27 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4076,8 +5575,58 @@
 		)
 		(uuid "2f3909bb-3c81-42ee-8f5a-21eb3f9e8f76")
 	)
-	(label "SPI1_{MCU}_SDO"
-		(at 50.8 113.03 0)
+	(label "40GPIOs.GPIO(3_C7)"
+		(at 33.02 219.71 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "331093fa-3218-46c5-9978-0c42970ba4eb")
+	)
+	(label "40GPIOs.GPIO(3_B0)_UART(10)_RX-M0"
+		(at 33.02 212.09 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "44fbc95a-e9bf-47ae-960d-b74ca8cf4215")
+	)
+	(label "40GPIOs.GPIO(3_B6)_PWM(0)_CH1-M3"
+		(at 33.02 207.01 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "4833ef21-269f-4462-a322-e7d7820be63d")
+	)
+	(label "40GPIOs.GPIO(3_A6)_UART(1)_RX-M2"
+		(at 203.2 170.18 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a0edf61-fa07-49fe-aa51-f883aa3ed6d6")
+	)
+	(label "40GPIOs.GPIO(3_C0)_UART(2)_TX-M2"
+		(at 31.75 177.8 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc01843-107a-40ff-a25e-b5547952a3bc")
+	)
+	(label "SPI1_{MCU}.SDO"
+		(at 71.12 113.03 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4086,8 +5635,18 @@
 		)
 		(uuid "5c62775f-6dfc-41ac-bdc1-6a8c7b7c36c9")
 	)
-	(label "40GPIOs_GPIO(3_B1)_UART(10)_TX-M0"
-		(at 50.8 100.33 0)
+	(label "SPI1_{MCU}.SDO"
+		(at 204.47 214.63 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "62b7a6f2-d957-4fc1-b4d6-68a7c67eb76b")
+	)
+	(label "40GPIOs.GPIO(3_B1)_UART(10)_TX-M0"
+		(at 49.53 100.33 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4096,8 +5655,38 @@
 		)
 		(uuid "667f0a13-828c-4b45-920d-8a34bf9e1dcf")
 	)
-	(label "40GPIOs_GPIO(3_A6)_UART(1)_RX-M2"
-		(at 182.88 97.79 180)
+	(label "SPI1_{MCU}.SDI"
+		(at 204.47 217.17 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "6958e00b-bb99-489c-8737-bc7559c4b340")
+	)
+	(label "SPI1_{MCU}.CS"
+		(at 204.47 212.09 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "69efcb10-d08c-4597-b29d-ebde9196bdfd")
+	)
+	(label "40GPIOs.GPIO(3_C1)_I2C(5)_SDA-M3"
+		(at 31.75 180.34 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cadee69-7c77-4c36-bfd1-f524bc39e2c2")
+	)
+	(label "40GPIOs.GPIO(3_A6)_UART(1)_RX-M2"
+		(at 187.96 97.79 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4106,8 +5695,18 @@
 		)
 		(uuid "717ce55a-7c7d-4018-89db-d2e6a18ee5a6")
 	)
-	(label "40GPIOs_GPIO(3_C5)_PWM(2)_CH2-M3"
-		(at 50.8 123.19 0)
+	(label "40GPIOs.GPIO(3_C2)_I2C(9)_SCL-M3"
+		(at 203.2 182.88 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b18af48-3aa8-497c-a773-3fbc131d89a9")
+	)
+	(label "40GPIOs.GPIO(3_C5)_PWM(2)_CH2-M3"
+		(at 49.53 123.19 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4116,18 +5715,18 @@
 		)
 		(uuid "7dcd2d53-86a6-4fc5-9c80-8a47788853da")
 	)
-	(label "SARADC_VIN4_IN"
-		(at 182.88 133.35 180)
+	(label "40GPIOs.GPIO(3_C6)"
+		(at 33.02 217.17 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "8693e17c-1abf-4e29-b32e-c24645283add")
+		(uuid "89de0689-1e54-4536-902c-617e6fd7b55d")
 	)
-	(label "40GPIOs_GPIO(3_C2)_I2C(9)_SCL-M3"
-		(at 182.88 130.81 180)
+	(label "40GPIOs.GPIO(3_C2)_I2C(9)_SCL-M3"
+		(at 187.96 130.81 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4136,18 +5735,8 @@
 		)
 		(uuid "8a6fc6d7-1775-45ca-9bb0-27bb6464f0a7")
 	)
-	(label "PWM_FAN"
-		(at 36.83 163.83 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bf16e7d-b5d6-4ddc-a5c2-9c779b8b5432")
-	)
-	(label "SPI1_{MCU}_CS"
-		(at 50.8 110.49 0)
+	(label "SPI1_{MCU}.CS"
+		(at 71.12 110.49 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4156,8 +5745,8 @@
 		)
 		(uuid "8cc2384f-f840-4b17-b14c-c918c110b46b")
 	)
-	(label "40GPIOs_GPIO(3_C1)_I2C(5)_SDA-M3"
-		(at 50.8 133.35 0)
+	(label "40GPIOs.GPIO(3_C1)_I2C(5)_SDA-M3"
+		(at 49.53 133.35 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4166,8 +5755,8 @@
 		)
 		(uuid "96510958-3df1-4dab-b40f-0c6201c134f4")
 	)
-	(label "40GPIOs_GPIO(3_B6)_PWM(0)_CH1-M3"
-		(at 50.8 90.17 0)
+	(label "40GPIOs.GPIO(3_B6)_PWM(0)_CH1-M3"
+		(at 49.53 90.17 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4176,8 +5765,28 @@
 		)
 		(uuid "9adee48d-073d-408e-9798-916722df9b09")
 	)
+	(label "I2C2_SCL_M0_CC_RTC_EEPROM"
+		(at 203.2 177.8 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c7fac8d-280f-4a34-9cb3-01b1ce4ba27f")
+	)
+	(label "40GPIOs.GPIO(3_A7)_UART(1)_TX-M2"
+		(at 203.2 172.72 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0d5bda9-8fbd-45f9-a424-0f4d1f01e5a2")
+	)
 	(label "I2C2_SDA_M0_CC_RTC_EEPROM"
-		(at 182.88 105.41 180)
+		(at 173.99 105.41 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4186,8 +5795,8 @@
 		)
 		(uuid "a3ee4195-a546-43d9-888b-54d3f93b1553")
 	)
-	(label "SPI1_{MCU}_SCK"
-		(at 50.8 118.11 0)
+	(label "SPI1_{MCU}.SCK"
+		(at 71.12 118.11 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4196,8 +5805,8 @@
 		)
 		(uuid "a93b3274-47de-4deb-8149-07c91d364aa4")
 	)
-	(label "40GPIOs_GPIO(3_A7)_UART(1)_TX-M2"
-		(at 182.88 100.33 180)
+	(label "40GPIOs.GPIO(3_A7)_UART(1)_TX-M2"
+		(at 187.96 100.33 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4206,8 +5815,18 @@
 		)
 		(uuid "bbad4a7f-5139-42e2-b7b2-36d8a8deb123")
 	)
+	(label "40GPIOs.GPIO(3_B5)_PWM(1)_CH5-M3"
+		(at 33.02 209.55 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd1ab95c-e8cb-40b7-b1d3-fab89997dc1e")
+	)
 	(label "I2C2_SCL_M0_CC_RTC_EEPROM"
-		(at 182.88 107.95 180)
+		(at 173.99 107.95 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4216,8 +5835,8 @@
 		)
 		(uuid "be66f978-2a49-46b0-a3ca-facf0e0fbf04")
 	)
-	(label "40GPIOs_GPIO(3_C7)"
-		(at 50.8 107.95 0)
+	(label "40GPIOs.GPIO(3_C7)"
+		(at 49.53 106.68 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4226,8 +5845,8 @@
 		)
 		(uuid "ccd26034-ea2d-4b5f-a5d3-28864eebe803")
 	)
-	(label "40GPIOs_GPIO(3_C4)_I2C(5)_SCL-M3"
-		(at 50.8 135.89 0)
+	(label "40GPIOs.GPIO(3_C4)_I2C(5)_SCL-M3"
+		(at 49.53 135.89 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4236,8 +5855,8 @@
 		)
 		(uuid "d3a0b327-566a-4ee9-9399-97aa0c2b602c")
 	)
-	(label "SPI1_{MCU}_SDI"
-		(at 50.8 115.57 0)
+	(label "SPI1_{MCU}.SDI"
+		(at 71.12 115.57 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4246,8 +5865,18 @@
 		)
 		(uuid "d9ab5290-8be8-4afc-8588-25ff94549527")
 	)
-	(label "40GPIOs_GPIO(3_B0)_UART(10)_RX-M0"
-		(at 50.8 97.79 0)
+	(label "40GPIOs.GPIO(3_B4)_PWM(1)_CH4-M3"
+		(at 31.75 172.72 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd024f16-16e6-46e7-b0a9-b49f473765a2")
+	)
+	(label "40GPIOs.GPIO(3_B0)_UART(10)_RX-M0"
+		(at 49.53 97.79 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4256,8 +5885,18 @@
 		)
 		(uuid "ec20f722-179e-446f-bfc6-2302fd6a6c28")
 	)
-	(label "40GPIOs_GPIO(3_B4)_PWM(1)_CH4-M3"
-		(at 50.8 125.73 0)
+	(label "40GPIOs.GPIO(3_B7)_UART(2)_RX-M2"
+		(at 31.75 175.26 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef082ff4-4f57-4e17-bc62-4ae0d3c2de01")
+	)
+	(label "40GPIOs.GPIO(3_B4)_PWM(1)_CH4-M3"
+		(at 49.53 125.73 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4266,8 +5905,8 @@
 		)
 		(uuid "f2dbf350-9256-45a4-a501-43659b28192c")
 	)
-	(label "40GPIOs_GPIO(3_C0)_UART(2)_TX-M2"
-		(at 50.8 130.81 0)
+	(label "40GPIOs.GPIO(3_C0)_UART(2)_TX-M2"
+		(at 49.53 130.81 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4275,6 +5914,434 @@
 			(justify left bottom)
 		)
 		(uuid "fe45e1ad-3dea-49c5-8f3d-5b56f522236e")
+	)
+	(hierarchical_label "SARADC_VIN4_IN"
+		(shape output)
+		(at 170.18 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "315fed74-2ad8-4603-831e-3b7f4d854fd0")
+	)
+	(hierarchical_label "{I2C8_M3}"
+		(shape bidirectional)
+		(at 177.8 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a83238a-0d17-4d3f-bc38-0a594742f9b5")
+	)
+	(hierarchical_label "40GPIOs{40GPIO}"
+		(shape bidirectional)
+		(at 191.77 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "530ae6bf-22bc-4551-82b5-774dc2ce31d7")
+	)
+	(hierarchical_label "PWM_FAN"
+		(shape input)
+		(at 269.24 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84286aa7-2bc6-4d66-9fde-a91d95553c87")
+	)
+	(hierarchical_label "SPI1_{MCU}{SPI}"
+		(shape bidirectional)
+		(at 67.31 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b34ca8cd-60d9-4e5d-9977-e57b8fd64cbb")
+	)
+	(hierarchical_label "40GPIOs_PWR_EN"
+		(shape input)
+		(at 252.73 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccbbdeb4-b329-4abf-b85c-e2005a391d93")
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 152.4 224.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03855fde-fa93-4c0e-b4a6-ded42f085256")
+		(property "Reference" "D50"
+			(at 149.86 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 155.702 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 152.4 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 152.4 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 152.4 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 152.4 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecdf80ec-c03e-4f04-9460-58bc933fc264")
+		)
+		(pin "2"
+			(uuid "0e148bfd-51ad-4ae1-ad26-003705efd223")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 66.04 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b75ef99-f289-4079-969a-4d002896148e")
+		(property "Reference" "D31"
+			(at 68.58 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 61.722 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 66.04 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 66.04 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 66.04 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 66.04 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0860c1f-6334-4a01-8be0-66d054a39766")
+		)
+		(pin "2"
+			(uuid "b842502b-ada9-4045-8490-f953ab3b0544")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4287,7 +6354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d941623-ce8f-4b42-9c08-d3f4a9681e7e")
-		(property "Reference" "#PWR0415"
+		(property "Reference" "#PWR0423"
 			(at 229.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4347,7 +6414,551 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0415")
+					(reference "#PWR0423")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 93.98 224.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0dae61e9-1384-4d8c-983c-b8cd92694f88")
+		(property "Reference" "D38"
+			(at 96.52 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 90.678 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 93.98 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 93.98 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 93.98 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 93.98 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a8ecd2a-11a5-49d6-931a-af0daf2020d4")
+		)
+		(pin "2"
+			(uuid "8aa8c5a5-e878-46dc-affe-cb320f9afb58")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 142.24 187.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1024b5e1-83ff-4781-bd10-13b1f3266a92")
+		(property "Reference" "D47"
+			(at 139.7 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 145.542 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 142.24 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 142.24 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 142.24 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 142.24 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6032bff7-0c47-4d71-87ba-87d6549dd57c")
+		)
+		(pin "2"
+			(uuid "2d7496b9-86a6-4a7a-915f-ce35c75e82da")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 110.49 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "109e6a25-a2c9-4e78-86db-e68b5705c5e7")
+		(property "Reference" "D41"
+			(at 113.03 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 107.188 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 110.49 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 110.49 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 110.49 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 110.49 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6e107d7-0bce-46d3-89ec-cd7d430de8fe")
+		)
+		(pin "2"
+			(uuid "b6c329a0-a433-4ef3-95dd-aaa5c2f29bfb")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -4556,7 +7167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1740ed20-ca38-40d6-b6e8-b835e7299471")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0413"
 			(at 165.1 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4616,7 +7227,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0407")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -4624,7 +7235,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 175.26 0)
+		(at 287.02 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4633,8 +7244,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "177e967b-2469-4f13-9b0f-087a398d54f0")
-		(property "Reference" "#PWR0402"
-			(at 62.23 181.61 0)
+		(property "Reference" "#PWR0428"
+			(at 287.02 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +7256,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 179.07 0)
+			(at 287.02 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4655,7 +7266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 175.26 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +7277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 175.26 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4677,7 +7288,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 175.26 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4693,7 +7304,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0402")
+					(reference "#PWR0428")
 					(unit 1)
 				)
 			)
@@ -4711,7 +7322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f098c67-3861-4527-bed0-2e0aa430ca80")
-		(property "Reference" "J19"
+		(property "Reference" "J18"
 			(at 116.84 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +7342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "#kicad Library:40-pin GPIO Header for Raspberry Pi"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Horizontal"
 			(at 186.944 160.528 0)
 			(hide yes)
 			(show_name no)
@@ -4978,7 +7589,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "J19")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -5334,6 +7945,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 207.01 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "265ae564-5134-4a63-a652-7ad77afcfdc2")
+		(property "Reference" "#PWR0418"
+			(at 201.93 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_{GPIO}_5V0_S0"
+			(at 216.662 207.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b1d122e-f44a-4c87-b51b-5e65c0f88821")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "#PWR0418")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 229.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26f6e7ff-1b65-43a8-aa40-8e6fd4b8ee7a")
+		(property "Reference" "#PWR0412"
+			(at 125.73 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5326ba03-d4f5-4023-b915-2120ba2e3cbb")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "#PWR0412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 199.39 49.53 0)
 		(unit 1)
@@ -5503,6 +8270,187 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 170.18 224.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28226dd8-2947-49d3-bafe-bdb5c895155c")
+		(property "Reference" "D56"
+			(at 167.64 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 174.498 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 170.18 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 170.18 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 170.18 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 170.18 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84eb3c28-ade6-435b-8cc4-766a8cc355dd")
+		)
+		(pin "2"
+			(uuid "94a8939d-1641-4713-a2c3-8d219445bbc7")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.03 38.1 0)
 		(unit 1)
@@ -5513,7 +8461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d2bd428-5891-4783-a3dc-ca18d4abdb71")
-		(property "Reference" "#PWR0419"
+		(property "Reference" "#PWR0427"
 			(at 240.03 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5573,7 +8521,369 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0419")
+					(reference "#PWR0427")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 161.29 224.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38259d50-93cc-4d3d-914f-360f95665cc7")
+		(property "Reference" "D52"
+			(at 158.75 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 164.592 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 161.29 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 161.29 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 161.29 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 161.29 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cbd6f92-0b90-4fb4-a449-05b4bc960929")
+		)
+		(pin "2"
+			(uuid "095b6d12-8812-4668-ba10-574cf5d1ed22")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 67.31 224.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3838f2bd-fa2b-4908-94f0-140a9b91973c")
+		(property "Reference" "D32"
+			(at 69.85 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 62.992 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 67.31 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 67.31 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 67.31 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 67.31 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1304e93a-1607-4a7c-a25c-0713a639f5c2")
+		)
+		(pin "2"
+			(uuid "503f8930-e9ca-4db5-b1cc-edbc969d140f")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -5591,7 +8901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a0d029b-e8da-4fbe-885e-534e541131f9")
-		(property "Reference" "D17"
+		(property "Reference" "D53"
 			(at 171.45 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5754,7 +9064,188 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "D17")
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 101.6 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b004cf2-736f-4787-bd91-898977bcf340")
+		(property "Reference" "D39"
+			(at 104.14 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 98.298 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 101.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 101.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 101.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 101.6 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04eeaa0e-80c2-4dea-9e93-e78485e0a2f4")
+		)
+		(pin "2"
+			(uuid "414e2e70-0b78-4a3f-a64d-fb30e753880a")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -5771,7 +9262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40b32b83-6205-47f4-94d6-e5f0dd2a23c8")
-		(property "Reference" "#PWR0417"
+		(property "Reference" "#PWR0425"
 			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5831,7 +9322,448 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0417")
+					(reference "#PWR0425")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 92.71 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43b73a96-d5ff-40fc-8be0-5671c40f0f02")
+		(property "Reference" "D37"
+			(at 95.25 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 89.408 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 92.71 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 92.71 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 92.71 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 92.71 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de5088f4-644d-4834-8cce-1c9160840f69")
+		)
+		(pin "2"
+			(uuid "86694dfe-9bd3-47e5-adb3-487d02b344bf")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 160.02 187.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44fac5ad-4c02-4d68-a164-4beadc431427")
+		(property "Reference" "D51"
+			(at 157.48 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 163.322 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 160.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 160.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 160.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 160.02 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d97d7bf-8e0a-401e-8674-dc4e7dd01c6c")
+		)
+		(pin "2"
+			(uuid "852932fd-7fbb-42d1-a7de-5962794d1dae")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 193.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48279cf3-b345-4e41-a603-9446313c8470")
+		(property "Reference" "#PWR0411"
+			(at 124.46 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f19957a-6777-453c-9526-f5f33c0085e8")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -5849,7 +9781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58ada0f0-678e-4157-8307-87c9190f2d6f")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0414"
 			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5909,7 +9841,370 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0408")
+					(reference "#PWR0414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 83.82 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b6368ed-e4e0-4287-992e-12bcc571afba")
+		(property "Reference" "D35"
+			(at 86.36 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 80.518 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 83.82 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 83.82 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 83.82 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 83.82 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f254a6d2-6196-4a0d-a36c-c369e9591e61")
+		)
+		(pin "2"
+			(uuid "f39e59f1-897a-4f66-a898-3b176fbbf99f")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 134.62 224.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d5fea12-a662-4f64-8271-c7c417e4be02")
+		(property "Reference" "D46"
+			(at 132.08 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 137.922 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 134.62 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 134.62 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 134.62 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 134.62 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a64802b8-a27a-496c-8747-ff25d2c6934b")
+		)
+		(pin "2"
+			(uuid "a0f7fce7-8e67-43ca-9af5-0a36b22c740d")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -6085,6 +10380,187 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 102.87 224.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63663778-fab1-4865-a240-6e37a0049960")
+		(property "Reference" "D40"
+			(at 105.41 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 99.568 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 102.87 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 102.87 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 102.87 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 102.87 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7740b7ac-bc21-41de-ac83-2851e54dae37")
+		)
+		(pin "2"
+			(uuid "8ede7f2d-ff92-4d2c-9837-9bf8dfc3b396")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 87.63 0)
 		(unit 1)
@@ -6095,7 +10571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "696e4acc-abbb-478e-8347-368539294563")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0415"
 			(at 168.91 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6155,7 +10631,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0409")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -6163,7 +10639,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SMBJ5.0CA")
-		(at 77.47 170.18 90)
+		(at 302.26 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6173,8 +10649,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "725692f3-0efe-4b43-afbf-8e1201bc4cdb")
-		(property "Reference" "D16"
-			(at 80.01 168.9099 90)
+		(property "Reference" "D58"
+			(at 304.8 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6185,7 +10661,7 @@
 			)
 		)
 		(property "Value" "SMBJ5.0CA"
-			(at 80.01 171.4499 90)
+			(at 304.8 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6196,7 +10672,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB_TVS"
-			(at 77.47 170.18 0)
+			(at 302.26 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,7 +10683,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 77.47 170.18 0)
+			(at 302.26 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6218,7 +10694,7 @@
 			)
 		)
 		(property "Description" "SMB Bidirectional TVS Diode, 5V, 600W, Alternate KiCAD Library"
-			(at 77.47 170.18 0)
+			(at 302.26 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6229,7 +10705,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6240,7 +10716,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6251,7 +10727,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6262,7 +10738,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6273,7 +10749,7 @@
 			)
 		)
 		(property "LCSC Part" "C113975"
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6284,7 +10760,7 @@
 			)
 		)
 		(property "Mouser Part" "581-SMBJ5.0CA "
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6295,7 +10771,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6306,7 +10782,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6317,7 +10793,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 77.47 170.18 90)
+			(at 302.26 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +10812,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "D16")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -6344,7 +10820,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Connectors:JST_03")
-		(at 97.79 163.83 0)
+		(at 322.58 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6354,8 +10830,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e284a1-a396-4b62-bb01-47d811e60c6c")
-		(property "Reference" "J18"
-			(at 100.33 162.5599 0)
+		(property "Reference" "J19"
+			(at 325.12 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6366,7 +10842,7 @@
 			)
 		)
 		(property "Value" "B3B-XH-A(LF)(SN)"
-			(at 100.33 165.0999 0)
+			(at 325.12 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6377,7 +10853,7 @@
 			)
 		)
 		(property "Footprint" "Connector:FanPinHeader_1x03_P2.54mm_Vertical"
-			(at 97.79 156.21 0)
+			(at 322.58 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6388,7 +10864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 156.21 0)
+			(at 322.58 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6399,7 +10875,7 @@
 			)
 		)
 		(property "Description" "JST Connector  3 pins"
-			(at 97.79 163.83 0)
+			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6410,7 +10886,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 97.79 163.83 0)
+			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6421,7 +10897,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 97.79 163.83 0)
+			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6432,7 +10908,7 @@
 			)
 		)
 		(property "LCSC Part" "C144394"
-			(at 97.79 163.83 0)
+			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6443,7 +10919,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 97.79 163.83 0)
+			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6454,7 +10930,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 97.79 163.83 0)
+			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +10941,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 97.79 163.83 0)
+			(at 322.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6487,7 +10963,189 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "J18")
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 125.73 224.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a79e57d-a55e-4c4f-ba87-2c4f257981a1")
+		(property "Reference" "D44"
+			(at 123.19 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 129.032 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 125.73 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 125.73 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 125.73 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 125.73 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f9a1ddd-bf57-447f-8562-63c4686d0993")
+		)
+		(pin "2"
+			(uuid "61e6e4b4-4981-45c4-8aa6-ad94a992c53d")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -6505,7 +11163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bdb6d68-111f-4624-bbee-18f81eaccb21")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR0416"
 			(at 170.18 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6565,7 +11223,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0410")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -6573,7 +11231,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 77.47 160.02 0)
+		(at 302.26 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6582,8 +11240,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8082bd3b-89bd-4d88-b5c9-40b84314cfed")
-		(property "Reference" "#PWR0403"
-			(at 77.47 163.83 0)
+		(property "Reference" "#PWR0429"
+			(at 302.26 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6594,7 +11252,7 @@
 			)
 		)
 		(property "Value" "VCC5V0_SYS"
-			(at 77.47 155.956 0)
+			(at 302.26 145.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6604,7 +11262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 160.02 0)
+			(at 302.26 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6615,7 +11273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 160.02 0)
+			(at 302.26 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6626,7 +11284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 77.47 160.02 0)
+			(at 302.26 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6642,7 +11300,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0403")
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)
@@ -6830,8 +11488,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 53.34 163.83 90)
+		(lib_id "power:GND")
+		(at 110.49 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6839,19 +11497,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8893c6a1-3cdf-4f2d-b98e-65b1b63e7915")
-		(property "Reference" "R187"
-			(at 49.53 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 57.658 162.56 90)
+		(uuid "84dcb303-bd2b-4923-a846-9091e2ed9918")
+		(property "Reference" "#PWR0408"
+			(at 110.49 199.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6860,8 +11509,18 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 53.34 163.83 0)
+		(property "Value" "GND"
+			(at 110.49 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +11531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 163.83 0)
+			(at 110.49 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6882,8 +11541,87 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 53.34 163.83 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "085f3449-d5bc-4538-b0ff-1bde06737963")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "#PWR0408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 76.2 224.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86e7a473-6094-418b-835c-7f517d3bf009")
+		(property "Reference" "D34"
+			(at 78.74 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 72.898 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 76.2 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 76.2 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 76.2 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6894,7 +11632,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 53.34 163.83 90)
+			(at 76.2 224.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6905,7 +11643,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 53.34 163.83 90)
+			(at 76.2 224.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6916,7 +11654,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 53.34 163.83 90)
+			(at 76.2 224.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6927,7 +11665,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 53.34 163.83 90)
+			(at 76.2 224.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6937,8 +11675,8 @@
 				)
 			)
 		)
-		(property "KLC_S5.1" ""
-			(at 53.34 163.83 90)
+		(property "LCSC Part" "C5158048"
+			(at 76.2 224.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6948,8 +11686,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C106231"
-			(at 53.34 163.83 90)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 76.2 224.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,8 +11697,19 @@
 				)
 			)
 		)
-		(property "Mouser Part" "603-RC0402FR-070RL"
-			(at 53.34 163.83 90)
+		(property "KLC_S4.2_DVDD" ""
+			(at 76.2 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 76.2 224.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6971,7 +11720,174 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 53.34 163.83 90)
+			(at 76.2 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95e931f4-0779-4b93-95db-d7f76b29a888")
+		)
+		(pin "2"
+			(uuid "c888498b-4bfb-4de4-982b-3112cea1fd22")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 278.13 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8893c6a1-3cdf-4f2d-b98e-65b1b63e7915")
+		(property "Reference" "R196"
+			(at 274.32 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 282.448 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 278.13 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 278.13 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 278.13 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 278.13 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 278.13 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 278.13 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 278.13 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C106231"
+			(at 278.13 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "603-RC0402FR-070RL"
+			(at 278.13 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 278.13 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,7 +11906,707 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "R187")
+					(reference "R196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 209.55 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a589ea0-f357-42ff-9aee-1c9842323b9e")
+		(property "Reference" "#PWR0419"
+			(at 201.93 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_{GPIO}_3V3_S0"
+			(at 216.662 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "864cda35-1fdb-4333-a695-3e00092b485c")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "#PWR0419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 111.76 224.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b15f1aa-79f6-40c4-a008-8378f9624bc2")
+		(property "Reference" "D42"
+			(at 114.3 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 108.458 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 111.76 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 111.76 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 111.76 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 111.76 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b56f72fe-be37-4dcf-8927-33649e88821f")
+		)
+		(pin "2"
+			(uuid "023c08a4-33bd-467a-bbd6-afa8e7194e7f")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 124.46 187.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dc63300-8965-424d-9c5a-631e2c20a540")
+		(property "Reference" "D43"
+			(at 121.92 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 127.762 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 124.46 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 124.46 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 124.46 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 124.46 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb7b1263-1c03-4839-bc95-bcde26bb8801")
+		)
+		(pin "2"
+			(uuid "4efb0608-45cd-4740-a966-7f6299731949")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 151.13 187.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91c9ff94-d515-4ed2-8241-0c85e9729c87")
+		(property "Reference" "D49"
+			(at 148.59 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 154.432 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 151.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 151.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 151.13 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 151.13 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dac3c87a-03f1-4ce7-a3c9-f21407fe5acf")
+		)
+		(pin "2"
+			(uuid "3e581f61-a253-4a82-8d0d-0121339c5691")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95d7dab4-52e2-4200-a161-5e331e5536a2")
+		(property "Reference" "#PWR0409"
+			(at 111.76 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "671cd2bd-3416-4203-88ef-3b089fd74499")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -7379,7 +12995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aedc8b97-15bb-42b9-8c2c-ca90775b7ad3")
-		(property "Reference" "#PWR0418"
+		(property "Reference" "#PWR0426"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7439,7 +13055,188 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0418")
+					(reference "#PWR0426")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 74.93 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af5c6860-540c-46cb-a5c5-faac00e695c3")
+		(property "Reference" "D33"
+			(at 77.47 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 71.628 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 74.93 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 74.93 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 74.93 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 74.93 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a551545c-fb5c-4ec8-ba22-4b7547e5fc0b")
+		)
+		(pin "2"
+			(uuid "223b706d-ae06-45e8-b91b-e37d3ac705ed")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -7456,7 +13253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b35d9f3c-1bcb-4fc5-902e-f5a45199922a")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0410"
 			(at 116.84 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7516,7 +13313,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0406")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -7533,7 +13330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbccd7c3-8c0e-4aac-ad2b-ca9721f4e6e7")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR0422"
 			(at 228.6 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7593,7 +13390,188 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0414")
+					(reference "#PWR0422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 85.09 224.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf209314-b956-4204-99df-72dbed4e4244")
+		(property "Reference" "D36"
+			(at 87.63 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 81.788 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 85.09 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 85.09 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 85.09 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 85.09 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1476deb0-7922-41c7-a810-f73c6a1a129a")
+		)
+		(pin "2"
+			(uuid "c08f2276-903e-4ad6-bce2-ef1a8c87c938")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -7781,7 +13759,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SMBJ5.0CA")
-		(at 62.23 170.18 90)
+		(at 287.02 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7791,8 +13769,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c0d845-edcc-4178-a0f6-2fd6391d69a8")
-		(property "Reference" "D15"
-			(at 64.77 168.9099 90)
+		(property "Reference" "D57"
+			(at 289.56 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7803,7 +13781,7 @@
 			)
 		)
 		(property "Value" "SMBJ5.0CA"
-			(at 64.77 171.4499 90)
+			(at 289.56 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7814,7 +13792,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMB_TVS"
-			(at 62.23 170.18 0)
+			(at 287.02 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7825,7 +13803,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 62.23 170.18 0)
+			(at 287.02 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7836,7 +13814,7 @@
 			)
 		)
 		(property "Description" "SMB Bidirectional TVS Diode, 5V, 600W, Alternate KiCAD Library"
-			(at 62.23 170.18 0)
+			(at 287.02 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7847,7 +13825,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +13836,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7869,7 +13847,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7880,7 +13858,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7891,7 +13869,7 @@
 			)
 		)
 		(property "LCSC Part" "C113975"
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7902,7 +13880,7 @@
 			)
 		)
 		(property "Mouser Part" "581-SMBJ5.0CA "
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7913,7 +13891,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7924,7 +13902,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +13913,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 62.23 170.18 90)
+			(at 287.02 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,7 +13932,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "D15")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -7971,7 +13949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccbbd0a6-9d3a-4445-9d84-deca44ed05a1")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR0421"
 			(at 215.9 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8031,7 +14009,189 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0413")
+					(reference "#PWR0421")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 143.51 224.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd2dd106-7e8f-4481-8131-735a81541129")
+		(property "Reference" "D48"
+			(at 140.97 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 146.812 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 143.51 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 143.51 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 143.51 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 143.51 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09439a2d-6714-4f1b-ad3f-317155cd901e")
+		)
+		(pin "2"
+			(uuid "c5ac833a-f322-4d60-bf50-d59edde14c39")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -8039,7 +14199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 175.26 0)
+		(at 302.26 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8048,8 +14208,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cde0f12b-d3e5-45ef-909b-e4ce645d3f8e")
-		(property "Reference" "#PWR0404"
-			(at 77.47 181.61 0)
+		(property "Reference" "#PWR0430"
+			(at 302.26 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8060,7 +14220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 179.07 0)
+			(at 302.26 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8070,7 +14230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 175.26 0)
+			(at 302.26 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8081,7 +14241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 175.26 0)
+			(at 302.26 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,7 +14252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 175.26 0)
+			(at 302.26 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8108,7 +14268,188 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0404")
+					(reference "#PWR0430")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 168.91 187.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5abe64c-347a-41bb-a3e5-7014be83a6d3")
+		(property "Reference" "D54"
+			(at 166.37 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 173.228 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 168.91 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 168.91 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 168.91 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 168.91 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b24666e6-6a4a-4b6b-8b08-d44cf36a047f")
+		)
+		(pin "2"
+			(uuid "90c20486-8ca4-4d88-9c9b-d4618b0808b8")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -8463,7 +14804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd03bd76-8da6-43b5-8100-d3b11e5f9047")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR0417"
 			(at 170.18 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8523,7 +14864,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0411")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -8540,7 +14881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd069d2c-6607-4500-911a-9321916866b4")
-		(property "Reference" "#PWR0412"
+		(property "Reference" "#PWR0420"
 			(at 214.63 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8600,7 +14941,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0412")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -8608,7 +14949,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 167.64 0)
+		(at 317.5 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8617,8 +14958,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e101788d-69de-4d97-8f32-f4666bc2fc18")
-		(property "Reference" "#PWR0405"
-			(at 92.71 173.99 0)
+		(property "Reference" "#PWR0431"
+			(at 317.5 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,7 +14970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 171.45 0)
+			(at 317.5 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8639,7 +14980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 167.64 0)
+			(at 317.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8650,7 +14991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 167.64 0)
+			(at 317.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,7 +15002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 167.64 0)
+			(at 317.5 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,7 +15018,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0405")
+					(reference "#PWR0431")
 					(unit 1)
 				)
 			)
@@ -8695,7 +15036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e64a2479-cc49-4ead-8255-07b17f5f4290")
-		(property "Reference" "D18"
+		(property "Reference" "D55"
 			(at 172.72 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8858,7 +15199,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "D18")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -9045,7 +15386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8af299f-d82f-45a9-8e43-3d57da7ec8d7")
-		(property "Reference" "#PWR0416"
+		(property "Reference" "#PWR0424"
 			(at 238.76 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9105,7 +15446,7 @@
 		(instances
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
-					(reference "#PWR0416")
+					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -9274,6 +15615,188 @@
 			(project "RK3576 SBCv2"
 				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
 					(reference "R188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:PESD5V0S1BA")
+		(at 133.35 187.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f35592c1-1a90-49a9-a1e7-c87aee1fc36e")
+		(property "Reference" "D45"
+			(at 130.81 187.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S1BA"
+			(at 136.652 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323_TVS"
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d36879fb2dd3d2490c58510ca5e3957/PESD5V0S1BB-DTE.pdf"
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOD-323 Bidirectional TVS Diode, 5V, 130W, Alternate KiCAD Library"
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5158048"
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" "771-PESD5V0S1BA-T/R "
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 133.35 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e75c513a-0672-4d73-add1-ff975f0fbe9a")
+		)
+		(pin "2"
+			(uuid "3b61a81f-80ca-43bd-a801-9409b49cff4a")
+		)
+		(instances
+			(project "RK3576 SBCv2"
+				(path "/802f5b9f-44c6-4b1a-a63a-2c094d5816db/a5ecd27c-a871-4758-8ce5-f1b19ff4b9b7"
+					(reference "D45")
 					(unit 1)
 				)
 			)

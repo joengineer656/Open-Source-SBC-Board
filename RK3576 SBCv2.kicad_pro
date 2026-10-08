@@ -548,256 +548,49 @@
       {
         "name": "40 OHM",
         "pcb_color": "rgb(255, 194, 0)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "40 OHM"
       },
       {
         "name": "50 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "50 OHM"
       },
       {
-        "name": "Blutooth",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 21,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "Blutooth CTRL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 20,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "CSI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 25,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
         "name": "Close to PGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "DIFF 100 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "DIFF 100 OHM"
       },
       {
         "name": "DIFF 85 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "85 OHM"
       },
       {
         "name": "DIFF 90 OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "DIFF 90 OHM"
       },
       {
-        "name": "DSI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 24,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "HDMI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 16,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "HDMI CTRL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 17,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "LPDDR5 A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 27,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "LPDDR5 B",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 26,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "MCU - SOC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "MDI0",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 15,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "MDI1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 14,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "OLED Display",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 32,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "PCIE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 19,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "PCIE CTRL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 18,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "PHY0",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "PHY1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.5,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 34,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.7,
-        "wire_width": 6
-      },
-      {
-        "name": "RTC CLK",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 30,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "RTC CTRL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 31,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "UFS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 28,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "USB HOST",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "USB HOST HUB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "USB SOC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "USB SOC CTRL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
         "name": "Under PGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "WIFI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 22,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "WIFI CTRL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 23,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "eMMC/FSPI0",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 29,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "uSD Card",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 33,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -836,6 +629,42 @@
       ],
       "/(wire\t(pts\t\t(xy 157.48 184.15) (xy 200.66 184.15)\t)\t(stroke (width 0) (type default))\t(uuid \"9f1eb821-1da7-41c3-abc1-80acd5a001ec\"))(wire\t(pts\t\t(xy 162.56 66.04) (xy 189.23 66.04)\t)\t(stroke (width 0) (type default))\t(uuid \"f467982b-a64f-4a18-8fbe-ec4723ac692d\"))(wire\t(pts\t\t(xy 157.48 179.07) (xy 176.53 179.07)\t)\t(stroke (width 0) (type default))\t(uuid \"f69c623c-2265-4997-9b1c-238b0aca6ccb\"))(wire\t(pts\t\t(xy 157.48 186.69) (xy 184.15 186.69)\t)\t(stroke (width 0) (type default))\t(uuid \"76e0e704-50e2-4b04-8814-1d65b6aabc73\"))(wire\t(pts\t\t(xy 162.56 68.58) (xy 196.85 68.58)\t)\t(stroke (width 0) (type default))\t(uuid \"088a6096-48e3-4600-bb35-a512d7ba56f8\"))(wire\t(pts\t\t(xy 157.48 189.23) (xy 191.77 189.23)\t)\t(stroke (width 0) (type default))\t(uuid \"468cbf5e-685f-4db5-a639-234018d02dbb\"))(wire\t(pts\t\t(xy 162.56 58.42) (xy 181.61 58.42)\t)\t(stroke (width 0) (type default))\t(uuid \"588f4987-40e4-4823-8b55-56bafb416fcc\"))(wire\t(pts\t\t(xy 162.56 63.5) (xy 205.74 63.5)\t)\t(stroke (width 0) (type default))\t(uuid \"7ec10e0a-abb5-4640-b017-747cff39fb4f\"))(label \"ETH0_{PHY}_MDC\"\t(at 162.56 63.5 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"68319cee-0895-40ca-8bc9-f1c73898d296\"))(label \"ETH0_{PHY}_MDIO\"\t(at 162.56 66.04 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"7f8c913f-5899-4a42-9d54-9f9086d46098\"))(label \"ETH0_{PHY}_RESET\"\t(at 162.56 58.42 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"8bb512c3-d18c-4bd7-b140-9482d340cf07\"))(label \"ETH1_{PHY}_RESET\"\t(at 157.48 179.07 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"9216a7ed-8387-4ff7-9856-d4f302fec104\"))(label \"ETH1_{PHY}_MDIO\"\t(at 157.48 186.69 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"bc91dd39-958e-4d53-b9f7-ee839d41656a\"))(label \"ETH1_{PHY}_MDC\"\t(at 157.48 184.15 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"d2ffd242-0d3c-45d2-947c-06c375af173c\"))(label \"ETH0_{PHY}_INT\"\t(at 162.56 68.58 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"e46d3f79-ab29-4c0d-8631-a946ae4e30b6\"))(label \"ETH1_{PHY}_INT\"\t(at 157.48 189.23 0)\t(effects\t\t(font (size 1.016 1.016))\t\t(justify left bottom)\t)\t(uuid \"08917f0e-7684-4624-a0b6-3d47c927147d\"))/RESET_L": [
         "Close to PGA"
+      ],
+      "/Ethernet/ETH0_{PHY}.RXC": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.RXCTL": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.RXD0": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.RXD1": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.RXD2": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.RXD3": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.TXC": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.TXCTL": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.TXD0": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.TXD1": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.TXD2": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH0_{PHY}.TXD3": [
+        "50 OHM"
       ],
       "/Ethernet/ETH0_{PHY}_CLK_{OUT}": [
         "PHY0"
@@ -935,6 +764,42 @@
       "/Ethernet/ETH0_{PHY}_TXD3": [
         "50 OHM",
         "PHY0"
+      ],
+      "/Ethernet/ETH1_{PHY}.RXC": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.RXCTL": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.RXD0": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.RXD1": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.RXD2": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.RXD3": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.TXC": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.TXCTL": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.TXD0": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.TXD1": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.TXD2": [
+        "50 OHM"
+      ],
+      "/Ethernet/ETH1_{PHY}.TXD3": [
+        "50 OHM"
       ],
       "/Ethernet/ETH1_{PHY}_CLK_{OUT}": [
         "PHY1"
@@ -1054,40 +919,70 @@
         "HDMI"
       ],
       "/HDMI/CHDMI_CK_N": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_CK_P": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_D0_N": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_D0_P": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_D1_N": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_D1_P": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_D2_N": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_D2_P": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_HPD": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CHDMI_UTILITY": [
-        "HDMI"
+        "DIFF 100 OHM"
       ],
       "/HDMI/CSCL": [
         "HDMI"
       ],
       "/HDMI/CSDA": [
         "HDMI"
+      ],
+      "/HDMI/HDMI.CK_N": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.CK_P": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.D0_N": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.D0_P": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.D1_N": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.D1_P": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.D2_N": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.D2_P": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.TX_SBD_N": [
+        "DIFF 100 OHM"
+      ],
+      "/HDMI/HDMI.TX_SBD_P": [
+        "DIFF 100 OHM"
       ],
       "/HDMI/HDMI_CK_N": [
         "DIFF 100 OHM",
@@ -1148,56 +1043,43 @@
         "HDMI CTRL"
       ],
       "/LPDDR5/LPDDR5_A.CA0": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CA1": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CA2": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CA3": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CA4": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CA5": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CA6": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CK_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CK_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CS0": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.CS1": [
-        "50 OHM",
-        "LPDDR5 A"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_A.DMI0": [
-        "40 OHM",
-        "LPDDR5 A"
+        "40 OHM"
       ],
       "/LPDDR5/LPDDR5_A.DMI1": [
-        "40 OHM",
-        "LPDDR5 A"
+        "40 OHM"
       ],
       "/LPDDR5/LPDDR5_A.DQ0": [
         "40 OHM",
@@ -1264,88 +1146,67 @@
         "LPDDR5 A"
       ],
       "/LPDDR5/LPDDR5_A.RDQS0_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.RDQS0_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.RDQS1_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.RDQS1_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.WCK0_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.WCK0_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.WCK1_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_A.WCK1_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 A"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CA0": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CA1": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CA2": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CA3": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CA4": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CA5": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CA6": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CK_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CK_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CS0": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.CS1": [
-        "50 OHM",
-        "LPDDR5 B"
+        "50 OHM"
       ],
       "/LPDDR5/LPDDR5_B.DMI0": [
-        "40 OHM",
-        "LPDDR5 B"
+        "40 OHM"
       ],
       "/LPDDR5/LPDDR5_B.DMI1": [
-        "40 OHM",
-        "LPDDR5 B"
+        "40 OHM"
       ],
       "/LPDDR5/LPDDR5_B.DQ0": [
         "40 OHM",
@@ -1412,36 +1273,28 @@
         "LPDDR5 B"
       ],
       "/LPDDR5/LPDDR5_B.RDQS0_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.RDQS0_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.RDQS1_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.RDQS1_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.WCK0_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.WCK0_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.WCK1_N": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/LPDDR5/LPDDR5_B.WCK1_P": [
-        "DIFF 90 OHM",
-        "LPDDR5 B"
+        "DIFF 90 OHM"
       ],
       "/MIPI/CSI0_RX_CLK_N": [
         "CSI",
@@ -1481,6 +1334,72 @@
       ],
       "/MIPI/CSI0_RX_D3_P": [
         "CSI",
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_CLK_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_CLK_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_D0_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_D0_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_D1_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_D1_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_D2_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_D2_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_D3_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI1_RX_D3_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI2_RX_CLK_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/CSI2_RX_CLK_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_CLK_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_CLK_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_D0_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_D0_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_D1_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_D1_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_D2_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_D2_P": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_D3_N": [
+        "DIFF 100 OHM"
+      ],
+      "/MIPI/DSI0.TX_D3_P": [
         "DIFF 100 OHM"
       ],
       "/MIPI/DSI0_TX_CLK_N": [
@@ -1540,6 +1459,24 @@
       ],
       "/OLED Screen/OLED_RS": [
         "OLED Display"
+      ],
+      "/PCIe/PCIE0.REFCLK_N": [
+        "DIFF 100 OHM"
+      ],
+      "/PCIe/PCIE0.REFCLK_P": [
+        "DIFF 100 OHM"
+      ],
+      "/PCIe/PCIE0.RX_N": [
+        "DIFF 85 OHM"
+      ],
+      "/PCIe/PCIE0.RX_P": [
+        "DIFF 85 OHM"
+      ],
+      "/PCIe/PCIE0.TX_N": [
+        "DIFF 85 OHM"
+      ],
+      "/PCIe/PCIE0.TX_P": [
+        "DIFF 85 OHM"
       ],
       "/PCIe/PCIE0_CLKREQ_L": [
         "PCIE CTRL"
@@ -1603,6 +1540,48 @@
       ],
       "/RK3576 SOC/SARADC_VIN7_DC": [
         "Close to PGA"
+      ],
+      "/RK3576 SOC/SDMMC1.CLK_M0": [
+        "50 OHM"
+      ],
+      "/RK3576 SOC/SDMMC1.CMD_M0": [
+        "50 OHM"
+      ],
+      "/RK3576 SOC/UFS.RX0_N": [
+        "DIFF 100 OHM"
+      ],
+      "/RK3576 SOC/UFS.RX0_P": [
+        "DIFF 100 OHM"
+      ],
+      "/RK3576 SOC/UFS.RX1_N": [
+        "DIFF 100 OHM"
+      ],
+      "/RK3576 SOC/UFS.RX1_P": [
+        "DIFF 100 OHM"
+      ],
+      "/RK3576 SOC/UFS.TX0_N": [
+        "DIFF 100 OHM"
+      ],
+      "/RK3576 SOC/UFS.TX0_P": [
+        "DIFF 100 OHM"
+      ],
+      "/RK3576 SOC/UFS.TX1_N": [
+        "DIFF 100 OHM"
+      ],
+      "/RK3576 SOC/UFS.TX1_P": [
+        "DIFF 100 OHM"
+      ],
+      "/RK3576 SOC/USB_{HUB}.D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/RK3576 SOC/USB_{HUB}.D_P": [
+        "DIFF 90 OHM"
+      ],
+      "/RK3576 SOC/USB_{SOC}.D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/RK3576 SOC/USB_{SOC}.D_P": [
+        "DIFF 90 OHM"
       ],
       "/RP2350A MCU/SPI1_{MCU}_CS": [
         "MCU - SOC"
@@ -1688,6 +1667,57 @@
       "/UFS\\eMMC/FSPI0_WPn{slash}EMMC_Reset": [
         "eMMC/FSPI0"
       ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.CMD": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.D0": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.D1": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.D2": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.D3": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.D4": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.D5": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.D6": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/FSPI0{slash}EMMC.D7": [
+        "50 OHM"
+      ],
+      "/UFS\\eMMC/UFS.RX0_N": [
+        "DIFF 100 OHM"
+      ],
+      "/UFS\\eMMC/UFS.RX0_P": [
+        "DIFF 100 OHM"
+      ],
+      "/UFS\\eMMC/UFS.RX1_N": [
+        "DIFF 100 OHM"
+      ],
+      "/UFS\\eMMC/UFS.RX1_P": [
+        "DIFF 100 OHM"
+      ],
+      "/UFS\\eMMC/UFS.TX0_N": [
+        "DIFF 100 OHM"
+      ],
+      "/UFS\\eMMC/UFS.TX0_P": [
+        "DIFF 100 OHM"
+      ],
+      "/UFS\\eMMC/UFS.TX1_N": [
+        "DIFF 100 OHM"
+      ],
+      "/UFS\\eMMC/UFS.TX1_P": [
+        "DIFF 100 OHM"
+      ],
       "/UFS\\eMMC/UFS3.1_REF_{CLK}": [
         "DIFF 100 OHM",
         "UFS"
@@ -1728,80 +1758,170 @@
         "DIFF 100 OHM",
         "UFS"
       ],
+      "/USB-A Host/CUSB_{HOST1}_D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST1}_D_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST1}_SSRX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST1}_SSRX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST1}_SSTX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST1}_SSTX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST2}_D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST2}_D_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST2}_SSRX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST2}_SSRX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST2}_SSTX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST2}_SSTX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST3}_D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST3}_D_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST3}_SSRX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST3}_SSRX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST3}_SSTX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST3}_SSTX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST4}_D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST4}_D_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST4}_SSRX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST4}_SSRX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST4}_SSTX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/CUSB_{HOST4}_SSTX1_P": [
+        "DIFF 90 OHM"
+      ],
       "/USB-A Host/USB_{HOST1}_D_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST1}_D_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST1}_SSRX1_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST1}_SSRX1_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST1}_SSTX1_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST1}_SSTX1_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST2}_D_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST2}_D_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST2}_SSRX1_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST2}_SSRX1_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST2}_SSTX1_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST2}_SSTX1_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST3}_D_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST3}_D_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST3}_SSRX1_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST3}_SSRX1_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST3}_SSTX1_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST3}_SSTX1_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST4}_D_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST4}_D_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST4}_SSRX1_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST4}_SSRX1_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST4}_SSTX1_N": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST4}_SSTX1_P": [
-        "USB HOST"
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HOST}_PWREN_H": [
         "HOST"
+      ],
+      "/USB-A Host/USB_{HUB}.D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/USB_{HUB}.D_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/USB_{HUB}.SSRX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/USB_{HUB}.SSRX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/USB_{HUB}.SSTX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-A Host/USB_{HUB}.SSTX1_P": [
+        "DIFF 90 OHM"
       ],
       "/USB-A Host/USB_{HUB}_D_N": [
         "USB HOST HUB"
@@ -1821,6 +1941,42 @@
       "/USB-A Host/USB_{HUB}_SSTX1_P": [
         "USB HOST HUB"
       ],
+      "/USB-C SOC/CUSB_{SOC}_AUX_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_AUX_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_D_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_RX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_RX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_RX2_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_RX2_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_TX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_TX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_TX2_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/CUSB_{SOC}_TX2_P": [
+        "DIFF 90 OHM"
+      ],
       "/USB-C SOC/I2C0_SCL_M1_TP": [
         "USB SOC CTRL"
       ],
@@ -1838,6 +1994,42 @@
       ],
       "/USB-C SOC/I2C2_SDA_M0_USB_Wireless": [
         "USB SOC CTRL"
+      ],
+      "/USB-C SOC/USB_{SOC}.AUX_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.AUX_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.D_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.D_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.RX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.RX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.RX2_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.RX2_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.TX1_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.TX1_P": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.TX2_N": [
+        "DIFF 90 OHM"
+      ],
+      "/USB-C SOC/USB_{SOC}.TX2_P": [
+        "DIFF 90 OHM"
       ],
       "/USB-C SOC/USB_{SOC}_AUX_N": [
         "DIFF 90 OHM",
@@ -1917,6 +2109,42 @@
       "/Wireless/SAI2_SDO_M0": [
         "Blutooth"
       ],
+      "/Wireless/SDMMC1.CLK": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.CLK_M0": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.CMD": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.CMD_M0": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.D0": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.D0_M0": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.D1": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.D1_M0": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.D2": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.D2_M0": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.D3": [
+        "50 OHM"
+      ],
+      "/Wireless/SDMMC1.D3_M0": [
+        "50 OHM"
+      ],
       "/Wireless/SDMMC1_CLK_M0": [
         "50 OHM",
         "WIFI"
@@ -1981,22 +2209,22 @@
         "uSD Card"
       ],
       "/uSD Card/J_uSD_CLK": [
-        "uSD Card"
+        "50 OHM"
       ],
       "/uSD Card/J_uSD_CMD": [
-        "uSD Card"
+        "50 OHM"
       ],
       "/uSD Card/J_uSD_D0": [
-        "uSD Card"
+        "50 OHM"
       ],
       "/uSD Card/J_uSD_D1": [
-        "uSD Card"
+        "50 OHM"
       ],
       "/uSD Card/J_uSD_D2": [
-        "uSD Card"
+        "50 OHM"
       ],
       "/uSD Card/J_uSD_D3": [
-        "uSD Card"
+        "50 OHM"
       ],
       "/uSD Card/J_uSD_DET": [
         "uSD Card"
@@ -2012,6 +2240,24 @@
       ],
       "/uSD Card/SPI_MOSI": [
         "uSD Card"
+      ],
+      "/uSD Card/uSD.CLK": [
+        "50 OHM"
+      ],
+      "/uSD Card/uSD.CMD": [
+        "50 OHM"
+      ],
+      "/uSD Card/uSD.D0": [
+        "50 OHM"
+      ],
+      "/uSD Card/uSD.D1": [
+        "50 OHM"
+      ],
+      "/uSD Card/uSD.D2": [
+        "50 OHM"
+      ],
+      "/uSD Card/uSD.D3": [
+        "50 OHM"
       ],
       "/uSD Card/uSD_CLK": [
         "50 OHM",
@@ -2067,6 +2313,12 @@
       ],
       "Net-(U1MIPI-MIPI_DCPHY_VREG)": [
         "Under PGA"
+      ],
+      "Net-(U22-BPWR_DET)": [
+        "DIFF 90 OHM"
+      ],
+      "Net-(U22-SPWR_DET)": [
+        "DIFF 90 OHM"
       ],
       "VCCA_1.8v_S0": [
         "Under PGA"
@@ -2134,6 +2386,9 @@
       "VDD_NPU_S0": [
         "Close to PGA",
         "Under PGA"
+      ],
+      "Vbus_USB_{HOST2}": [
+        "DIFF 90 OHM"
       ],
       "unconnected-(J16-Pin_8-Pad8)": [
         "CSI",
@@ -2494,7 +2749,201 @@
       "sort_asc": true,
       "sort_field": "LCSC Part"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "40GPIO": [
+        "GPIO(3_A6)_UART(1)_RX-M2",
+        "GPIO(3_A7)_UART(1)_TX-M2",
+        "GPIO(3_C3)_I2C(9)_SDA-M3",
+        "GPIO(3_C2)_I2C(9)_SCL-M3",
+        "GPIO(3_C4)_I2C(5)_SCL-M3",
+        "GPIO(3_C1)_I2C(5)_SDA-M3",
+        "GPIO(3_C0)_UART(2)_TX-M2",
+        "GPIO(3_B7)_UART(2)_RX-M2",
+        "GPIO(3_B4)_PWM(1)_CH4-M3",
+        "GPIO(3_C5)_PWM(2)_CH2-M3",
+        "GPIO(3_C7)",
+        "GPIO(3_C6)",
+        "GPIO(3_B1)_UART(10)_TX-M0",
+        "GPIO(3_B0)_UART(10)_RX-M0",
+        "GPIO(3_B5)_PWM(1)_CH5-M3",
+        "GPIO(3_B6)_PWM(0)_CH1-M3"
+      ],
+      "CSI Diff": [
+        "CSI1_RX_D3_N",
+        "CSI1_RX_D3_P",
+        "CSI1_RX_D2_N",
+        "CSI1_RX_D2_P",
+        "CSI1_RX_CLK_N",
+        "CSI1_RX_CLK_P",
+        "CSI1_RX_D1_N",
+        "CSI1_RX_D1_P",
+        "CSI1_RX_D0_N",
+        "CSI1_RX_D0_P",
+        "CSI2_RX_CLK_N",
+        "CSI2_RX_CLK_P"
+      ],
+      "DSI_Diff": [
+        "TX_D0_N",
+        "TX_D0_P",
+        "TX_D1_N",
+        "TX_D1_P",
+        "TX_CLK_N",
+        "TX_CLK_P",
+        "TX_D2_N",
+        "TX_D2_P",
+        "TX_D3_N",
+        "TX_D3_P"
+      ],
+      "Data": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "CMD"
+      ],
+      "Display": [
+        "nRST",
+        "RS",
+        "CLK",
+        "MOSI",
+        "CS",
+        "LED"
+      ],
+      "HDMI DATA": [
+        "D[0..2]_N",
+        "D[0..2]_P",
+        "CK_N",
+        "CK_P",
+        "TX_SBD_P",
+        "TX_SBD_N"
+      ],
+      "HDMI_I2C": [
+        "HDMI_TX_SCL",
+        "HDMI_TX_SDA"
+      ],
+      "I2C0_M0": [
+        "I2C0_SCL_M0_MIPI_CAM2_TP",
+        "I2C0_SDA_M0_MIPI_CAM2_TP"
+      ],
+      "I2C1_M0": [
+        "I2C1_SDA_M0_RK806",
+        "I2C1_SCL_M0_RK806"
+      ],
+      "I2C2_M0": [
+        "I2C2_SDA_M0_USB_Wireless",
+        "I2C2_SCL_M0_USB_Wireless"
+      ],
+      "I2C8_M3": [
+        "I2C8_SCL_M3_RTC_EEPROM",
+        "I2C8_SDA_M3_RTC_EEPROM"
+      ],
+      "LPDDR5": [
+        "CK_N",
+        "CK_P",
+        "CA[0..6]",
+        "DQ[0..15]",
+        "DMI[0..1]",
+        "CS[0..1]",
+        "WCK1_N",
+        "WCK1_P",
+        "WCK0_N",
+        "WCK0_P",
+        "RDQS0_N",
+        "RDQS0_P",
+        "RDQS1_N",
+        "RDQS1_P"
+      ],
+      "MDIO": [
+        "MDC",
+        "MDIO"
+      ],
+      "PCIE0": [
+        "TX_N",
+        "TX_P",
+        "RX_N",
+        "RX_P",
+        "REFCLK_P",
+        "REFCLK_N"
+      ],
+      "PUPDCTRL": [
+        "PUPDCTRL1",
+        "PUPDCTRL2"
+      ],
+      "RGMII": [
+        "TXD[0..3]",
+        "TXC",
+        "TXCTL",
+        "RXD[0..3]",
+        "RXC",
+        "RXCTL"
+      ],
+      "SAI2": [
+        "SDO",
+        "SDI",
+        "SCLK",
+        "LRCK"
+      ],
+      "SDMMC1": [
+        "D[0..3]_M0",
+        "CLK_M0",
+        "CMD_M0"
+      ],
+      "SPI": [
+        "CS",
+        "SDO",
+        "SDI",
+        "SCK"
+      ],
+      "UART4": [
+        "RX",
+        "TX",
+        "CTSN",
+        "RTSN"
+      ],
+      "UFS_Diff": [
+        "TX0_P",
+        "TX0_N",
+        "TX1_P",
+        "TX1_N",
+        "RX0_P",
+        "RX0_N",
+        "RX1_P",
+        "RX1_N",
+        "RX2_P",
+        "RX2_N"
+      ],
+      "USB2": [
+        "D_P",
+        "D_N"
+      ],
+      "USB3 HUB": [
+        "SSTX1_P",
+        "SSTX1_N",
+        "SSRX1_P",
+        "SSRX1_N"
+      ],
+      "USB3 SOC": [
+        "RX1_N",
+        "RX1_P",
+        "RX2_N",
+        "RX2_P",
+        "TX1_N",
+        "TX1_P",
+        "TX2_N",
+        "TX2_P",
+        "AUX_N",
+        "AUX_P"
+      ],
+      "uSD Data": [
+        "D[0..3]",
+        "CMD",
+        "CLK"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -2506,7 +2955,7 @@
       "default_wire_thickness": 6.0,
       "field_names": [],
       "hop_over_size_choice": 2,
-      "intersheets_ref_own_page": false,
+      "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -2556,7 +3005,7 @@
         "uuid": "802f5b9f-44c6-4b1a-a63a-2c094d5816db"
       }
     ],
-    "used_designators": "#SYM1,BT1,H1-8,LED1-4,TP1-14,R1-301,Q1-8,F1-4,L1-16,J1-37,#SYMr1,NT1-10,FID1-8,Y1-7,Y9,#PWR1-646,C1-436,SW1-9,AE1-2,U1-45,U53,D1-29",
+    "used_designators": "Y1-7,Y9,#PWR1-646,AE1-2,SW1-9,D1-63,U1-45,U53,C1-436,R1-301,TP1-14,LED1-4,H1-8,BT1,#SYM1,FID1-8,NT1-10,#SYMr1,J1-37,L1-16,F1-4,Q1-8",
     "variants": []
   },
   "sheets": [
